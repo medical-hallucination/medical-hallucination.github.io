@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Hallucination</title> 
+    <link rel="icon" href="robot_icon.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+    <style>
+        .highlight-span {
+            padding: 2px 4px;
+            border-radius: 2px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .highlight-span:hover::after {
+            content: attr(data-type) " | Risk: " attr(data-risk);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            z-index: 1000;
+        }
+        
+        .undo-button {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .risk-0 { background-color: #E8F5E9; }
+        .risk-1 { background-color: #FFF9C4; }
+        .risk-2 { background-color: #FFE0B2; }
+        .risk-3 { background-color: #FFCCBC; }
+        .risk-4 { background-color: #FFCDD2; }
+        .risk-5 { background-color: #F8BBD0; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .panel {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .left-panel {
+            border-right: 1px solid #ccc;
+            background-color: #f8f9fa;
+            flex: 0.5;
+        }
+        
+        .right-panel {
+            background-color: white;
+            flex: 0.5;
+        }
+        
+        .tab-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .case-selector {
+            margin-bottom: 20px;
+        }
+        
+        .tab-content {
+            margin-top: 20px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .image-container {
+            margin-top: 20px;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .tab-button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+        
+        .tab-button:hover {
+            background-color: #0056b3;
+        }
+        
+        .tab-button.active {
+            background-color: #0056b3;
+            font-weight: bold;
+        }
+
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .loading {
+            display: inline-block;
+            margin-left: 10px;
+            color: #666;
+        }
+
+        #contentBody {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        #contentBody p {
+            margin-bottom: 1em;
+        }
+
+        .error-message {
+            color: #dc3545;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #f8d7da;
+            margin-top: 10px;
+        }
+
+        .test-section {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .test-question {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        .test-response {
+            background: #fff;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            border: 1px solid #e9ecef;
+        }
+
+        .highlight-controls {
+            margin-bottom: 10px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .highlight-button {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+        }
+
+        .comment-section {
+            margin-top: 15px;
+        }
+
+        .comment-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+            min-height: 60px;
+            font-family: inherit;
+        }
+
+        .comment-list {
+            margin-top: 10px;
+        }
+
+        .comment-item {
+            background: #f8f9fa;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-left: 3px solid #007bff;
+            border-radius: 4px;
+        }
+
+        .test-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .selected-text-info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Tooltip styles */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .timer {
+            font-size: 14px;
+            color: #666;
+            margin-left: auto;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            margin-top: 2%;
+        }
+
+        .modal-close {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .model-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .model-select {
+            padding: 8px;
+            margin-right: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        
+        /* Style for clickable references */
+        .reference-link {
+            color: #007bff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .reference-link:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-content strong,
+        .markdown-content b {
+            font-weight: 700 !important;
+            color: #000 !important;
+        }
+        
+        .markdown-content em,
+        .markdown-content i {
+            font-style: italic !important;
+        }
+        
+        .markdown-content h1 {
+            font-size: 1.5em !important;
+            font-weight: bold !important;
+            margin: 1em 0 !important;
+        }
+        
+        .markdown-content h2 {
+            font-size: 1.3em !important;
+            font-weight: bold !important;
+            margin: 0.8em 0 !important;
+        }
+        
+        .markdown-content ul,
+        .markdown-content ol {
+            padding-left: 2em !important;
+            margin: 1em 0 !important;
+        }
+        
+        .markdown-content li {
+            margin: 0.5em 0 !important;
+        }
+        #apiKeyContainer {
+            display: none;
+            gap: 10px;
+            align-items: center;
+        }
+
+        #apiKeyInput {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <div class="container">
+        <div class="panel left-panel">
+            <div class="case-selector">
+                <select id="caseSelect" class="tab-button" onchange="switchCase(this.value)">
+                    <option value="case1">Case 1: A 41-Year-Old Woman with Recurrent Chest Pain</option>
+                    <option value="case2">Case 2: A 36-Year-Old Pregnant Woman with Newly Diagnosed Adenocarcinoma</option>
+                    <option value="case3">Case 3: A 29-Year-Old Woman with Nausea, Vomiting, and Diarrhea</option>
+                    <option value="case4">Case 4: A 73-Year-Old Man with Hypoxemic Respiratory Failure and Cardiac Dysfunction</option>
+                </select>
+                <span class="timer" id="readingTimer">  Time: 00:00</span>
+            </div>
+
+            <div class="tab-buttons">
+                <button class="tab-button" onclick="loadContent('presentation')">Presentation of Case</button>
+                <button class="tab-button" onclick="loadContent('differential')">Differential Diagnosis</button>
+                <button class="tab-button" onclick="loadContent('clinical_diagnosis')">Clinical Diagnosis</button>
+                <button class="tab-button" onclick="loadContent('sarah')">Dr. Sarah V. Tsiaras's Diagnosis</button>
+                <button class="tab-button" onclick="loadContent('diagnostic_testing')">Diagnostic Testing</button>
+                <button class="tab-button" onclick="loadContent('genetic_testing')">Genetic Testing</button>
+                <button class="tab-button" onclick="loadContent('imaging_studies')">Imaging Studies</button>
+                <button class="tab-button" onclick="loadContent('discussion_of_management')">Disscussion of Management</button>
+                <button class="tab-button" onclick="loadContent('final_diagnosis')">Final Diagnosis</button>
+                <button class="tab-button" onclick="showImages()">Images/Tables</button>
+            </div>
+
+            <div id="content" class="section">
+                <h2 id="contentTitle" style="font-size: 20px; margin-bottom: 15px;">Select a section</h2>
+                <div id="contentBody"></div>
+            </div>
+        </div>
+
+        <div class="panel right-panel">
+            <div class="model-section">
+                <select id="modelSelect" class="model-select">
+                    <option value="gpt-4o-mini">GPT-4o-mini</option>
+                    <option value="claude-3.5">Claude-3.5</option>
+                    <option value="gemini">Gemini-1.5</option>
+                </select>
+                <div id="apiKeyContainer" style="display: none;">
+                    <input type="password" id="apiKeyInput" class="model-select" placeholder="Enter API key">
+                    <button class="tab-button" onclick="saveApiKey()">Save Key</button>
+                </div>
+                <button class="tab-button" onclick="generateAnalysis()">Generate Response</button>
+            </div>
+            <div class="test-section">
+                <div class="test-header">
+                    <h2 style="font-size: 20px; margin: 0;">Task 1. Chronological Ordering Test</h2>
+                </div>
+                <div class="test-question">
+                    Q. Order the key events chronologically and identify temporal relationships between symptoms and interventions.
+                </div>
+                <div class="test-response" id="chronologicalResponse">
+                    Click a section to start analysis...
+                </div>
+                <div class="selected-text-info" id="chronologicalSelected"></div>
+                <div class="comment-section">
+                    <textarea class="comment-input" placeholder="Add your comment..." id="chronologicalComment"></textarea>
+                    <button class="tab-button" onclick="addComment('chronological')">Add Comment</button>
+                    <div class="comment-list" id="chronologicalComments"></div>
+                </div>
+            </div>
+
+            <div class="test-section">
+                <div class="test-header">
+                    <h2 style="font-size: 20px; margin: 0;">Task 2. Lab Data Understanding Test</h2>
+                </div>
+                <div class="test-question">
+                    Q. Analyze the laboratory findings and explain their clinical significance in relation to the patient's symptoms.
+                </div>
+                <div class="test-response" id="labDataResponse">
+                    Click a section to start analysis...
+                </div>
+                <div class="selected-text-info" id="labDataSelected"></div>
+                <div class="comment-section">
+                    <textarea class="comment-input" placeholder="Add your comment..." id="labDataComment"></textarea>
+                    <button class="tab-button" onclick="addComment('labData')">Add Comment</button>
+                    <div class="comment-list" id="labDataComments"></div>
+                </div>
+            </div>
+
+            <div class="test-section">
+                <div class="test-header">
+                    <h2 style="font-size: 20px; margin: 0;">Task 3. Diagnosis Prediction Test</h2>
+                </div>
+                <div class="test-question">
+                    Q. Based on the Presentation of Case, Lab Data and Images, what would be the possible diagnosis?
+                </div>
+                <div class="test-response" id="diagnosisPredictionResponse">
+                    Click a section to start analysis...
+                </div>
+                <div class="selected-text-info" id="diagnosisSelected"></div>
+                <div class="comment-section">
+                    <textarea class="comment-input" placeholder="Add your comment..." id="diagnosisComment"></textarea>
+                    <button class="tab-button" onclick="addComment('diagnosis')">Add Comment</button>
+                    <div class="comment-list" id="diagnosisComments"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="classificationModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000;">
+        <div style="position: relative; background-color: white; margin: 15% auto; padding: 20px; width: 70%; max-width: 600px; border-radius: 8px;">
+            <h3>Classify Hallucination</h3>
+            <div class="selected-text-display" style="margin: 10px 0; padding: 10px; background-color: #f8f9fa; border-radius: 4px;"></div>
+            
+            <div class="hallucination-types" style="margin: 15px 0;">
+                <h4>Type of Hallucination:</h4>
+                <select id="hallucinationType" class="model-select" style="width: 100%; margin: 5px 0;">
+                    <!-- hallucination type options -->
+                </select>
+            </div>
+            
+            <div class="risk-levels" style="margin: 15px 0;">
+                <h4>Risk Level:</h4>
+                <select id="riskLevel" class="model-select" style="width: 100%; margin: 5px 0;">
+                    <!-- risk level options -->
+                </select>
+            </div>
+            
+            <div class="modal-buttons" style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px;">
+                <button class="tab-button" id="removeHighlightBtn" 
+                        style="background-color: #dc3545; display: none;"
+                        onclick="removeHighlight()">
+                    Remove Highlight
+                </button>
+                <button class="tab-button" onclick="cancelClassification()">Cancel</button>
+                <button class="tab-button" onclick="confirmClassification()">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Unified highlight handling state
+        let highlights = [];
+        let currentSelection = null;
+
+        // Improved undoLastHighlight function
+        function undoLastHighlight() {
+            if (highlights.length === 0) return;
+            
+            const lastHighlight = highlights[highlights.length - 1];
+            const span = document.querySelector(`[data-id="${lastHighlight.id}"]`);
+            
+            if (span) {
+                try {
+                    // Create a text node with the original content
+                    const text = document.createTextNode(span.textContent);
+                    
+                    // Replace the highlight span with the original text
+                    span.parentNode.replaceChild(text, span);
+                    
+                    // Remove the highlight from our array
+                    highlights.pop();
+                    
+                    // Save the updated state
+                    saveHighlights(lastHighlight.sectionId);
+                    
+                    // Update the UI
+                    document.getElementById(`${lastHighlight.sectionId}Selected`).textContent = '';
+                    
+                } catch (error) {
+                    console.error('Error removing highlight:', error);
+                }
+            }
+        }
+
+        // Modified saveHighlights function
+        function saveHighlights(sectionId) {
+            try {
+                const sectionHighlights = highlights.filter(h => h.sectionId === sectionId);
+                localStorage.setItem(`${currentCase}-${sectionId}-highlights`, JSON.stringify(sectionHighlights));
+            } catch (error) {
+                console.error('Error saving highlights:', error);
+            }
+        }
+
+        // Modified loadHighlights function
+        function loadHighlights(sectionId) {
+            try {
+                const saved = localStorage.getItem(`${currentCase}-${sectionId}-highlights`);
+                if (saved) {
+                    const savedHighlights = JSON.parse(saved);
+                    
+                    // Clear existing highlights for this section
+                    highlights = highlights.filter(h => h.sectionId !== sectionId);
+                    
+                    // Add saved highlights
+                    savedHighlights.forEach(highlight => {
+                        try {
+                            const content = document.getElementById(sectionId);
+                            if (!content) return;
+                            
+                            // Create new highlight span
+                            const highlightHTML = `<span class="highlight-span risk-${highlight.risk}" data-type="${highlight.type}" data-risk="${highlight.risk}" data-id="${highlight.id}">${highlight.text}</span>`;
+                            
+                            // Replace the text with highlighted version
+                            const regex = new RegExp(escapeRegExp(highlight.text), 'g');
+                            const originalHTML = content.innerHTML;
+                            
+                            // Only replace if not already highlighted
+                            if (!originalHTML.includes(`data-id="${highlight.id}"`)) {
+                                content.innerHTML = originalHTML.replace(regex, highlightHTML);
+                            }
+                            
+                            highlights.push(highlight);
+                        } catch (error) {
+                            console.error('Error restoring highlight:', error);
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading highlights:', error);
+            }
+        }
+
+        // Utility function to escape special characters in regex
+        function escapeRegExp(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        // Add keyboard shortcut for undo
+        document.addEventListener('keydown', (e) => {
+            if ((e.metaKey || e.ctrlKey) && e.key === 'z') {
+                e.preventDefault();
+                undoLastHighlight();
+            }
+        });
+        
+
+        
+
+        function cancelClassification() {
+            const modal = document.getElementById('classificationModal');
+            modal.style.display = 'none';
+            currentSelection = null;
+            window.getSelection().removeAllRanges();
+        }
+
+        let analysisGenerated = false;
+
+        // Modify the switchCase function
+        function switchCase(caseId) {
+            currentCase = caseId;
+            startTime = Date.now();
+            analysisGenerated = false; // Reset analysis state
+            loadContent('presentation');
+        }
+        
+        // Add new generateAnalysis function
+        function generateAnalysis() {
+            const currentContent = document.getElementById('contentBody').innerHTML;
+            const selectedModel = document.getElementById('modelSelect').value;
+            updateLLMAnalysis('manual', currentContent, selectedModel);
+        }
+        
+        // Add new handleReference function
+        function handleReference(reference) {
+            showImages();
+            // Optional: Scroll to specific image based on reference
+            setTimeout(() => {
+                const imageElement = document.querySelector(`img[alt*="${reference}"]`);
+                if (imageElement) {
+                    imageElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
+        }
+
+        const images = {
+            'lab_data': {
+                path: './images/table1.png',
+                // title: 'Laboratory Data'
+            },
+            'figure1': {
+                path: './images/figure1.png',
+                // title: 'Electrocardiogram'
+            },
+            'figure2': {
+                path: './images/figure2.png',
+                // title: 'Imaging Results'
+            },
+            'figure3': {
+                path: './images/figure3.png',
+                // title: 'Imaging Results'
+            }
+        };
+
+        function showImages() {
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            document.getElementById('contentTitle').textContent = 'Clinical Images';
+
+            let imagesHTML = '<div class="image-container">';
+            for (const [key, image] of Object.entries(images)) {
+                imagesHTML += `
+                    <img src="${image.path}" alt="${image.title}" onclick="openModal('${image.path}')">
+                `;
+            }
+            imagesHTML += '</div>';
+
+            document.getElementById('contentBody').innerHTML = imagesHTML;
+        }
+
+        function openModal(imagePath) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = "block";
+            modalImg.src = imagePath;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = "none";
+        }
+
+        // Modify the updateLLMAnalysis function to use GPT-4
+        function handleModelChange() {
+            const modelSelect = document.getElementById('modelSelect');
+            const apiKeyContainer = document.getElementById('apiKeyContainer');
+            const selectedModel = modelSelect.value;
+            
+            // Check if API key exists for this model
+            const savedKey = localStorage.getItem(`${selectedModel}-api-key`);
+            if (!savedKey) {
+                apiKeyContainer.style.display = 'flex';
+            } else {
+                apiKeyContainer.style.display = 'none';
+            }
+        }
+
+        function saveApiKey() {
+            const modelSelect = document.getElementById('modelSelect');
+            const apiKeyInput = document.getElementById('apiKeyInput');
+            const apiKeyContainer = document.getElementById('apiKeyContainer');
+            const selectedModel = modelSelect.value;
+            
+            if (apiKeyInput.value.trim()) {
+                localStorage.setItem(`${selectedModel}-api-key`, apiKeyInput.value.trim());
+                apiKeyContainer.style.display = 'none';
+                apiKeyInput.value = '';
+            } else {
+                alert('Please enter an API key');
+            }
+        }
+
+        // Add modal click handler
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        let startTime = Date.now();
+        let currentCase = 'case1';
+        let currentHighlightColor = '#ffd700';
+
+        function updateTimer() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const minutes = Math.floor(elapsed / 60).toString().padStart(2, '0');
+            const seconds = (elapsed % 60).toString().padStart(2, '0');
+            document.getElementById('readingTimer').textContent = `Time: ${minutes}:${seconds}`;
+        }
+
+        setInterval(updateTimer, 1000);
+
+        function switchCase(caseId) {
+            currentCase = caseId;
+            startTime = Date.now();
+            loadContent('presentation');
+        }
+
+        function setHighlightColor(color) {
+            currentHighlightColor = color;
+        }
+
+        function saveHighlights(sectionId) {
+            const content = document.getElementById(sectionId).innerHTML;
+            localStorage.setItem(`${currentCase}-${sectionId}-highlights`, content);
+        }
+
+        function loadHighlights(sectionId) {
+            const saved = localStorage.getItem(`${currentCase}-${sectionId}-highlights`);
+            if (saved) {
+                document.getElementById(sectionId).innerHTML = saved;
+            }
+        }
+
+        function addComment(section) {
+            const commentInput = document.getElementById(`${section}Comment`);
+            const commentList = document.getElementById(`${section}Comments`);
+            
+            if (commentInput.value.trim()) {
+                const commentDiv = document.createElement('div');
+                commentDiv.className = 'comment-item';
+                commentDiv.textContent = commentInput.value;
+                commentList.appendChild(commentDiv);
+                
+                const comments = Array.from(commentList.children)
+                    .map(c => c.textContent);
+                localStorage.setItem(`${currentCase}-${section}-comments`, JSON.stringify(comments));
+                
+                commentInput.value = '';
+            }
+        }
+
+        function loadComments(section) {
+            const saved = localStorage.getItem(`${currentCase}-${section}-comments`);
+            if (saved) {
+                const comments = JSON.parse(saved);
+                const commentList = document.getElementById(`${section}Comments`);
+                commentList.innerHTML = '';
+                comments.forEach(comment => {
+                    const div = document.createElement('div');
+                    div.className = 'comment-item';
+                    div.textContent = comment;
+                    commentList.appendChild(div);
+                });
+            }
+        }
+
+        async function loadContent(section) {
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                if (btn.textContent.toLowerCase().includes(section.toLowerCase())) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            document.getElementById('contentTitle').textContent = section.charAt(0).toUpperCase() + section.slice(1);
+
+            try {
+                document.getElementById('contentBody').innerHTML = '<div class="loading">Loading...</div>';
+
+                const response = await fetch(`content/${currentCase}/${section}.txt`);
+                if (!response.ok) {
+                    throw new Error('Failed to load content');
+                }
+                
+                const text = await response.text();
+                
+                // Process the text for proper markdown formatting
+                const processedText = text
+                    // First normalize line endings
+                    .replace(/\r\n/g, '\n')
+                    .replace(/\r/g, '\n')
+                    // Split into lines
+                    .split('\n')
+                    // Remove empty lines at start and end
+                    .map(line => line.trim())
+                    // Join with double newlines between non-empty lines
+                    .filter(line => line.length > 0)
+                    .join('\n\n')
+                    // Process references
+                    .replace(
+                        /(fig\.|figure|table)(\s?)(\d+)/gi,
+                        (match, type, space, number) => {
+                            let normalizedType = type.toLowerCase();
+                            if (normalizedType === 'fig.') {
+                                normalizedType = 'figure';
+                            }
+                            return `<span class="reference-link" onclick="handleReference('${normalizedType}${number}')">${match}</span>`;
+                        }
+                    );
+
+                // Configure marked options
+                marked.setOptions({
+                    breaks: true,      // Enable line breaks
+                    gfm: true,        // Enable GitHub Flavored Markdown
+                    headerIds: false,  // Disable header IDs
+                    mangle: false     // Disable header mangling
+                });
+
+                document.getElementById('contentBody').innerHTML = marked.parse(processedText);
+
+
+            } catch (error) {
+                console.error('Error loading content:', error);
+                document.getElementById('contentBody').innerHTML = `
+                    <div class="error-message">
+                        Error loading content. Please check if the file exists at:<br>
+                        /content/${currentCase}/${section}.txt
+                    </div>
+                `;
+            }
+
+            initializeTaskAreas();
+        }
+
+        // Initialize highlight buttons
+        document.querySelectorAll('.highlight-button').forEach(button => {
+            button.addEventListener('click', () => {
+                setHighlightColor(button.style.backgroundColor);
+                document.querySelectorAll('.highlight-button').forEach(btn => {
+                    btn.style.border = 'none';
+                });
+                button.style.border = '2px solid #333';
+            });
+        });
+
+        // Handle keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey) {
+                switch(e.key) {
+                    case '1':
+                        setHighlightColor('#ffcccb'); // Important
+                        break;
+                    case '2':
+                        setHighlightColor('#90EE90'); // Correct
+                        break;
+                    case '3':
+                        setHighlightColor('#ffcccb'); // Incorrect
+                        break;
+                }
+            }
+        });
+
+        // Autosave comment drafts
+        ['chronologicalComment', 'labDataComment'].forEach(id => {
+            const textarea = document.getElementById(id);
+            textarea.addEventListener('input', () => {
+                localStorage.setItem(`${currentCase}-${id}-draft`, textarea.value);
+            });
+        });
+
+        // Load comment drafts
+        function loadCommentDrafts() {
+            ['chronologicalComment', 'labDataComment'].forEach(id => {
+                const saved = localStorage.getItem(`${currentCase}-${id}-draft`);
+                if (saved) {
+                    document.getElementById(id).value = saved;
+                }
+            });
+        }
+
+        // Clear function for testing
+        window.clearAllData = function() {
+            localStorage.clear();
+            location.reload();
+        };
+
+        // Initialize everything on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadContent('presentation');
+            loadCommentDrafts();
+            
+            // Set first highlight button as active
+            const firstHighlightButton = document.querySelector('.highlight-button');
+            // if (firstHighlightButton) {
+            //     firstHighlightButton.style.border = '2px solid #333';
+            // }
+            
+            // Reset the response areas to their initial state
+            document.getElementById('chronologicalResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
+            document.getElementById('labDataResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
+            document.getElementById('diagnosisPredictionResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
+        });
+
+        // Hallucination types definition
+        const hallucinationTypes = {
+            condition: "Condition Unsupported",
+            procedure: "Procedure Unsupported", 
+            medication: "Medication Unsupported",
+            time: "Time Unsupported",
+            location: "Location Unsupported",
+            number: "Number Unsupported",
+            name: "Name Unsupported",
+            word: "Word Unsupported",
+            other: "Other Unsupported",
+            contradicted: "Contradicted Fact",
+            incorrect: "Incorrect Fact"
+        };
+
+        // Risk level definitions with descriptions
+        const riskLevels = {
+            0: {
+                label: "No Risk",
+                description: "No potential for harm or impact on patient care"
+            },
+            1: {
+                label: "Minor",
+                description: "Minimal impact on patient care decisions"
+            },
+            2: {
+                label: "Significant",
+                description: "May affect treatment decisions but unlikely to cause harm"
+            },
+            3: {
+                label: "Considerable", 
+                description: "Could lead to inappropriate treatment decisions"
+            },
+            4: {
+                label: "Major",
+                description: "High probability of leading to harmful treatment decisions"
+            },
+            5: {
+                label: "Catastrophic",
+                description: "Could directly result in severe patient harm or death"
+            }
+        };
+
+        // Modified highlight span creation
+        function createHighlightSpan(text, type, risk) {
+            const span = document.createElement('span');
+            span.className = `highlight-span risk-${risk}`;
+            span.dataset.type = type;
+            span.dataset.risk = risk;
+            span.dataset.id = Date.now().toString();
+            span.textContent = text;
+            
+            // Add click handler for reclassification
+            span.addEventListener('click', (e) => {
+                e.stopPropagation();
+                showReclassificationModal(span);
+            });
+            
+            return span;
+        }
+
+        // Add reclassification modal
+        function showReclassificationModal(span) {
+            const modal = document.getElementById('classificationModal');
+            modal.querySelector('.selected-text-display').textContent = span.textContent;
+            
+            // Set current values
+            document.getElementById('hallucinationType').value = span.dataset.type;
+            document.getElementById('riskLevel').value = span.dataset.risk;
+            
+            // Store reference to span being edited
+            modal.dataset.editingId = span.dataset.id;
+            
+            modal.style.display = 'block';
+        }
+
+        // Add tooltip HTML
+        const tooltipHTML = `
+        <div class="highlight-tooltip" style="display: none; position: absolute; background: white; border: 1px solid #ccc; padding: 8px; border-radius: 4px; z-index: 1000;">
+            <div class="tooltip-type"></div>
+            <div class="tooltip-risk"></div>
+        </div>
+        `;
+
+        // Add tooltip styles
+        const tooltipStyles = `
+        .highlight-span {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .highlight-tooltip {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-size: 12px;
+            max-width: 200px;
+        }
+
+        .tooltip-type {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-risk {
+            color: #666;
+        }
+        `;
+
+        // Add hover effects
+        function addHoverEffects(span) {
+            const tooltip = document.createElement('div');
+            tooltip.className = 'highlight-tooltip';
+            tooltip.style.display = 'none';
+            
+            span.addEventListener('mouseenter', (e) => {
+                tooltip.innerHTML = `
+                    <div class="tooltip-type">${hallucinationTypes[span.dataset.type]}</div>
+                    <div class="tooltip-risk">${riskLevels[span.dataset.risk].label}: ${riskLevels[span.dataset.risk].description}</div>
+                `;
+                
+                const rect = span.getBoundingClientRect();
+                tooltip.style.left = `${rect.left}px`;
+                tooltip.style.top = `${rect.bottom + 5}px`;
+                tooltip.style.display = 'block';
+                
+                document.body.appendChild(tooltip);
+            });
+            
+            span.addEventListener('mouseleave', () => {
+                tooltip.remove();
+            });
+        }
+
+        // Add this to your initialization code
+        document.addEventListener('DOMContentLoaded', () => {
+            // Add tooltip styles
+            const style = document.createElement('style');
+            style.textContent = tooltipStyles;
+            document.head.appendChild(style);
+            
+            // Initialize hallucination type select
+            const typeSelect = document.getElementById('hallucinationType');
+            typeSelect.innerHTML = Object.entries(hallucinationTypes)
+                .map(([value, label]) => `<option value="${value}">${label}</option>`)
+                .join('');
+            
+            // Initialize risk level select
+            const riskSelect = document.getElementById('riskLevel');
+            riskSelect.innerHTML = Object.entries(riskLevels)
+                .map(([level, { label, description }]) => 
+                    `<option value="${level}">Level ${level} - ${label} (${description})</option>`)
+                .join('');
+        });
+
+
+        // Helper function to fetch all case content
+        async function fetchCaseContent() {
+            const sections = [
+                'presentation',
+                'differential',
+                'clinical_diagnosis',
+                'sarah',
+                'diagnostic_testing',
+                'genetic_testing',
+                'imaging_studies',
+                'discussion_of_management',
+                'final_diagnosis'
+            ];
+            
+            const content = {};
+            
+            for (const section of sections) {
+                try {
+                    const response = await fetch(`content/${currentCase}/${section}.txt`);
+                    if (response.ok) {
+                        content[section] = await response.text();
+                    }
+                } catch (error) {
+                    console.error(`Error fetching ${section}:`, error);
+                    content[section] = null;
+                }
+            }
+            
+            return content;
+        }
+
+        // Helper function to gather all comments
+        function gatherComments() {
+            const comments = {};
+            ['chronological', 'labData'].forEach(section => {
+                const saved = localStorage.getItem(`${currentCase}-${section}-comments`);
+                if (saved) {
+                    comments[section] = JSON.parse(saved);
+                }
+            });
+            return comments;
+        }
+
+        // Helper function to get task type from section ID
+        function getTaskType(sectionId) {
+            const taskTypes = {
+                'chronologicalResponse': 'Chronological Ordering',
+                'labDataResponse': 'Lab Data Understanding',
+                'diagnosisPredictionResponse': 'diagnosisPredictionResponse'
+                // Add other task types as needed
+            };
+            return taskTypes[sectionId] || 'Unknown';
+        }
+
+        // Add annotator ID input to your HTML
+        function addAnnotatorInput() {
+            const modelSection = document.querySelector('.model-section');
+            
+            const container = document.createElement('div');
+            container.style.marginBottom = '10px';
+            
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.className = 'model-select';
+            input.placeholder = 'Enter Annotator ID';
+            input.value = localStorage.getItem('annotatorId') || '';
+            input.onchange = (e) => {
+                localStorage.setItem('annotatorId', e.target.value);
+            };
+            
+            container.appendChild(input);
+            modelSection.insertBefore(container, modelSection.firstChild);
+        }
+
+        // Initialize the export functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            addAnnotatorInput();
+            addExportButton();
+        });
+        
+        // Modified showReclassificationModal function
+        function showReclassificationModal(span) {
+            const modal = document.getElementById('classificationModal');
+            const removeButton = document.getElementById('removeHighlightBtn');
+            modal.querySelector('.selected-text-display').textContent = span.textContent;
+            
+            // Set current values
+            document.getElementById('hallucinationType').value = span.dataset.type;
+            document.getElementById('riskLevel').value = span.dataset.risk;
+            
+            // Store reference to span being edited
+            modal.dataset.editingId = span.dataset.id;
+            
+            // Show the remove button for existing highlights
+            if (removeButton) {
+                removeButton.style.display = 'inline-flex'; // Changed from 'block' to 'inline-flex' to match other buttons
+            } else {
+                console.error('Remove button not found');
+            }
+            
+            modal.style.display = 'block';
+        }
+
+        // Modified handleSelection function
+        function handleSelection(sectionId) {
+            const selection = window.getSelection();
+            if (selection.toString().length > 0) {
+                currentSelection = {
+                    text: selection.toString(),
+                    range: selection.getRangeAt(0).cloneRange(),
+                    sectionId: sectionId
+                };
+                
+                const modal = document.getElementById('classificationModal');
+                const removeButton = document.getElementById('removeHighlightBtn');
+                modal.querySelector('.selected-text-display').textContent = selection.toString();
+                
+                // Reset classification form
+                document.getElementById('hallucinationType').value = 'condition';
+                document.getElementById('riskLevel').value = '0';
+                
+                // Hide the remove button for new highlights
+                if (removeButton) {
+                    removeButton.style.display = 'none';
+                }
+                
+                // Clear any previous editing ID
+                modal.dataset.editingId = '';
+                
+                modal.style.display = 'block';
+            }
+        }
+
+        // Modified createHighlightSpan function to ensure click handler works
+        function createHighlightSpan(text, type, risk) {
+            const span = document.createElement('span');
+            span.className = `highlight-span risk-${risk}`;
+            span.dataset.type = type;
+            span.dataset.risk = risk;
+            span.dataset.id = Date.now().toString();
+            span.textContent = text;
+            
+            // Add click handler for reclassification
+            span.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                showReclassificationModal(span);
+            });
+            
+            return span;
+        }
+
+        // Add button styles
+        const buttonStyles = `
+            #removeHighlightBtn {
+                background-color: #dc3545;
+                color: white;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 14px;
+                display: none;
+            }
+            
+            #removeHighlightBtn:hover {
+                background-color: #c82333;
+            }
+        `;
+
+        // Add styles to document
+        document.addEventListener('DOMContentLoaded', () => {
+            const style = document.createElement('style');
+            style.textContent = buttonStyles;
+            document.head.appendChild(style);
+        });
+
+        // Modified removeHighlight function with proper implementation and logging
+        function removeHighlight() {
+            const modal = document.getElementById('classificationModal');
+            const highlightId = modal.dataset.editingId;
+            
+            console.log('Removing highlight with ID:', highlightId); // Debug logging
+            
+            if (highlightId) {
+                // Find the highlight span
+                const span = document.querySelector(`[data-id="${highlightId}"]`);
+                console.log('Found span:', span); // Debug logging
+                
+                if (span) {
+                    // Get the section ID from the highlights array
+                    const highlightIndex = highlights.findIndex(h => h.id === highlightId);
+                    const sectionId = highlights[highlightIndex]?.sectionId;
+                    
+                    try {
+                        // Create a text node with the original content
+                        const text = document.createTextNode(span.textContent);
+                        
+                        // Replace the highlight span with the original text
+                        span.parentNode.replaceChild(text, span);
+                        
+                        // Remove from highlights array
+                        if (highlightIndex !== -1) {
+                            highlights.splice(highlightIndex, 1);
+                            
+                            // Save the updated highlights
+                            if (sectionId) {
+                                saveHighlights(sectionId);
+                            }
+                        }
+                        
+                        console.log('Successfully removed highlight'); // Debug logging
+                    } catch (error) {
+                        console.error('Error removing highlight:', error);
+                    }
+                }
+            }
+            
+            // Close the modal
+            cancelClassification();
+        }
+
+        // Update the modal HTML to ensure the remove button is properly connected
+        function updateModalButtons() {
+            const modalButtonsContainer = document.querySelector('#classificationModal .modal-buttons');
+            if (!modalButtonsContainer) {
+                console.error('Modal buttons container not found');
+                return;
+            }
+            
+            modalButtonsContainer.innerHTML = `
+                <button class="tab-button" id="removeHighlightBtn" 
+                        style="background-color: #dc3545; display: none;" 
+                        onclick="removeHighlight()">
+                    Remove Highlight
+                </button>
+                <button class="tab-button" onclick="cancelClassification()">Cancel</button>
+                <button class="tab-button" onclick="confirmClassification()">Confirm</button>
+            `;
+        }
+
+        // Modified saveHighlights function with error handling
+        function saveHighlights(sectionId) {
+            try {
+                console.log('Saving highlights for section:', sectionId); // Debug logging
+                const sectionHighlights = highlights.filter(h => h.sectionId === sectionId);
+                localStorage.setItem(`${currentCase}-${sectionId}-highlights`, JSON.stringify(sectionHighlights));
+                console.log('Successfully saved highlights:', sectionHighlights); // Debug logging
+            } catch (error) {
+                console.error('Error saving highlights:', error);
+            }
+        }
+
+        // Add this to your initialization code
+        document.addEventListener('DOMContentLoaded', () => {
+            // Update modal buttons to ensure proper event handling
+            updateModalButtons();
+            
+            // Add click event listener to remove button as a backup
+            const removeBtn = document.getElementById('removeHighlightBtn');
+            if (removeBtn) {
+                removeBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    removeHighlight();
+                });
+            }
+        });
+
+        // Clear all annotations for the current case
+        function clearCurrentCaseAnnotations() {
+            const sectionsToCheck = ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'];
+            
+            try {
+                // Clear highlights
+                sectionsToCheck.forEach(section => {
+                    localStorage.removeItem(`${currentCase}-${section}-highlights`);
+                    // Also clear comments if you have them
+                    localStorage.removeItem(`${currentCase}-${section}-comments`);
+                });
+                
+                // Reset the highlights array
+                highlights = [];
+                
+                // Clear the UI
+                sectionsToCheck.forEach(section => {
+                    const element = document.getElementById(section);
+                    if (element) {
+                        // Preserve the original text without highlights
+                        element.innerHTML = element.innerHTML.replace(/<span class="highlight-span.*?>(.*?)<\/span>/g, '$1');
+                    }
+                });
+                
+                console.log(`Cleared all annotations for case: ${currentCase}`);
+            } catch (error) {
+                console.error('Error clearing annotations:', error);
+            }
+        }
+
+        // Clear all annotations across all cases
+        function clearAllAnnotations() {
+            try {
+                // Get all localStorage keys
+                const keys = Object.keys(localStorage);
+                
+                // Filter and remove annotation-related items
+                keys.forEach(key => {
+                    if (key.includes('-highlights') || 
+                        key.includes('-comments') || 
+                        key.includes('-draft')) {
+                        localStorage.removeItem(key);
+                    }
+                });
+                
+                // Reset the highlights array
+                highlights = [];
+                
+                // Refresh the page to clear the UI
+                location.reload();
+                
+                console.log('Cleared all annotations');
+            } catch (error) {
+                console.error('Error clearing all annotations:', error);
+            }
+        }
+
+        // Add buttons to the UI
+        function addStorageManagementButtons() {
+            const modelSection = document.querySelector('.model-section');
+            
+            // Create button container
+            const buttonContainer = document.createElement('div');
+            buttonContainer.style.marginTop = '10px';
+            buttonContainer.style.display = 'flex';
+            buttonContainer.style.gap = '10px';
+            
+            // Clear current case button
+            const clearCaseButton = document.createElement('button');
+            clearCaseButton.className = 'tab-button';
+            clearCaseButton.style.backgroundColor = '#dc3545';
+            clearCaseButton.textContent = 'Clear Current Case';
+            clearCaseButton.onclick = () => {
+                if (confirm('Are you sure you want to clear all annotations for the current case?')) {
+                    clearCurrentCaseAnnotations();
+                }
+            };
+            
+            // Clear all cases button
+            const clearAllButton = document.createElement('button');
+            clearAllButton.className = 'tab-button';
+            clearAllButton.style.backgroundColor = '#dc3545';
+            clearAllButton.textContent = 'Clear All Cases';
+            clearAllButton.onclick = () => {
+                if (confirm('Are you sure you want to clear ALL annotations for ALL cases? This cannot be undone.')) {
+                    clearAllAnnotations();
+                }
+            };
+            
+            // Add buttons to container
+            buttonContainer.appendChild(clearCaseButton);
+            buttonContainer.appendChild(clearAllButton);
+            
+            // Add container to model section
+            modelSection.appendChild(buttonContainer);
+        }
+
+        // Modified loadHighlights function with error handling
+        function loadHighlights(sectionId) {
+            try {
+                const saved = localStorage.getItem(`${currentCase}-${sectionId}-highlights`);
+                if (saved) {
+                    const savedHighlights = JSON.parse(saved);
+                    
+                    // Clear existing highlights for this section
+                    highlights = highlights.filter(h => h.sectionId !== sectionId);
+                    
+                    // Add saved highlights
+                    savedHighlights.forEach(highlight => {
+                        try {
+                            const content = document.getElementById(sectionId);
+                            if (!content) return;
+                            
+                            // Create new highlight span
+                            const span = createHighlightSpan(highlight.text, highlight.type, highlight.risk);
+                            span.dataset.id = highlight.id;
+                            
+                            // Find the text to replace
+                            const text = highlight.text;
+                            const regex = new RegExp(escapeRegExp(text), 'g');
+                            
+                            // Only replace if not already highlighted
+                            if (!content.innerHTML.includes(`data-id="${highlight.id}"`)) {
+                                content.innerHTML = content.innerHTML.replace(regex, span.outerHTML);
+                            }
+                            
+                            highlights.push(highlight);
+                        } catch (error) {
+                            console.error('Error restoring highlight:', error);
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading highlights:', error);
+            }
+        }
+
+        // Initialize storage management
+        document.addEventListener('DOMContentLoaded', () => {
+            addStorageManagementButtons();
+        });
+
+        function handleSelection(sectionId) {
+            const selection = window.getSelection();
+            if (selection.toString().length > 0) {
+                // Check if the selection is within the correct section
+                const range = selection.getRangeAt(0);
+                const container = document.getElementById(sectionId);
+                
+                if (!container.contains(range.commonAncestorContainer)) {
+                    console.log('Selection is outside the target section');
+                    return;
+                }
+
+                try {
+                    // Create a new range that's confined to this section
+                    const sectionRange = document.createRange();
+                    sectionRange.setStart(range.startContainer, range.startOffset);
+                    sectionRange.setEnd(range.endContainer, range.endOffset);
+
+                    currentSelection = {
+                        text: selection.toString(),
+                        range: sectionRange,
+                        sectionId: sectionId
+                    };
+                    
+                    const modal = document.getElementById('classificationModal');
+                    modal.querySelector('.selected-text-display').textContent = selection.toString();
+                    
+                    // Reset classification form
+                    document.getElementById('hallucinationType').value = 'condition';
+                    document.getElementById('riskLevel').value = '0';
+                    
+                    // Hide the remove button for new highlights
+                    document.getElementById('removeHighlightBtn').style.display = 'none';
+                    
+                    // Clear any previous editing ID
+                    modal.dataset.editingId = '';
+                    
+                    modal.style.display = 'block';
+                    
+                    console.log('Selection processed for section:', sectionId);
+                } catch (error) {
+                    console.error('Error processing selection:', error);
+                    alert('Error processing selection. Please try selecting the text again.');
+                }
+            }
+        }
+
+        // Modified confirmClassification function to handle separate task areas
+        function confirmClassification() {
+            if (!currentSelection) return;
+            
+            const type = document.getElementById('hallucinationType').value;
+            const risk = document.getElementById('riskLevel').value;
+            
+            try {
+                // Get the container for this section
+                const container = document.getElementById(currentSelection.sectionId);
+                if (!container) {
+                    throw new Error('Container not found for section: ' + currentSelection.sectionId);
+                }
+
+                // Check for overlapping highlights
+                const existingHighlights = container.getElementsByClassName('highlight-span');
+                const newRange = currentSelection.range;
+                
+                for (let highlight of existingHighlights) {
+                    const highlightRange = document.createRange();
+                    highlightRange.selectNode(highlight);
+                    
+                    if (rangesOverlap(newRange, highlightRange)) {
+                        throw new Error('Selection overlaps with existing highlight');
+                    }
+                }
+
+                // Create and apply the new highlight
+                const span = document.createElement('span');
+                span.className = `highlight-span risk-${risk}`;
+                span.dataset.type = type;
+                span.dataset.risk = risk;
+                span.dataset.id = Date.now().toString();
+                
+                newRange.surroundContents(span);
+                
+                // Add click handler for editing
+                span.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    showReclassificationModal(span);
+                });
+                
+                // Store the highlight
+                highlights.push({
+                    id: span.dataset.id,
+                    text: currentSelection.text,
+                    type: type,
+                    risk: risk,
+                    sectionId: currentSelection.sectionId
+                });
+                
+                // Save highlights to localStorage
+                saveHighlights(currentSelection.sectionId);
+                
+            } catch (error) {
+                console.error('Error applying highlight:', error);
+                alert('Could not apply highlight. The selection might overlap with an existing highlight.');
+            }
+            
+            // Close modal and clear selection
+            cancelClassification();
+        }
+
+        // Helper function to check if two ranges overlap
+        function rangesOverlap(range1, range2) {
+            return !(range1.compareBoundaryPoints(Range.END_TO_START, range2) >= 0 ||
+                range1.compareBoundaryPoints(Range.START_TO_END, range2) <= 0);
+        }
+
+        // Initialize separate event listeners for each task area
+        function initializeTaskAreas() {
+            const taskAreas = [
+                'chronologicalResponse',
+                'labDataResponse',
+                'diagnosisPredictionResponse'
+                // Add other task areas as needed
+            ];
+            
+            taskAreas.forEach(areaId => {
+                const element = document.getElementById(areaId);
+                if (element) {
+                    // Clear any existing listeners
+                    element.replaceWith(element.cloneNode(true));
+                    
+                    // Add new listener
+                    document.getElementById(areaId).addEventListener('mouseup', (e) => {
+                        handleSelection(areaId);
+                    });
+                }
+            });
+        }
+
+        // Call on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeTaskAreas();
+        });
+
+        // Modified updateLLMAnalysis function with proper response handling
+        async function updateLLMAnalysis(section, content, model) {
+            if (section === 'images') return;
+            
+            const savedKey = localStorage.getItem(`${model}-api-key`);
+            if (!savedKey) {
+                alert('Please save your API key first');
+                document.getElementById('apiKeyContainer').style.display = 'flex';
+                return;
+            }
+
+            // Set loading state for all response areas
+            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.innerHTML = '<div class="loading">Analyzing...</div>';
+                }
+            });
+
+            try {
+                let apiUrl, headers, bodyTemplate;
+
+                // Configure API endpoints and headers based on model
+                switch(model) {
+                    case 'claude-3.5':
+                        apiUrl = "https://api.anthropic.com/v1/messages";
+                        headers = {
+                            "Content-Type": "application/json",
+                            "x-api-key": savedKey,
+                            "anthropic-version": "2023-06-01"
+                        };
+                        bodyTemplate = (prompt) => ({
+                            model: "claude-3.5-sonnet",
+                            messages: [{ role: "user", content: prompt }],
+                            max_tokens: 512
+                        });
+                        break;
+
+                    case 'gemini':
+                        apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
+                        headers = {
+                            "Content-Type": "application/json",
+                            "Authorization": `Bearer ${savedKey}`
+                        };
+                        bodyTemplate = (prompt) => ({
+                            contents: [{ role: "user", parts: [{ text: prompt }] }]
+                        });
+                        break;
+
+                    default: // GPT-4
+                        apiUrl = "https://api.openai.com/v1/chat/completions";
+                        headers = {
+                            "Content-Type": "application/json",
+                            "Authorization": `Bearer ${savedKey}`
+                        };
+                        bodyTemplate = (prompt) => ({
+                            model: "gpt-4",
+                            messages: [
+                                {
+                                    role: "system",
+                                    content: "You are a medical expert analyzing case data."
+                                },
+                                {
+                                    role: "user",
+                                    content: prompt
+                                }
+                            ],
+                            max_tokens: 512,
+                            temperature: 0.3
+                        });
+                        break;
+                }
+
+                // Helper function to extract response content based on model
+                const extractResponse = async (response, model) => {
+                    const data = await response.json();
+                    switch(model) {
+                        case 'claude-3.5':
+                            return data.content[0].text;
+                        case 'gemini':
+                            return data.candidates[0].content.parts[0].text;
+                        default: // GPT-4
+                            return data.choices[0].message.content;
+                    }
+                };
+
+                // Truncate content if too long
+                const truncatedContent = content.slice(0, 4000);
+
+                // Define analysis tasks
+                const tasks = [
+                    {
+                        id: 'chronologicalResponse',
+                        prompt: `Given this medical case section: "${truncatedContent}"\n\nCreate a chronological timeline of events and identify temporal relationships between symptoms and interventions.`
+                    },
+                    {
+                        id: 'labDataResponse',
+                        prompt: `Given this medical case section: "${truncatedContent}"\n\nAnalyze the laboratory findings and explain their clinical significance in relation to the patient's symptoms.`
+                    },
+                    {
+                        id: 'diagnosisPredictionResponse',
+                        prompt: `Given this medical case section: "${truncatedContent}"\n\nBased on the presentation, symptoms, lab data, and available information, what would be your differential diagnosis? Please explain your reasoning.`
+                    }
+                ];
+
+                // Process each task sequentially
+                for (const task of tasks) {
+                    try {
+                        const response = await fetch(apiUrl, {
+                            method: 'POST',
+                            headers: headers,
+                            body: JSON.stringify(bodyTemplate(task.prompt))
+                        });
+
+                        if (!response.ok) {
+                            throw new Error(`${task.id} analysis failed: ${response.statusText}`);
+                        }
+
+                        const responseContent = await extractResponse(response, model);
+                        const element = document.getElementById(task.id);
+                        
+                        if (element) {
+                            element.innerHTML = marked.parse(responseContent.trim());
+                            console.log(`Successfully generated response for ${task.id}`);
+                            
+                            // Add event listeners for highlighting
+                            element.addEventListener('mouseup', () => handleSelection(task.id));
+                            loadHighlights(task.id);
+                            loadComments(task.id.replace('Response', ''));
+                        }
+                    } catch (error) {
+                        console.error(`Error in ${task.id}:`, error);
+                        const element = document.getElementById(task.id);
+                        if (element) {
+                            element.innerHTML = `<div class="error-message">Error generating analysis for ${task.id}. Error: ${error.message}</div>`;
+                        }
+                    }
+                }
+
+                analysisGenerated = true;
+
+            } catch (error) {
+                console.error('Error in LLM analysis:', error);
+                const errorMessage = '<div class="error-message">Error generating analysis. Please check your API key and network connection. Error: ' + error.message + '</div>';
+                ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+                    const element = document.getElementById(id);
+                    if (element) {
+                        element.innerHTML = errorMessage;
+                    }
+                });
+            }
+        }
+
+        // Add initialization for all task areas
+        function initializeTaskAreas() {
+            const taskAreas = [
+                'chronologicalResponse',
+                'labDataResponse',
+                'diagnosisPredictionResponse'
+            ];
+            
+            taskAreas.forEach(areaId => {
+                const element = document.getElementById(areaId);
+                if (element) {
+                    // Clear any existing listeners
+                    element.replaceWith(element.cloneNode(true));
+                    
+                    // Add new listener
+                    document.getElementById(areaId).addEventListener('mouseup', () => {
+                        handleSelection(areaId);
+                    });
+                }
+            });
+        }
+
+
+        // Enhanced exportAnnotations function
+        async function exportAnnotations() {
+            // Get current timestamp for filename
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            
+            try {
+                // Gather all data
+                const annotationData = {
+                    metadata: {
+                        timestamp: new Date().toISOString(),
+                        caseStudy: {
+                            id: currentCase,
+                            name: document.getElementById('caseSelect').selectedOptions[0].text
+                        },
+                        model: document.getElementById('modelSelect').value,
+                        annotator: localStorage.getItem('annotatorId') || 'anonymous',
+                        timing: {
+                            totalTimeSpent: formatTime(Date.now() - startTime),
+                            totalSeconds: Math.floor((Date.now() - startTime) / 1000),
+                            startTimestamp: new Date(startTime).toISOString(),
+                            endTimestamp: new Date().toISOString()
+                        }
+                    },
+                    
+                    content: {
+                        // Original case content
+                        originalCase: await fetchCaseContent(),
+                        
+                        // LLM responses
+                        llmResponses: {
+                            chronological: getCleanContent('chronologicalResponse'),
+                            labData: getCleanContent('labDataResponse'),
+                            diagnosisPrediction: getCleanContent('diagnosisPredictionResponse')
+                        }
+                    },
+                    
+                    annotations: {
+                        highlights: highlights.map(highlight => ({
+                            ...highlight,
+                            highlightedText: highlight.text,
+                            hallucinationType: hallucinationTypes[highlight.type],
+                            riskLevel: {
+                                level: parseInt(highlight.risk),
+                                label: riskLevels[highlight.risk].label,
+                                description: riskLevels[highlight.risk].description
+                            },
+                            location: {
+                                sectionId: highlight.sectionId,
+                                taskType: getTaskType(highlight.sectionId)
+                            },
+                            timestamp: new Date().toISOString()
+                        })),
+                        
+                        comments: gatherAllComments(),
+                        statistics: calculateAnnotationStats()
+                    }
+                };
+
+                // Create and download JSON file
+                const blob = new Blob([JSON.stringify(annotationData, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `medical-hallucination-annotations-${currentCase}-${timestamp}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                
+                console.log('Successfully exported annotations');
+            } catch (error) {
+                console.error('Error exporting annotations:', error);
+                alert('Error exporting annotations: ' + error.message);
+            }
+        }
+
+        // Helper function to format time
+        function formatTime(milliseconds) {
+            const seconds = Math.floor(milliseconds / 1000);
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            const remainingSeconds = seconds % 60;
+            return `${hours}h:${minutes}m:${remainingSeconds}s`;
+        }
+
+        // Helper function to get clean content without highlight markup
+        function getCleanContent(elementId) {
+            const element = document.getElementById(elementId);
+            if (!element) return '';
+            
+            // Create a temporary element to clean the content
+            const temp = document.createElement('div');
+            temp.innerHTML = element.innerHTML;
+            
+            // Remove highlight spans but keep their text content
+            const highlights = temp.getElementsByClassName('highlight-span');
+            while (highlights.length > 0) {
+                const highlight = highlights[0];
+                highlight.replaceWith(document.createTextNode(highlight.textContent));
+            }
+            
+            return temp.innerHTML;
+        }
+
+        // Enhanced function to gather all comments
+        function gatherAllComments() {
+            const comments = {};
+            const sections = ['chronological', 'labData', 'diagnosisPrediction'];
+            
+            sections.forEach(section => {
+                try {
+                    const saved = localStorage.getItem(`${currentCase}-${section}-comments`);
+                    if (saved) {
+                        comments[section] = JSON.parse(saved);
+                    }
+                    
+                    // Also get draft comments
+                    const draft = localStorage.getItem(`${currentCase}-${section}Comment-draft`);
+                    if (draft) {
+                        comments[`${section}Draft`] = draft;
+                    }
+                } catch (error) {
+                    console.error(`Error gathering comments for ${section}:`, error);
+                }
+            });
+            
+            return comments;
+        }
+
+        // Enhanced function to calculate annotation statistics
+        function calculateAnnotationStats() {
+            return {
+                totalHighlights: highlights.length,
+                byHallucinationType: calculateTypeStats(),
+                byRiskLevel: calculateRiskStats(),
+                byTask: calculateTaskStats(),
+                timing: {
+                    totalTimeSpent: formatTime(Date.now() - startTime),
+                    totalSeconds: Math.floor((Date.now() - startTime) / 1000),
+                    averageTimePerHighlight: highlights.length ? 
+                        formatTime(Math.floor((Date.now() - startTime) / highlights.length)) : '0s'
+                }
+            };
+        }
+
+        // Helper function to calculate type statistics
+        function calculateTypeStats() {
+            const typeStats = {};
+            highlights.forEach(highlight => {
+                typeStats[highlight.type] = (typeStats[highlight.type] || 0) + 1;
+            });
+            return typeStats;
+        }
+
+        // Helper function to calculate risk statistics
+        function calculateRiskStats() {
+            const riskStats = {};
+            highlights.forEach(highlight => {
+                riskStats[highlight.risk] = (riskStats[highlight.risk] || 0) + 1;
+            });
+            return riskStats;
+        }
+
+        // Helper function to calculate task statistics
+        function calculateTaskStats() {
+            const taskStats = {};
+            highlights.forEach(highlight => {
+                const taskType = getTaskType(highlight.sectionId);
+                taskStats[taskType] = (taskStats[taskType] || 0) + 1;
+            });
+            return taskStats;
+        }
+
+        // Updated getTaskType function to include all tasks
+        function getTaskType(sectionId) {
+            const taskTypes = {
+                'chronologicalResponse': 'Chronological Ordering',
+                'labDataResponse': 'Lab Data Understanding',
+                'diagnosisPredictionResponse': 'Diagnosis Prediction'
+            };
+            return taskTypes[sectionId] || 'Unknown';
+        }
+
+        // Add export button to the UI
+        function addExportButton() {
+            const modelSection = document.querySelector('.model-section');
+            const exportButton = document.createElement('button');
+            exportButton.className = 'tab-button';
+            exportButton.style.marginLeft = '10px';
+            exportButton.textContent = 'Save Annotations';
+            exportButton.onclick = exportAnnotations;
+            modelSection.appendChild(exportButton);
+        }
+    </script>
+
+    
+</body>
+</html>
