@@ -385,18 +385,7 @@
                 <span class="timer" id="readingTimer">  Time: 00:00</span>
             </div>
 
-            <div class="tab-buttons">
-                <button class="tab-button" onclick="loadContent('presentation')">Presentation of Case</button>
-                <button class="tab-button" onclick="loadContent('differential')">Differential Diagnosis</button>
-                <button class="tab-button" onclick="loadContent('clinical_diagnosis')">Clinical Diagnosis</button>
-                <button class="tab-button" onclick="loadContent('sarah')">Dr. Sarah V. Tsiaras's Diagnosis</button>
-                <button class="tab-button" onclick="loadContent('diagnostic_testing')">Diagnostic Testing</button>
-                <button class="tab-button" onclick="loadContent('genetic_testing')">Genetic Testing</button>
-                <button class="tab-button" onclick="loadContent('imaging_studies')">Imaging Studies</button>
-                <button class="tab-button" onclick="loadContent('discussion_of_management')">Disscussion of Management</button>
-                <button class="tab-button" onclick="loadContent('final_diagnosis')">Final Diagnosis</button>
-                <button class="tab-button" onclick="showImages()">Images/Tables</button>
-            </div>
+            <div class="tab-buttons"></div>
 
             <div id="content" class="section">
                 <h2 id="contentTitle" style="font-size: 20px; margin-bottom: 15px;">Select a section</h2>
@@ -505,7 +494,124 @@
     </div>
 
     <script>
-        // Unified highlight handling state
+        // Define available sections for each case
+        const caseSections = {
+            case1: [
+                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'sarah', label: "Dr. Sarah V. Tsiaras's Diagnosis" },
+                { id: 'diagnostic_testing', label: 'Diagnostic Testing' },
+                { id: 'genetic_testing', label: 'Genetic Testing' },
+                { id: 'imaging_studies', label: 'Imaging Studies' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+            case2: [
+                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'colorectal', label: 'Colorectal' },
+                { id: 'colorectal_and_cancer', label: 'Colorectal and Cancer' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'final_discussion', label: 'Final Discussion' }
+            ],
+            case3: [
+                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'diagnosis', label: 'Diagnosis' },
+                { id: 'doctor_diagnosis', label: "Doctor's Diagnosis" },
+                { id: 'discussion_of_obstetric', label: 'Discussion of Obstetric' },
+                { id: 'buprenorphine', label: 'Buprenorphine' },
+                { id: 'methadone', label: 'Methadone' },
+                { id: 'naltrexone', label: 'Naltrexone' },
+                { id: 'opportunities', label: 'Opportunities' },
+                { id: 'risk', label: 'Risk' },
+                { id: 'treatment', label: 'Treatment' },
+                { id: 'next_step', label: 'Next Step' },
+                { id: 'follow-up', label: 'Follow-up' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' }
+            ],
+            case4: [
+                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'diagnostic_testing', label: 'Diagnostic Testing' },
+                { id: 'doctor_diagnosis', label: "Doctor's Diagnosis" },
+                { id: 'acute', label: 'Acute' },
+                { id: 'cardiac', label: 'Cardiac' },
+                { id: 'coronary', label: 'Coronary' },
+                { id: 'hypoxemic', label: 'Hypoxemic' },
+                { id: 'myopericarditis', label: 'Myopericarditis' },
+                { id: 'paroxysmal', label: 'Paroxysmal' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'follow-up', label: 'Follow-up' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ]
+        };
+
+        function switchCase(caseId) {
+            currentCase = caseId;
+            startTime = Date.now();
+            analysisGenerated = false;
+            
+            // Clear existing buttons
+            const buttonContainer = document.querySelector('.tab-buttons');
+            buttonContainer.innerHTML = '';
+            
+            // Create new buttons based on case sections
+            const sections = caseSections[caseId];
+            if (sections) {
+                sections.forEach(section => {
+                    const button = document.createElement('button');
+                    button.className = 'tab-button';
+                    button.textContent = section.label;
+                    button.onclick = () => loadContent(section.id);
+                    buttonContainer.appendChild(button);
+                });
+                
+                // Add images button
+                const imagesButton = document.createElement('button');
+                imagesButton.className = 'tab-button';
+                imagesButton.textContent = 'Clinical Images';
+                imagesButton.onclick = showImages;
+                buttonContainer.appendChild(imagesButton);
+            }
+            
+            // Load initial content
+            loadContent('presentation');
+        }
+
+        // Modified initialization code
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize case selector
+            const caseSelect = document.getElementById('caseSelect');
+            if (caseSelect) {
+                const initialCase = caseSelect.value || 'case1';
+                currentCase = initialCase;
+                switchCase(initialCase);
+                
+                // Add change event listener
+                caseSelect.addEventListener('change', (event) => {
+                    switchCase(event.target.value);
+                });
+            }
+            
+            // Initialize other components
+            initializeTaskAreas();
+            loadCommentDrafts();
+            addStorageManagementButtons();
+            
+            // Set initial response messages
+            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.innerHTML = 'Press Generate Response button to get LLM outputs...';
+                }
+            });
+        });
+
         let highlights = [];
         let currentSelection = null;
 
@@ -619,40 +725,35 @@
             try {
                 const selectedModel = document.getElementById('modelSelect').value;
                 
-                // Define all sections to fetch
-                const sections = [
-                    'presentation',
-                    'differential',
-                    'clinical_diagnosis',
-                    'sarah',
-                    'diagnostic_testing',
-                    'genetic_testing',
-                    'imaging_studies',
-                    'discussion_of_management',
-                    'final_diagnosis'
-                ];
+                // Get the sections for the current case
+                const currentSections = caseSections[currentCase];
+                if (!currentSections) {
+                    throw new Error(`No sections defined for case: ${currentCase}`);
+                }
 
-                // Fetch and combine content from all sections
+                // Fetch and combine content from all sections for the current case
                 let combinedContent = '';
                 let fetchedAny = false;
 
-                for (const section of sections) {
+                for (const section of currentSections) {
                     try {
-                        const response = await fetch(`content/${currentCase}/${section}.txt`);
+                        const response = await fetch(`content/${currentCase}/${section.id}.txt`);
                         if (response.ok) {
                             const text = await response.text();
                             if (text.trim()) {
-                                combinedContent += `=== ${section.toUpperCase()} ===\n${text.trim()}\n\n`;
+                                combinedContent += `=== ${section.label.toUpperCase()} ===\n${text.trim()}\n\n`;
                                 fetchedAny = true;
                             }
+                        } else {
+                            console.warn(`Could not fetch content for ${section.id} in ${currentCase}`);
                         }
                     } catch (error) {
-                        console.warn(`Could not fetch content for ${section}:`, error);
+                        console.warn(`Error fetching content for ${section.id}:`, error);
                     }
                 }
 
                 if (!fetchedAny) {
-                    throw new Error('No content could be fetched for analysis');
+                    throw new Error(`No content could be fetched for case ${currentCase}`);
                 }
 
                 // Truncate if too long (maintain under token limits)
@@ -909,13 +1010,6 @@
 
         setInterval(updateTimer, 1000);
 
-        function switchCase(caseId) {
-            currentCase = caseId;
-            console.log(`Current case: ${currentCase}`);
-            const images = getImages(currentCase); // Regenerate images
-            showImages(images); // Render updated images
-        }
-
         const generateRequestHeaders = (model) => {
             const apiKey = getValidApiKey(model);
             if (!apiKey) return null;
@@ -939,6 +1033,8 @@
                     };
             }
         };
+
+        
 
 
 
@@ -1702,11 +1798,6 @@
                 console.error('Error loading highlights:', error);
             }
         }
-
-        // Initialize storage management
-        document.addEventListener('DOMContentLoaded', () => {
-            addStorageManagementButtons();
-        });
 
         function handleSelection(sectionId) {
             const selection = window.getSelection();
