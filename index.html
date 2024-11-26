@@ -762,21 +762,7 @@
             document.getElementById('imageModal').style.display = "none";
         }
 
-        // Modify the updateLLMAnalysis function to use GPT-4
-        function handleModelChange() {
-            const modelSelect = document.getElementById('modelSelect');
-            const apiKeyContainer = document.getElementById('apiKeyContainer');
-            const selectedModel = modelSelect.value;
-            
-            // Check if API key exists for this model
-            const savedKey = localStorage.getItem(`${selectedModel}-api-key`);
-            if (!savedKey) {
-                apiKeyContainer.style.display = 'flex';
-            } else {
-                apiKeyContainer.style.display = 'none';
-            }
-        }
-
+        // Modified saveApiKey function to use localStorage
         const saveApiKey = () => {
             const modelSelect = document.getElementById('modelSelect');
             const apiKeyInput = document.getElementById('apiKeyInput');
@@ -784,32 +770,77 @@
             const selectedModel = modelSelect.value;
 
             if (apiKeyInput.value.trim()) {
-                sessionStorage.setItem(`${selectedModel}-api-key`, apiKeyInput.value.trim());
+                // Store in localStorage instead of sessionStorage
+                localStorage.setItem(`${selectedModel}-api-key`, apiKeyInput.value.trim());
                 apiKeyContainer.style.display = 'none';
                 apiKeyInput.value = '';
+                console.log(`API key saved for ${selectedModel}`);
             } else {
                 alert('Please enter an API key');
             }
         };
 
-        const validateApiKey = (key) => {
-            return key && key.startsWith('sk-'); // Example for OpenAI keys
+        // Modified handleModelChange function with improved key checking
+        function handleModelChange() {
+            const modelSelect = document.getElementById('modelSelect');
+            const apiKeyContainer = document.getElementById('apiKeyContainer');
+            const selectedModel = modelSelect.value;
+            
+            // Check if API key exists in localStorage
+            const savedKey = localStorage.getItem(`${selectedModel}-api-key`);
+            if (!savedKey) {
+                apiKeyContainer.style.display = 'flex';
+                console.log(`No API key found for ${selectedModel}`);
+            } else {
+                apiKeyContainer.style.display = 'none';
+                console.log(`API key found for ${selectedModel}`);
+            }
+        }
+
+        // Modified getApiKey function to use localStorage
+        const getApiKey = (model) => {
+            return localStorage.getItem(`${model}-api-key`);
         };
 
+        // Add event listener for model selection change
+        document.addEventListener('DOMContentLoaded', () => {
+            const modelSelect = document.getElementById('modelSelect');
+            if (modelSelect) {
+                modelSelect.addEventListener('change', handleModelChange);
+                // Initial check for API key on page load
+                handleModelChange();
+            }
+        });
+
+        // Modified validateApiKey function with more robust validation
+        const validateApiKey = (key, model) => {
+            if (!key) return false;
+            
+            switch (model) {
+                case 'claude-3.5':
+                    return key.startsWith('sk-ant-'); // Anthropic key format
+                case 'gemini':
+                    return key.length > 20; // Google API key format
+                default: // GPT-4
+                    return key.startsWith('sk-'); // OpenAI key format
+            }
+        };
+
+        // Modified getValidApiKey function with better error handling
         const getValidApiKey = (model) => {
-            const key = getApiKey(model);
-            if (!validateApiKey(key)) {
-                alert('Invalid or missing API key');
+            const key = localStorage.getItem(`${model}-api-key`);
+            if (!validateApiKey(key, model)) {
+                const apiKeyContainer = document.getElementById('apiKeyContainer');
+                apiKeyContainer.style.display = 'flex';
+                console.error(`Invalid or missing API key for ${model}`);
                 return null;
             }
             return key;
         };
+        
 
 
-        const getApiKey = (model) => {
-            return sessionStorage.getItem(`${model}-api-key`);
-        };
-
+        
         function getApiConfig(model, savedKey) {
             let apiUrl, headers, bodyTemplate;
 
