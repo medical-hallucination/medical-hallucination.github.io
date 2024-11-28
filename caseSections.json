@@ -1,0 +1,190 @@
+{
+  "case1": [
+    {
+      "id": "clinical_diagnosis",
+      "label": "Clinical Diagnosis"
+    },
+    {
+      "id": "diagnostic_testing",
+      "label": "Diagnostic Testing"
+    },
+    {
+      "id": "differential",
+      "label": "Differential"
+    },
+    {
+      "id": "discussion_of_management",
+      "label": "Discussion Of Management"
+    },
+    {
+      "id": "final_diagnosis",
+      "label": "Final Diagnosis"
+    },
+    {
+      "id": "genetic_testing",
+      "label": "Genetic Testing"
+    },
+    {
+      "id": "imaging_studies",
+      "label": "Imaging Studies"
+    },
+    {
+      "id": "presentation",
+      "label": "Presentation"
+    },
+    {
+      "id": "sarah",
+      "label": "Sarah"
+    }
+  ],
+  "case2": [
+    {
+      "id": "anatomical_diagnosis",
+      "label": "Anatomical Diagnosis"
+    },
+    {
+      "id": "clinical_diagnosis",
+      "label": "Clinical Diagnosis"
+    },
+    {
+      "id": "colorectal",
+      "label": "Colorectal"
+    },
+    {
+      "id": "colorectal_and_cancer",
+      "label": "Colorectal And Cancer"
+    },
+    {
+      "id": "differential",
+      "label": "Differential"
+    },
+    {
+      "id": "discussion_of_management",
+      "label": "Discussion Of Management"
+    },
+    {
+      "id": "final_discussion",
+      "label": "Final Discussion"
+    },
+    {
+      "id": "pathological_discussion",
+      "label": "Pathological Discussion"
+    },
+    {
+      "id": "presentation",
+      "label": "Presentation"
+    }
+  ],
+  "case3": [
+    {
+      "id": "buprenorphine",
+      "label": "Buprenorphine"
+    },
+    {
+      "id": "diagnosis",
+      "label": "Diagnosis"
+    },
+    {
+      "id": "discussion_of_obstetric",
+      "label": "Discussion Of Obstetric"
+    },
+    {
+      "id": "doctor_diagnosis",
+      "label": "Doctor Diagnosis"
+    },
+    {
+      "id": "final_diagnosis",
+      "label": "Final Diagnosis"
+    },
+    {
+      "id": "follow-up",
+      "label": "Follow-Up"
+    },
+    {
+      "id": "methadone",
+      "label": "Methadone"
+    },
+    {
+      "id": "naltrexone",
+      "label": "Naltrexone"
+    },
+    {
+      "id": "next_step",
+      "label": "Next Step"
+    },
+    {
+      "id": "opportunities",
+      "label": "Opportunities"
+    },
+    {
+      "id": "pathological_discussion",
+      "label": "Pathological Discussion"
+    },
+    {
+      "id": "presentation",
+      "label": "Presentation"
+    },
+    {
+      "id": "risk",
+      "label": "Risk"
+    },
+    {
+      "id": "treatment",
+      "label": "Treatment"
+    }
+  ],
+  "case4": [
+    {
+      "id": "acute",
+      "label": "Acute"
+    },
+    {
+      "id": "cardiac",
+      "label": "Cardiac"
+    },
+    {
+      "id": "coronary",
+      "label": "Coronary"
+    },
+    {
+      "id": "diagnostic_testing",
+      "label": "Diagnostic Testing"
+    },
+    {
+      "id": "differential",
+      "label": "Differential"
+    },
+    {
+      "id": "discussion_of_management",
+      "label": "Discussion Of Management"
+    },
+    {
+      "id": "doctor_diagnosis",
+      "label": "Doctor Diagnosis"
+    },
+    {
+      "id": "final_diagnosis",
+      "label": "Final Diagnosis"
+    },
+    {
+      "id": "follow-up",
+      "label": "Follow-Up"
+    },
+    {
+      "id": "hypoxemic",
+      "label": "Hypoxemic"
+    },
+    {
+      "id": "myopericarditis",
+      "label": "Myopericarditis"
+    },
+    {
+      "id": "paroxysmal",
+      "label": "Paroxysmal"
+    },
+    {
+      "id": "presentation",
+      "label": "Presentation"
+    }
+  ]
+}
