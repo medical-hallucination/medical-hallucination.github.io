@@ -1,0 +1,117 @@
+## Gram-Negative Bacteremia And Glomerulonephritis
+
+Could the gram-negative bacteremia have contributed to the immunopathogenesis of this patient's glomerulonephritis? IgA nephropathy is caused by defects of mucosal immunity, and the interplay between this glomerular disease and intestinal disorders is well documented. Flares of IgA nephropathy may occur synchronously with gastrointestinal infections. Patients with IgA vasculitis (Henoch–Schönlein purpura) may present with crampy abdominal pain. That said, rapidly progressive IgA nephropathy would be a highly unusual new diagnosis in a 71-year-old patient with no previous episodes of macroscopic hematuria. It is possible that he had an ANCA-negative necrotizing and crescentic glomerulonephritis that mimicked ANCA-positive glomerulonephritis. Both IgA nephropathy and ANCA-negative glomerulonephritis must remain in the differential diagnosis.
+
+The most likely diagnosis in this patient is anti-GBM disease - a cause of rapidly progressive glomerulonephritis in both the young and the old. Anti-GBM disease may cause pulmonary bleeding, but this patient had no evidence of such bleeding. Anti-GBM disease does not affect abdominal organs. Do the crampy abdominal pain and gram-negative anaerobic bacteremia provide insight into the disease process in this patient?
+
+Autoimmune diseases occur as a consequence of multiple factors and not a single "hit." The patient must lose immunologic tolerance to the autoantigen; specifically, patients with anti-GBM disease lose immunologic tolerance to a remarkably restricted epitope on the noncollagenous domain of the alpha-3 chain of type IV collagen, known as alpha-3(IV)NC1 or Goodpasture's antigen. This antigen is normally hidden from immune surveillance and must undergo a structural change or "autoantigen conformopathy" to permit its interaction with circulating anti-GBM antibodies.
+
+Genetic predisposition and environmental factors play a role in autoantibody formation and autoantigen availability. Anti-GBM disease is marked by "spatial and temporal clustering," indicating the importance of genetic and environmental factors. Genetic predisposition is based on a very strong HLA association. Environmental risks are numerous and include cigarette smoking and infection. Ernest Goodpasture's original case (which may actually have been a case of ANCA-positive glomerulonephritis) was associated with the influenza outbreak of 1918. The occurrence of seasonal variations of disease in spring and early summer suggests infectious triggers. In a recent study, 67% of patients with anti-GBM disease had prodromal fever and bacterial infections due to a variety of gram-negative bacteria.
+
+The immunopathogenic potential of microbes in anti-GBM disease has been tested in several ways. An important human B-cell epitope of alpha-3(IV)NC1 overlaps with a T-cell epitope of murine anti-GBM disease, suggesting that a critical amino acid motif is responsible for autoimmunity in anti-GBM disease. When this amino acid motif was screened against microbial protein databases, seven microbe-derived peptides based on this motif were found. Circulating antibodies to these bacteria were discovered in the circulation of patients with anti-GBM disease. Three of these microbial peptides were from bacteroides species.
+
+This patient's anti-GBM disease may be an example of molecular mimicry induced by a gram-negative anaerobe such as bacteroides or other gram-negative bacteria that contribute to diverticulitis. There are two other mechanisms by which infection may have exacerbated the disease. First, anti-GBM antibodies can be found in the circulation for months or years before the manifestation of disease, and it is possible that a bacteroides infection revved up the production of anti-GBM antibodies. Second, the critical alpha-3(IV)NC1 epitope must undergo autoantigen conformopathy, and it is possible that an infectious milieu exposed the hidden antigen.
+
+There is another diagnostic consideration in this case. This patient had much more marked proteinuria than would be expected in a patient with anti-GBM disease. A protein:creatinine ratio of 5.71 would most likely result from perturbation of podocytes induced by another glomerular disease. For example, the patient could have had concurrent membranous nephropathy associated with cancer caused by years of cigarette smoking. However, this man, who had obesity and glucose intolerance and was receiving metformin, most likely had mild concurrent diabetic nephropathy. In North America, there is an epidemic of diabetes and diabetic nephropathy that can coexist with any glomerular disease. To establish the diagnosis of anti-GBM disease in this patient, I would perform a kidney biopsy.
+
+Dr. David M. Dudzinski (Cardiology): Dr. Fenves, what was your clinical impression when you evaluated this patient?
+
+Dr. Andrew Z. Fenves: This 71-year-old patient had a rapid decline in renal function and active urinary sediment with red cells and red-cell casts. He had some response to intravenous methylprednisolone. All these findings point to a rapidly progressive (crescentic) glomerulonephritis. Our differential diagnosis included ANCA-positive pauci-immune glomerulonephritis, anti-GBM disease, IgA nephropathy (supported by his episodes of gross hematuria), and the least likely possibility of systemic lupus erythematosus–associated nephritis. The presence of proteinuria in the nephrotic range raised the possibility of NSAID-induced membranous glomerulonephritis or diabetic nephropathy.
+
+# Clinical Diagnosis
+
+Rapidly progressive (crescentic) glomerulonephritis.
+
+Dr. Ronald J. Falk's Diagnoses
+
+- **Anti–glomerular basement membrane disease** causing a crescentic glomerulonephritis.
+- **Diverticulitis** due to *Bacteroides fragilis* and other gram-negative anaerobic bacteria.
+- **Podocytopathy**, possibly due to mild diabetic nephropathy.
+
+# Pathological Discussion
+
+Dr. Ivy A. Rosales: The diagnostic procedures in this case were a core needle biopsy of the kidney, a serum enzyme-linked immunosorbent assay (ELISA), and Western blot analysis. Examination of the biopsy specimen revealed 21 glomeruli, of which 19% were globally sclerosed and 38% were cellular crescents (Fig. 2A and 2B). Segmental necrosis was present in some glomeruli. Red-cell casts (Fig. 2C), reabsorption droplets, and tubular injuries of varying degrees of severity were also present. Approximately 30% of the cortex showed interstitial fibrosis and tubular atrophy. The blood vessels showed mild intimal fibrosis in arteries and arteriolar hyalinosis. Altogether, these findings show evidence of a necrotizing and crescentic glomerulonephritis.
+
+On immunofluorescence microscopy of the glomeruli, the GBM showed bright, global, linear (4+) staining for IgG (Fig. 2D) and a similar pattern and intensity of staining for kappa and lambda. Crescents were positive for fibrin. The GBM showed 3+ to 4+ staining for IgG4, 2+ to 3+ staining for IgG1, and 1+ staining for IgG2. Staining for IgG3 was negative. On electron microscopy, endothelium was reactive. There was global effacement of podocyte foot processes, a finding that accounted for the patient's proteinuria. There were no electron-dense deposits (Fig. 2E). There was no evidence of diabetic nephropathy.
+
+Serum ELISA for the detection and quantitation of antibodies to alpha-3(IV)NC1 was negative at less than 2 reference units per milliliter (positive result, ≥20). Western blot analysis for the detection of antibodies to alpha-3(IV)NC1 was positive.
+
+The findings are diagnostic of anti-GBM disease but with several unusual features. First, the crescents and necrosis were not as prominent as they would be in a classic case of anti-GBM disease, in which the crescents are diffuse, global, and circumferential, typically involving approximately 75% of glomeruli. In this case, the crescents involved less than half the glomeruli and were small, suggesting subacute or transient disease.
+
+Second, serum ELISA was negative for anti-GBM antibodies, whereas the more sensitive Western blot analysis was positive. False negative tests occur in 2 to 3% of cases of anti-GBM disease. In this case, the negative ELISA suggests that the antibody titer was too low for detection.
+
+Finally, this case showed an IgG4-dominant subclass distribution. IgG4 is considered to be inert and has a limited capacity to fix complement and Fc receptors. IgG4 dominance may have accounted for the lesser severity and extent of the glomerular lesions. IgG4 antibodies to alpha-3(IV)NC1 can cause a false negative ELISA. In anti-GBM disease, IgG subclass distribution may be associated with disease severity.
+
+In summary, necrotizing and crescentic glomerulonephritis associated with a positive Western blot analysis for antibodies to alpha-3(IV)NC1 is diagnostic of anti-GBM disease. The relatively modest extent and severity of glomerular lesions and the negative serum ELISA for anti-GBM antibodies are features that have been described in unusual presentations of anti-GBM disease.
+
+# Discussion of Management
+
+Dr. Fenves: Once the diagnosis of anti-GBM disease was established, we treated this patient with intravenous methylprednisolone for 3 consecutive days and oral cyclophosphamide daily for 5 days, followed by a taper. There was no evidence of pulmonary hemorrhage, but this possibility prompted us to proceed with five sessions of plasmapheresis during the 10 days after the kidney biopsy.
+
+Anaerobic blood cultures from the other hospital grew three organisms: *Bacteroides fragilis*, *Fusobacterium nucleatum*, and *Peptoniphilus indolicus*. The bacterial infections were successfully treated with intravenous ceftazidime and metronidazole. Subsequent blood cultures were negative.
+
+Five days after the kidney biopsy, severe abdominal pain developed, along with a leukocyte count of more than 40,000 per cubic millimeter. CT of the abdomen revealed evidence of diverticulitis with a small colonic perforation. The patient initially received conservative treatment but ultimately underwent a sigmoid colectomy and a colostomy. His immunosuppressive medications were withheld for 3 days during the perioperative period. Bilateral deep venous thrombosis developed postoperatively and was treated with intravenous heparin.
+
+During the 2 weeks after kidney biopsy, the patient had fluctuating renal function, with a serum creatinine level ranging from 2.3 to 3.2 mg per deciliter (203 to 283 μmol per liter). He never needed to undergo renal-replacement therapy.
+
+The patient's hospitalization lasted for more than 6 weeks. During that time, he had two episodes of wound dehiscence. The wounds were probably aggravated by ongoing glucocorticoid therapy, and they eventually healed by second intention. There was never any evidence of a pulmonary hemorrhage, a dreaded potential feature of anti-GBM disease that can lead to severe complications and occasionally to death. Toward the end of his hospital course, the patient received intravenous rituximab. His serum creatinine level at discharge was 2.0 mg per deciliter (177 μmol per liter).
+
+Three months after discharge, the patient received a second dose of intravenous rituximab. Cyclophosphamide was stopped after 3 months, and prednisone was tapered over a 5-month period and then discontinued. The patient had a successful reversal of the colostomy 1 year later. Now, 16 months after he received the diagnosis of anti-GBM disease, he is doing well, with a serum creatinine level of 1.5 mg per deciliter (133 μmol per liter), and he is currently receiving no immunosuppressive medications.
+
+# Anatomical Diagnosis
+
+Anti–glomerular basement membrane disease.
+
+This case was presented at the Medicine Grand Rounds. Supported in part by the Case Records of the Massachusetts General Hospital McNeely Visiting Professor Series.
+
+Disclosure forms provided by the authors are available with the full text of this article at NEJM.org.
+
+We thank Drs. Charles Jennette, David Van Duin, William Hyslop, and Manish Saha for their help in preparing for the conference and for providing a critical review of a previous draft of the manuscript; Bernard Collins for his assistance with and input on the enzyme-linked immunosorbent assay and Western blot analysis; Drs. Rex Neal Smith and Robert Colvin for their input on the pathological discussion; and Dr. Frank Cortazar for helpful suggestions regarding the treatment of this patient.
+
+References
+
+1. Charles Jennette J, Falk RJ. Glomerular clinicopathologic syndromes. In: Gilbert SJ, Weiner DE, eds. Primer on kidney diseases. 7th ed. Philadelphia: Elsevier, 2018:162.
+
+2. Raghavan R, Eknoyan G. Acute interstitial nephritis: a reappraisal and update. Clin Nephrol 2014;82:149-62.
+
+3. Coppo R. The intestine-renal connection in IgA nephropathy. Nephrol Dial Transplant 2015;30:360-6.
+
+4. Falk RJ, Jennette JC. ANCA disease: where is this field heading? J Am Soc Nephrol 2010;21:745-52.
+
+5. Butkowski RJ, Langeveld JP, Wieslander J, Hamilton J, Hudson BG. Localization of the Goodpasture epitope to a novel chain of basement membrane collagen. J Biol Chem 1987;262:7874-7.
+
+6. Wieslander J, Kataja M, Hudson BG. Characterization of the human Goodpasture antigen. Clin Exp Immunol 1987;69: 332-40.
+
+7. Hudson BG, Tryggvason K, Sundaramoorthy M, Neilson EG. Alport's syndrome, Goodpasture's syndrome, and type IV collagen. N Engl J Med 2003;348:2543-56.
+
+8. Canney M, O'Hara PV, McEvoy CM, et al. Spatial and temporal clustering of anti-glomerular basement membrane disease. Clin J Am Soc Nephrol 2016;11: 1392-9.
+
+9. Fisher M, Pusey CD, Vaughan RW, Rees AJ. Susceptibility to anti-glomerular basement membrane disease is strongly associated with HLA-DRB1 genes. Kidney Int 1997;51:222-9.
+
+10. Wilson CB, Smith RC. Goodpasture's syndrome associated with influenza A2 virus infection. Ann Intern Med 1972;76: 91-4.
+
+11. Gu QH, Xie LJ, Jia XY, et al. Fever and prodromal infections in anti-glomerular basement membrane disease. Nephrology (Carlton) 2018;23:476-82.
+
+12. Li JN, Jia X, Wang Y, et al. Plasma from patients with anti-glomerular basement membrane disease could recognize microbial peptides. PLoS One 2017;12(4): e0174553.
+
+13. Olson SW, Arbogast CB, Baker TP, et al. Asymptomatic autoantibodies associate with future anti-glomerular basement membrane disease. J Am Soc Nephrol 2011;22:1946-52.
+
+14. Pedchenko V, Bondar O, Fogo AB, et al. Molecular architecture of the Goodpasture autoantigen in anti-GBM nephritis. N Engl J Med 2010;363:343-54.
+
+15. O'Shaughnessy MM, Hogan SL, Poulton CJ, et al. Temporal and demographic trends in glomerular disease epidemiology in the southeastern United States, 1986-2015. Clin J Am Soc Nephrol 2017;12:614-23.
+
+16. Jennette JC. Rapidly progressive crescentic glomerulonephritis. Kidney Int 2003; 63:1164-77.
+
+17. McAdoo SP, Pusey CD. Anti-glomerular basement membrane disease. Clin J Am Soc Nephrol 2017;12:1162-72.
+
+18. Ohlsson S, Herlitz H, Lundberg S, et al. Circulating anti-glomerular basement membrane antibodies with predominance of subclass IgG4 and false-negative immunoassay test results in anti-glomerular basement membrane disease. Am J Kidney Dis 2014;63:289-93.
+
+19. Rosales IA, Colvin RB. Glomerular disease with idiopathic linear immunoglobulin deposition: a rose by any other name would be atypical. Kidney Int 2016; 89:750-2.
+
+20. Nasr SH, Collins AB, Alexander MP, et al. The clinicopathologic characteristics and outcome of atypical anti-glomerular basement membrane nephritis. Kidney Int 2016;89:897-908.
+
+21. Zhao J, Yan Y, Cui Z, Yang R, Zhao MH. The immunoglobulin G subclass distribution of anti-GBM autoantibodies against rHalpha3(IV)NC1 is associated with disease severity. Hum Immunol 2009;70: 425-9.
+
+22. Salama AD, Dougan T, Levy JB, et al. Goodpasture's disease in the absence of circulating anti-glomerular basement membrane antibodies as detected by standard techniques. Am J Kidney Dis 2002;39:1162-7.
+
+Copyright © 2018 Massachusetts Medical Society.

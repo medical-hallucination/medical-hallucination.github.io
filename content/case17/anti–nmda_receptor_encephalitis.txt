@@ -1,0 +1,11 @@
+## Anti–NMDA Receptor Encephalitis
+
+Clinical criteria provide a means to diagnose probable anti–NMDA receptor encephalitis before the results of confirmatory testing are available (Table 3). This patient meets all the criteria; however, alternative disorders need to be ruled out. The most relevant alternative disorder to consider in this patient is CNS infection caused by enterovirus or herpes simplex virus, which should be ruled out by means of polymerase-chain-reaction (PCR) assays of the CSF.
+
+To confirm the diagnosis of anti–NMDA receptor encephalitis, I would send serum and CSF specimens to a laboratory that is capable of performing both immunohistochemical and cell-based assays for autoantibodies. Serum testing for anti–NMDA receptor antibodies is 85% sensitive, whereas CSF testing is 100% sensitive. However, serum testing is clinically useful (since serum specimens can be obtained for monitoring more easily than CSF specimens) and can also be helpful in detecting antineuronal antibodies other than anti–NMDA receptor antibodies.
+
+Dr. Virginia M. Pierce (Pathology): Dr. Gombolay, what was your clinical impression when you evaluated this patient?
+
+Dr. Grace Y. Gombolay: We initially thought that infectious meningoencephalitis was the most likely diagnosis. However, our laboratory evaluation for infectious causes of encephalitis was unrevealing; CSF PCR assays for herpes simplex virus, varicella–zoster virus, Epstein–Barr virus, West Nile virus, and *M. pneumoniae* were negative, as were CSF tests for antibodies to *M. pneumoniae* and Powassan virus and serum tests for antibodies to *M. pneumoniae* and Epstein–Barr virus. With the development of choreiform movements, an autoimmune cause such as anti–NMDA receptor encephalitis was thought to be most likely. We sent serum and CSF samples to a reference laboratory for testing for anti–NMDA receptor antibodies and other autoantibodies.
+
+On the sixth hospital day, a repeat lumbar puncture was performed; the CSF white-cell count was 43 per cubic millimeter (91% lymphocytes). A CSF PCR assay for herpes simplex virus was again negative, ruling out the possibility of an initial false negative test. A 5-day course of intravenous methylprednisolone was initiated empirically.

@@ -1,0 +1,49 @@
+## Presentation Of Case
+
+Dr. William J. Hucker: A 63-year-old man was evaluated at this hospital because of syncope.
+
+Approximately 13 years before admission, the patient had an out-of-hospital cardiac arrest and was found to have multivessel coronary artery disease. He underwent coronary-artery bypass grafting (CABG) at another hospital, with grafting of the left internal mammary artery to the left anterior descending coronary artery, grafting of a segment of a radial artery to an obtuse marginal branch of the left circumflex coronary artery, and grafting of a saphenous vein to the posterior descending artery. Thereafter, he was followed by a local cardiologist, and he remained active and worked full-time, without cardiac symptoms or limitations.
+
+The night before admission, the patient drank 12 beers. Later that night, after he stood up to walk to the bathroom, his wife heard a thud and found him on the floor of the bedroom. He had sustained facial trauma. She noted that he looked gray, and she started to administer chest compressions. She did not check his pulse or observe jerking movements or tongue laceration, but she noted that he may have had some urinary incontinence. The patient regained consciousness after chest compressions had been administered for a few seconds.
+
+On evaluation by emergency medical services personnel, the patient was awake and alert. He did not recall having any prodromal symptoms, although he could not remember anything that had happened before emergency personnel had arrived. The initial heart rate was 50 beats per minute, the blood pressure 65/40 mm Hg, and the blood glucose level 98 mg per deciliter (5.4 mmol per liter) on fingerstick testing. An electrocardiogram reportedly showed horizontal ST-segment depressions of 1 mm in the inferior leads. The patient initially refused medical care, but he stumbled when he stood up, so he was brought to the emergency department of this hospital.
+
+A review of systems was negative for chest pain, dyspnea, palpitations, lightheadedness, dizziness, edema, and constitutional symptoms. The patient reported mild, progressive bilateral hearing loss and intermittent numbness of the lower legs. He had a history of hypertension, dyslipidemia, gout, varicose veins, and venous insufficiency, and he had undergone a knee replacement 9 months previously for the treatment of osteoarthritis. Medications included clopidogrel, metoprolol succinate, furosemide, ezetimibe, and allopurinol. Statin therapy had been stopped 3 months previously owing to persistent elevations in the creatine kinase level; in addition, sulfa drugs had caused a rash and aspirin use may have been associated with dyspepsia. The patient had a long-term history of alcohol consumption, typically 8 to 12 beers daily, and withdrawal symptoms had occurred in the hospital after his knee replacement. He smoked currently and had smoked up to 1 pack of cigarettes daily for 35 years. There was no history of illicit-drug use. The patient lived with his wife, had two grown children, and was employed as a mechanic. His father had died from a myocardial infarction at 56 years of age, and his mother had died from colon cancer at 76 years of age.
+
+On examination, the temperature was 36.2°C, the heart rate 68 beats per minute, the blood pressure 100/60 mm Hg and symmetric in both arms, and the oxygen saturation 99% while the patient was breathing ambient air. He appeared to be comfortable. He had flushed skin and superficial abrasions on the left side of the forehead. The jugular venous pressure was 5 cm of water, and the carotid pulses were 2+ without bruits. A sternotomy incision was well approximated. Cardiac examination revealed a normal apical impulse and a normal rhythm, without murmur or rub. Auscultation of the lung revealed a prolonged expiratory phase, without wheezes or rales. Mild varicosities were present in the lower legs, without edema. Scars from the venectomy, knee replacement, and harvest of the left radial artery were all well healed. The stool was guaiac-negative. The remainder of the examination, including a comprehensive neurologic evaluation, was normal.
+
+Blood levels of thyrotropin, glycated hemoglobin, phosphorus, total protein, albumin, globulin, bilirubin, and alkaline phosphatase were normal, as were the white-cell differential count, prothrombin time, and partial-thromboplastin time. Other laboratory test results are shown in Table 1. An electrocardiogram showed sinus rhythm, borderline first-degree atrioventricular block, left atrial abnormality, and anterolateral J-point elevation but no ST-segment changes (Fig. 1A). Aspirin and intravenous heparin were administered, and the patient was admitted to the cardiology service. Imaging studies were obtained.
+
+From the Departments of Medicine (R.B.W., W.J.H., D.M.D.), Radiology (N.M.M.), and Pathology (J.R.S.), Massachusetts General Hospital, and the Departments of Medicine (R.B.W., W.J.H., D.M.D.), Radiology (N.M.M.), and Pathology (J.R.S.), Harvard Medical School - both in Boston. 
+
+| Table 1. Laboratory Data.*                     | Reference Range, Adults† | On Presentation, This Hospital | 9 Hr after Presentation, This Hospital |
+|-----------------------------------------------|--------------------------|-------------------------------|---------------------------------------|
+| Hemoglobin (g/dl)                             | 13.5–17.5                | 13.4                          |                                       |
+| Hematocrit (%)                                | 41.0–53.0                | 36.7                          |                                       |
+| White-cell count (per mm³)                     | 4500–11,000              | 6200                          |                                       |
+| Platelet count (per mm³)                      | 150,000–400,000          | 222,000                       |                                       |
+| Sodium (mmol/liter)                           | 135–145                  | 129                           |                                       |
+| Potassium (mmol/liter)                        | 3.4–4.8                  | 3.1                           |                                       |
+| Chloride (mmol/liter)                         | 100–108                  | 92                            |                                       |
+| Carbon dioxide (mmol/liter)                   | 23.0–31.9                | 22.4                          |                                       |
+| Urea nitrogen (mg/dl)                         | 8–25                     | 10                            |                                       |
+| Creatinine (mg/dl)                            | 0.60–1.50                | 1.17                          |                                       |
+| Glucose (mg/dl)                               | 70–110                   | 93                            |                                       |
+| Magnesium (mg/dl)                             | 1.7–2.4                  | 1.5                           |                                       |
+| Calcium (mg/dl)                               | 8.5–10.5                 | 8.4                           |                                       |
+| Alanine aminotransferase (U/liter)            | 10–55                    | 38                            |                                       |
+| Aspartate aminotransferase (U/liter)          | 10–40                    | 60                            |                                       |
+| Lipase (U/liter)                              | 13–60                    | 128                           |                                       |
+| Ethanol (mg/liter)                            | Not defined; toxic, >1000| 2347                          |                                       |
+| Troponin (ng/ml)                              | <0.03                    | 0.04                          | 0.03                                  |
+| Creatine kinase (U/liter)                     | 60–400                   |                               | 887                                   |
+| Creatine kinase isoenzymes (ng/ml)            | 0.0–6.9                  |                               | 7.8                                   |
+
+*To convert the values for urea nitrogen to millimoles per liter, multiply by 0.357. To convert the values for creatinine to micromoles per liter, multiply by 88.4. To convert the values for glucose to millimoles per liter, multiply by 0.05551. To convert the values for magnesium to millimoles per liter, multiply by 0.4114. To convert the values for calcium to millimoles per liter, multiply by 0.250. To convert the values for ethanol to millimoles per liter, multiply by 0.2171.
+
+†Reference values are affected by many variables, including the patient population and the laboratory methods used. The ranges used at Massachusetts General Hospital are for adults who are not pregnant and do not have medical conditions that could affect the results. They may therefore not be appropriate for all patients.
+
+N Engl J Med 2018;379:670-80. DOI: 10.1056/NEJMcpc1800340  
+Copyright © 2018 Massachusetts Medical Society.
+
+#

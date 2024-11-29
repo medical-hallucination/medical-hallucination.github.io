@@ -1,0 +1,10 @@
+## Paradoxical Emboli
+
+Paradoxical embolism is the passage of venous thromboemboli into the arterial circulation, which results in systemic embolization. It can occur by way of a patent foramen ovale, a common finding in the general population. This patient had been hospitalized and sedentary, and it is likely that he had pneumonia and was in a hypercoagulable state; these features are consistent with paradoxical emboli. However, echocardiography that was performed after the administration of agitated saline revealed no evidence of a shunt, and ultrasonography of the arms and legs was negative for a thrombus. Although paradoxical emboli are unlikely in this case, it should be noted that the echocardiography was performed while the patient was receiving mechanical ventilation, so it is unlikely that a Valsalva maneuver was performed to enhance the detection of a shunt; however, positive-pressure ventilation may increase right atrial pressure and enhance right-to-left interatrial shunting. In addition, the patient underwent TTE, whereas transesophageal echocardiography (TEE) is more sensitive for the detection of a patent foramen ovale. Finally, the patient received the agitated saline injection in a vein in the arm, whereas injection into the leg is more sensitive for the detection of a patent foramen ovale.
+
+1663   
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+
+![6_image_0.png](6_image_0.png)
+
+#

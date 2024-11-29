@@ -1,0 +1,15 @@
+## References
+
+1. Scheffer IE, Berkovic S, Capovilla G, et al. ILAE classification of the epilepsies: position paper of the ILAE Commission for Classification and Terminology. Epilepsia 2017;58:512-21.
+2. Glaser CA, Honarmand S, Anderson LJ, et al. Beyond viruses: clinical profiles and etiologies associated with encephalitis. Clin Infect Dis 2006;43:1565-77.
+3. Gable MS, Gavali S, Radner A, et al. Anti-NMDA receptor encephalitis: a report of ten cases and comparison with viral encephalitis. Eur J Clin Microbiol Infect Dis 2009;28:1421-9.
+4. Gable MS, Sheriff H, Dalmau J, Tilley DH, Glaser CA. The frequency of autoimmune N-methyl-D-aspartate receptor encephalitis surpasses that of individual viral etiologies in young individuals enrolled in the California Encephalitis Project. Clin Infect Dis 2012;54:899-904.
+5. Graus F, Titulaer MJ, Balu R, et al. A clinical approach to diagnosis of autoimmune encephalitis. Lancet Neurol 2016; 15:391-404.
+6. Titulaer MJ, McCracken L, Gabilondo I, et al. Treatment and prognostic factors for long-term outcome in patients with anti-NMDA receptor encephalitis: an observational cohort study. Lancet Neurol 2013;12:157-65.
+7. Dalmau J, Tüzün E, Wu HY, et al. Paraneoplastic anti-N-methyl-D-aspartate receptor encephalitis associated with ovarian teratoma. Ann Neurol 2007; 61:25-36.
+8. Remy KE, Custer JW, Cappell J, et al. Pediatric anti-N-methyl-d-aspartate receptor encephalitis: a review with pooled analysis and critical care emphasis. Front Pediatr 2017;5:250.
+9. Dalmau J, Lancaster E, Martinez-Hernandez E, Rosenfeld MR, Balice-Gordon R. Clinical experience and laboratory investigations in patients with anti-NMDAR encephalitis. Lancet Neurol 2011;10:63-74.
+10. Azizyan A, Albrektson JR, Maya MM, Pressman BD, Moser F. Anti-NMDA encephalitis: an uncommon, autoimmune mediated form of encephalitis. J Radiol Case Rep 2014;8:1-6.
+11. Iizuka T, Yoshii S, Kan S, et al. Reversible brain atrophy in anti-NMDA receptor encephalitis: a long-term observational study. J Neurol 2010;257:1686-91.
+
+Copyright © 2018 Massachusetts Medical Society.

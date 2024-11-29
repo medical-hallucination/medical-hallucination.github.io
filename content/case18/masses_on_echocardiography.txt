@@ -1,0 +1,5 @@
+## Masses On Echocardiography
+
+When interpreting the results of TTE, a common challenge is determining the origin of an intracardiac mass, for which the differential diagnosis includes vegetation, thrombus, and tumor. However, in this case, the masses were not intracardiac but rather external to the heart, in the mediastinum. A mass located in the anterior mediastinum is most commonly one of four types: thymoma, teratoma (germ-cell tumor), lymphoma, or thyroid tissue. The heart is in the middle mediastinal compartment, and the most common mass to develop in this area is lymphadenopathy associated with lymphoma or lung cancer. This patient had no clinical evidence of these conditions. Another possibility is lymphadenopathy associated with sarcoidosis, and although cardiac sarcoid may cause syncope (resulting from arrhythmic or myocardial causes), chest imaging studies did not show evidence of lymphadenopathy. In this case, the lesions detected on TTE do not seem to fit with any of the common types of extracardiac masses.
+
+##
