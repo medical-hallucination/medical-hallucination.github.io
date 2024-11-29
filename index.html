@@ -381,6 +381,22 @@
                     <option value="case2">Case 2: A 36-Year-Old Pregnant Woman with Newly Diagnosed Adenocarcinoma</option>
                     <option value="case3">Case 3: A 29-Year-Old Woman with Nausea, Vomiting, and Diarrhea</option>
                     <option value="case4">Case 4: A 73-Year-Old Man with Hypoxemic Respiratory Failure and Cardiac Dysfunction</option>
+                    <option value="case5">Case 5: A 58-Year-Old Woman with Paresthesia and Weakness of the Left Foot and Abdominal Wall</option>
+                    <option value="case6">Case 6: A 23-Year-Old Woman with Vision Loss</option>
+                    <option value="case7">Case 7: A 37-Year-Old Man with a Self-Inflicted Gunshot Wound</option>
+                    <option value="case8">Case 8: A 31-Year-Old Woman with Infertility</option>
+                    <option value="case9">Case 9: A 48-Year-Old Man with Fever, Chills, Myalgias, and Rash</option>
+                    <option value="case10">Case 10: A 29-Year-Old Man with an Incidentally Discovered Renal Mass</option>
+                    <option value="case11">Case 11: A 66-Year-Old Woman with Chronic Abdominal Pain</option>
+                    <option value="case12">Case 12: A 57-Year-Old Man with Confusion, Fever, Malaise, and Weight Loss</option>
+                    <option value="case13">Case 13: A 71-Year-Old Man with Acute Renal Failure and Hematuria</option>
+                    <option value="case14">Case 14: A 36-Year-Old Man with Episodes of Confusion and Hypoglycemia</option>
+                    <option value="case15">Case 15: A 64-Year-Old Man with Progressive Leg Weakness, Recurrent Falls, and Anemia</option>
+                    <option value="case16">Case 16: A 45-Year-Old Woman with Hypertension, Fatigue, and Altered Mental Status</option>
+                    <option value="case17">Case 17: A 3-Year-Old Boy with Seizures</option>
+                    <option value="case18">Case 18: A 63-Year-Old Man with Syncope</option>
+                    <option value="case19">Case 19: An 83-Year-Old Woman with Nausea, Vomiting, and Confusion</option>
+                    <option value="case20">Case 20: A 64-Year-Old Man with Fever, Arthralgias, and Testicular Pain</option>
                 </select>
                 <span class="timer" id="readingTimer">  Time: 00:00</span>
             </div>
@@ -497,7 +513,7 @@
         // Define available sections for each case
         const caseSections = {
             case1: [
-                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
                 { id: 'differential', label: 'Differential Diagnosis' },
                 { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
                 { id: 'sarah', label: "Dr. Sarah V. Tsiaras's Diagnosis" },
@@ -508,7 +524,7 @@
                 { id: 'final_diagnosis', label: 'Final Diagnosis' }
             ],
             case2: [
-                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
                 { id: 'differential', label: 'Differential Diagnosis' },
                 { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
                 { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
@@ -519,7 +535,7 @@
                 { id: 'final_discussion', label: 'Final Discussion' }
             ],
             case3: [
-                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
                 { id: 'diagnosis', label: 'Diagnosis' },
                 { id: 'doctor_diagnosis', label: "Doctor's Diagnosis" },
                 { id: 'discussion_of_obstetric', label: 'Discussion of Obstetric' },
@@ -535,7 +551,7 @@
                 { id: 'pathological_discussion', label: 'Pathological Discussion' }
             ],
             case4: [
-                { id: 'presentation', label: 'Presentation of Case' },
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
                 { id: 'differential', label: 'Differential Diagnosis' },
                 { id: 'diagnostic_testing', label: 'Diagnostic Testing' },
                 { id: 'doctor_diagnosis', label: "Doctor's Diagnosis" },
@@ -548,7 +564,219 @@
                 { id: 'discussion_of_management', label: 'Discussion of Management' },
                 { id: 'follow-up', label: 'Follow-up' },
                 { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+            case5: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'localization', label: 'Localization' },
+                { id: 'dr_haatem_diagnosis', label: "Dr. Haatem M. Reda's Diagnosis" },
+                { id: 'diabetic_polyradiculopathy', label: 'Diabetic Polyradiculopathy' },
+                { id: 'inflammatory_polyneuropathy', label: 'Inflammatory Polyneuropathy' },
+                { id: 'multiple_mononeuropathies', label: 'Multiple Mononeuropathies' },
+                { id: 'neurosarcoidosis', label: 'Neurosarcoidosis' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case6: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'diagnostic_imaging', label: 'Diagnostic Imaging Studies' },
+                { id: 'localization', label: 'Localization' },
+                { id: 'autoimmune_conditions', label: 'Autoimmune Conditions' },
+                { id: 'disorders_of_optic_nerve', label: 'Disorders of the Optic Nerve' },
+                { id: 'disorders_of_retina', label: 'Disorders of the Retina' },
+                { id: 'brao_embolic_disease', label: 'BRAO Embolic Disease' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case7: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'risk_factors', label: 'Risk Factors for Suicide' },
+                { id: 'mental_health', label: 'Mental Health' },
+                { id: 'discussion_initial_management', label: 'Discussion of Initial Management' },
+                { id: 'discussion_further_management', label: 'Discussion of Further Management' },
+                { id: 'lethal_means', label: 'Lethal Means' },
+                { id: 'discussion_intentionality', label: 'Discussion of Intentionality and Prevention' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'prevention', label: 'Prevention' },
+                { id: 'final_diagnosis', label: 'Final Diagnoses' }
+            ],
+
+            case8: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'androgen_insensitivity', label: 'Androgen Insensitivity Syndrome' },
+                { id: 'müllerian_aplasia', label: 'Müllerian Aplasia' },
+                { id: 'leydig_cell_hypoplasia', label: 'Leydig-Cell Hypoplasia' },
+                { id: 'steroidogenic_defects', label: 'Steroidogenic Enzyme Defects' },
+                { id: 'discussion_imaging_studies', label: 'Discussion of Imaging Studies' },
+                { id: 'discussion_urologic_management', label: 'Discussion of Urologic Management' },
+                { id: 'discussion_infertility_management', label: 'Discussion of Infertility Management and Follow-up' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case9: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'reevaluation', label: 'Reevaluation of the Clinical Presentation' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'diagnostic_testing', label: 'Diagnostic Testing' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'eosinophilia', label: 'Eosinophilia' },
+                { id: 'parasitic_infection', label: 'Parasitic Infection' },
+                { id: 'addisons_disease', label: 'Addison’s Disease' },
+                { id: 'cancer', label: 'Cancer' },
+                { id: 'hhv6_infection', label: 'HHV-6 Infection' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case10: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'benign_renal_tumor', label: 'Benign Renal Tumor' },
+                { id: 'renal_cell_carcinoma', label: 'Renal-Cell Carcinoma' },
+                { id: 'inflammatory_mass', label: 'Inflammatory or Infectious Mass' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case11: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'dr_anna_diagnosis', label: "Dr. Anna K. Rubin's Diagnosis" },
+                { id: 'helminth_infection', label: 'Helminth Infection' },
+                { id: 'soil_transmitted_helminths', label: 'Soil-Transmitted Helminths' },
+                { id: 'strongyloides', label: 'Strongyloides' },
+                { id: 'angiostrongylus', label: 'Angiostrongylus' },
+                { id: 'eosinophilia', label: 'Eosinophilia' },
+                { id: 'abdominal_tuberculosis', label: 'Abdominal Tuberculosis' },
+                { id: 'colonoscopy', label: 'Colonoscopy and Histopathologic Examination' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'next_steps', label: 'Next Steps' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case12: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'diagnostic_studies', label: 'Diagnostic Studies' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'antiphospholipid_syndrome', label: 'Antiphospholipid Antibody Syndrome' },
+                { id: 'atrial_myxoma', label: 'Atrial Myxoma' },
+                { id: 'paradoxical_emboli', label: 'Paradoxical Emboli' },
+                { id: 'nonbacterial_thrombotic_endocarditis', label: 'Nonbacterial Thrombotic Endocarditis' },
+                { id: 'heparin_thrombocytopenia', label: 'Heparin-Induced Thrombocytopenia' },
+                { id: 'infectious_causes', label: 'Infectious Causes of Systemic Embolization' },
+                { id: 'mural_thrombi', label: 'Mural Thrombi Associated with Cardiomyopathy' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case13: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'urinary_sediment', label: 'Examination of the Urinary Sediment' },
+                { id: 'glomerulonephritis', label: 'Gram-Negative Bacteremia and Glomerulonephritis' },
+                { id: 'infection_and_kidney', label: 'Infection and Kidney Disease' },
+                { id: 'rapidly_progressive', label: 'Rapidly Progressive Glomerulonephritis' }
+            ],
+
+            case14: [], // No files listed for case 14
+
+            case15: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'diagnostic_testing', label: 'Diagnostic Testing' },
+                { id: 'falls_in_older_patients', label: 'Falls in Older Patients' },
+                { id: 'falls_with_nutritional_deficiencies', label: 'Falls in Patients with Nutritional Deficiencies' },
+                { id: 'falls_with_alcohol_use', label: 'Falls in Patients with Alcohol Use' },
+                { id: 'orthostatic_hypotension', label: 'Orthostatic Hypotension' },
+                { id: 'scurvy', label: 'Scurvy' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnoses', label: 'Final Diagnoses' }
+            ],
+
+            case16: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'cushings_syndrome', label: 'Cushing’s Syndrome' },
+                { id: 'corticotropin_dependent', label: 'Corticotropin-Dependent Cushing’s Syndrome' },
+                { id: 'corticotropin_independent', label: 'Corticotropin-Independent Cushing’s Syndrome' },
+                { id: 'primary_aldosteronism', label: 'Primary Aldosteronism' },
+                { id: 'mineralocorticoid_receptor', label: 'Activation of the Mineralocorticoid Receptor' },
+                { id: 'hypertension', label: 'Hypertension' },
+                { id: 'laboratory_data', label: 'Laboratory Data' },
+                { id: 'dr_carl_pallais_diagnosis', label: "Dr. J. Carl Pallais's Diagnosis" },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'discussion_of_management', label: 'Discussion of Diagnostic Testing and Management' },
+                { id: 'follow_up', label: 'Follow-Up' }
+            ],
+
+            case17: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'anti_nmda_encephalitis', label: 'Anti-NMDA Receptor Encephalitis' },
+                { id: 'movement_disorder', label: 'Encephalitis with Movement Disorder' },
+                { id: 'first_admission', label: 'First Admission: First-Time Seizure' },
+                { id: 'second_admission', label: 'Second Admission: Encephalitis' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case18: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'cardiac_causes', label: 'Cardiac Causes of Syncope' },
+                { id: 'syncope_orthostatic', label: 'Syncope Due to Orthostatic Hypotension' },
+                { id: 'coronary_aneurysm', label: 'Coronary-Artery Aneurysm or Fistula' },
+                { id: 'saphenous_vein_graft', label: 'Saphenous-Vein–Graft Aneurysm' },
+                { id: 'diagnostic_evaluation', label: 'Diagnostic Evaluation' },
+                { id: 'cardiac_imaging', label: 'Cardiac Imaging Studies and Discussion of Management' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'follow_up', label: 'Follow-Up' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case19: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'diagnostic_testing', label: 'Diagnostic Testing' },
+                { id: 'cardiopulmonary_disorders', label: 'Cardiopulmonary Disorders' },
+                { id: 'electrolyte_disturbances', label: 'Electrolyte and Metabolic Disturbances' },
+                { id: 'delirium', label: 'Delirium' },
+                { id: 'infection', label: 'Infection' },
+                { id: 'drugs', label: 'Drugs' },
+                { id: 'narrowing_differential', label: 'Narrowing the Differential Diagnosis' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' },
+                { id: 'final_diagnosis', label: 'Final Diagnosis' }
+            ],
+
+            case20: [
+                { id: 'presentation_of_case', label: 'Presentation of Case' },
+                { id: 'differential', label: 'Differential Diagnosis' },
+                { id: 'clinical_diagnosis', label: 'Clinical Diagnosis' },
+                { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
+                { id: 'infection', label: 'Infection' },
+                { id: 'vasculitis', label: 'Vasculitis' },
+                { id: 'pathological_discussion', label: 'Pathological Discussion' },
+                { id: 'discussion_of_management', label: 'Discussion of Management' }
             ]
+
+
         };
 
         function switchCase(caseId) {
@@ -580,7 +808,7 @@
             }
             
             // Load initial content
-            loadContent('presentation');
+            loadContent('presentation_of_case');
         }
 
         // Modified initialization code
@@ -1210,7 +1438,7 @@
 
         // Initialize everything on page load
         document.addEventListener('DOMContentLoaded', () => {
-            loadContent('presentation');
+            loadContent('presentation_of_case');
             loadCommentDrafts();
             
             // Set first highlight button as active
