@@ -1,0 +1,7 @@
+## Eosinophilia
+
+Eosinophils serve many functions in the body, including mediation of allergic responses, eradication of parasitic infections, and down-regulation of the inflammatory response. Eosinophils reside mainly in tissues, and a normal absolute eosinophil count in the peripheral blood is 0 to 500 per cubic millimeter. Eosinophilia is defined as the presence of an absolute eosinophil count of more than 500 per cubic millimeter and is often categorized as mild (500 to <1500 eosinophils per cubic millimeter), moderate (1500 to 5000), or severe (>5000). It can also be categorized according to whether it is polyclonal (reactive) in nature or whether it is caused by clonal expansion due to a neoplastic process. 
+
+On admission to the hospital, this patient had a total white-cell count of 11,000 per cubic millimeter, and 23% of those cells were eosinophils (absolute eosinophil count, 2530 per cubic millimeter). This degree of eosinophilia is considered to be moderate. In developing a differential diagnosis for this patient, I will focus on the common causes of eosinophilia, including cancer, Addison's disease, parasitic infections, and allergy. Various connective-tissue diseases and rheumatologic conditions can also cause eosinophilia, but I do not think these diseases are likely to explain this patient's presenting symptoms.
+
+#

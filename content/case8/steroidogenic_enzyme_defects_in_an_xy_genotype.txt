@@ -1,0 +1,7 @@
+## Steroidogenic Enzyme Defects in an XY Genotype
+
+Defects of enzymes involved in early steroidogenesis in the context of an XY genotype may lead to a clinical phenotype similar to that seen in this patient. In 17β-hydroxysteroid dehydrogenase deficiency, androstenedione (a weak androgen) is synthesized but testosterone is not. Because the fetus is not exposed to a potent androgen, typical male genital differentiation does not occur. However, patients with 17β-hydroxysteroid dehydrogenase deficiency usually undergo virilization during puberty if the testes have not been removed, and such virilization was not seen in this patient.
+
+A deficiency of P450c17, an enzyme complex that mediates the activity of both 17α-hydroxylase and 17,20-lyase, would lead to profound fetal androgen deficiency. Patients with this condition have female external genitalia at birth, as did this patient. However, patients with this condition would be expected to present with an adrenal crisis early in life because the synthesis of glucocorticoids would be impaired. Milder deficiencies of P450c17 can result in delayed puberty, hypokalemia, and hypertension. Overall, given the absence of relevant clinical characteristics in this patient, these steroidogenic enzyme defects can be ruled out.
+
+##

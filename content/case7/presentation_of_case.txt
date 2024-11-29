@@ -1,0 +1,56 @@
+## Presentation of Case
+
+Dr. Jordan P. Bloom (Surgery): A 37-year-old man was admitted to the surgical intensive care unit (ICU) of this hospital because of a self-inflicted gunshot wound.
+
+The patient had been in his usual state of health until 2 days before admission. That evening, while he was at home with his family, he reportedly was drinking alcohol and appeared to be upset. He left the room. Shortly after midnight, his wife heard a gunshot. She found the patient slumped forward in a chair in the kitchen, next to his AR-15 semiautomatic rifle, with severe facial injuries. He was conscious and responded appropriately to questions by nodding and shaking his head. The patient's wife called emergency medical services, and the patient was transported to the emergency department of a local hospital, where a tetanus toxoid–containing vaccine, cefazolin, fentanyl, midazolam, intravenous fluids, and a continuous infusion of propofol were administered. A cricothyroidotomy was performed, and mechanical ventilation was initiated. The blood ethanol level was 178 mg per deciliter (reference range, <10). The patient was transferred to a tertiary care center for further treatment.
+
+On examination at the second hospital, the temperature was 36.2°C, the pulse 97 beats per minute, the blood pressure 89/73 mm Hg, the respiratory rate 19 breaths per minute, and the oxygen saturation 98% while the patient was receiving full mechanical ventilatory support (fraction of inspired oxygen [Fio2], 1.00). The weight was 109 kg. There were open wounds involving the submandibular soft tissues and the bones and soft tissues of the middle portion of the left side of the face, extending from the upper lip to the nasal radix (Fig. 1). The globe of the right eye was ruptured. On examination of the lungs, breath sounds were absent on the left side. The remainder of the examination was normal. The platelet count and red-cell indexes were normal, as were the results of renal-function tests; other laboratory test results are shown in Table 1. A urine drug screen was presumptively positive for methamphetamine and negative for other drugs of abuse; confirmatory testing was not performed. A chest radiograph showed intubation of the right main bronchus; the endotracheal tube was adjusted, and a repeat image showed the tube to be well positioned. Additional imaging studies were obtained.
+
+From the Departments of Medicine (C.A.S., G.A.A.), Radiology (S.K.), Surgery (P.T.M.), and Pathology (E.D.P.), Massachusetts General Hospital, and the Departments of Medicine (C.A.S., G.A.A.), Radiology (S.K.), Surgery (P.T.M.), and Pathology (E.D.P.), Harvard Medical School — both in Boston.
+
+N Engl J Med 2018;379:1464-72. DOI: 10.1056/NEJMcpc1807500. Copyright © 2018 Massachusetts Medical Society.
+
+1464   
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+
+![1_image_0.png](1_image_0.png)
+
+Figure 1. Clinical Photograph. A clinical photograph shows an open wound involving the submandibular soft tissues and the bones and soft tissues of the middle portion of the left side of the face, extending from the upper lip to the nasal radix.
+
+Dr. Shahmir Kamalian: Computed tomography (CT) with three-dimensional reconstruction of the face (Fig. 2A) revealed a large entry wound under the chin, extensive tissue damage along the track of the bullet, and a giant exit wound in the middle of the face. The high-velocity bullets fired from military-style AR-15 rifles produce a much larger temporary cavity (the space that forms when tissue moves away from the bullet, before the tissue settles back once the bullet has passed through the body) than the temporary cavity caused by bullets fired from typical handguns; the large temporary cavity is associated with extensive damage to the displaced tissues and a large exit wound. The trajectory of the bullet in this case (Fig. 2A), with the gun fired under the chin while the neck was hyperextended, is suggestive of a suicide attempt. When a bullet is fired in this manner, it often misses the brain, causing a nonlethal wound. Since the gun was fired from the submental region, the bullet caused severe injury to the middle portion of the mandible and face (Fig. 2B). In addition, scattered fragments of bullet that were produced by early impact with the dense mandible acted as secondary projectiles along the track of the bullet (Fig. 2C), causing additional tissue damage and rupture of the right globe (Fig. 2D). The bones of the middle of the face were widely comminuted, with bone fragments extending to the intracranial compartment (Fig. 2E and 2F), conferring a predisposition to meningitis or a cerebrospinal fluid (CSF) leak.
+
+| Table 1. Laboratory Data.*                      |                     |                |                     |               |
+|-------------------------------------------------|---------------------|----------------|---------------------|---------------|
+|                                                 | Reference Range,    | On Admission,  | Reference Range,    | On Admission, |
+| Variable                                        | Other Hospital      | Other Hospital | This Hospital†      | This Hospital |
+| Hematocrit (%)                                  | 39.5–50.2           | 36.7           | 41.0–53.0           | 31.1          |
+| Hemoglobin (g/dl)                               | 13.8–17.3           | 12.8           | 13.5–17.5           | 10.5          |
+| White‑cell count (per mm3)                      | 4000–10,400         | 11,120         | 4500–11,000         | 9840          |
+| Differential count (%)                          |                     |                |                     |               |
+| Neutrophils                                     |                     | 81.8           |                     |               |
+| Immature granulocytes                           |                     | 0.4            |                     |               |
+| Lymphocytes                                     |                     | 9.5            |                     |               |
+| Monocytes                                       |                     | 7.8            |                     |               |
+| Eosinophils                                     |                     | 0.2            |                     |               |
+| Basophils                                       |                     | 0.3            |                     |               |
+| Red‑cell count (per mm3 )                       | 4,360,000–5,780,000 | 4,090,000      | 4,500,000–5,900,000 | 3,430,000     |
+| Prothrombin time (sec)                          | 10.3–13.1           | 11.3           | 11.5–14.5           | 15.0          |
+| Prothrombin‑time international normalized ratio | 0.9–1.1             | 1.0            | 0.9–1.1             | 1.2           |
+| Activated partial‑thromboplastin time (sec)     | 26–37               | 20             | 22.0–35.0           | 29.6          |
+| Sodium (mmol/liter)                             | 136–145             | 142            |                     |               |
+| Potassium (mmol/liter)                          | 3.5–5.0             | 5.5            |                     |               |
+| Chloride (mmol/liter)                           | 96–110              | 114            |                     |               |
+| Carbon dioxide (mmol/liter)                     | 22–32               | 19             |                     |               |
+| Glucose (mg/dl)                                 | 70–100              | 182            |                     |               |
+| Lactic acid (mmol/liter)                        | ≤1.9                | 2.6            |                     |               |
+| Alanine aminotransferase (IU/liter)             |                     |                | 10–55               | 57            |
+| Aspartate aminotransferase (IU/liter)           |                     |                | 10–40               | 41            |
+| Alkaline phosphatase (IU/liter)                 |                     |                | 45–115              | 43            |
+| Protein (g/dl)                                  |                     |                |                     |               |
+| Total                                           |                     |                | 6.0–8.3             | 5.6           |
+| Albumin                                         |                     |                | 3.3–5.0             | 2.8           |
+| Globulin                                        |                     |                | 1.9–4.1             | 2.8           |
+
+* To convert the values for glucose to millimoles per liter, multiply by 0.05551. To convert the values for lactic acid to milligrams per deciliter, divide by 0.1110.
+
+† Reference values are affected by many variables, including the patient population and the laboratory methods used. The ranges used at Massachusetts General Hospital are for adults who are not pregnant and do not have medical conditions that could affect the results. They may therefore not be appropriate for all patients.

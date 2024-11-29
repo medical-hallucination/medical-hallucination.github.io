@@ -1,0 +1,9 @@
+## Clinical Diagnosis
+
+Complete androgen insensitivity syndrome.
+
+Dr. Virginia M. Pierce (Pathology): Dr. Sacha, what was your clinical impression when this patient was evaluated in the fertility center?
+
+Dr. Sacha: During the first visit, the principal diagnostic considerations were müllerian aplasia - including müllerian aplasia with premature ovarian insufficiency or with 46,XX gonadal dysgenesis - as well as complete androgen insensitivity syndrome. Several days later, the antimüllerian hormone level was found to be markedly elevated (579 ng per milliliter; reference range, 0.9 to 9.5), and the results of the chromosome analysis revealed a 46,XY karyotype. These results were consistent with the diagnosis of complete androgen insensitivity syndrome. At this time, additional laboratory tests were performed; the total testosterone level was markedly elevated (877 ng per deciliter; reference range for women, <50), as were the levels of dehydroepiandrosterone sulfate (692 μg per deciliter; reference range, 31 to 228) and inhibin B (496 pg per milliliter; reference range, <139 in premenopausal women during the follicular phase, <92 in premenopausal women during the luteal phase, and <10 in postmenopausal women). As the next step in the evaluation, MRI of the pelvis was performed.
+
+##
