@@ -1,0 +1,42 @@
+## References
+
+1. Gilmore EJ, Gaspard N, Choi HA, et al. Acute brain failure in severe sepsis: a prospective study in the medical intensive care unit utilizing continuous EEG monitoring. Intensive Care Med 2015;41: 686-94. 
+
+2. Maldonado JR. Acute brain failure: pathophysiology, diagnosis, management, and sequelae of delirium. Crit Care Clin 2017;33:461-519. 
+
+3. Inouye SK, van Dyck CH, Alessi CA, Balkin S, Siegal AP, Horwitz RI. Clarifying confusion: the confusion assessment method: a new method for detection of delirium. Ann Intern Med 1990;113:941-8.
+
+4. Russo A, Falcone M, Venditti M. Early identification of severe community-onset pneumonia in "frail elderly patient." Intern Emerg Med 2014;9:119-20. 
+
+5. Silva TJ, Jerussalmy CS, Farfel JM, Curiati JAE, Jacob-Filho W. Predictors of in-hospital mortality among older patients. Clinics (Sao Paulo) 2009;64:613-8. 
+
+6. McCusker J, Cole M, Abrahamowicz M, Primeau F, Belzile E. Delirium predicts 12-month mortality. Arch Intern Med 2002;162:457-63.
+
+7. Marcantonio ER. Delirium in hospitalized older adults. N Engl J Med 2017;377:1456-66.
+
+8. Centers for Disease Control and Prevention. About adult BMI. August 29, 2017 (https://www.cdc.gov/healthyweight/ assessing/bmi/adult_bmi/index.html).
+
+9. Coresh J, Astor BC, Greene T, Eknoyan G, Levey AS. Prevalence of chronic kidney disease and decreased kidney function in the adult US population: Third National Health and Nutrition Examination Survey. Am J Kidney Dis 2003;41:1-12.
+
+10. Frequently asked questions about GFR estimates. New York: National Kidney Foundation, 2014.
+
+11. Lazarou J, Pomeranz BH, Corey PN. Incidence of adverse drug reactions in hospitalized patients: a meta-analysis of prospective studies. JAMA 1998;279:1200-5.
+
+12. Pardo Cabello AJ, González Contreras LG, Manzano Gamero MV, Gómez Jiménez FJ, Puche Cañas E. Prevalence of fatal adverse drug reactions in hospitalized patients. Int J Clin Pharmacol Ther 2009;47:596-602.
+
+
+13. Toxicology Data Network. Spironolactone. September 17, 2007 (https://toxnet.nlm.nih.gov/cgi-bin/sis/search/a?dbs+hsdb:@term+@DOCNO+3184).
+
+14. Dasgupta A. Therapeutic drug monitoring of digoxin: impact of endogenous and exogenous digoxin-like immunoreactive substances. Toxicol Rev 2006;25:273-81.
+
+15. Withering W. An account of the foxglove, and some of its medical uses: with practical remarks on dropsy and other diseases. Birmingham, England: M. Swinney, 1785.
+
+16. Digitalis Investigation Group. The effect of digoxin on mortality and morbidity in patients with heart failure. N Engl J Med 1997;336:525-33.
+
+17. Antman EM, Wenger TL, Butler VP Jr, Haber E, Smith TW. Treatment of 150 cases of life-threatening digitalis intoxication with digoxin-specific Fab antibody fragments: final report of a multicenter study. Circulation 1990;81:1744-52.
+
+18. Sommers BD, Gawande AA, Baicker K. Health insurance coverage and health - what the recent evidence tells us. N Engl J Med 2017;377:586-93.
+
+Copyright © 2018 Massachusetts Medical Society.
+
+![7_image_0.png](7_image_0.png)
