@@ -108,7 +108,7 @@
             padding: 8px 16px;
             border: none;
             border-radius: 4px;
-            background-color: #007bff;
+            background-color: #42a5f5;
             color: white;
             cursor: pointer;
             font-size: 14px;
@@ -116,11 +116,11 @@
         }
         
         .tab-button:hover {
-            background-color: #0056b3;
+            background-color: #1565c0;
         }
         
         .tab-button.active {
-            background-color: #0056b3;
+            background-color: #1565c0;
             font-weight: bold;
         }
 
@@ -412,14 +412,14 @@
         <div class="panel right-panel">
             <div class="model-section">
                 <select id="modelSelect" class="model-select">
-                    <option value="gpt-4o-mini">GPT-4o-mini</option>
+                    <option value="gpt-4o">gpt-4o</option>
                     <option value="claude-3.5">Claude-3.5</option>
-                    <option value="gemini">Gemini-1.5</option>
+                    <option value="gemini-1.5-flash">Gemini-1.5-Flash</option>
                 </select>
-                <div id="apiKeyContainer" style="display: none;">
+                <!-- <div id="apiKeyContainer" style="display: none;">
                     <input type="password" id="apiKeyInput" class="model-select" placeholder="Enter API key">
                     <button class="tab-button" onclick="saveApiKey()">Save Key</button>
-                </div>
+                </div> -->
                 <button class="tab-button" onclick="generateAnalysis()">Generate Response</button>
             </div>
             <div class="test-section">
@@ -775,8 +775,6 @@
                 { id: 'pathological_discussion', label: 'Pathological Discussion' },
                 { id: 'discussion_of_management', label: 'Discussion of Management' }
             ]
-
-
         };
 
         function switchCase(caseId) {
@@ -794,14 +792,36 @@
                 sections.forEach(section => {
                     const button = document.createElement('button');
                     button.className = 'tab-button';
+                    // Add custom styling for section buttons
+                    button.style.backgroundColor = '#bbdefb';  // Yellow/gold color
+                    button.style.color = '#000000';  // Black text for better contrast
+                    button.style.padding = '4px 8px';  // Smaller padding
+                    button.style.fontSize = '12px';    // Smaller font size
+                    // Add hover effect
+                    button.onmouseover = () => {
+                        button.style.backgroundColor = '#90caf9';  // Darker yellow on hover
+                    };
+                    button.onmouseout = () => {
+                        button.style.backgroundColor = '#bbdefb';  // Back to original yellow
+                    };
                     button.textContent = section.label;
                     button.onclick = () => loadContent(section.id);
                     buttonContainer.appendChild(button);
                 });
                 
-                // Add images button
+                // Add images button with the same styling
                 const imagesButton = document.createElement('button');
                 imagesButton.className = 'tab-button';
+                imagesButton.style.backgroundColor = '#bbdefb';
+                imagesButton.style.color = '#000000';
+                imagesButton.style.padding = '4px 8px';
+                imagesButton.style.fontSize = '12px';
+                imagesButton.onmouseover = () => {
+                    imagesButton.style.backgroundColor = '#90caf9';
+                };
+                imagesButton.onmouseout = () => {
+                    imagesButton.style.backgroundColor = '#bbdefb';
+                };
                 imagesButton.textContent = 'Clinical Images';
                 imagesButton.onclick = showImages;
                 buttonContainer.appendChild(imagesButton);
@@ -1148,7 +1168,7 @@
             switch (model) {
                 case 'claude-3.5':
                     return key.startsWith('sk-ant-'); // Anthropic key format
-                case 'gemini':
+                case 'gemini-1.5-flash':
                     return key.length > 20; // Google API key format
                 default: // GPT-4
                     return key.startsWith('sk-'); // OpenAI key format
@@ -1188,7 +1208,7 @@
                     });
                     break;
 
-                case 'gemini':
+                case 'gemini-1.5-flash':
                     apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
                     headers = {
                         "Content-Type": "application/json",
@@ -1249,7 +1269,7 @@
                         "x-api-key": apiKey,
                         "anthropic-version": "2023-06-01"
                     };
-                case 'gemini':
+                case 'gemini-1.5-flash':
                     return {
                         "Content-Type": "application/json",
                         "Authorization": `Bearer ${apiKey}`
@@ -1670,6 +1690,7 @@
             
             const input = document.createElement('input');
             input.type = 'text';
+            input.style.width = '123px';  // Set specific width
             input.className = 'model-select';
             input.placeholder = 'Enter Annotator ID';
             input.value = localStorage.getItem('annotatorId') || '';
@@ -1716,7 +1737,7 @@
                 case 'claude-3.5':
                     if (!data.content || !data.content[0]) throw new Error('Invalid response structure for Claude-3.5');
                     return data.content[0].text;
-                case 'gemini':
+                case 'gemini-1.5-flash':
                     if (!data.candidates || !data.candidates[0].content.parts[0]) throw new Error('Invalid response structure for Gemini');
                     return data.candidates[0].content.parts[0].text;
                 default: // GPT-4
@@ -1962,6 +1983,13 @@
             clearCaseButton.className = 'tab-button';
             clearCaseButton.style.backgroundColor = '#dc3545';
             clearCaseButton.textContent = 'Clear Current Case';
+            // Add hover effects
+            clearCaseButton.onmouseover = () => {
+                clearCaseButton.style.backgroundColor = '#c82333';  // Darker red on hover
+            };
+            clearCaseButton.onmouseout = () => {
+                clearCaseButton.style.backgroundColor = '#dc3545';  // Return to original red
+            };
             clearCaseButton.onclick = () => {
                 if (confirm('Are you sure you want to clear all annotations for the current case?')) {
                     clearCurrentCaseAnnotations();
@@ -1973,6 +2001,13 @@
             clearAllButton.className = 'tab-button';
             clearAllButton.style.backgroundColor = '#dc3545';
             clearAllButton.textContent = 'Clear All Cases';
+            // Add hover effects
+            clearAllButton.onmouseover = () => {
+                clearAllButton.style.backgroundColor = '#c82333';  // Darker red on hover
+            };
+            clearAllButton.onmouseout = () => {
+                clearAllButton.style.backgroundColor = '#dc3545';  // Return to original red
+            };
             clearAllButton.onclick = () => {
                 if (confirm('Are you sure you want to clear ALL annotations for ALL cases? This cannot be undone.')) {
                     clearAllAnnotations();
@@ -2176,86 +2211,65 @@
         async function updateLLMAnalysis(section, content, model) {
             if (section === 'images') return;
 
-            const savedKey = localStorage.getItem(`${model}-api-key`);
-            if (!savedKey) {
-                alert('Please save your API key first');
-                document.getElementById('apiKeyContainer').style.display = 'flex';
-                return;
-            }
-
             // Set loading state
             ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
                 const element = document.getElementById(id);
                 if (element) {
-                    element.innerHTML = '<div class="loading">Analyzing...</div>';
+                    element.innerHTML = '<div class="loading">Loading response...</div>';
                 }
             });
 
             try {
-                const { apiUrl, headers, bodyTemplate } = getApiConfig(model, savedKey);
+                // Map model selection to file prefix
+                const modelPrefix = {
+                    'gpt-4o': 'gpt-4o',
+                    'claude-3.5': 'claude-3.5',
+                    'gemini-1.5-flash': 'gemini-1.5-flash'
+                }[model] || 'default';
 
-                // Ensure content is properly processed
-                const processedContent = content.trim();
-                if (!processedContent) {
-                    throw new Error('No content available for analysis');
-                }
+                // Define the file paths for each response type, including the model prefix
+                const responseFiles = {
+                    chronologicalResponse: `responses/${currentCase}/${modelPrefix}_chronological.txt`,
+                    labDataResponse: `responses/${currentCase}/${modelPrefix}_lab_data.txt`,
+                    diagnosisPredictionResponse: `responses/${currentCase}/${modelPrefix}_diagnosis.txt`
+                };
 
-                // Define analysis tasks with detailed prompts
-                const tasks = [
-                    {
-                        id: 'chronologicalResponse',
-                        prompt: `You are analyzing a medical case (Case ID: ${currentCase}). Create a detailed chronological timeline from this case information:\n\n${processedContent}\n\nProvide a clear chronological sequence of events, including:\n1. Initial presentation and symptoms\n2. Key diagnostic tests and their dates\n3. Treatment interventions and their timing\n4. Disease progression or symptom changes\n5. Follow-up events and outcomes\n\nFormat the timeline clearly and highlight important temporal relationships between events.`
-                    },
-                    {
-                        id: 'labDataResponse',
-                        prompt: `You are analyzing a medical case (Case ID: ${currentCase}). Analyze all laboratory and diagnostic findings from this information:\n\n${processedContent}\n\nProvide:\n1. Analysis of key lab results and their clinical significance\n2. Interpretation of any imaging or specialized test results\n3. Correlation between test findings and patient's symptoms\n4. Identification of any abnormal values and their implications\n5. How the diagnostic findings support or rule out potential diagnoses`
-                    },
-                    {
-                        id: 'diagnosisPredictionResponse',
-                        prompt: `You are analyzing a medical case (Case ID: ${currentCase}). Based on all available information:\n\n${processedContent}\n\nProvide:\n1. A prioritized list of differential diagnoses\n2. Supporting evidence for each potential diagnosis\n3. Clinical reasoning behind your diagnostic considerations\n4. Key findings that help distinguish between diagnoses\n5. Recommended additional tests or investigations if needed`
-                    }
-                ];
-
-                // Process each task
-                for (const task of tasks) {
+                // Process each response file
+                for (const [responseId, filePath] of Object.entries(responseFiles)) {
                     try {
-                        console.log(`Sending request for ${task.id}`);
+                        console.log(`Reading response from ${filePath}`);
                         
-                        const response = await fetch(apiUrl, {
-                            method: 'POST',
-                            headers: headers,
-                            body: JSON.stringify(bodyTemplate(task.prompt))
-                        });
-
+                        // Fetch the content from the local text file
+                        const response = await fetch(filePath);
+                        
                         if (!response.ok) {
-                            const errorText = await response.text();
-                            throw new Error(`API request failed: ${response.status} ${response.statusText}\n${errorText}`);
+                            throw new Error(`File not found: ${filePath}`);
                         }
 
-                        const responseContent = await extractResponse(response, model);
-                        const element = document.getElementById(task.id);
+                        const responseContent = await response.text();
+                        const element = document.getElementById(responseId);
                         
                         if (element && responseContent) {
-                            // Convert response to markdown and sanitize
+                            // Convert response to markdown and update the element
                             const formattedResponse = marked.parse(responseContent.trim());
                             element.innerHTML = formattedResponse;
-                            console.log(`Successfully updated ${task.id}`);
+                            console.log(`Successfully updated ${responseId} for model: ${model}`);
                         } else {
                             throw new Error('Invalid response content or element not found');
                         }
 
                     } catch (error) {
-                        console.error(`Error in ${task.id}:`, error);
-                        const element = document.getElementById(task.id);
+                        console.error(`Error loading ${responseId}:`, error);
+                        const element = document.getElementById(responseId);
                         if (element) {
-                            element.innerHTML = `<div class="error-message">Error analyzing ${task.id}: ${error.message}</div>`;
+                            element.innerHTML = `<div class="error-message">Error loading response: ${error.message}</div>`;
                         }
                     }
                 }
 
             } catch (error) {
-                console.error('Error in LLM analysis:', error);
-                const errorMessage = `<div class="error-message">Analysis error: ${error.message}</div>`;
+                console.error('Error loading responses:', error);
+                const errorMessage = `<div class="error-message">Error loading responses: ${error.message}</div>`;
                 ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
                     const element = document.getElementById(id);
                     if (element) element.innerHTML = errorMessage;
@@ -2475,10 +2489,28 @@
             const modelSection = document.querySelector('.model-section');
             const exportButton = document.createElement('button');
             exportButton.className = 'tab-button';
+            // Add vertical alignment and adjust margins
             exportButton.style.marginLeft = '10px';
+            exportButton.style.marginTop = '0px';
+            exportButton.style.verticalAlign = 'top';
+            exportButton.style.backgroundColor = '#4CAF50';  // Green color
+            // Optional: add hover effect
+            exportButton.onmouseover = () => {
+                exportButton.style.backgroundColor = '#45a049';  // Darker green on hover
+            };
+            exportButton.onmouseout = () => {
+                exportButton.style.backgroundColor = '#4CAF50';  // Return to original green
+            };
             exportButton.textContent = 'Save Annotations';
             exportButton.onclick = exportAnnotations;
-            modelSection.appendChild(exportButton);
+            
+            // Insert the button at the specific position
+            const generateResponseButton = modelSection.querySelector('button[onclick="generateAnalysis()"]');
+            if (generateResponseButton) {
+                generateResponseButton.parentNode.insertBefore(exportButton, generateResponseButton.nextSibling);
+            } else {
+                modelSection.appendChild(exportButton);
+            }
         }
     </script>
 
