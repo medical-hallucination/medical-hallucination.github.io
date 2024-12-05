@@ -1,0 +1,7 @@
+Based on the presentation of the case, lab data and images, the patient has COVID-19 pneumonia with acute respiratory distress syndrome (ARDS) and acute cardiac injury.
+
+The patient presented with a cough, fever, worsening fatigue, shortness of breath and low oxygen saturation. A chest CT scan showed ground-glass opacities in both lungs, which is a hallmark of COVID-19 pneumonia. Lab tests showed elevated inflammatory markers and ferritin, which is consistent with COVID-19.   
+
+The patient also has risk factors for severe COVID-19, including age, diabetes mellitus, and hypertension.
+
+The patient's acute cardiac injury is evidenced by elevated troponin levels and new wall motion abnormalities on echocardiogram. This could be due to myocardial inflammation caused by COVID-19 or a complication of sepsis.

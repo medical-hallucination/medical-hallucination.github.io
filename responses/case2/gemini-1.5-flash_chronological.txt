@@ -1,0 +1,23 @@
+Chronological order of key events:
+
+Patient has routine prenatal visit at 7 months pregnant - uneventful
+Patient has abnormal glucose tolerance test at 27 weeks pregnant
+One week before current evaluation (32 weeks pregnant), patient experiences severe abdominal pain for 3 days
+Patient is admitted to another hospital due to pain
+Patient is transferred to Massachusetts General Hospital at 33 weeks pregnant
+Renal and abdominal ultrasounds are performed - kidneys and bladder normal, liver diffusely heterogeneous and nodular
+Fetal heart tones are noted on Doppler ultrasound and measurements are appropriate for gestational age
+Colonoscopy and esophagogastroduodenoscopy are performed - reveal fungating mass in sigmoid colon
+Biopsy of the mass is performed
+Patient delivers baby via cesarean section at 35 weeks pregnant
+Patient dies 5 days later
+Temporal relationships between symptoms and interventions:
+
+Abnormal glucose tolerance test at 27 weeks - not directly related to later symptoms or interventions
+Severe abdominal pain starts at 32 weeks and leads to hospitalization at another hospital
+Patient is transferred to Massachusetts General Hospital at 33 weeks likely due to concerning results at previous hospital
+Ultrasounds are performed at 33 weeks to investigate cause of pain
+Colonoscopy and esophagogastroduodenoscopy are likely performed at 33 weeks to determine origin of cancer after ultrasounds show abnormalities
+Biopsy is likely performed at time of colonoscopy/esophagogastroduodenoscopy
+Cesarean section is performed at 35 weeks due to fetal compromise and declining maternal health
+Patient dies 5 days later likely due to complications from cancer progression

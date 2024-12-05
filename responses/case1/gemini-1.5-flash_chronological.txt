@@ -1,0 +1,27 @@
+Chronologically ordered list of key events:
+
+Patient had transient tightness in chest and shoulder on left side 1 year before presentation.
+Patient had miscarriage 1 month before presentation.
+Patient experienced acute substernal chest pain that radiated to the jaw and shoulders with dyspnea and belching 5 days before presentation.
+Patient experienced substernal chest pain with radiation to the jaw and shoulders that gradually resolved after a few hours on the day before presentation.
+Patient presented to the emergency department with substernal chest pain, light-headedness, and dyspnea.
+Patient underwent electrocardiography, which showed normal sinus rhythm and submillimeter down-sloping ST-segment depressions in leads V3, V4, and V5.
+Patient underwent transthoracic echocardiography, which showed overall normal left ventricular and right ventricular systolic function and a small, focal area of hypokinesis in the left ventricular inferolateral wall.
+Patient underwent CT angiography of the chest, which showed no abnormalities.
+Patient was administered aspirin, atorvastatin, and intravenous heparin.
+Electrocardiography performed 3 hours later showed the ST-segment depressions had decreased in magnitude.
+Electrocardiography performed 8 hours later showed the ST-segment depressions had fully resolved.
+Patient underwent coronary angiography, which revealed a filling defect in the first obtuse marginal branch of the left circumflex coronary artery.
+Patient underwent genetic testing, which was negative.
+Six weeks after presentation, patient underwent follow-up treadmill stress testing and reported no chest pain.
+Temporal relationships between symptoms and interventions:
+
+Transient tightness in chest and shoulder on left side occurred 1 year before presentation.
+Miscarriage occurred 1 month before presentation.
+Acute substernal chest pain that radiated to the jaw and shoulders with dyspnea and belching occurred 5 days before presentation.
+Substernal chest pain with radiation to the jaw and shoulders occurred on the day before presentation.
+Electrocardiography, transthoracic echocardiography, and CT angiography of the chest were performed on the day of presentation.
+Aspirin, atorvastatin, and intravenous heparin were administered on the day of presentation.
+Coronary angiography was performed after the electrocardiography, transthoracic echocardiography, and CT angiography of the chest were performed on the day of presentation.
+Genetic testing was performed after coronary angiography.
+Follow-up treadmill stress testing was performed 6 weeks after presentation.

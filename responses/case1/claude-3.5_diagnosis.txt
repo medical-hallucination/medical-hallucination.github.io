@@ -1,0 +1,66 @@
+Let me analyze this case systematically to arrive at a diagnosis:
+Key Findings:
+
+Patient Profile:
+
+
+41-year-old woman
+Family history of Ehlers-Danlos syndrome
+Hyperextensible digits noted on examination
+
+
+Presenting Symptoms:
+
+
+Recurrent chest pain with radiation to jaw and shoulders
+Associated dyspnea and diaphoresis
+Episodes lasting hours with spontaneous resolution
+
+
+Laboratory Findings:
+
+
+Rising troponin (0.03 to 0.21 ng/dl)
+Other labs largely normal
+
+
+Imaging Results:
+
+
+ECG: ST-segment depressions in V3-V5 that resolved
+Echo: Focal hypokinesis in left ventricular inferolateral wall
+Coronary angiogram (Figure 2): Shows:
+
+Diffuse narrowing of vessel lumen
+Filling defect in first obtuse marginal branch
+Evidence of coronary artery dissection
+
+
+CT angiogram (Figure 3): Shows renal artery abnormalities
+
+
+Key Contextual Elements:
+
+
+Family history of vascular complications (cerebral aneurysm)
+Presence of connective tissue disorder in family
+Recent physical stress (packing)
+
+Given these findings, the most likely diagnosis is:
+Spontaneous Coronary Artery Dissection (SCAD) in the setting of probable Ehlers-Danlos Syndrome
+Reasoning:
+
+The coronary angiogram clearly shows evidence of coronary artery dissection
+The patient has features suggesting underlying connective tissue disorder (family history, hyperextensible digits)
+The presentation is typical for SCAD:
+
+Young woman
+Few cardiovascular risk factors
+Presentation with acute coronary syndrome
+Associated with physical stress
+
+
+The presence of renal artery irregularities suggests systemic arteriopathy
+The combination with probable Ehlers-Danlos syndrome explains the underlying mechanism for arterial fragility
+
+This explains both the acute presentation and provides context for why this otherwise healthy young woman would develop such a condition. The treatment initiated (aspirin, heparin) is appropriate for this diagnosis.

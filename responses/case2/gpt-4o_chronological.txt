@@ -1,0 +1,40 @@
+Chronological Ordering of Key Events and Temporal Relationships:
+Initial Routine Prenatal Visit:
+
+Event: Transvaginal ultrasonography reveals a normal gestational sac and embryo.
+Temporal Relation: Start of pregnancy; sets a baseline for uneventful prenatal follow-up.
+27 Weeks of Gestation:
+
+Event: Abnormal results on a 1-hour glucose tolerance test.
+Temporal Relation: No direct link to subsequent severe symptoms but marks the first medical irregularity.
+32 Weeks of Gestation:
+
+Event: Severe nonradiating back pain rated 10/10, nausea, vomiting, night sweats, and inability to eat.
+Temporal Relation: Onset of significant symptoms prompting hospitalization.
+Admission to the First Hospital:
+
+Event: Examination reveals severe pain, normal amylase/lipase, heterogeneous liver appearance on imaging. Initial management includes IV fluids and medications.
+Temporal Relation: Symptoms escalate, leading to further diagnostic steps.
+Transfer to Second Hospital:
+
+Event: Advanced imaging shows liver lesions and lymphadenopathy. Biopsy indicates metastatic adenocarcinoma.
+Temporal Relation: Confirms cancer metastasis, marking the critical diagnostic pivot.
+Admission to Third Hospital at 33 Weeks Gestation:
+
+Event: Continuation of severe pain, no vaginal bleeding or contractions. Patient's status prompts detailed history and multidisciplinary involvement.
+Temporal Relation: Builds on prior findings; leads to oncologic focus.
+35 Weeks of Gestation:
+
+Event: Delivery via cesarean section due to fetal compromise and declining maternal health.
+Temporal Relation: Marks a transition from maternal care to addressing neonatal and end-of-life maternal needs.
+Post-Delivery:
+
+Event: Rapid maternal health deterioration; palliative measures; patient dies five days later.
+Temporal Relation: Final phase of maternal illness, characterized by systemic decline.
+Identified Temporal Relationships:
+Symptoms and Cancer Progression: Severe back pain, nausea, and liver lesions signal the advanced stage of metastatic adenocarcinoma.
+Interventions and Outcomes:
+Early interventions (IV fluids, pain management) provided transient relief.
+Diagnostic efforts (biopsies, imaging) confirmed the disease but highlighted its aggressive nature.
+Cesarean delivery prioritized neonatal survival amidst maternal decline.
+Delay in Treatment: The patient's reluctance to deliver earlier or commence chemotherapy exacerbated the progression of systemic illness, culminating in end-stage deterioration.
