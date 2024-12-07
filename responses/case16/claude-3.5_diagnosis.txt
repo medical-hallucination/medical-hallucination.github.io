@@ -1,0 +1,54 @@
+=Key Findings:
+
+Clinical Presentation:
+
+
+45-year-old woman
+Dyspnea on exertion, fatigue, confusion
+Hypertension (initially 140/90, later 180/110)
+Recent weight gain, leg swelling, abdominal distention
+Episodes of exertional chest pain
+
+
+Laboratory Abnormalities:
+
+
+Elevated white blood cell count (15,000-17,350/mm³)
+Marked neutrophilia (88-92%)
+Very low lymphocyte count (2.2-3.7%)
+Rising D-dimer (246 to 716 ng/ml)
+Elevated glucose (260 mg/dl on admission)
+Markedly elevated NT-proBNP (2360 pg/ml)
+
+
+Imaging Findings:
+
+
+MRI shows left ventricular wall thickening
+CT shows pulmonary embolism
+Adrenal gland thickening suggesting hyperplasia
+PET-CT shows a mediastinal nodule with FDG uptake
+Pathology shows a thymic neuroendocrine tumor (based on chromogranin A and corticotropin staining)
+
+Given these findings, the most likely diagnosis is:
+Thymic Neuroendocrine Tumor (Thymic Carcinoid) with Cushing's Syndrome
+The reasoning:
+
+The thymic mass shows typical neuroendocrine features on pathology (salt and pepper chromatin, positive chromogranin A)
+The tumor is producing ACTH (corticotropin-positive staining), explaining:
+
+Hypertension
+Glucose elevation
+Adrenal hyperplasia
+Susceptibility to thromboembolism (pulmonary embolism)
+
+
+The cardiac changes and elevated NT-proBNP likely reflect a combination of:
+
+Cushing's-induced hypertension
+Possible carcinoid heart disease
+
+
+
+This represents an ectopic ACTH-producing thymic neuroendocrine tumor, a rare but well-described cause of Cushing's syndrome with significant cardiovascular and metabolic complications
+Would you like me to elaborate on any aspect of this diagnosis?

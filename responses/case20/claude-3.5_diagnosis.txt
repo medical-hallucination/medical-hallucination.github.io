@@ -1,0 +1,61 @@
+Based on the clinical presentation, laboratory findings, and imaging studies, the most likely diagnosis appears to be Polyarteritis Nodosa (PAN). Here's the reasoning:
+Key findings supporting this diagnosis:
+
+Clinical Features:
+
+
+64-year-old male with fever, chills, arthralgias
+Testicular pain and swelling
+Abdominal pain
+Myalgias
+Weight loss
+Visual symptoms
+History of HBV infection (known association with PAN)
+
+
+Laboratory Findings:
+
+
+Elevated inflammatory markers (leukocytosis)
+Microscopic hematuria
+Normal urine cultures
+Negative infectious workup
+Normal tumor markers
+
+
+Imaging Findings:
+
+
+Ultrasound showing heterogeneous testicular echotexture with increased vascularity
+CT showing nonspecific inflammatory changes
+Bilateral pleural effusions
+No evidence of infection or malignancy on extensive workup
+
+
+Most significantly, the histopathological findings (Figure 2) show:
+
+
+Dense infiltrate of mononuclear cells in the adventitia
+Fragmentation of elastic fibers
+CD3+ lymphocytes and CD163+ histiocytes
+These findings are classic for medium-vessel vasculitis like PAN
+
+
+Additional supportive evidence (Figure 3):
+
+
+Epididymal biopsy showing inflammatory cell aggregates
+Testicular biopsy showing active spermatogenesis with transmural inflammation
+Evidence of fibrinoid necrosis of small-caliber arteries
+
+The combination of:
+
+Multi-system involvement
+Association with HBV
+Characteristic histopathological findings of medium-vessel vasculitis
+Absence of other explaining conditions
+Negative workup for infection and malignancy
+
+Makes Polyarteritis Nodosa the most likely diagnosis in this case.
+The presence of HBV infection in this patient's history is particularly relevant, as HBV-associated PAN is a well-documented entity, though less common since the advent of HBV vaccination.
+Would you like me to elaborate on any particular aspect of this diagnosis or discuss the differential diagnoses that were considered?

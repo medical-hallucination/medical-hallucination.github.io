@@ -1,0 +1,50 @@
+Key Laboratory Findings
+Initial Laboratory Evaluations
+Basic Metabolic Panel (Day 0):
+
+Glucose: Normal at 105 mg/dL (70–110 mg/dL).
+Electrolytes: Within normal limits.
+Significance: Indicates no immediate metabolic derangements (e.g., hypoglycemia or electrolyte imbalance) contributing to the seizure.
+MRI and EEG:
+
+MRI: Normal.
+EEG: Continuous focal delta slowing and sharp wave discharges over the right frontal region.
+Significance: Suggests a focal cerebral process affecting the right frontal lobe, correlating with the seizure presentation (e.g., left-sided clonic movements, head deviation).
+Second Admission Findings
+Cerebrospinal Fluid (CSF) Analysis:
+
+White-cell count: Elevated (38/mm³; reference: 0–5/mm³), predominantly lymphocytes (72%).
+Protein: Normal at 29 mg/dL (reference: 5–55 mg/dL).
+Glucose: Normal at 68 mg/dL (reference: 50–75 mg/dL).
+Gram Stain: No organisms seen.
+Significance: Lymphocytic pleocytosis supports central nervous system (CNS) inflammation or autoimmune encephalitis. Normal protein and glucose levels make bacterial meningitis less likely. The absence of organisms on Gram stain and negative PCR for common pathogens (e.g., HSV, enterovirus) further supports a non-infectious cause.
+Serum Toxicology and Antibody Testing:
+
+Toxicology Screen: Negative.
+Anti-NMDA Receptor Antibodies: Positive in both serum and CSF.
+Significance: Confirms the diagnosis of anti-NMDA receptor encephalitis, which is a paraneoplastic or autoimmune condition often associated with psychiatric symptoms, seizures, and movement disorders.
+Subsequent Laboratory Monitoring
+Repeat CSF Analysis (Day 6):
+
+White-cell count: Increased further to 43/mm³.
+Significance: Persistent lymphocytic pleocytosis aligns with ongoing CNS inflammation.
+MRI (Day 5 and later):
+
+Initial: Hyperintense signals on FLAIR imaging in the posterior cerebral hemispheres.
+Later: Progression to bilateral deep gray nuclei and subcortical white matter involvement.
+Significance: Imaging changes correlate with excitotoxic injury typical of autoimmune encephalitis.
+Other Findings:
+
+Urinalysis: Ketones present, consistent with metabolic stress.
+Signs of systemic effects: Autonomic dysfunction, diabetes insipidus, and syndrome of inappropriate antidiuretic hormone secretion (SIADH) occurred later, reflecting broader neurological and systemic involvement.
+Clinical Correlation
+Seizures: Likely triggered by focal inflammation and dysfunction in the right frontal region, as supported by EEG findings.
+Behavioral and Neurological Symptoms (e.g., agitation, movement disorders, lethargy):
+Caused by autoimmune inflammation disrupting NMDA receptor function, critical for synaptic transmission and neurological stability.
+Progressive CSF abnormalities and evolving MRI findings align with symptom exacerbation.
+Laboratory Confirmation:
+Anti-NMDA receptor antibodies provide definitive evidence of autoimmune encephalitis, explaining the constellation of psychiatric, cognitive, and motor symptoms.
+Significance of Findings in Management
+Early recognition of lymphocytic pleocytosis and EEG abnormalities prompted testing for autoimmune etiology, leading to timely initiation of immunotherapy.
+Repeated CSF and imaging studies helped monitor disease progression and treatment response.
+Negative infectious workup guided clinicians away from unnecessary antimicrobial therapy.

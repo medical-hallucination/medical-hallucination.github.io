@@ -1,0 +1,60 @@
+Analysis of Laboratory Findings and Their Clinical Significance:
+Hematological Findings:
+Leukocytosis (WBC: 18,700/mm³):
+
+Elevated white blood cell count indicates systemic inflammation or infection, consistent with the patient's fever and systemic symptoms (myalgias, testicular swelling).
+Neutrophilia (76.6%) and Lymphopenia (8.2%):
+
+Neutrophilia suggests an ongoing inflammatory or infectious process.
+Lymphopenia is often seen in systemic inflammation or stress responses.
+Mild Anemia (Hemoglobin: 12.3 g/dL):
+
+Likely due to chronic inflammation ("anemia of chronic disease"), supported by elevated inflammatory markers.
+Inflammatory Markers:
+C-Reactive Protein (CRP: 144.8 mg/L) and Erythrocyte Sedimentation Rate (ESR: 93 mm/hr):
+
+Both are markedly elevated, reflecting significant systemic inflammation, aligning with the patient's fever, arthralgias, and myalgias.
+Fibrinogen (725 mg/dL):
+
+Elevated fibrinogen indicates an acute-phase reaction, commonly seen in vasculitis or other inflammatory states.
+Renal Function and Electrolytes:
+Slightly Elevated Creatinine (1.23 mg/dL):
+May indicate mild renal involvement, which can occur in systemic vasculitis like polyarteritis nodosa (PAN).
+Normal Sodium (136 mmol/L) and Potassium (3.5 mmol/L):
+Electrolytes were stable, suggesting no acute kidney dysfunction at the time of testing.
+Liver Function Tests:
+Elevated Aspartate Aminotransferase (AST: 73 U/L) and Alanine Aminotransferase (ALT: 57 U/L):
+
+Reflect mild hepatocellular injury, possibly linked to systemic inflammation or hepatic involvement in PAN.
+Normal Bilirubin and Alkaline Phosphatase:
+
+Absence of significant cholestatic liver injury.
+Urinalysis:
+Microscopic Hematuria (10–20 RBC/HPF):
+
+Suggests renal or urinary tract involvement, consistent with vasculitis affecting medium-sized vessels.
+No Leukocyturia or Proteinuria:
+
+Indicates no active infection or severe glomerular injury.
+Immunologic Findings:
+Positive Antinuclear Antibody (ANA, speckled pattern at 1:40 and 1:160):
+Non-specific finding but suggests autoimmune activity.
+Negative ANCA, Rheumatoid Factor, and Cryoglobulin Tests:
+Rules out ANCA-associated vasculitides and cryoglobulinemia, supporting the diagnosis of polyarteritis nodosa.
+Infectious Disease Workup:
+Negative Viral Markers (HBV DNA, HIV, Hepatitis C RNA):
+Excludes active HBV or other viral infections as triggers of systemic inflammation.
+Negative Blood Cultures and Serologies (Brucella, Bartonella, Q fever):
+Rules out common bacterial or zoonotic infections.
+Other Findings:
+Elevated Free Kappa and Lambda Light Chains:
+Suggests polyclonal B-cell activation, common in systemic inflammatory conditions.
+Positive Strongyloides Antibody:
+Indicates past or latent infection, which is significant in the context of planned immunosuppressive therapy.
+Clinical Correlation:
+Systemic Vasculitis:
+The constellation of symptoms (fever, arthralgias, myalgias, testicular pain) and elevated inflammatory markers strongly suggests an active systemic inflammatory process.
+Polyarteritis Nodosa (PAN):
+Findings like leukocytosis, elevated CRP/ESR, microscopic hematuria, and testicular involvement align with medium-vessel vasculitis.
+Mild Organ Dysfunction:
+The involvement of kidneys, liver, and possibly gallbladder points to multisystem disease typical of PAN.

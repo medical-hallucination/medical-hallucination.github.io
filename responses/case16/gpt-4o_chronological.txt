@@ -1,0 +1,30 @@
+Key Events and Interventions Chronology:
+18 Months Before Admission:
+
+Symptom/Condition: Blood pressure recorded as 140/90 mmHg.
+Intervention: Oral contraceptive pills discontinued; BP remained elevated. Normal test results included renal vascular duplex ultrasonography, thyrotropin, catecholamines, metanephrines, and aldosterone. Lisinopril was prescribed, reducing BP to 120/80 mmHg.
+4 Weeks Before Admission:
+
+Symptoms: Leg swelling, abdominal distension, dyspnea on exertion, fatigue, confusion, weight gain (4.5 kg in a month), chest pain episodes during exercise.
+Findings: BP was 180/110 mmHg, mild non-pitting edema, mild systolic murmur, and small pleural effusions on chest X-ray.
+Intervention: Hospitalization. Furosemide (IV) reduced symptoms; daily oral furosemide initiated. Antihypertensives adjusted (increased lisinopril; added metoprolol and nifedipine). Discharged after stabilization.
+3 Weeks Before Admission:
+
+Symptoms: Recurrent dyspnea on exertion, fatigue, malaise, and night sweats.
+Findings: BP was 148/96 mmHg. Imaging revealed resolved pleural effusions, but MRI showed left ventricular hypertrophy and midwall fibrosis consistent with hypertrophic cardiomyopathy.
+Intervention: Furosemide discontinued after causing orthostatic hypotension. Patient discharged with symptom management advice.
+2 Weeks Before Admission:
+
+Symptoms: Fatigue, fever, palpitations, irritability, confusion, proximal muscle weakness, excessive thirst, and frequent urination.
+Findings: Physical exam revealed mild cognitive deficits, alopecia, hirsutism, systolic murmur, and hypokalemia. Imaging showed bilateral adrenal gland hyperplasia and pulmonary embolism.
+Intervention: Heparin infusion started, potassium supplementation provided, and medications for blood pressure continued. Corticotropin levels and other tests indicated Cushing's syndrome due to ectopic corticotropin secretion.
+Hospital Admission and Diagnosis:
+
+Diagnostic Findings: Imaging identified a mediastinal nodule (thymic neuroendocrine tumor) as the source of ectopic corticotropin secretion.
+Intervention: Surgical resection of the tumor. Postoperative glucocorticoid replacement initiated, leading to symptom resolution (BP normalization, improved mental status, resolved electrolyte disturbances).
+Post-Surgery:
+
+Outcome: Patient enrolled in cardiac rehabilitation and returned to work. Continued monitoring for recurrence or complications.
+Temporal Relationships:
+Progressive Symptoms: Hypertension and initial cardiac changes (18 months prior) preceded more systemic and acute symptoms of fatigue, altered mental status, and metabolic abnormalities.
+Interventions: Adjustments in antihypertensives and diuretics provided temporary relief but were insufficient to address the root cause. Definitive improvement followed tumor resection and correction of hypercortisolism.

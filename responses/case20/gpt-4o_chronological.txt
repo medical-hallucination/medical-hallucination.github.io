@@ -1,0 +1,44 @@
+Chronological Key Events:
+25 Years Ago:
+
+Patient diagnosed with pulmonary tuberculosis in China.
+Completed a 14-month course of treatment.
+12 Years Ago:
+
+Hepatitis B Virus (HBV) infection diagnosed; nucleic acid amplification test for HBV DNA was negative.
+Annual surveillance for cancer began.
+3 Years Ago:
+
+Chronic cough evaluated; chest CT showed a calcified granuloma and bronchiectasis.
+Annual surveillance with CT initiated.
+14 Days Before Current Admission:
+
+Developed fatigue, anorexia, pain in the back and calves.
+8 Days Before Admission:
+
+Seen by the primary care physician (PCP); lumbar tenderness noted. Ibuprofen prescribed.
+Fever (38.9°C), chills, sweats, rigors, and severe myalgias developed later that day.
+5 Days Before Admission:
+
+Left testicular pain and swelling appeared.
+PCP prescribed levofloxacin for suspected infection.
+On Admission:
+
+Fever persisted despite levofloxacin.
+Blood tests revealed leukocytosis, elevated inflammatory markers, and transaminases.
+Chest X-ray and scrotal ultrasound performed; epididymo-orchitis suspected.
+Admitted to the hospital, levofloxacin discontinued, doxycycline administered.
+Hospital Course:
+
+Persistent fever (up to 39.6°C) over six days.
+MRI and thoracentesis ruled out other sources of infection.
+Testicular ultrasound confirmed epididymo-orchitis.
+Histologic examination of biopsy confirmed polyarteritis nodosa.
+Temporal Relationships:
+Symptom Onset and Interventions:
+Early symptoms (fever, myalgias, testicular pain) were initially treated with NSAIDs and antibiotics without resolution.
+Systemic symptoms (weight loss, recurrent fever) correlated with inflammatory marker elevations and led to further diagnostic testing.
+Key Diagnostic Interventions:
+Imaging (ultrasound, CT) and biopsy pinpointed testicular vasculitis as part of systemic polyarteritis nodosa.
+Therapeutic Response:
+Fever resolved with glucocorticoids and rituximab. Prednisone and prophylactic entecavir were continued to prevent HBV reactivation.

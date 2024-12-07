@@ -1,0 +1,46 @@
+Based on the clinical presentation and available data, this appears to be a case of saphenous vein graft aneurysm causing compression of the right atrium and tricuspid annulus, leading to syncope. Let me break down the key findings that support this diagnosis:
+Key Clinical Points:
+
+History of CABG 13 years ago with saphenous vein graft to posterior descending artery
+Presentation with syncope and hypotension (BP 65/40 mmHg)
+No clear cardiac symptoms prior to this event
+
+Imaging Findings:
+
+Cardiac MRI shows:
+
+
+Two aneurysmal segments (superior and inferior) with heterogeneous signal intensity
+Evidence of thrombus formation
+Compression of right atrial structures
+
+
+Echocardiogram demonstrates:
+
+
+Two masses abutting the tricuspid annulus
+Compression of the right atrium
+Complex internal structure with heterogeneous echotexture
+
+
+Coronary angiogram reveals:
+
+
+Large proximal aneurysmal segment
+Second distal aneurysmal segment
+Poor but intact distal flow
+
+Laboratory Findings:
+
+Mild troponin elevation (0.04 ng/mL)
+Elevated ethanol level (2347 mg/L)
+Elevated creatine kinase (887 U/L) and CK-MB (7.8 ng/ml)
+
+The pathological discussion confirms this diagnosis, noting:
+
+Surgical removal of two large aneurysmal areas of the saphenous vein graft
+Histological evidence of atherosclerosis
+Organizing thrombus in the lumen
+Infiltration by macrophages and scarring in the medial layer
+
+The patient's syncope was likely caused by right-sided cardiac compression from the aneurysmal saphenous vein graft, leading to decreased venous return and subsequent hypotension. This represents a rare but serious late complication of coronary artery bypass surgery.

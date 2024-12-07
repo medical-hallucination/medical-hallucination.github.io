@@ -1,0 +1,50 @@
+Key Laboratory Findings:
+Electrolytes and Metabolic Parameters:
+
+Potassium (K+): Consistently low (3.3 mmol/L) despite potassium-retaining therapy (lisinopril).
+
+Clinical Significance: Hypokalemia is a hallmark of mineralocorticoid excess, which may occur in conditions like primary aldosteronism or cortisol-mediated activation of mineralocorticoid receptors. This explains symptoms like proximal muscle weakness and fatigue.
+Glucose: Progressively elevated (260 mg/dL on admission).
+
+Clinical Significance: Hyperglycemia reflects glucocorticoid excess (Cushing’s syndrome). Chronic hyperglycemia contributes to fatigue and irritability.
+Carbon Dioxide (CO2): Elevated at 34 mmol/L.
+
+Clinical Significance: Metabolic alkalosis due to hypokalemia and mineralocorticoid receptor activation explains fatigue and muscle weakness.
+Hematology:
+
+White Blood Cell Count (WBC): Elevated (17,350/mm³ with neutrophilic dominance).
+Clinical Significance: Leukocytosis with lymphopenia is typical in Cushing’s syndrome due to cortisol-induced immune modulation. It explains susceptibility to infections and systemic symptoms like malaise and fever.
+Cardiac Biomarkers:
+
+N-terminal pro-B-type Natriuretic Peptide (NT-proBNP): Markedly elevated (2360 pg/mL).
+
+Clinical Significance: Elevated NT-proBNP is consistent with heart strain or failure, correlating with her dyspnea and signs of left ventricular hypertrophy.
+Troponin T: Slightly elevated (<0.03 ng/mL).
+
+Clinical Significance: Suggestive of myocardial stress, possibly secondary to hypertrophic cardiomyopathy and systemic hypertension.
+Hormonal and Endocrine Findings:
+
+24-hour Urinary Free Cortisol: Extremely high (18,081 µg; reference range <45 µg).
+
+Clinical Significance: Diagnostic of severe hypercortisolism, consistent with ectopic Cushing’s syndrome, explaining the patient's systemic symptoms, including altered mental status, weight gain, and hypertension.
+Corticotropin (ACTH): Elevated at 512 pg/mL (reference range: 6–76 pg/mL).
+
+Clinical Significance: Indicates ACTH-dependent Cushing’s syndrome, later localized to a thymic neuroendocrine tumor.
+Imaging Correlation:
+
+Bilateral adrenal hyperplasia seen on imaging was supported by the lab findings of cortisol excess and ACTH elevation, confirming a secondary adrenal effect due to ectopic ACTH secretion.
+Integration of Laboratory Findings with Symptoms:
+Hypertension and Cardiac Hypertrophy:
+
+Driven by cortisol-induced mineralocorticoid receptor activation, exacerbating sodium retention, hypokalemia, and systemic vascular resistance.
+Fatigue, Weakness, and Altered Mental Status:
+
+Explained by hypokalemia (affecting neuromuscular function), hyperglycemia, and direct cortisol effects on the central nervous system.
+Metabolic Alkalosis and Hypokalemia:
+
+Reflect cortisol’s action on renal mineralocorticoid receptors, leading to hydrogen and potassium loss, further worsening systemic symptoms.
+Pulmonary Embolism and Increased Thrombotic Risk:
+
+Hypercortisolism is known to increase coagulability, likely contributing to the development of pulmonary embolism.
+Clinical Significance:
+The laboratory findings highlight hypercortisolism as the central driver of the patient’s complex presentation, including systemic hypertension, metabolic disturbances, and immune dysregulation. These data guided the diagnostic process and justified the eventual treatment via tumor resection and postoperative hormone management.

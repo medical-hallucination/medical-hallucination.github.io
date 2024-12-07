@@ -1,0 +1,114 @@
+Electrolyte Abnormalities:
+
+
+Sodium: 132 mmol/L (low) - mild hyponatremia
+
+Likely due to volume depletion from vomiting/diarrhea
+Could contribute to confusion but not severe enough to be primary cause
+
+
+Potassium: 5.1 mmol/L (high) - hyperkalemia
+
+Critical finding in digoxin toxicity
+Digoxin inhibits Na/K-ATPase, leading to elevated potassium
+Increases risk of life-threatening arrhythmias
+Made more concerning by her acute kidney injury
+
+
+
+
+Kidney Function:
+
+
+Creatinine: 1.6 mg/dL (elevated from baseline 1.2)
+BUN: 44 mg/dL (elevated)
+Significant because:
+
+Indicates acute kidney injury on top of chronic kidney disease
+Reduces digoxin excretion, leading to toxic accumulation
+Baseline renal function was worse than it appeared (true GFR ~22 mL/min)
+
+
+
+
+Cardiac Markers:
+
+
+NT-proBNP: 4999 pg/mL (elevated)
+
+Indicates heart failure/volume overload
+Expected given her cardiac history
+
+
+Troponin T: 0.01 ng/mL (normal)
+
+Rules out acute cardiac injury
+
+
+
+
+Digoxin Level:
+
+
+9.0 ng/mL (severely elevated above therapeutic range 0.9-2.0)
+
+Explains major symptoms:
+
+Neurological: confusion, lethargy
+Gastrointestinal: nausea, vomiting, diarrhea
+General: weakness
+
+
+
+
+
+
+INR:
+
+
+
+
+16 (severely elevated)
+
+
+Indicates warfarin overanticoagulation
+Places patient at high bleeding risk
+
+
+
+
+Other Significant Findings:
+
+
+Urinalysis: positive for ketones
+
+Suggests catabolic state/poor nutrition
+
+
+Normal CBC and liver function tests
+
+Rules out other organ dysfunction
+
+
+
+Clinical Correlation:
+
+The laboratory findings paint a picture of digoxin toxicity exacerbated by:
+
+Acute kidney injury (reducing digoxin clearance)
+Electrolyte disturbances (especially dangerous hyperkalemia)
+Underlying chronic kidney disease
+Volume depletion from GI losses
+
+
+The progression makes sense:
+
+Initial illness led to decreased oral intake/GI losses
+This caused pre-renal acute kidney injury
+Reduced kidney function led to digoxin accumulation
+Resulting toxicity caused additional GI symptoms
+This created a dangerous cycle of worsening toxicity
+
+
+
+This constellation of findings made prompt recognition and treatment with digoxin immune Fab essential to prevent life-threatening complications.
