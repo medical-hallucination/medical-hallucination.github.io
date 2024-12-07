@@ -1,0 +1,36 @@
+### Chronology of Key Events and Temporal Relationships:
+
+1. **5 Months Before Presentation**:
+   - The patient experienced **fever, ear and facial pain**, and **neck stiffness** in Guatemala.
+   - Diagnosis: **Sinusitis and otitis media of the left ear**.
+   - Symptoms partially resolved (fevers and neck stiffness) without specific treatment, but ear and facial pain persisted.
+
+2. **2 Years Before Presentation**:
+   - Episodes of **epigastric pain**, burning in quality, radiated to the chest after meals, and associated with diarrhea.
+   - Diagnosis: **Helicobacter pylori infection** (not treated with antibiotics).
+   - Intervention: **Intermittent proton-pump inhibitor therapy** reduced epigastric pain.
+
+3. **10 Months Before Presentation**:
+   - Visit to an emergency department in New England for recurrent **epigastric pain**.
+   - Intervention: Proton-pump inhibitors, but symptoms did not resolve.
+
+4. **Presentation to the Community Health Center**:
+   - Chronic left-sided **abdominal pain** and **weight loss** reported.
+   - Medications included acetaminophen and jaw exercises recommended for **facial pain**.
+   - Interferon-γ release assay for **Mycobacterium tuberculosis** returned positive.
+
+5. **1 Month After Initial Visit**:
+   - New complaint of **intermittent abdominal pain** in the right quadrants.
+   - **CT imaging** revealed a mass in the ascending colon with surrounding inflammation.
+   - Colonoscopy performed: A **noncircumferential mass** with biopsy.
+
+6. **Pathological Diagnosis**:
+   - Findings of **eosinophilic vasculitis** with intravascular nematode consistent with **Angiostrongylus costaricensis**.
+
+7. **Surgical Intervention**:
+   - **Laparoscopic right colectomy** performed; patient discharged on postoperative day 2.
+
+### Temporal Relationships:
+- **Symptoms of epigastric and chronic abdominal pain** preceded the detection of the colonic mass, and interventions (proton-pump inhibitors) temporarily relieved symptoms.
+- The development of **eosinophilia** and the colon mass correlated with parasitic exposure, dietary habits, and travel history.
+- The **positive tuberculosis test** prompted investigations, but the eventual diagnosis tied eosinophilia and the mass to a parasitic etiology.

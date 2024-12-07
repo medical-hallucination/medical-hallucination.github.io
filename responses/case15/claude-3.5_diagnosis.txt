@@ -1,0 +1,51 @@
+Let me analyze this case systematically to arrive at possible diagnoses:
+
+Key Findings:
+1. Progressive symptoms over 8 months:
+   - Leg weakness and fatigue
+   - Hypoesthesias and paresthesias in feet
+   - Loose teeth falling out
+   - Recurrent falls
+   - Easy bruising
+
+2. Physical Examination:
+   - Multiple ecchymoses
+   - Missing teeth and gingival bleeding
+   - Decreased motor strength in hips
+   - Diminished sensation in legs
+   - Thin/fragile hair on arms, absent on legs
+
+3. Relevant History:
+   - Roux-en-Y gastric bypass 6 years ago
+   - Recent increased alcohol consumption
+   - Voluntary food restriction
+   - Significant weight loss
+
+4. Laboratory/Imaging:
+   - Normal vitamin B12, calcium, protein
+   - Normal brain CT
+   - Orthostatic hypotension noted
+
+Given these findings, the most likely diagnosis is **Scurvy (Vitamin C Deficiency)** based on:
+
+1. Classic symptoms:
+   - Easy bruising and ecchymoses
+   - Loose teeth and gingival bleeding
+   - Fatigue and weakness
+   - Hair changes
+   - Peripheral neuropathy symptoms
+
+2. Risk factors:
+   - Poor nutrition (restricted diet)
+   - History of bariatric surgery (reduced absorption)
+   - Alcohol use (interferes with vitamin C absorption)
+
+The combination of periodontal disease, easy bruising, neurological symptoms, and hair changes in the context of poor nutrition and bariatric surgery strongly suggests vitamin C deficiency. The diagnostic test performed was likely vitamin C level measurement.
+
+Other conditions in the differential diagnosis might include:
+- Other nutritional deficiencies (B vitamins, zinc)
+- Guillain-Barré syndrome
+- Multiple myeloma
+- Coagulopathy
+
+However, the constellation of symptoms most strongly points to scurvy as the unifying diagnosis.

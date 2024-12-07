@@ -1,0 +1,88 @@
+## Key Events in Chronological Order
+
+**7 weeks before presentation:**
+* Malaise and anorexia develop.
+
+**4 weeks before presentation:**
+* Non-productive cough develops.
+* Fevers to a maximum temperature of 37.6°C occur.
+* Patient seeks medical attention at another hospital.
+* Chest radiograph shows an opacity in the left lower lobe.
+* CT of the chest, performed without contrast, reveals consolidation in the left lower lobe.
+* Patient admitted to the other hospital.
+* Intravenous cefdinir and azithromycin administered initially.
+
+**1 day after discharge from other hospital:**
+* Fever and cough persist.
+* Patient readmitted to the other hospital.
+* Sputum culture obtained.
+* Levofloxacin treatment initiated.
+
+**6 days after starting levofloxacin:**
+* Patient discharged home with a plan to complete a 10-day course of antibacterial therapy.
+
+**10 days after discharge from other hospital (2 days before presentation to this hospital):**
+* Fatigue, cough, and malaise continue.
+* Night sweats and fevers to a maximum temperature of 37.8°C occur daily.
+* Anorexia worsens.
+* Weakness develops such that the patient cannot walk without assistance.
+* Patient's wife notes confusion, disorientation, anger, and belligerent behavior.
+* Incoherent urination around the home observed.
+* Patient found showering while clothed on the evening of presentation.
+
+**On presentation to the other hospital:**
+* Temperature is 38.3°C.
+* Heart rate is 111 beats per minute.
+* Blood pressure is 135/73 mm Hg.
+* Respiratory rate is 24 breaths per minute.
+* Oxygen saturation is 94% while breathing ambient air.
+* Patient is confused and unable to answer questions appropriately.
+* Blood tests show elevated troponin I, lactate, and white blood cell count.
+* Blood cultures obtained.
+* Electrocardiography reveals sinus tachycardia, premature atrial beats, and submillimeter inferior ST-segment elevations.
+* Tachypnea and increased somnolence lead to intubation and mechanical ventilation initiation.
+* Vancomycin, piperacillin-tazobactam, ciprofloxacin, lorazepam, and propofol administered.
+* Patient transferred by helicopter to this hospital for coronary angiography consideration.
+
+**On arrival at this hospital:**
+* Limited history obtained from wife.
+* No chest pain, dyspnea, edema, or arrhythmia symptoms reported.
+* History of eczema.
+* No medications or known adverse drug reactions.
+* History of anaphylaxis to bee stings.
+* Smoking history (1 pack daily for 41 years).
+* Alcohol consumption (8-10 beers/night, occasional wine and marijuana).
+* Farmer and restorer of farmhouses, cleans horse stables.
+* Owns sheep, goats, and previously owned exotic birds.
+* Family history of cancer (sister died of breast cancer at 42, father died of unknown cancer in his 40s).
+* Temperature is 37.2°C.
+* Heart rate is 100 beats per minute.
+* Blood pressure is 120/82 mm Hg.
+* Oxygen saturation is 100% on mechanical ventilation.
+* Pupils are 2 mm and sluggishly reactive.
+* Patient opens eyes and grimaces with reduced sedation but does not follow commands.
+* No response to threat or noxious stimuli.
+* Corneal reflexes intact.
+* Downgoing toes bilaterally.
+* No rash.
+* Additional imaging studies obtained.
+
+**While in the emergency department:**
+* 23-second episode of ventricular tachycardia occurs.
+* Aspirin, magnesium, and cefepime administered intravenously.
+* Propofol, normal saline, and amiodarone infusions initiated.
+* Cardiac catheterization deferred.
+* Patient admitted to the intensive care unit.
+
+**Additional Imaging Studies:**
+* Chest radiograph shows persistent patchy opacity in the left lower lobe.
+* CT scan reveals:
+    * Consolidation in the left lower lobe, progressed since previous CT.
+    * Changes consistent with segmental and subsegmental pulmonary emboli in the right lower lobe.
+    * Wedge-shaped subpleural consolidation in the right lower lobe consistent with a pulmonary infarct.
+    * New bilateral small pleural effusions.
+    * Multiple splenic and renal wedge-shaped hypoattenuating lesions consistent with infarcts.
+* MRI and magnetic resonance angiography of the head and neck reveal numerous acute-to-subacute cerebral infarcts and punctate infarcts scattered throughout the cerebellar hemispheres.
+* TTE reveals:
+    * Left ventricular ejection fraction of 35% with diffuse hypokinesis.
+    * No evidence of

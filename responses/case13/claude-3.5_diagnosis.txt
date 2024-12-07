@@ -1,0 +1,54 @@
+Let me analyze this case systematically to determine the possible diagnosis:
+
+Key Findings:
+1. Patient Presentation:
+- 71-year-old man
+- Worsening renal function and hematuria
+- Preceded by flu-like illness (possibly from wife/grandchildren)
+- Cola-colored urine
+- Low-grade fever
+- Creatinine elevated from baseline 0.8 to 4.9 mg/dL
+
+2. Laboratory Findings:
+- Elevated creatinine (2.78 mg/dL at current admission)
+- Urinalysis showing:
+  * Red cells "too numerous to count"
+  * Protein 2+
+  * Blood 3+
+  * Elevated protein/creatinine ratio (5.71)
+- Positive antinuclear antibody (1:40)
+- Elevated kappa and lambda light chains
+- Elevated rheumatoid factor (31 U/ml)
+- Normal complement levels (C3, C4)
+- Negative ANCA (anti-MPO and anti-PR3)
+
+3. Imaging:
+- CT shows bilateral perinephric stranding
+- Multiple renal cysts
+- Evidence of diverticulitis
+
+4. Clinical Course:
+- Initial treatment with steroids
+- Blood cultures grew gram-negative rods
+- Worsening with antibiotics
+
+Based on these findings, the most likely diagnosis is:
+
+Post-infectious Glomerulonephritis (PIGN) with concurrent diverticulitis
+
+Supporting evidence:
+1. Acute kidney injury following an infectious illness
+2. Active urinary sediment with RBCs
+3. Proteinuria
+4. Positive blood cultures suggesting infection
+5. CT findings showing both kidney inflammation and diverticulitis
+6. The temporal relationship between infection and kidney dysfunction
+7. The presence of RBC casts and proteinuria suggesting glomerular involvement
+8. Low-grade fever and constitutional symptoms
+
+The alternative diagnoses to consider would be:
+1. ANCA-negative vasculitis (but ANCA negative)
+2. IgA nephropathy (would need biopsy to confirm)
+3. Drug-induced interstitial nephritis (history of NSAID use)
+
+The presence of both kidney disease and diverticulitis suggests this could be a case where the diverticular infection triggered the glomerulonephritis, making post-infectious glomerulonephritis the most likely unifying diagnosis.

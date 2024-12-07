@@ -1,0 +1,44 @@
+Let me create a chronological timeline of the key events in this case:
+
+2 months before admission:
+- Baseline creatinine level was 0.8 mg/dL
+
+3 weeks before admission:
+- Patient's wife became ill with chills, fatigue, myalgias
+- A few days later, patient developed fever, chills, fatigue, malaise, anorexia, myalgias
+- Patient reduced fluid intake and noticed darker urine
+- Symptoms temporarily relieved with acetaminophen
+
+10 days before admission:
+- Evaluated by primary care physician for suspected dehydration
+- Lab tests showed creatinine of 4.9 mg/dL
+- Referred to emergency department of another hospital
+
+At other hospital:
+- Initial presentation with cola-colored urine, constitutional symptoms, abdominal cramping 
+- Started on IV saline
+- Medications (ibuprofen, aspirin, benazepril, metformin) discontinued
+- By hospital day 4: Creatinine improved to 3.2 mg/dL
+- Over next 2 days: Developed hematuria, creatinine increased to 3.9 mg/dL
+- Started on IV methylprednisolone
+- Blood cultures grew gram-negative rods
+- Started on antibiotics (ceftriaxone, then cefepime and aztreonam)
+
+At Massachusetts General Hospital:
+- Transfer on hospital day 11 with creatinine of 3.0 mg/dL
+- Kidney biopsy performed
+- 5 days after biopsy: Developed severe abdominal pain and high WBC count
+- CT showed diverticulitis with colonic perforation
+- Underwent sigmoid colectomy and colostomy
+- Developed postoperative deep vein thrombosis
+- Total hospitalization >6 weeks
+- Discharged with creatinine of 2.0 mg/dL
+
+Follow-up:
+- 3 months: Second dose of rituximab
+- After 3 months: Cyclophosphamide stopped
+- After 5 months: Prednisone tapered and discontinued
+- 1 year: Successful colostomy reversal
+- 16 months: Doing well with creatinine of 1.5 mg/dL, off immunosuppression
+
+This timeline shows the progression from initial viral-like illness to rapidly declining kidney function, followed by complications from both the disease and its treatment, and ultimately successful recovery.

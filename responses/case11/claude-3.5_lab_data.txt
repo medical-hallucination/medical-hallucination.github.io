@@ -1,0 +1,50 @@
+Let me analyze the key laboratory findings and their clinical significance:
+
+Key Abnormal Findings:
+1. Eosinophilia
+- Initial value: 3.8% (10 months before presentation)
+- Increased to 19.5% at presentation (normal range 0-8%)
+- Absolute eosinophil count was 2,633/mm³ (>1500/mm³ is significant)
+- Clinical significance: Strongly suggestive of parasitic infection, especially helminth infections that migrate through tissues
+
+2. White Blood Cell Count
+- Increased from 9,430 to 13,500/mm³ (normal range 4,500-11,000)
+- Clinical significance: Mild leukocytosis indicating inflammatory/infectious process
+
+3. Platelet Count
+- Increased from 349,000 to 406,000/mm³ (normal range 150,000-400,000)
+- Clinical significance: Mild thrombocytosis, can be seen with inflammation
+
+4. Liver Function Tests
+- Initially elevated:
+  - ALT: 62 U/L (normal 7-33)
+  - AST: 40 U/L (normal 9-32)
+  - Alkaline phosphatase: 177 U/L (normal 30-100)
+- Normalized at presentation
+- Clinical significance: Initial hepatic inflammation that resolved
+
+Normal Findings of Note:
+1. Hemoglobin/Hematocrit: Remained within normal range
+2. Kidney function tests: Normal
+3. Lipase: Normal at 30 U/L
+4. Carcinoembryonic antigen: Normal at 2.2 ng/mL
+
+Clinical Correlation:
+1. The marked eosinophilia correlated with:
+- Patient's exposure history (consuming freshwater crustaceans in Guatemala)
+- The colonic mass found on imaging
+- Ultimate diagnosis of Angiostrongylus costaricensis infection
+
+2. The progression of laboratory values shows:
+- Evolution from mild to marked eosinophilia
+- Resolution of liver function abnormalities
+- Development of inflammatory response (leukocytosis, thrombocytosis)
+
+3. The normal CEA helped rule out colorectal cancer as a cause of the colonic mass
+
+4. The laboratory pattern strongly supported a parasitic etiology rather than:
+- Malignancy
+- Inflammatory bowel disease
+- Tuberculosis (despite positive interferon-gamma release assay)
+
+This laboratory pattern, particularly the marked eosinophilia, was crucial in guiding the diagnostic process toward a parasitic infection rather than other causes of colonic mass.
