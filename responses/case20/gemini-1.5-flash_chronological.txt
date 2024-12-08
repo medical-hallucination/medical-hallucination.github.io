@@ -1,0 +1,68 @@
+Here's a chronological ordering of the key events and identification of temporal relationships between symptoms and interventions in the case study:
+
+25 years prior:
+
+Diagnosis of pulmonary tuberculosis in China
+14-month course of four-drug regimen
+Persistent chronic cough
+23 years prior:
+
+Immigration to the United States
+Negative sputum culture for Mycobacterium tuberculosis
+13 years prior:
+
+Diagnosis of hepatitis B virus (HBV) infection
+Negative HBV DNA test
+3 years prior:
+
+Evaluation for chronic cough
+Chest X-ray: Nodular opacity at the right lung apex
+CT scan: Calcified granuloma at the right apex, bronchiectasis
+Annual surveillance with CT planned
+14 days prior to current admission:
+
+Anorexia, fatigue, back and calf pain
+Primary care physician visit: Ibuprofen prescribed
+6 days prior to current admission:
+
+Fever, chills, sweats, rigors, severe myalgias
+Moxibustion and cathartic agent administered
+Left testicular pain and swelling
+5 days prior to current admission:
+
+Return to primary care physician
+Negative Lyme disease, Babesia, Ehrlichia, and Anaplasma tests
+Levofloxacin prescribed
+4 days prior to current admission:
+
+Recurring fever, chills, rigors, anorexia, myalgias, arthralgias, abdominal pain, diarrhea, weight loss, blurry vision
+Ophthalmologic evaluation: Mild cataracts and dry eyes
+3 days prior to current admission:
+
+Chest X-ray: Persistent opacities at lung bases and right apex
+CT scan of abdomen and pelvis: Mildly increased gallbladder wall enhancement, pericholecystic fluid, scattered hepatic cysts, bilateral pleural effusions, peritoneal fluid
+Gallbladder ultrasound: Thickened gallbladder wall, sludge
+Hospital Day 1:
+
+Admission to the hospital
+Levofloxacin discontinued, acetaminophen and doxycycline administered
+Thoracentesis: Pleural fluid consistent with transudative effusion, negative for adenosine deaminase, Gram stain, acid-fast stain, and fungal cultures
+Hospital Day 5:
+
+CT scan of chest: Bilateral pleural effusions larger than on admission
+MRI of spine: No diskitis, osteomyelitis, or epidural abscesses
+MRI of liver: Scattered simple hepatic cysts
+Hospital Day 7:
+
+Recurring left testicular swelling, pain, and tenderness
+Fever
+Urinalysis: Microscopic hematuria
+Testicular ultrasound: Engorgement of testicular vessels, heterogeneous testicular echotexture (suggestive of epididymo-orchitis)
+Temporal Relationships:
+
+Symptoms and Interventions:
+Fever, chills, rigors, myalgias, arthralgias, abdominal pain, diarrhea, and weight loss were followed by levofloxacin prescription and subsequent discontinuation.
+Testicular pain and swelling led to testicular ultrasound and identification of epididymo-orchitis.
+Respiratory symptoms and imaging findings prompted chest X-rays and CT scans.
+Abdominal symptoms and imaging findings led to gallbladder ultrasound and CT scan of the abdomen and pelvis.
+By understanding the temporal relationships between symptoms and interventions, clinicians can better appreciate the progression of the patient's illness and the rationale for diagnostic and therapeutic decisions.
