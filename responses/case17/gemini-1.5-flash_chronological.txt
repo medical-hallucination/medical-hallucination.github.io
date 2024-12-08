@@ -1,0 +1,43 @@
+Date	Event
+3 days before admission	Emesis
+Evening before admission	Fussy
+Third day of illness	Decreased language output, Loose bowel movement
+Evening, third day of illness	Atypical behavior (wanting to sleep), Seizure (stiffness, unresponsiveness, staring, shaking), Vomiting, Confusion
+10 minutes after seizure	Emergency medical services called
+On examination 10 minutes later	Somnolent, arousable, spontaneous movements
+On examination	Alert, active, no distress, Normal vital signs, Normal physical exam
+One week after discharge	Well-being for 2 days, Decreased language output (5 days prior to presentation)
+Past 5 days	Increased sleep, Decreased oral intake, Constipation, Mood lability (2 days prior to presentation), Babbling, unusual phrases, Loss of interest in play, Unsteady gait, Writhing movements after eating/drinking, Decreased urine output
+On examination	Quiet, flat affect, subdued behavior, Normal vital signs, Dry oral mucous membranes, Soft, flat abdomen, Followed some commands
+Emergency department	Somnolent, arousable to voice, Limited eye contact, Unintelligible speech, Agitation and screaming
+Following day	Normal magnetic resonance angiography of the head
+MRI of the head and spine	Scattered white matter hyperintensities, Mild paranasal sinus mucosal thickening
+Lumbar puncture	CSF analysis performed (results shown below)
+Acylcarnitine profile analysis	Plasma sample sent for testing
+Nasopharyngeal swab tests	Negative for adenovirus, parainfluenza virus, and metapneumovirus antigens
+Third and fourth hospital days	Irritability, Thrashing, Screaming, Stereotyped arm movements, Athetoid hand movements, Orofacial dyskinesias
+Video EEG	Generalized polymorphic slowing, No EEG correlate with abnormal movements
+Fifth hospital day, morning	Apnea, Tachycardia, Hypertension, Opisthotonic posturing, Jaw clenching, Difficulty with bag-valve-mask ventilation
+Interventions	Midazolam, fentanyl, rocuronium administered intravenously, Intubation and mechanical ventilation initiated, Transfer to pediatric ICU
+
+Export to Sheets
+Temporal Relationships Between Symptoms and Interventions
+The emergency medical services called (10 minutes after seizure) might be related to many other events that happened before or after the seizure event, including:
+
+Emesis (3 days before admission)
+Fussy (Evening before admission)
+Symptoms on the third day of illness (decreased language output, loose bowel movement)
+Seizure (stiffness, unresponsiveness, staring, shaking) (Evening, third day of illness)
+Vomiting (Evening, third day of illness)
+Confusion (Evening, third day of illness)
+Apnea (Fifth hospital day, morning)
+Tachycardia (Fifth hospital day, morning)
+Hypertension (Fifth hospital day, morning)
+Opisthotonic posturing (Fifth hospital day, morning)
+Jaw clenching (Fifth hospital day, morning)
+Difficulty with bag-valve-mask ventilation (Fifth hospital day, morning)
+Other findings during examinations (abnormal vital signs, abnormal physical exam findings)
+Laboratory test results (CSF analysis, blood tests, etc.)
+Imaging results (MRI, etc.)
+EEG results
+Note: These are just possible relationships based on the chronology of events. It is not possible to determine for certain which symptoms led to the call for emergency services.
