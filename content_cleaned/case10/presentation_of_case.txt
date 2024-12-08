@@ -1,0 +1,53 @@
+## Presentation of Case
+
+Dr. Keyan Salari (Urology): A 29-year-old man was seen at this hospital because of an incidentally discovered renal mass.
+
+The patient had been well until 6 weeks before this evaluation, when he identified a painless lump above his left testicle during a monthly self-examination. He was evaluated at his primary care physician's office at another hospital. Examination confirmed a soft, nontender mass, which was described as "boggy," on the superior aspect of the left testicle, without associated erythema. Laboratory test results and imaging studies of the testes and scrotum were obtained.
+
+Dr. Joseph F. Simeone: Ultrasonography of the scrotum and testes revealed normal testes, a varicocele on the left side, and a cyst (0.6 cm in diameter) on the right side of the epididymal head. There was an incidental mixed solid and cystic mass (11.8 cm by 10.8 cm by 9.4 cm) arising from the lower aspect of the right kidney. The left kidney was normal.
+
+Computed tomography (CT) of the abdomen and pelvis, performed after the intravenous administration of contrast material, confirmed the presence of a mixed solid and cystic mass (11 cm in diameter) at the lower pole of the right kidney. Thin mural calcification was noted. There was no evidence of hydronephrosis, venous invasion, enlarged lymph nodes, liver or pancreatic lesions, or adrenal nodules. The mass displaced the inferior vena cava to the left.
+
+Dr. Salari: The patient was referred to the urology clinic of this hospital. On evaluation, he reported mild discomfort in the right flank and right upper quadrant, along with a small bulge in that area. A review of systems was notable for the left scrotal mass and seasonal allergies. He had no fever, night sweats, weight loss, anorexia, fatigue, lymphadenopathy, pruritus, hematuria, dysuria, or pelvic or back pain. Medications included cetirizine, as needed, for seasonal allergic rhinitis. He had no known allergies to medications.
+
+The patient worked as a cook. He had emigrated from South America 11 years before the current evaluation and lived in coastal Massachusetts. He had no recent history of travel. He was married and had a healthy 2-year-old son, and his wife was expecting another child. He did not smoke tobacco, drink alcohol, or use any illicit substances. His mother had had gastrointestinal stromal tumor, his father had had skin melanoma and had died of a stroke, and his maternal grandfather had died of gastric cancer. There was no family history of genitourinary cancer, renal disease, or genitourinary disease.
+
+On examination, the heart rate was 70 beats per minute, and the blood pressure was 127/81 mm Hg. The patient appeared to be well. There was a palpable nontender mass in the right abdomen, inferior to the liver. The genitourinary examination was notable for a varicocele on the left side; the varicocele was grade 2 of 3, indicating that it was palpable without a Valsalva maneuver. The phallus, scrotum, and testes were otherwise normal. The remainder of the examination was normal.
+
+Blood levels of total protein, globulin, alanine aminotransferase, aspartate aminotransferase, total bilirubin, and alkaline phosphatase were normal; other laboratory test results are shown in Table 1. CT of the chest revealed an intrapulmonary lymph node, but there was no evidence of pulmonary nodules or lymphadenopathy, findings that would suggest metastatic cancer.
+
+Diagnostic and management decisions were made.
+
+| Table 1. Laboratory Data.*                         |                  |                             |                                 |                  |
+|----------------------------------------------------|------------------|-----------------------------|---------------------------------|------------------|
+|                                                    | Reference Range, | 2 Wk before   Presentation, | Reference Range,   Adults, This | On Presentation, |
+| Variable                                           | Other Hospital   | Other Hospital              | Hospital†                       | This Hospital    |
+| Blood                                              |                  |                             |                                 |                  |
+| Hemoglobin (g/dl)                                  | 14.0–18.0        | 14.3                        | 13.5–17.5                       | 14.3             |
+| Hematocrit (%)                                     | 42–52            | 44                          | 41.0–53.0                       | 43.1             |
+| White-cell count (per mm3)                         | 4500–11,000      | 6400                        | 4500–11,000                     | 6940             |
+| Platelet count (per mm3)                           | 150,000–450,000  | 209,000                     | 150,000–400,000                 | 220,000          |
+| Sodium (mmol/liter)                                | 133–145          | 140                         | 135–145                         | 143              |
+| Potassium (mmol/liter)                             | 3.3–5.1          | 3.7                         | 3.4–5.0                         | 4.1              |
+| Chloride (mmol/liter)                              | 96–108           | 100                         | 100–108                         | 103              |
+| Carbon dioxide (mmol/liter)                        | 22–31            | 27                          | 23–32                           | 25               |
+| Urea nitrogen (mg/dl)                              | 6–20             | 10                          | 8–25                            | 12               |
+| Creatinine (mg/dl)                                 | 0.7–1.2          | 0.82                        | 0.60–1.50                       | 0.82             |
+| Glucose (mg/dl)                                    | 70–105           | 97                          | 70–110                          | 97               |
+| Calcium (mg/dl)                                    | 8.4–10.2         | 9.4                         | 8.5–10.5                        | 9.4              |
+| Albumin (g/dl)                                     | 3.5–5.2          | 4.6                         | 3.3–5.0                         | 4.9              |
+| Glycated hemoglobin (%)                            | 4.5–5.7          | 5.9                         | 4.3–6.4                         |                  |
+| Prothrombin time (sec)                             |                  |                             | 11.0–14.0                       | 14.2             |
+| Prothrombin-time international normalized ratio    |                  |                             | 0.9–1.1                         | 1.2              |
+| Partial-thromboplastin time (sec)                  |                  |                             | 22.0–35.0                       | 25.6             |
+| Urine                                              |                  |                             |                                 |                  |
+| Specific gravity                                   | 1.015–1.025      | 1.025                       | 1.001–1.035                     | 1.020            |
+| pH                                                 | 5.0–8.0          | 5.5                         | 5.0–9.0                         | 5.5              |
+| Red cells                                          | Negative         | Negative                    | Negative                        | Negative         |
+| White cells                                        | Negative         | Negative                    | Negative                        | Negative         |
+| Nitrite                                            | Negative         | Negative                    | Negative                        | Negative         |
+| Protein                                            | Negative         | Negative                    | Negative                        | Negative         |
+
+* To convert the values for urea nitrogen to millimoles per liter, multiply by 0.357. To convert the values for creatinine to micromoles per liter, multiply by 88.4. To convert the values for glucose to millimoles per liter, multiply by 0.05551. To convert the values for calcium to millimoles per liter, multiply by 0.250.
+
+† Reference values are affected by many variables, including the patient population and the laboratory methods used. The ranges used at Massachusetts General Hospital are for adults who are not pregnant and do not have medical conditions that could affect the results. They may therefore not be appropriate for all patients.

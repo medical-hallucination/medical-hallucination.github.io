@@ -1,0 +1,11 @@
+## Nonbacterial Thrombotic Endocarditis
+
+Nonbacterial thrombotic endocarditis is an immune-mediated condition characterized by sterile vegetations composed of fibrin-platelet thrombi forming on valvular leaflets. This condition is often associated with advanced cancer (known as marantic endocarditis) and systemic lupus erythematosus (Libman–Sacks endocarditis), but can occur in other chronic diseases such as tuberculosis, uremia, and AIDS. It's considered uncommon and often detected post mortem, with an autopsy frequency ranging from 0.9 to 1.6%. Around half of the postmortem cases are linked to adenocarcinoma of the lung or ovary, and an additional 25% are connected with hematologic cancers. The condition may be underdiagnosed, as studies have shown a high prevalence of valvular vegetations in cancer patients without clinical embolism or endocarditis.
+
+These vegetations are typically friable, prone to embolization due to the lack of inflammatory reaction, and generally located on the mitral and aortic valves. They are small, broad-based, irregular, and rarely found on right-sided heart valves. On the atrioventricular valves, vegetations are usually on the atrial surface, while on semilunar valves, they're on the ventricular surface.
+
+The primary manifestation is often an embolic event leading to neurological symptoms. Although the exact incidence of systemic embolization varies widely, pulmonary embolism occurs in about half of the cases, sometimes even without obvious right-sided heart lesions. MRI might show multiple brain infarcts, in contrast to infective endocarditis, which often presents with single lesions. Importantly, primary valvular dysfunction is not commonly seen initially.
+
+In this case, given the differences between the subtle valvular changes and extensive systemic embolization, along with negative evaluations for rheumatologic and infectious causes, nonbacterial thrombotic endocarditis is a likely diagnosis. Given the patient's history of smoking, lung cancer could be an underlying condition. Transesophageal echocardiography (TEE) would help in assessing the valvular issues, and bronchoscopy might reveal a pulmonary lesion.
+
+**Dr. Tomas G. Neilan's Diagnosis:** Nonbacterial thrombotic endocarditis due to underlying cancer.

@@ -1,0 +1,7 @@
+## Renal-Cell Carcinoma
+
+Clear-cell renal-cell carcinoma is statistically the most likely diagnosis in this case, accounting for approximately 75% of renal cancers, while papillary tumors represent about 15%. Factors arguing against clear-cell renal-cell carcinoma include the patient's age and the absence of common risk factors such as smoking and obesity. Chromophobe renal-cell carcinoma is typically slow-growing and associated with syndromes like Birt–Hogg–Dubé, but the patient showed no symptoms of this condition.
+
+A rare form of renal-cell carcinoma, occurring in young patients without typical risk factors, is driven by a translocation involving genes in the microphthalmia-associated transcription factor (MiT) family, often referred to as MiT family translocation renal-cell carcinoma. This condition usually presents in patients in their late 20s or early 30s. Given the patient's age and the lack of evidence supporting other diagnoses, MiT family translocation renal-cell carcinoma is considered the most likely diagnosis. To confirm this diagnosis, a radical nephrectomy on the right side and appropriate histologic and molecular studies are recommended.
+
+Dr. Salari: We suspected a malignant kidney tumor, most likely renal-cell carcinoma, and proceeded with an open right radical nephrectomy. Due to the mass's size and displacement of structures like the inferior vena cava, we opted for an open approach over minimally invasive surgery to achieve the best possible outcome.

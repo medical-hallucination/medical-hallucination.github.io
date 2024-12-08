@@ -1,0 +1,39 @@
+## Presentation of Case
+
+Dr. Jordan P. Bloom (Surgery): A 37-year-old man was admitted to the surgical intensive care unit (ICU) because of a self-inflicted gunshot wound. 
+
+The patient had been in his usual state of health until 2 days before admission. That evening, he reportedly appeared upset and was drinking alcohol at home. He left the room, and shortly after midnight, his wife heard a gunshot. She discovered the patient with severe facial injuries, slumped forward in a chair next to his AR-15 semiautomatic rifle. The patient was conscious and communicated by nodding and shaking his head. His wife called emergency services, and he was taken to a local hospital's emergency department, where he received a tetanus toxoid–containing vaccine, cefazolin, fentanyl, midazolam, intravenous fluids, and a continuous infusion of propofol. A cricothyroidotomy was performed, and mechanical ventilation was initiated. The blood ethanol level was 178 mg per deciliter (reference range, <10). He was then transferred to a tertiary care center for further treatment.
+
+On examination at the second hospital, his temperature was 36.2°C, pulse 97 beats per minute, blood pressure 89/73 mm Hg, respiratory rate 19 breaths per minute, and oxygen saturation 98% on full mechanical ventilation (Fio2, 1.00). His weight was 109 kg. He had open wounds involving the submandibular soft tissues and the facial bones extending from the upper lip to the nasal radix. The globe of the right eye was ruptured. Lung examination showed absent breath sounds on the left side. Other examination findings were normal. His platelet count, red-cell indexes, and renal-function test results were normal (refer to Table 1 for other laboratory test results). A urine drug screen was presumptively positive for methamphetamine, with no confirmation testing performed. A chest radiograph revealed intubation of the right main bronchus, which was adjusted; subsequent imaging confirmed the tube was well positioned. Additional imaging studies were obtained.
+
+![1_image_0.png](1_image_0.png)
+
+**Figure 1. Clinical Photograph.** A clinical photograph shows an open wound involving the submandibular soft tissues and the bones and soft tissues of the middle portion of the left side of the face, extending from the upper lip to the nasal radix.
+
+Dr. Shahmir Kamalian: CT with three-dimensional reconstruction of the face revealed a large entry wound under the chin with extensive tissue damage and a giant exit wound in the middle of the face. High-velocity bullets from an AR-15 create a larger temporary cavity than those from handguns, causing extensive damage to displaced tissues. The trajectory of the bullet, fired under the chin, is suggestive of a suicide attempt as it missed the brain, resulting in a nonlethal wound. Bullet fragments acted as secondary projectiles, causing additional tissue damage and rupture of the right globe. The bones of the middle face were comminuted, with fragments extending into the intracranial compartment, risking meningitis or cerebrospinal fluid leak.
+
+| **Laboratory Data**                           | **Reference Range**  | **On Admission** |
+|----------------------------------------------|----------------------|------------------|
+| Hematocrit (%)                               | 39.5–50.2           | 36.7             |
+| Hemoglobin (g/dl)                            | 13.8–17.3           | 12.8             |
+| White‑cell count (per mm3)                   | 4000–10,400         | 11,120           |
+| Neutrophils (%)                              |                      | 81.8             |
+| Immature granulocytes (%)                    |                      | 0.4              |
+| Lymphocytes (%)                              |                      | 9.5              |
+| Monocytes (%)                                |                      | 7.8              |
+| Eosinophils (%)                              |                      | 0.2              |
+| Basophils (%)                                |                      | 0.3              |
+| Red‑cell count (per mm3)                     | 4,360,000–5,780,000 | 4,090,000        |
+| Prothrombin time (sec)                       | 10.3–13.1           | 11.3             |
+| Prothrombin‑time international normalized ratio | 0.9–1.1          | 1.0              |
+| Activated partial-thromboplastin time (sec)  | 26–37               | 20               |
+| Sodium (mmol/liter)                          | 136–145             | 142              |
+| Potassium (mmol/liter)                       | 3.5–5.0             | 5.5              |
+| Chloride (mmol/liter)                        | 96–110              | 114              |
+| Carbon dioxide (mmol/liter)                  | 22–32               | 19               |
+| Glucose (mg/dl)                              | 70–100              | 182              |
+| Lactic acid (mmol/liter)                     | ≤1.9                | 2.6              |
+
+* To convert glucose to millimoles per liter, multiply by 0.05551. To convert lactic acid to milligrams per deciliter, divide by 0.1110. 
+
+† Reference values are influenced by patient population and laboratory methods. The ranges provided are for non-pregnant adults without medical conditions affecting results.

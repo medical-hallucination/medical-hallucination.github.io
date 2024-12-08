@@ -1,0 +1,39 @@
+## Gram-Negative Bacteremia And Glomerulonephritis
+
+Could the gram-negative bacteremia have contributed to the immunopathogenesis of this patient's glomerulonephritis? IgA nephropathy is caused by defects of mucosal immunity, and the interplay between this glomerular disease and intestinal disorders is well documented. Flares of IgA nephropathy may occur synchronously with gastrointestinal infections. Patients with IgA vasculitis (Henoch–Schönlein purpura) may present with crampy abdominal pain. It's possible the patient had an ANCA-negative necrotizing and crescentic glomerulonephritis that mimicked ANCA-positive glomerulonephritis. Both IgA nephropathy and ANCA-negative glomerulonephritis remain in the differential diagnosis.
+
+The most likely diagnosis is anti-GBM disease, a cause of rapidly progressive glomerulonephritis. Anti-GBM disease may cause pulmonary bleeding, but this patient had no such bleeding. Anti-GBM disease does not affect abdominal organs, but the crampy abdominal pain and gram-negative anaerobic bacteremia might provide insight into the disease process.
+
+Autoimmune diseases occur due to multiple factors. Patients with anti-GBM disease lose immunologic tolerance to the alpha-3 chain of type IV collagen. This antigen must undergo a change, or "autoantigen conformopathy," to interact with circulating anti-GBM antibodies.
+
+Genetic predisposition and environmental factors like cigarette smoking and infection play a role in autoantibody formation and autoantigen availability. Anti-GBM disease shows "spatial and temporal clustering," indicating genetic and environmental factors' importance. A recent study noted 67% of patients with anti-GBM disease had prodromal fever and bacterial infections due to gram-negative bacteria.
+
+The immunopathogenic potential of microbes in anti-GBM disease has been scrutinized. Circulating antibodies to certain microbial peptides from bacteria have been found in patients with anti-GBM disease.
+
+This patient's anti-GBM disease may be an example of molecular mimicry induced by a gram-negative anaerobe such as Bacteroides. Infection might have exacerbated the disease through antibody production or exposing the hidden antigen.
+
+Another diagnostic consideration is the marked proteinuria, suggesting another glomerular disease. The patient could have had concurrent membranous nephropathy associated with cancer or mild diabetic nephropathy.
+
+## Clinical Diagnosis
+
+Rapidly progressive (crescentic) glomerulonephritis.
+
+Dr. Ronald J. Falk's Diagnoses
+
+- **Anti–glomerular basement membrane disease** causing crescentic glomerulonephritis.
+- **Diverticulitis** due to *Bacteroides fragilis* and other gram-negative anaerobic bacteria.
+- **Podocytopathy**, possibly due to mild diabetic nephropathy.
+
+## Pathological Discussion
+
+Dr. Ivy A. Rosales: Diagnostic procedures included a kidney biopsy, serum ELISA, and Western blot analysis. The biopsy revealed necrotizing and crescentic glomerulonephritis with 19% of glomeruli globally sclerosed and 38% with cellular crescents. Red-cell casts and tubular injuries were also present. On immunofluorescence, GBM showed bright, global, linear staining for IgG. Serum ELISA was negative, while Western blot was positive, indicating anti-GBM disease with unusual features like minor crescentic involvement and IgG4-dominant subclass distribution.
+
+## Discussion of Management
+
+Dr. Fenves: Treatment included intravenous methylprednisolone, oral cyclophosphamide, and plasmapheresis. The bacterial infections were treated with ceftazidime and metronidazole. Severe abdominal pain led to sigmoid colectomy. After 6 weeks of hospitalization, management included intravenous rituximab. The patient's condition improved significantly after tapering immunosuppressive medications.
+
+## Anatomical Diagnosis
+
+Anti–glomerular basement membrane disease. 
+
+This case was presented at the Medicine Grand Rounds. Supported in part by the Case Records of the Massachusetts General Hospital McNeely Visiting Professor Series.

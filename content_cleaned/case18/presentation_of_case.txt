@@ -1,0 +1,45 @@
+## Presentation of Case
+
+Dr. William J. Hucker: A 63-year-old man was evaluated at this hospital because of syncope.
+
+Approximately 13 years before admission, the patient experienced an out-of-hospital cardiac arrest and was diagnosed with multivessel coronary artery disease. He underwent coronary-artery bypass grafting (CABG) with grafting of the left internal mammary artery to the left anterior descending coronary artery, a segment of a radial artery to an obtuse marginal branch of the left circumflex coronary artery, and a saphenous vein to the posterior descending artery. Thereafter, he remained active, symptom-free, and worked full-time under the care of a local cardiologist.
+
+The night before admission, the patient consumed 12 beers. Later, as he stood up to use the bathroom, his wife heard a thud and found him on the bedroom floor with facial trauma. He appeared gray, prompting her to begin chest compressions. She noted no jerking movements or tongue laceration but suggested possible urinary incontinence. The patient regained consciousness within seconds after chest compressions were administered.
+
+Upon evaluation by emergency medical services, the patient was awake and alert, though he didn't remember events leading to emergency personnel arrival. He reported no prodromal symptoms. Initial vitals were a heart rate of 50 beats per minute, blood pressure of 65/40 mm Hg, and blood glucose of 98 mg/dl (5.4 mmol/l). An electrocardiogram showed horizontal ST-segment depression of 1 mm in the inferior leads. He initially refused medical care, but when he stumbled upon standing, he was taken to the hospital's emergency department.
+
+A system review showed no chest pain, dyspnea, palpitations, lightheadedness, dizziness, edema, or constitutional symptoms. He reported mild, progressive bilateral hearing loss and intermittent lower leg numbness. His medical history included hypertension, dyslipidemia, gout, varicose veins, venous insufficiency, and knee replacement surgery 9 months prior for osteoarthritis. Medications included clopidogrel, metoprolol succinate, furosemide, ezetimibe, and allopurinol. His statin therapy ceased 3 months prior due to elevated creatine kinase levels; sulfa drugs caused a rash, and aspirin potentially caused dyspepsia. He had a long-term history of consuming 8 to 12 beers daily and faced alcohol withdrawal symptoms post-knee replacement. He smoked, previously up to one pack daily for 35 years, but had no history of illicit drug use. He lived with his wife, had two adult children, worked as a mechanic, and had a family history of myocardial infarction and colon cancer.
+
+On examination, he had a temperature of 36.2°C, heart rate of 68 beats per minute, blood pressure of 100/60 mm Hg with symmetry in both arms, and 99% oxygen saturation on ambient air. He appeared comfortable with flushed skin and superficial forehead abrasions. Jugular venous pressure was 5 cm of water, with 2+ carotid pulses without bruits. A well-healed sternotomy incision was present. Cardiac examination showed a normal apical impulse and rhythm, no murmur or rub. Lung auscultation revealed a prolonged expiratory phase without wheezes or rales. Mild varicosities were noted on the lower legs without edema. Scars from venectomy, knee replacement, and radial artery harvest were healed. Stool was guaiac-negative. A comprehensive neurologic evaluation was normal.
+
+Laboratory test results (Table 1) revealed normal thyrotropin, glycated hemoglobin, phosphorus, total protein, albumin, globulin, bilirubin, and alkaline phosphatase levels as well as normal white-cell differential count, prothrombin time, and partial-thromboplastin time. An electrocardiogram showed sinus rhythm, borderline first-degree atrioventricular block, a left atrial abnormality, and anterolateral J-point elevation but no ST-segment changes (Fig. 1A). The patient was admitted to the cardiology service after receiving aspirin and intravenous heparin. Imaging studies were performed.
+
+| Table 1. Laboratory Data.                      | Reference Range, Adults  | On Presentation, This Hospital | 9 Hr After Presentation, This Hospital |
+|-----------------------------------------------|--------------------------|-------------------------------|----------------------------------------|
+| Hemoglobin (g/dl)                             | 13.5–17.5                | 13.4                          |                                        |
+| Hematocrit (%)                                | 41.0–53.0                | 36.7                          |                                        |
+| White-cell count (per mm³)                     | 4500–11,000              | 6200                          |                                        |
+| Platelet count (per mm³)                      | 150,000–400,000          | 222,000                       |                                        |
+| Sodium (mmol/liter)                           | 135–145                  | 129                           |                                        |
+| Potassium (mmol/liter)                        | 3.4–4.8                  | 3.1                           |                                        |
+| Chloride (mmol/liter)                         | 100–108                  | 92                            |                                        |
+| Carbon dioxide (mmol/liter)                   | 23.0–31.9                | 22.4                          |                                        |
+| Urea nitrogen (mg/dl)                         | 8–25                     | 10                            |                                        |
+| Creatinine (mg/dl)                            | 0.60–1.50                | 1.17                          |                                        |
+| Glucose (mg/dl)                               | 70–110                   | 93                            |                                        |
+| Magnesium (mg/dl)                             | 1.7–2.4                  | 1.5                           |                                        |
+| Calcium (mg/dl)                               | 8.5–10.5                 | 8.4                           |                                        |
+| Alanine aminotransferase (U/liter)            | 10–55                    | 38                            |                                        |
+| Aspartate aminotransferase (U/liter)          | 10–40                    | 60                            |                                        |
+| Lipase (U/liter)                              | 13–60                    | 128                           |                                        |
+| Ethanol (mg/liter)                            | Not defined; toxic, >1000| 2347                          |                                        |
+| Troponin (ng/ml)                              | <0.03                    | 0.04                          | 0.03                                   |
+| Creatine kinase (U/liter)                     | 60–400                   |                               | 887                                    |
+| Creatine kinase isoenzymes (ng/ml)            | 0.0–6.9                  |                               | 7.8                                    |
+
+*To convert values: urea nitrogen to millimoles per liter, multiply by 0.357; creatinine to micromoles per liter, multiply by 88.4; glucose to millimoles per liter, multiply by 0.05551; magnesium to millimoles per liter, multiply by 0.4114; calcium to millimoles per liter, multiply by 0.250; ethanol to millimoles per liter, multiply by 0.2171.
+
+†Reference values are influenced by various factors like patient demographics and laboratory methodologies. The ranges at Massachusetts General Hospital apply to adults without pregnancy or influencing medical conditions, thus not necessarily applicable for all individuals.
+
+N Engl J Med 2018;379:670-80. DOI: 10.1056/NEJMcpc1800340  
+Copyright © 2018 Massachusetts Medical Society.

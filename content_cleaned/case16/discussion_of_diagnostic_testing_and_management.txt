@@ -1,0 +1,13 @@
+## Discussion of Diagnostic Testing and Management
+
+Dr. Krzysztof Glomski: The patient had a 24-hour urinary free cortisol level of 18,081 μg (reference range, <45), a finding diagnostic of Cushing's syndrome. She had a corticotropin level in peripheral blood of 512 pg per milliliter (reference range, 6 to 76), a finding indicative of a corticotropin-dependent process.
+
+Dr. Andrew Z. Fenves: Based on these findings, the next step was to identify the source of abnormal hormone production. MRI of the head, performed with a pituitary protocol, showed no abnormalities in the pituitary gland. Our differential diagnosis included a nonpituitary tumor with ectopic corticotropin secretion, a nonhypothalamic tumor with ectopic CRH secretion, and the unlikely possibility of Cushing's disease due to a pituitary microadenoma that had not been visualized on MRI. This final possibility was ruled out by blood sampling from the inferior petrosal sinus. Since iatrogenic exogenous administration of corticotropin and an ectopic CRH secreting tumor were unlikely, additional imaging studies were performed. MRI of the abdomen showed no renal or pancreatic mass, and pelvic and renal ultrasonography was similarly unrevealing. Somatostatin-receptor scintigraphy was negative, leading to the decision to perform positron-emission tomography (PET).
+
+![7_image_0.png](7_image_0.png)
+
+**Figure 2.** PET–CT of the Chest. Axial CT images of the lower chest, obtained before and after the administration of contrast material (Panels A and B, respectively), show a partially calcified, enhancing nodule (1.8 cm in diameter) in the anterior right mediastinum (arrows). A coronal CT image and a corresponding positron-emission tomographic (PET) image (Panels C and D, respectively) show that the lesion has 18F-fluorodeoxyglucose avidity (arrows).
+
+Dr. Lu: PET–CT with 18F-fluorodeoxyglucose (FDG) of the neck, chest, abdomen, and pelvis, performed before and after administration of intravenous iodinated contrast material, revealed a partially calcified, enhancing nodule (1.8 cm in diameter) with FDG avidity in the right anterior mediastinum.
+
+Dr. Fenves: Despite antihypertensive treatment, the patient continued to have intermittent confusion and hypertension, likely driven by the markedly elevated serum cortisol level. After a multidisciplinary discussion, surgical removal of the nodule was decided upon, suspecting it to be the source of ectopic corticotropin secretion.
