@@ -1,0 +1,106 @@
+I'll analyze the key laboratory findings and their clinical significance:
+
+Inflammatory Markers
+
+
+Elevated CRP (144.8 mg/L; normal <8.0)
+Elevated ESR (93 mm/hr; normal 0-13)
+Elevated fibrinogen (725 mg/dL; normal 150-400)
+These indicate significant systemic inflammation, consistent with vasculitis.
+
+
+Complete Blood Count Changes
+
+
+Leukocytosis (18,700/mm³; normal 4500-11,000)
+High neutrophils (76.6%)
+Low lymphocytes (8.2%)
+Fluctuating eosinophilia (9.6% initially, later 2.6%)
+Mild anemia (Hgb 12.3 g/dL)
+This pattern suggests acute inflammation/infection and possible immune dysregulation.
+
+
+Liver Function Tests
+
+
+Mildly elevated ALT (57 U/L; normal 10-55)
+Elevated AST (73 U/L; normal 10-40)
+Low albumin (2.7 g/dl; normal 3.3-5.0)
+Suggests mild hepatic inflammation and poor nutritional status/chronic disease.
+
+
+Coagulation Studies
+
+
+Elevated PT (17.0 sec; normal 11.5-14.5)
+Elevated INR (1.4; normal 0.9-1.1)
+Indicates coagulation abnormalities, possibly related to inflammation.
+
+
+Viral Studies
+
+
+HBV core antibody positive but:
+
+Negative HBV surface antigen
+Negative HBV DNA
+Negative HBV surface antibody
+Shows past HBV infection without current active disease.
+
+
+
+
+Urinalysis
+
+
+2+ blood
+10-20 RBCs/HPF
+No active sediment
+Suggests possible renal vasculitis.
+
+
+Immunologic Studies
+
+
+Positive ANA (1:40 and 1:160, speckled pattern)
+Negative ANCA
+Normal complement levels
+Elevated free light chains
+Pattern is consistent with systemic inflammation but not specific for any particular autoimmune disease.
+
+
+Special Studies
+
+
+Positive B. henselae IgG (1:128)
+Positive strongyloides antibodies
+These findings influenced treatment decisions regarding prophylaxis.
+
+Clinical Correlation:
+
+The elevated inflammatory markers, leukocytosis, and anemia correlate with the patient's systemic symptoms (fever, fatigue).
+The urinary findings and liver function abnormalities reflect multi-organ involvement characteristic of polyarteritis nodosa.
+The coagulation abnormalities and inflammatory markers support vascular inflammation.
+The serologic studies helped exclude other diagnoses:
+
+
+Negative ANCA ruled out ANCA-associated vasculitis
+Past HBV infection without active disease influenced treatment decisions
+Positive strongyloides antibodies led to prophylactic treatment before immunosuppression
+
+
+The temporal progression of lab abnormalities matched the clinical course:
+
+
+Initial presentation suggested infection
+Persistence despite antibiotics
+Pattern of multi-system involvement
+Response to immunosuppression
+
+This comprehensive laboratory evaluation was crucial in:
+
+Establishing the diagnosis of polyarteritis nodosa
+Excluding other conditions
+Guiding treatment decisions
+Monitoring disease activity
+Identifying potential complications requiring prophylaxis
