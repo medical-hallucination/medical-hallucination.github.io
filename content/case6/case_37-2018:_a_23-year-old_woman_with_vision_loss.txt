@@ -1,11 +1,26 @@
-## Case 37-2018: A 23-Year-Old Woman With Vision Loss
+## Case 37-2018: A 23-Year-Old Woman with Vision Loss
 
-Sashank Prasad, M.D., Lucy H. Young, M.D., Ph.D., Marc Bouffard, M.D.,  
-and Rajiv Gupta, M.D.
+### Presentation of Case
 
-From the Departments of Neurology (S.P., M.B.), Ophthalmology (L.H.Y.), and Radiology (R.G.), Harvard Medical School, the Department of Neurology, Brigham and Women's Hospital (S.P.), the Department of Ophthalmology, Massachusetts Eye and Ear (L.H.Y.), and the Departments of Neurology (M.B.) and Radiology (R.G.), Massachusetts General Hospital - all in Boston. This article was updated on November 29, 2018, at NEJM.org.
+A 23-year-old woman with migraines experienced vision loss in the right eye and vertigo. She reported a "gray dot" in the inferonasal field of vision of her right eye, which later appeared "white" intermittently. Associated symptoms included right frontal headache and vertigo. Initial ophthalmologic examination at an affiliated hospital showed visual acuity of 20/20 in both eyes and a significant scotoma in the right eye. Automated perimetry confirmed a dense depression in that area.
+
+### Diagnostic Evaluation
+
+Physical examination revealed normal vital signs and minor deficits in color vision in the right eye. Fundoscopic examination showed retinal whitening, suggestive of a branch retinal artery occlusion. Laboratory tests did not indicate common causes of thrombosis or inflammation, but did show a higher titer of antinuclear antibodies.
+
+### Differential Diagnosis
+
+The initial differential considered conditions affecting the optic nerve, such as optic neuritis, but visual acuity remained intact, making retinal pathology more likely. The combination of vision loss, scotoma, and stable color vision indicated a retinal rather than optic nerve issue. A diagnosis of Susac’s syndrome was ultimately considered based on the retinal findings and the symptom of vertigo, which suggested microangiopathy affecting the retina, cochlea, and brain.
+
+### Imaging Studies
+
+MRI revealed lesions in the corpus callosum and other characteristic findings supporting Susac’s syndrome. 
+
+### Management
+
+Treatment involved glucocorticoids and immunosuppressants, such as rituximab, to induce remission and prevent further microangiopathic damage.
+
+This case was prepared by Drs. Sashank Prasad, Lucy H. Young, Marc Bouffard, and Rajiv Gupta from the Departments of Neurology, Ophthalmology, and Radiology at Harvard Medical School and other affiliated institutions in Boston. 
 
 N Engl J Med 2018;379:2152-9. DOI: 10.1056/NEJMcpc1807501  
 Copyright © 2018 Massachusetts Medical Society.
-
-#

@@ -1,5 +1,3 @@
 ## Reflex Syncope
 
-Reflex syncope - also known as neurally mediated, vasovagal, or neurocardiogenic syncope - is primarily manifested by a slowing heart rate (cardioinhibitory syncope), decreased blood pressure (vasodepressor syncope), or a combination of the two. Typical triggers of reflex syncope include micturition and phlebotomy, although these may not be present in older patients. This patient had just started to walk to the bathroom when he fell to the ground. Given the absence of a typical trigger, reflex syncope is an unlikely diagnosis in this case.
-
-##
+Reflex syncope, also known as neurally mediated, vasovagal, or neurocardiogenic syncope, is primarily manifested by a slowing heart rate (cardioinhibitory syncope), decreased blood pressure (vasodepressor syncope), or a combination of both. Typical triggers of reflex syncope include micturition and phlebotomy, although these triggers may not be present in older patients. In this case, the patient had just started to walk to the bathroom when he fell to the ground. Given the absence of a typical trigger, reflex syncope is an unlikely diagnosis in this situation.

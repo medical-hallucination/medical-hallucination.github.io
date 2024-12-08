@@ -2,7 +2,7 @@
 
 1. Chang JT, Morton SC, Rubenstein LZ, et al. Interventions for the prevention of falls in older adults: systematic review and meta-analysis of randomised clinical trials. BMJ 2004;328:680.
 2. Tinetti ME, Speechley M, Ginter SF. Risk factors for falls among elderly persons living in the community. N Engl J Med 1988;319:1701-7.
-3. Steffen KJ, Engel SG, Wonderlich JA, Pollert GA, Sondag C. Alcohol and other addictive disorders following bariatric surgery: prevalence, risk factors and possible etiologies. Eur Eat Disord Rev 2015;23:442-50.
+3. Steffen KJ, Engel SG, Wonderlich JA, Pollert GA, Sondag C. Alcohol and other addictive disorders following bariatric surgery: prevalence, risk factors, and possible etiologies. Eur Eat Disord Rev 2015;23:442-50.
 4. Spadola CE, Wagner EF, Dillon FR, Trepka MJ, De La Cruz-Munoz N, Messiah SE. Alcohol and drug use among postoperative bariatric patients: a systematic review of the emerging research and its implications. Alcohol Clin Exp Res 2015;39:1582-601.
 5. Nicolás JM, Fernández-Solà J, Robert J, et al. High ethanol intake and malnutrition in alcoholic cerebellar shrinkage. QJM 2000;93:449-56.
 6. Kumar P, Hamza N, Madhok B, et al. Copper deficiency after gastric bypass for morbid obesity: a systematic review. Obes Surg 2016;26:1335-42.
@@ -15,16 +15,14 @@
 13. Dillon PF, Root-Bernstein RS, Lieder CM. Antioxidant-independent ascorbate enhancement of catecholamine-induced contractions of vascular smooth muscle. Am J Physiol Heart Circ Physiol 2004;286:H2353-H2360.
 14. Zipursky JS, Alhashemi A, Juurlink D. A rare presentation of an ancient disease: scurvy presenting as orthostatic hypotension. BMJ Case Rep 2014;2014:bcr2013201982.
 15. Fazio V, Flint DM, Wahlqvist ML. Acute effects of alcohol on plasma ascorbic acid in healthy subjects. Am J Clin Nutr 1981;34:2394-6.
-16. Choosing wisely: twenty things physicians and patients should question. Chicago: American Society for Clinical Pathology (http://www.choosingwisely.org/wp-content/uploads/2015/02/ASCP-Choosing-Wisely-List.pdf).
+16. Choosing wisely: twenty things physicians and patients should question. Chicago: American Society for Clinical Pathology.
 17. Yetley EA, Pfeiffer CM, Phinney KW, et al. Biomarkers of folate status in NHANES: a roundtable summary. Am J Clin Nutr 2011;94:303S-312S.
-18. Westra B. Red cell folate testing - unwarranted and overutilized in the era of folic acid supplementation. Insights. November 1, 2010 (https://webcache.googleusercontent.com/search?q=cache:vtV8jJwbB9MJ:https://news.mayomedical laboratories.com/2010/11/01/red-cell-folate-testing-unwarranted-and-overutilized-in-the-era-of-folic-acid-supplementation-hot-topic/).
-19. Risteli J, Winters WE, Kleerekoper M, Risteli L. Bone and mineral metabolism. In: Brutis CA, Ashwood ER, Bruns DE, eds. Tietz textbook of clinical chemistry and molecular diagnosis 5th ed. St. Louis: Saunders, 2012:1768-9.
-20. Choosing wisely: five things physicians and patients should question. Washington, DC: Endocrine Society, 2013 (http://www.choosingwisely.org/wp-content/uploads/2015/02/ES-Choosing-Wisely-List.pdf).
+18. Westra B. Red cell folate testing: unwarranted and overutilized in the era of folic acid supplementation. Insights. 2010.
+19. Risteli J, Winters WE, Kleerekoper M, Risteli L. Bone and mineral metabolism. In: Brutis CA, Ashwood ER, Bruns DE, eds. Tietz textbook of clinical chemistry and molecular diagnosis. 5th ed. St. Louis: Saunders, 2012:1768-9.
+20. Choosing wisely: five things physicians and patients should question. Washington, DC: Endocrine Society, 2013.
 21. Hansen EP, Metzsche C, Henningsen E, Toft P. Severe scurvy after gastric bypass surgery and a poor postoperative diet. J Clin Med Res 2012;4:135-7.
 22. Parrott J, Frank L, Rabena R, Craggs-Dino L, Isom KA, Greiman L. American Society for Metabolic and Bariatric Surgery integrated health nutritional guidelines for the surgical weight loss patient 2016 update: micronutrients. Surg Obes Relat Dis 2017;13:727-41.
 23. Gropper SS. Advanced nutrition and human metabolism. 7th ed. Boston: Cengage Learning, 2016.
-24. Oliveira YS, Iba Ba J, Mba Angoué JM, Emery Itoudi Bignoumba P, Nzenze JR. Copper deficiency and peripheral neuropathy as an outcome of gastrectomy. Rev Med Interne 2013;34:234-6. (In French).
+24. Oliveira YS, Iba Ba J, Mba Angoué JM, Emery Itoudi Bignoumba P, Nzenze JR. Copper deficiency and peripheral neuropathy as an outcome of gastrectomy. Rev Med Interne 2013;34:234-6.
 25. Bush K, Kivlahan DR, McDonell MB, Fihn SD, Bradley KA. The AUDIT alcohol consumption questions (AUDIT-C): an effective brief screening test for problem drinking. Arch Intern Med 1998;158:1789-95.
-26. Curry SJ, Ludman EJ, Grothaus LC, Donovan D, Kim E. A randomized trial of a brief primary-care-based intervention for reducing at-risk drinking practices. Health Psychol 2003;22:156-65. 
-
-#
+26. Curry SJ, Ludman EJ, Grothaus LC, Donovan D, Kim E. A randomized trial of a brief primary-care-based intervention for reducing at-risk drinking practices. Health Psychol 2003;22:156-65.

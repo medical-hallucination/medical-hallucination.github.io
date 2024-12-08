@@ -1,5 +1,3 @@
 ## Schistosoma
 
-Schistosomiasis affects more than 200 million people worldwide, and different species of schistosoma are prevalent in different regions of the world. *Schistosoma mansoni* is found in the Caribbean and South America.7 *S. mansoni* adults mate and deposit eggs in the colonic submucosa, and chronic infection can lead to a colonic mass. However, this helminth preferentially migrates to the inferior mesenteric vein, and thus inflammatory changes more commonly occur in the distal colon than in the ascending colon.8
-
-#
+Schistosomiasis affects more than 200 million people worldwide, with various species prevalent in different regions. *Schistosoma mansoni* is found in the Caribbean and South America. Adults mate and deposit eggs in the colonic submucosa, potentially leading to a colonic mass. This helminth typically migrates to the inferior mesenteric vein, resulting in inflammatory changes more frequently in the distal colon than in the ascending colon.

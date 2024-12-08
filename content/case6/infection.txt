@@ -1,5 +1,3 @@
 ## Infection
 
-Many infectious diseases can cause retinitis. Some infections can cause retinal vasculitis, with the patient presenting specifically with retinal ischemia that is visible on a funduscopic examination. Such conditions include syphilis, viral infection (e.g., varicella–zoster virus or cytomegalovirus infection), tuberculosis, toxoplasmosis, and angioinvasive fungal infection (e.g., aspergillosis). This patient is not immunocompromised and does not have any risk factors for sexually transmitted disease, and thus an infectious cause is unlikely.
-
-##
+Many infectious diseases can cause retinitis. Some infections can cause retinal vasculitis, with the patient presenting specifically with retinal ischemia that is visible on a funduscopic examination. Such conditions include syphilis, viral infection (e.g., varicella–zoster virus or cytomegalovirus), tuberculosis, toxoplasmosis, and angioinvasive fungal infection (e.g., aspergillosis). This patient is not immunocompromised and does not have any risk factors for sexually transmitted diseases, and thus an infectious cause is unlikely.

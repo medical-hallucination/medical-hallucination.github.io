@@ -12,28 +12,13 @@
 10. Chen YC, Chiu HC, Chu CY. Drug reaction with eosinophilia and systemic symptoms: a retrospective study of 60 cases. Arch Dermatol 2010;146:1373-9.
 11. Ebell MH, Call M, Shinholser J, Gardner J. Does this patient have infectious mononucleosis? The Rational Clinical Examination systematic review. JAMA 2016; 315:1502-9.
 12. Dunmire SK, Hogquist KA, Balfour HH. Infectious mononucleosis. Curr Top Microbiol Immunol 2015;390:211-40.
-13. Thamcharoen N, Sornprom S, Pertain N, Hyman CL. False positivity of the monospot test in an immunocompetent elderly woman with acute cytomegalovirus infection. Am J Emerg Med 2015;33(10): 1544.e1-2.
+13. Thamcharoen N, Sornprom S, Permpalung N, Hyman CL. False positivity of monospot test in an immunocompetent elderly woman with acute cytomegalovirus infection. Am J Emerg Med 2015;33(10): 1544.e1-2.
 14. Hurt C, Tammaro D. Diagnostic evaluation of mononucleosis-like illnesses. Am J Med 2007;120(10):911.e1-8.
-15. Aouam K, Bel Hadj Ali H, Youssef M, et al.C arbamazepine-induced DRESS and HHV6 primary infection: the importance of skin tests. Epilepsia 2008;49:1630-3.
+15. Aouam K, Bel Hadj Ali H, Youssef M, et al. Carbamazepine-induced DRESS and HHV6 primary infection: the importance of skin tests. Epilepsia 2008;49:1630-3.
 16. Descamps V, Valance A, Edlinger C, et al. Association of human herpesvirus 6 infection with drug reaction with eosinophilia and systemic symptoms. Arch Dermatol 2001;137:301-4.
-
-17. Cho YT, Yang CW, Chu CY. Drug reaction with eosinophilia and systemic symptoms (DRESS): an interplay among drugs, viruses, and the immune system. Int J Mol Sci 2017;18:E1243.
-18. Leong HN, Tuke PW, Tedder RS, et al.The prevalence of chromosomally integrated human herpesvirus 6 genomes in the blood of UK blood donors. J Med Virol 2007;79:45-51.
+17. Cho YT, Yang CW, Chu CY. Drug reaction with eosinophilia and systemic symptoms (DRESS): an interplay among drugs, viruses, and immune system. Int J Mol Sci 2017;18:E1243.
+18. Leong HN, Tuke PW, Tedder RS, et al. The prevalence of chromosomally integrated human herpesvirus 6 genomes in the blood of UK blood donors. J Med Virol 2007;79:45-51.
 19. Morissette G, Flamand L. Herpesviruses and chromosomal integration. J Virol 2010;84:12100-9.
 20. Tanaka-Taya K, Sashihara J, Kurahashi H, et al. Human herpesvirus 6 (HHV-6) is transmitted from parent to child in an integrated form and characterization of cases with chromosomally integrated HHV-6 DNA. J Med Virol 2004;73: 465-73.
-21. Fox JD, Ward P, Briggs M, Irving W, Stammers TG, Tedder RS. Production of IgM antibody to HHV6 in reactivation and primary infection. Epidemiol Infect 1990; 104:289-96.
+21. Fox JD, Ward P, Briggs M, Irving W, Stammers TG, Tedder RS. Production of IgM antibody to HHV-6 in reactivation and primary infection. Epidemiol Infect 1990;104:289-96.
 22. Husain Z, Reddy BY, Schwartz RA. DRESS syndrome: Part II. Management and therapeutics. J Am Acad Dermatol 2013;68(5):709.e1-9.
-
-Copyright © 2018 Massachusetts Medical Society.
-
-![10_image_0.png](10_image_0.png)
-
-Every article published by the *Journal* is now available at NEJM.org, beginning with the first article published in January 1812. The entire archive is fully searchable, and browsing of titles and tables of contents is easy and available to all.
-
-Individual subscribers are entitled to free 24-hour access to 50 archive articles per year.
-
-Access to content in the archive is available on a per-article basis and is also being provided through many institutional subscriptions.
-
-785
-
-The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.

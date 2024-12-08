@@ -1,5 +1,3 @@
 ## Heparin-Induced Thrombocytopenia
 
-Heparin-induced thrombocytopenia is a prothrombotic disorder that is caused by antibodies to complexes of platelet factor 4 and heparin. When the syndrome is not recognized, it can lead to macrovascular clotting; it would most likely be considered in recently hospitalized patients with thrombosis. However, this patient had a relatively normal platelet count at the time of presentation, when he already had evidence of systemic embolization. Of note, he had no known previous exposure to heparin.
-
-#
+Heparin-induced thrombocytopenia is a prothrombotic disorder caused by antibodies to complexes of platelet factor 4 and heparin. When the syndrome is not recognized, it can lead to macrovascular clotting and is often considered in recent hospital patients with thrombosis. However, this patient had a relatively normal platelet count at the time of presentation, despite evidence of systemic embolization. Notably, he had no known previous exposure to heparin.

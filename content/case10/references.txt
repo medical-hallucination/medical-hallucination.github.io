@@ -1,6 +1,6 @@
 ## References
 
-1. Rais A, Zarka S, Derazne E, et al. Varicocoele among 1 300 000 Israeli adolescent males: time trends and association with body mass index. Andrology 2013;1:663-9.
+1. Rais A, Zarka S, Derazne E, et al. Varicocoele among 1,300,000 Israeli adolescent males: time trends and association with body mass index. Andrology 2013;1:663-9.
 2. Clavijo RI, Carrasquillo R, Ramasamy R. Varicoceles: prevalence and pathogenesis in adult men. Fertil Steril 2017;108:364-9.
 3. Choyke PL, Glenn GM, Wagner JP, et al. Epididymal cystadenomas in von Hippel-Lindau disease. Urology 1997;49:926-31.
 4. Varshney N, Kebede AA, Owusu-Dapaah H, Lather J, Kaushik M, Bhullar JS. A review of Von Hippel-Lindau syndrome. J Kidney Cancer VHL 2017;4:20-9.
@@ -21,11 +21,9 @@
 19. Argani P, Ladanyi M. Translocation carcinomas of the kidney. Clin Lab Med 2005;25:363-78.
 20. Geller JI, Argani P, Adeniran A, et al. Translocation renal cell carcinoma: lack of negative impact due to lymph node spread. Cancer 2008;112:1607-16.
 21. Hintzy MC, Camparo P, Vasiliu V, Peyromaure M, Vieillefond A. Renal carcinoma associated with MiTF/TFE translocation: report of six cases in young adults. Prog Urol 2008;18:275-80. (In French.)
-22. Kuroda N, Tanaka A, Sasaki N, et al. Review of renal carcinoma with t(6;11) (p21;q12) with focus on clinical and pathobiological aspects. Histol Histopathol 2013; 28:685-90.
+22. Kuroda N, Tanaka A, Sasaki N, et al. Review of renal carcinoma with t(6;11) (p21;q12) with focus on clinical and pathobiological aspects. Histol Histopathol 2013;28:685-90.
 23. Haas NB, Manola J, Uzzo RG, et al. Adjuvant sunitinib or sorafenib for high-risk, non-metastatic renal-cell carcinoma (ECOG-ACRIN E2805): a double-blind, placebo-controlled, randomized, phase 3 trial. Lancet 2016;387:2008-16.
 24. Motzer RJ, Haas NB, Donskov F, et al. Randomized phase III trial of adjuvant pazopanib versus placebo after nephrectomy in patients with localized or locally advanced renal cell carcinoma. J Clin Oncol 2017;35:3916-23.
 25. Ravaud A, Motzer RJ, Pandha HS, et al. Adjuvant sunitinib in high-risk renal-cell carcinoma after nephrectomy. N Engl J Med 2016;375:2246-54.
 
 Copyright © 2018 Massachusetts Medical Society.
-
-The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.

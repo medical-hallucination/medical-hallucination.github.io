@@ -1,3 +1,0 @@
-## Activation of the Mineralocorticoid Receptor
-
-In primary aldosteronism, hypertension, hypokalemia, and metabolic alkalosis occur due to aldosterone-induced activation of the mineralocorticoid receptor in the kidney. Cortisol can also activate this receptor, but it is normally converted to inactive cortisone by the enzyme 11β-hydroxysteroid dehydrogenase 2 in the kidneys. In Cushing's syndrome, excess cortisol production can overwhelm this enzyme, resulting in cortisol-induced activation of the mineralocorticoid receptor. Given the patient's other clinical findings suggestive of Cushing's syndrome, it is suspected that her hypertension, hypokalemia, and metabolic alkalosis were due to activation of the mineralocorticoid receptor by excess cortisol.

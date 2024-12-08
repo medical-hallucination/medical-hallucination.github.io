@@ -1,7 +1,8 @@
 ## Clinical Diagnosis
 
 Vitamin C deficiency (scurvy).
-Dr. Susan E. Bennett's Diagnoses:
+
+### Diagnoses by Dr. Susan E. Bennett:
 
 - Scurvy causing progressive weakness and falling.
 - Micronutrient deficiencies causing peripheral neuropathy and anemia.

@@ -16,12 +16,10 @@
 14. Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. N Engl J Med 2010;363:221-32.
 15. Chen MH, Chen MH, Liu CY, et al. Hepatitis B virus reactivation in rheumatoid arthritis patients undergoing biologics treatment. J Infect Dis 2017;215:566-73.
 16. Kusumoto S, Tanaka Y, Suzuki R, et al. Monitoring of hepatitis B virus (HBV) DNA and risk of HBV reactivation in B-cell lymphoma: a prospective observational study. Clin Infect Dis 2015;61:719-29.
-17. Varisco V, Viganò M, Batticciotto A, et al. Low risk of hepatitis B virus reactivation in HBsAg-negative/anti-HBc-positive carriers receiving rituximab for rheumatoid arthritis: a retrospective multicenter Italian study. J Rheumatol 2016;43:86974.
-18. Huang H, Li X, Zhu J, et al. Entecavir vs lamivudine for prevention of hepatitis B virus reactivation among patients with untreated diffuse large B-cell lymphoma receiving R-CHOP chemotherapy: a randomized clinical trial. JAMA 2014;312: 2521-30.
-19. Buti M, Manzano ML, Morillas RM, et al. Randomized prospective study evaluating tenofovir disoproxil fumarate prophylaxis against hepatitis B virus reactivation in anti-HBc-positive patients with rituximab-based regimens to treat hematologic malignancies: the Preblin study. PLoS One 2017;12(9):e0184550.
+17. Varisco V, Viganò M, Batticciotto A, et al. Low risk of hepatitis B virus reactivation in HBsAg-negative/anti-HBc-positive carriers receiving rituximab for rheumatoid arthritis: a retrospective multicenter Italian study. J Rheumatol 2016;43:869-74.
+18. Huang H, Li X, Zhu J, et al. Entecavir vs lamivudine for prevention of hepatitis B virus reactivation among patients with untreated diffuse large B-cell lymphoma receiving R-CHOP chemotherapy: a randomized clinical trial. JAMA 2014;312:2521-30.
+19. Buti M, Manzano ML, Morillas RM, et al. Randomized prospective study evaluating tenofovir disoproxil fumarate prophylaxis against hepatitis B virus reactivation in anti-HBc-positive patients with rituximab-based regimens to treat hematologic malignancies: the Preblin study. PLoS One 2017;12(9):e0184550. 
 
 Copyright © 2018 Massachusetts Medical Society.
 
 The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
-
-2529

@@ -6,8 +6,4 @@ It is unclear whether HHV-6 infection can act as a trigger for the DRESS syndrom
 
 I think the most likely diagnosis in this case is the DRESS syndrome triggered by an unknown drug exposure in the context of HHV-6 infection. It is unclear whether this patient acquired acute HHV-6 infection from contact with a sick young child or whether he had reactivation of infection. I would recommend obtaining an HHV-6 DNA level and HHV-6 IgM and IgG antibody titers from the peripheral blood.
 
-Dr. David M. Dudzinski (Medicine): Dr. Tsiaras, what was your clinical impression when you evaluated this patient?
-
 Dr. Tsiaras: This patient's clinical presentation was consistent with a diagnosis of the DRESS syndrome. The specific causative drug in this case is not clear. The patient reported that treatment with a new analgesic medication had been initiated approximately 2 weeks before the onset of symptoms. This latency period between drug exposure and the onset of symptoms is compatible with the DRESS syndrome due to new analgesic medications. The DRESS syndrome is associated with reactivation of human herpesviruses, especially HHV-6, in the majority of cases. For this reason, it was recommended that the patient be evaluated for HHV-6 infection.
-
-#

@@ -1,5 +1,3 @@
 ## Clinical Diagnosis
 
-Renal-cell carcinoma.
-
-Dr. Douglas M. Dahl's Diagnosis Renal-cell carcinoma associated with a translocation involving one of the genes in the microphthalmia-associated transcription factor family.
+Renal-cell carcinoma associated with a translocation involving one of the genes in the microphthalmia-associated transcription factor (MiT) family.

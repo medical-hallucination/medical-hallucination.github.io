@@ -1,5 +1,0 @@
-## Cancer
-
-Could this patient have had a cancer that was driving the production of eosinophils? Certain myeloid, lymphoid, and solid-tumor neoplasms result in eosinophilia. Myeloid neoplasms are the result of clonal expansion due to mutations in hematopoietic stem cells, whereas lymphoid and solid-tumor neoplasms are often reactive processes.
-
-This patient's systemic symptoms, lymphadenopathy, and hepatosplenomegaly are consistent with myeloid and lymphoid neoplasms. However, the absence of circulating leukocyte precursors in the peripheral blood, the negative results on flow cytometry, and the benign lymph node–biopsy specimen make these diagnoses unlikely. In addition, the PET scan did not show an FDG-avid mass, which would be present if the symptoms were due to a cancer.

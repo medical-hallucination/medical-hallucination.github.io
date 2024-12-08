@@ -4,15 +4,15 @@
 |-------------------------------|--------------------------|-------------------------------|-------------------------------|--------------|
 | Hematocrit (%)                | 36–46                    | 42.5                          | 48.9                          | 36.6         |
 | Hemoglobin (g/dl)             | 12–16                    | 14.4                          | 16.2                          | 12.9         |
-| White-cell count (per mm3)    | 4500–11,000              | 15,000                        | 17,350                        | 6800         |
+| White-cell count (per mm³)    | 4500–11,000              | 15,000                        | 17,350                        | 6800         |
 | Neutrophils (%)               | 40–70                    | 89.3                          | 92.5                          | 88.9         |
 | Lymphocytes (%)               | 22–44                    | 2.3                           | 2.2                           | 3.7          |
 | Monocytes (%)                 | 4–11                     | 6.6                           | 4.6                           | 6.8          |
 | Eosinophils (%)               | 0–8                      | 0                             | 0                             | 0            |
 | Basophils (%)                 | 0–3                      | 0.1                           | 0.1                           | 0            |
 | Immature granulocytes (%)     | 0–0.9                    | 1.7                           | 0.6                           | 0.6          |
-| Platelet count (per mm3)      | 150,000–400,000          | 276,000                       | 183,000                       | 198,000      |
-| Red-cell count (per mm3)      | 4,000,000–5,200,000      | 5,130,000                     | 5,680,000                     | 4,440,000    |
+| Platelet count (per mm³)      | 150,000–400,000          | 276,000                       | 183,000                       | 198,000      |
+| Red-cell count (per mm³)      | 4,000,000–5,200,000      | 5,130,000                     | 5,680,000                     | 4,440,000    |
 | Mean corpuscular volume (fl)  | 80–100                   | 82.8                          | 86.1                          | 82.4         |
 | d-dimer (ng/ml)               | <500.0                   | NA                            | 246                           | 716          |
 | Sodium (mmol/liter)           | 135–145                  | 143                           | 144                           | 138          |
@@ -32,33 +32,3 @@
 * NA denotes not available. To convert the values for glucose to millimoles per liter, multiply by 0.05551. To convert the values for urea nitrogen to millimoles per liter, multiply by 0.357. To convert the values for creatinine to micromoles per liter, multiply by 88.4. To convert the values for calcium to millimoles per liter, multiply by 0.250. To convert the values for phosphorus to millimoles per liter, multiply by 0.3229.
 
 † Reference values are affected by many variables, including the patient population and the laboratory methods used. The ranges used at Massachusetts General Hospital are for adults who are not pregnant and do not have medical conditions that could affect the results. They may therefore not be appropriate for all patients.
-
-The remainder of the physical examination was normal. An electrocardiogram showed a normal sinus rhythm and left-axis deviation. Laboratory test results are shown in Table 1. A chest radiograph showed a normal cardiac silhouette and small bilateral pleural effusions, with no opacities or pulmonary edema. The patient was admitted to this hospital.
-
-The patient had a history of endometriosis and dysmenorrhea, conditions that had been treated with a levonorgestrel-releasing intrauterine system. She had a remote history of palpitations that were not associated with evidence of arrhythmia on Holter monitoring. The only medication was lisinopril. The patient's mother and sister had both had venous thromboses and miscarriages. Her maternal uncle had hypertrophic cardiomyopathy; there was no family history of sudden cardiac death. The patient did not drink alcohol, smoke tobacco, or use illicit drugs. She was married and worked as a lawyer.
-
-Furosemide was administered intravenously, and the patient reported a decrease in the dyspnea and swelling. Daily therapy with a low dose of oral furosemide was initiated. A transthoracic echocardiogram showed hyperdynamic left ventricular systolic function, with an ejection fraction of 76% (normal range, 50 to 75), as well as biventricular hypertrophy, an interventricular septal wall thickness of 14 mm, mild mitral regurgitation, systolic anterior motion of the mitralvalve leaflets, and accelerated flow in the left ventricular outflow tract. Because the blood pressure was persistently elevated, the dose of lisinopril was increased and treatment with metoprolol and nifedipine was initiated. On the third hospital day, the patient was discharged home.
-
-Three weeks before the current admission, dyspnea on exertion and fatigue recurred, and the patient was again evaluated in the emergency department of this hospital. She reported a 3-day history of malaise and night sweats. On examination, the temperature was 36.8°C, the blood pressure 148/96 mm Hg, the heart rate 84 beats per minute, the respiratory rate 16 breaths per minute, and the oxygen saturation 96% while she was breathing ambient air. The weight was 65.3 kg. Jugular venous pulsation was not visible, and there was no leg edema; otherwise, the results of the physical examination had not changed from the previous week. Laboratory test results are shown in Table 1. Blood and urine cultures were sterile. Tests for human immunodeficiency virus (HIV) type 1 p24 antigen and HIV type 1 and type 2 antibodies were negative. An interferon-γ release assay for tuberculosis was nonreactive. A chest radiograph showed that the pleural effusions had resolved and that no opacities or pulmonary edema had developed. The patient was admitted to this hospital, and additional cardiac imaging studies were obtained.
-
-Dr. Michael T. Lu: Magnetic resonance imaging (MRI) of the chest, performed before and after the administration of gadolinium, revealed asymmetric left ventricular septal hypertrophy (maximal wall thickness, 21 mm) and mild left ventricular enlargement with hyperdynamic systolic function (ejection fraction, 71%). There was no evidence of myocardial iron overload, and there were small areas of late gadolinium enhancement in the midwall. These findings were compatible with fibrosis due to hypertrophic cardiomyopathy (Fig. 1A and 1B).
-
-Dr. Ingham: The patient's prescribed dose of oral furosemide was administered, but orthostatic hypotension developed. She received intravenous fluids, and furosemide therapy was discontinued. She did not have a fever during the hospitalization. The white-cell count decreased but did not normalize. On the sixth hospital day, the patient was discharged home. The weight was 62.1 kg.
-
-At home, the fatigue continued to decrease until 2 weeks after discharge, when recurrent fatigue, fevers, and palpitations developed. The patient was again evaluated in the emergency department of this hospital. The patient's husband reported that she had become increasingly confused, irritable, and anxious. He also noted that she appeared to be weak globally, with increased respiratory effort on exertion. The patient reported frequent urination and increased thirst.
-
-On examination, the temperature was 36.2°C, the blood pressure 135/80 mm Hg, the heart rate 98 beats per minute, the respiratory rate 18 breaths per minute, and the oxygen saturation 98% while the patient was breathing ambient air. The weight was 60.0 kg. The patient was awake, alert, and cooperative, but she was unable to state the year or to count backward from 100 in increments of 7. She occasionally responded to questions inappropriately and with confabulation. Cranial-nerve function was normal, although the first cranial nerve was not tested. Strength was 4/5 in the proximal muscles of the arms and legs. Sensation was normal. A systolic murmur (grade 3/6) was best heard at the left sternal border. Jugular venous pulsation was not visible, and there was no leg edema. The amount of scalp hair had decreased, and hair growth on the upper lip and chin had increased. She had no rashes, bruises, striae, or hyperpigmentation. The remainder of the physical examination was normal. Laboratory test results are shown in Table 1. Additional imaging studies were obtained.
-
-Dr. Lu: Computed tomographic (CT) angiography of the chest, performed after the administration of intravenous contrast material, revealed segmental and subsegmental pulmonary emboli in the right lower lobe, with no evidence of strain on the right side of the heart or of pulmonary infarction. There was diffuse thickening of both adrenal glands (Fig. 1C and 1D).
-
-![3_image_0.png](3_image_0.png)
-
-Figure 1. MRI and CT Angiogram of the Chest. MRI of the chest was performed. A steady-state free precession image obtained in the short-axis view during end diastole (Panel A) shows evidence of focal wall thickening (up to 21 mm) at the base of the anterior septum in the left ventricle (arrow). Another image obtained in the short-axis view (Panel B) shows late gadolinium enhancement in the midwall (arrow). These findings are compatible with fibrosis due to hypertrophic cardiomyopathy. CT angiography was also performed. A sagittal image (Panel C) shows a pulmonary embolism in a segmental pulmonary artery in the right lower lobe (arrow). An axial image (Panel D) shows smooth, symmetric thickening of the adrenal glands (arrows), a finding suggestive of adrenal hyperplasia.
-
-MRI, angiography, and venography of the head revealed no evidence of a mass, acute infarction, arterial abnormalities, or venous sinus thrombosis.
-
-Dr. Ingham: The patient was admitted to this hospital. A continuous infusion of heparin was administered intravenously, and her prescribed medications were continued. Despite having a normal diet, the patient had persistent hypokalemia and received aggressive potassium supplementation.
-
-A diagnostic test was performed.
-
-#

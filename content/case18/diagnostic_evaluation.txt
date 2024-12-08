@@ -1,7 +1,5 @@
 ## Diagnostic Evaluation
 
-After a detailed history is obtained and a physical examination is done, diagnostic studies are typically performed as part of the syncope evaluation. However, the yield from such studies is limited; a diagnosis is not established in nearly one half of cases. The most informative test in this case was TTE, which revealed masses external to the right atrioventricular groove, with evidence of external compression of the heart. Focusing on this unusual echocardiographic finding may ultimately reveal the cause of this patient's syncope.
+After a detailed history and physical examination, diagnostic studies are typically performed to evaluate syncope. These studies, however, often do not provide a definitive diagnosis in nearly half of the cases. In this instance, the most informative test was a transthoracic echocardiogram (TTE), which identified masses external to the right atrioventricular groove. These masses showed evidence of exerting external compression on the heart. This unusual echocardiographic finding may provide significant clues into the underlying cause of the patient's syncopal episodes.
 
 ![3_image_0.png](3_image_0.png)
-
-##

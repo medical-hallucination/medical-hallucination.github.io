@@ -17,7 +17,3 @@
 | Bone mineral density T scores, −1.10, −0.20, and −0.90                                         | Maybe; can be nutritional                                         | Yes                                                        |
 | Presence of adnexal cysts                                                                      | Yes; müllerian remnants                                           | Yes; müllerian remnants                                    |
 | Follicle-stimulating hormone levels, 1.9 IU/liter and 2.1 IU/liter (very low)                  | No, if patient has a relatively elevated luteinizing hormone level | Yes                                                        |
-
----
-
-#

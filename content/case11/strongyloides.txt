@@ -1,5 +1,3 @@
 ## Strongyloides
 
-Strongyloidiasis affects 100 million people worldwide and is caused by the nematode Strongyloides stercoralis, which is endemic in Guatemala. S. stercoralis has a unique autoinfective life cycle that allows it to reproduce recurrently within the host, persisting for decades. Intestinal strongyloidiasis can cause intestinal mucosal congestion and ulceration, and peripheral eosinophilia is common.9
-
-#
+Strongyloidiasis affects 100 million people worldwide and is caused by the nematode Strongyloides stercoralis, endemic in Guatemala. S. stercoralis has a unique autoinfective life cycle that enables it to reproduce recurrently within the host and persist for decades. Intestinal strongyloidiasis can cause intestinal mucosal congestion, ulceration, and is commonly associated with peripheral eosinophilia.

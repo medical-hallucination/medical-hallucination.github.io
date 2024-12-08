@@ -1,12 +1,12 @@
-## Disorders Of The Retina
+## Disorders of the Retina
 
-This patient's vision loss can most likely be explained by a lesion in the retina. A dilated-pupil funduscopic examination is essential for assessment of the retina. Many clinicians find the 
+This patient's vision loss can most likely be explained by a lesion in the retina. A dilated-pupil funduscopic examination is essential for assessment of the retina. Many clinicians find the funduscopic examination difficult to perform, and it is easy to understand why. During direct funduscopy in a patient with an undilated pupil, it can be challenging to visualize the optic disk and even more challenging to examine the macula and the remainder of the retina. Ophthalmoscopes with modified optics offer a large viewing aperture that lessens these challenges. In addition, nonmydriatic cameras have become more widely available and less expensive.
 
-![3_image_0.png](3_image_0.png)
+In this patient, the results of a dilated-pupil fundus examination confirm an area of retinal whitening superotemporal to the fovea, a finding that is diagnostic of a branch retinal artery occlusion (BRAO). The affected region of the retina corresponds to the inferonasal scotoma that is described by the patient. 
+
+The inner layers of the retina are normally transparent; light passes through these layers, and the color of the fundus comes from the retinal pigment epithelium that is located in the outer retina. With acute retinal ischemia, however, the inner retinal layers become edematous and semiopaque, obscuring the pigment epithelium in the outer retina and causing an area of whitening that is visible on a funduscopic examination. What caused the BRAO in this patient?
+
+### Figure
 
 **Figure 2. Images Obtained on Fluorescein Angiography.**  
 Images obtained on fluorescein angiography show nonperfusion of an arteriole in the right eye (Panel A, arrow) and of several peripheral arterioles in the left eye (Panel B, arrows). Images obtained 5 minutes after the administration of fluorescein show perivascular staining in the right and left eyes (Panels C and D, respectively).
-
-funduscopic examination difficult to perform, and it is easy to understand why. During direct funduscopy in a patient with an undilated pupil, it can be challenging to visualize the optic disk and even more challenging to examine the macula and the remainder of the retina.2 Ophthalmoscopes with modified optics offer a large viewing aperture that lessens these challenges. In addition, nonmydriatic cameras have become more widely available and less expensive.3 In this patient, the results of a dilated-pupil fundus examination confirm an area of retinal whitening superotemporal to the fovea, a finding that is diagnostic of a branch retinal artery occlusion (BRAO). The affected region of the retina corresponds to the inferonasal scotoma that is described by the patient. The inner layers of the retina are normally transparent; light passes through these layers, and the color of the fundus comes from the retinal pigment epithelium that is located in the outer retina. With acute retinal ischemia, however, the inner retinal layers become edematous and semiopaque, obscuring the pigment epithelium in the outer retina and causing an area of whitening that is visible on a funduscopic examination. What caused the BRAO in this patient?
-
-##
