@@ -1,0 +1,51 @@
+Let me create a chronological timeline of the key events in this case:
+Past Medical History (Prior to Current Illness):
+
+25 years ago: Diagnosed with pulmonary TB in China, completed 14-month treatment
+23 years ago: Immigrated to US, negative TB sputum test
+12 years ago: Tested positive for HBV surface antigen, negative HBV DNA test
+3 years ago: Evaluated for chronic cough, CT showed calcified granuloma and bronchiectasis
+
+Current Illness Timeline:
+
+Day 1-14 before admission:
+
+
+Initial symptoms: Anorexia, fatigue, back/calf pain and tightness develop
+Seen by PCP 6 days after symptom onset
+Temperature 37.0°C, tender paraspinal muscles
+Later that day: Fever spikes to 38.9°C with chills, sweats, rigors
+
+
+~9 days before admission:
+
+
+Visited traditional Chinese doctor for moxibustion treatment
+Left testicular pain and swelling develop
+Returns to PCP
+Temperature 37.8°C
+Started on levofloxacin
+
+
+Hospital Admission and Treatment:
+
+
+Admitted with persistent symptoms despite levofloxacin
+Started on ceftriaxone
+Temporal artery and testicular biopsies performed
+Diagnosed with polyarteritis nodosa
+Started on prednisone, fever resolves
+Given rituximab, ivermectin, and entecavir before discharge
+
+
+Post-Discharge Course:
+
+
+2 weeks post-discharge: Received second rituximab dose, prednisone reduced
+1 month later: Developed posterior reversible encephalopathy syndrome (PRES)
+Discontinued rituximab due to possible association with PRES
+Continued prednisone for approximately 1 year
+At 1 year: CD20+ B lymphocytes remained depleted
+No recurrence of polyarteritis nodosa noted
+
+This timeline shows a progressive illness that initially appeared to be an infection but failed to respond to antibiotics, leading to further workup and eventual diagnosis of polyarteritis nodosa. The patient improved with immunosuppressive therapy but experienced a significant complication (PRES) that led to modification of the treatment plan.
