@@ -1,0 +1,87 @@
+Let me analyze the key laboratory findings and their clinical significance:
+Hematologic Abnormalities:
+
+Eosinophilia
+
+
+Initial count: 600/mm³ (normal 0-200)
+Peak: 2530/mm³ (23% of WBC)
+Significance: Indicates allergic/hypersensitivity reaction, key diagnostic feature of DRESS syndrome
+
+
+White Blood Cell Changes
+
+
+Initial: 18,300/mm³ → Decreased to 6,500/mm³
+Atypical lymphocytes: 4% → 13%
+Significance: Suggests viral reactivation (HHV-6) and immune response
+
+
+Anemia and Thrombocytopenia
+
+
+Hemoglobin dropped: 12.2 → 10.0 g/dL
+Platelets: 90,000 → 107,000/mm³
+Significance: Potential bone marrow involvement
+
+Liver Function Tests:
+
+Hepatocellular Injury
+
+
+Elevated AST: 95 → 188 U/L
+Elevated ALT: 153 → 160 U/L
+Significance: Indicates liver involvement, common in DRESS
+
+
+Cholestatic Pattern
+
+
+Elevated alkaline phosphatase: 811 → 498 U/L
+γ-Glutamyltransferase: 286 U/L
+Significance: Suggests biliary system involvement
+
+Inflammatory Markers:
+
+ESR: 74 mm/hr (normal <10)
+CRP: 41.33 mg/L (normal <8)
+
+
+Significance: Indicates systemic inflammation
+
+Immunologic Findings:
+
+Antinuclear antibody: Initially negative, became positive
+Complement levels:
+
+
+C3: 105 mg/dL (normal)
+C4: 15 mg/dL (slightly low)
+Significance: Suggests immune system activation
+
+Viral Studies:
+
+HHV-6:
+
+
+High viral load: 112,836 copies/mL
+Elevated IgM and IgG antibodies
+Significance: Confirms HHV-6 reactivation/infection
+
+Protein Changes:
+
+Decreased albumin: 2.3 → 2.2 g/dL
+Elevated globulin: 4.9 g/dL
+
+
+Significance: Indicates inflammatory state and possible capillary leak
+
+Clinical Correlation:
+
+The eosinophilia, atypical lymphocytes, and liver function abnormalities support DRESS syndrome diagnosis
+HHV-6 findings explain the mononucleosis-like symptoms
+Inflammatory markers correlate with systemic symptoms
+Protein changes explain the edema
+Sequential changes show progression despite withdrawal of suspected medication, typical of DRESS syndrome
+
+These laboratory findings collectively demonstrate multi-system involvement and support the final diagnosis of DRESS syndrome with associated HHV-6 infection/reactivation.

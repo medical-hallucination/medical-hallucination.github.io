@@ -1,0 +1,54 @@
+Here is a chronological ordering of the key events and temporal relationships between symptoms and interventions from the case:
+
+Key Events Chronologically:
+6 Days Before Admission:
+
+Right frontal headache and retro-orbital pain began, atypical of prior migraines.
+5 Days Before Admission:
+
+Vision alteration occurred in the right eye, described as a "gray dot."
+Episodes of intermittent diminished vision ("white appearing") lasting 45-60 seconds.
+3 Days Before Admission:
+
+Several episodes of vertigo described as "room spinning" lasting 30 seconds.
+Non-positional bifrontal headaches occurred one or two times daily, particularly during screen use.
+Persistent gray dot in inferonasal field of the right eye.
+Day Before Admission:
+
+Patient visited a specialized ophthalmology hospital due to persistent symptoms.
+Day of Admission:
+
+Initial evaluation showed vision loss localized to the right eye and dense depression in the inferonasal field (automated perimetry).
+Diagnostic tests revealed no systemic infection, hypercoagulable state, or autoimmune disease other than positive antinuclear antibodies (1:640 speckled pattern).
+Hospital Admission:
+
+Low-dose aspirin was administered.
+Patient was admitted for further evaluation and neurologic workup.
+1 Day After Admission:
+
+Developed hearing loss and tinnitus in the right ear, confirmed as bilateral sensorineural hearing loss (worse in the right ear).
+4 Days After Admission:
+
+Fundus photographs and fluorescein angiography revealed retinal whitening and delayed filling of retinal arterioles.
+Diagnosis:
+
+Susac’s syndrome was diagnosed based on clinical findings and imaging results.
+Management:
+
+Initial treatment included intravenous methylprednisolone and high-dose oral prednisone with a taper.
+Rituximab was administered weekly for induction therapy.
+Maintenance therapy included rituximab and mycophenolate, later switched to azathioprine due to side effects.
+Follow-Up:
+
+Surveillance with serial imaging (fluorescein angiography, MRI) and audiometry over months showed no progressive lesions or clinical relapse.
+Temporal Relationships:
+Symptoms and Diagnosis:
+
+Headache and retro-orbital pain transitioned to vision loss and vertigo, which guided localization to retinal microangiopathy.
+Episodic vertigo and hearing loss supported the autoimmune etiology (Susac’s syndrome).
+Symptoms and Interventions:
+
+Immediate low-dose aspirin targeted initial vascular protection.
+Immunosuppressive therapy aimed to mitigate autoimmune-mediated microangiopathy.
+Audiometry and imaging tracked disease progression and response to treatment.
+This temporal mapping illustrates the progression from initial symptoms to targeted intervention and ongoing management. Let me know if you need further insights or additional formatting.

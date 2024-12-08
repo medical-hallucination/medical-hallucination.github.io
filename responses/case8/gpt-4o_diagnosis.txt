@@ -1,0 +1,24 @@
+Based on the presentation of the case, laboratory data, and images provided:
+
+Possible Diagnosis:
+Complete Androgen Insensitivity Syndrome (CAIS):
+
+The patient has a typical presentation for CAIS, including:
+Primary amenorrhea.
+Minimal body hair despite normal pubertal development (adrenarche and thelarche).
+Absence of uterus and ovaries on imaging.
+Normal female external genitalia with a normal vaginal length.
+Presence of gonads with cystic structures, consistent with undescended testes.
+Laboratory findings indicating elevated luteinizing hormone (LH) and estradiol levels, which are typical for CAIS.
+Müllerian Agenesis (Mayer-Rokitansky-Küster-Hauser Syndrome):
+
+This condition is also associated with the absence of a uterus and ovaries, and the presence of a normal female phenotype.
+However, the presence of gonads with cystic structures (likely testes) and the hormonal profile in this case strongly favor CAIS over Müllerian agenesis.
+Supporting Findings:
+Imaging: The MRI findings of gonads with cystic changes are consistent with undescended testes seen in CAIS.
+Histopathology: The orchiectomy specimens show features typical of CAIS, including the presence of Sertoli-cell tubules, Leydig cells, and ovarian-type stroma, with no germ cells.
+Hormonal Profile:
+Elevated LH with normal estradiol levels for a female phenotype suggests androgen insensitivity.
+Very low follicle-stimulating hormone (FSH) levels and the absence of antimüllerian hormone confirm the absence of functional ovarian tissue.
+Conclusion:
+The most likely diagnosis is Complete Androgen Insensitivity Syndrome (CAIS). Management should include discussions about gonadectomy due to the risk of malignancy in undescended testes, as well as hormone replacement therapy to address potential long-term effects on bone health and quality of life.

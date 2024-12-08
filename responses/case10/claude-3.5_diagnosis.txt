@@ -1,0 +1,49 @@
+Let me analyze this case systematically to reach a diagnosis:
+Key Findings:
+
+Patient Demographics and Presentation:
+
+
+29-year-old male
+Incidentally discovered renal mass while evaluating a left testicular mass
+Mild right flank discomfort
+No constitutional symptoms (weight loss, fever, night sweats)
+Family history of melanoma (father)
+
+
+Imaging Findings:
+
+
+Large right renal mass (11.8 × 10.8 × 9.4 cm)
+Mixed solid and cystic components
+Thin mural calcification
+Minimal vascularity on Doppler
+No evidence of metastasis or lymphadenopathy
+Displaces IVC but no venous invasion
+
+
+Histopathology (from nephrectomy specimen):
+
+
+Nests of large cells with clear-to-eosinophilic cytoplasm
+Smaller cells with eosinophilic hyalinized material
+Immunohistochemistry:
+
+Negative for epithelial marker EMA
+Positive for melanocytic marker melan-a
+
+
+
+Based on these findings, particularly the histopathology and immunohistochemistry results, the most likely diagnosis is:
+Primary Renal PEComa (Perivascular Epithelioid Cell tumor)
+Reasoning:
+
+The histological pattern of nests of clear cells
+Immunohistochemical profile (melan-a positive, EMA negative)
+Mixed solid-cystic appearance with calcification
+The patient's young age
+The relatively large size
+Lack of typical features of more common renal tumors like clear cell RCC
+
+This is a rare mesenchymal neoplasm belonging to the family of PEComas, which are characterized by distinctive perivascular epithelioid cells that show both smooth muscle and melanocytic differentiation. The positive melan-a staining and negative epithelial marker strongly support this diagnosis.
+Would you like me to elaborate on any aspect of this diagnosis or discuss differential diagnoses?

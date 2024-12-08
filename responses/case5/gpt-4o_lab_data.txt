@@ -1,0 +1,38 @@
+Laboratory Findings and Their Clinical Significance
+Blood Glucose and Glycated Hemoglobin (HbA1c):
+
+Findings:
+Blood glucose: 291 mg/dL (elevated; reference range: 70–110 mg/dL).
+HbA1c: 11.8% (elevated; reference range: <5.7%).
+Significance:
+These findings indicate poorly controlled or undiagnosed diabetes mellitus.
+While diabetic polyradiculopathy is a differential diagnosis, it is less likely given the absence of constitutional symptoms (e.g., weight loss, malaise) and the asymmetrical, truncal distribution of the patient’s symptoms. The elevated glucose may contribute to susceptibility to infections, such as Lyme disease.
+Erythrocyte Sedimentation Rate (ESR):
+
+Finding:
+ESR: 25 mm/hour (normal; reference range: <30 mm/hour).
+Significance:
+A normal ESR does not suggest a significant inflammatory or systemic process, such as vasculitis, that could explain the polyradiculopathy. However, this finding does not exclude conditions like Lyme disease.
+Cerebrospinal Fluid (CSF) Analysis:
+
+Findings:
+Glucose: 115 mg/dL (elevated; reference range: 50–75 mg/dL).
+Protein: 128 mg/dL (elevated; reference range: 5–55 mg/dL).
+Nucleated cell count: 46/mm³ (elevated; reference range: 0–5/mm³).
+Significance:
+Elevated CSF protein and pleocytosis are consistent with an infectious or inflammatory process affecting the central nervous system. These findings align with Lyme meningoradiculitis, which involves inflammation of the meninges and nerve roots.
+Lyme Disease Serology:
+
+Findings:
+Serum IgG immunoblot assay: Positive (9 of 10 specific bands).
+Serum IgM immunoblot assay: Negative.
+CSF IgG immunoblot assay: Positive (5 specific bands).
+Significance:
+A positive serum IgG immunoblot confirms exposure to Borrelia burgdorferi, the causative agent of Lyme disease, with evidence of a prolonged infection (>1–2 months). The presence of specific IgG bands in the CSF further supports intrathecal antibody production, a hallmark of neuroborreliosis, explaining the patient’s neurologic symptoms.
+Normal Levels of Thyrotropin, Vitamin B12, Folate, Vitamin D, and Creatine Kinase:
+
+Significance:
+These findings exclude other potential causes of the patient’s symptoms, such as hypothyroidism, vitamin deficiencies, or myopathies.
+Correlation with Symptoms
+The elevated CSF protein, pleocytosis, and positive Lyme serology provide a direct link to the patient’s neurologic symptoms (paresthesia, weakness, numbness) caused by Lyme meningoradiculitis.
+Elevated glucose levels may have exacerbated susceptibility to infection or contributed to the progression of neurologic symptoms, but they are not the primary cause of the polyradiculopathy.

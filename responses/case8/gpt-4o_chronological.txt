@@ -1,0 +1,45 @@
+Key Events in Chronological Order with Temporal Relationships:
+Childhood (10 years old):
+
+Event: Fractured arm and underwent tonsillectomy.
+Significance: Routine childhood events without relation to current condition.
+Early Adolescence (12 years old):
+
+Event: Adrenarche and thelarche occurred, along with a linear growth spurt.
+Significance: Suggests normal puberty initiation despite underlying genetic condition.
+Mid-Adolescence (16 years old):
+
+Event: Evaluated for primary amenorrhea and diagnosed with congenital absence of the uterus and ovaries.
+Significance: Diagnosis marks the first identification of a reproductive anomaly, likely related to the current condition.
+Adulthood (31 years old, Present):
+
+Event: Presented with infertility at a fertility center to discuss family building with an oocyte donor and gestational carrier.
+Significance: Initiates current diagnostic workup to explore the underlying etiology.
+Diagnostic Workup:
+
+Event: Initial blood tests, imaging, and chromosomal analysis revealed:
+Absence of the uterus and ovaries, presence of gonads.
+Elevated luteinizing hormone (LH) levels.
+Chromosomal analysis showed a 46,XY karyotype.
+Significance: Confirms suspicion of a disorder of sexual development, narrowing the diagnosis to Complete Androgen Insensitivity Syndrome (CAIS).
+Intervention (Pelvic MRI and Pathology):
+
+Event: MRI showed gonads in the pelvis with no follicles and adnexal cysts. Pathological examination of removed gonads revealed Sertoli-cell hamartomas and ovarian-type stroma.
+Significance: Confirms the presence of undescended testes with morphological features consistent with CAIS.
+Management (Post-Surgery):
+
+Event: Bilateral orchiectomy was performed to mitigate the risk of gonadal malignancy. Estrogen replacement therapy was initiated.
+Significance: Addresses cancer risk and supports hormone balance for bone health and secondary sexual characteristics.
+Family and Social Disclosure:
+
+Event: The patient decided to disclose her diagnosis to her husband and family after initial reluctance.
+Significance: Highlights the psychological impact and familial implications of the diagnosis.
+Reproductive Plan:
+
+Event: Proceeded with family building via an oocyte donor and gestational carrier, resulting in an ongoing singleton pregnancy.
+Significance: Demonstrates successful navigation of infertility through assisted reproductive technology.
+Temporal Relationships:
+Puberty-related symptoms (adrenarche and thelarche) occurred normally due to peripheral estrogen conversion, preceding the realization of primary amenorrhea.
+The absence of reproductive organs identified at 16 years prompted investigations that established the diagnosis later in adulthood.
+Infertility led to further diagnostic clarification (CAIS), culminating in interventions (gonadectomy) and reproductive planning.
+Family disclosure and psychosocial counseling were temporally aligned with diagnosis and intervention, addressing psychological and social aspects of the condition.

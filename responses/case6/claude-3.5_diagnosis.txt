@@ -1,0 +1,57 @@
+Let me analyze this case systematically based on the key findings:
+Clinical Presentation:
+
+23-year-old woman with history of migraines
+New onset atypical headache
+Visual symptoms in right eye (scotoma)
+Vertigo
+Right-sided hearing loss and tinnitus
+Vision changes not typical for migraine (no scintillating scotoma or fortification spectra)
+
+Diagnostic Findings:
+
+Retinal Imaging:
+
+
+Retinal whitening in both eyes
+Delayed arteriolar filling on fluorescein angiography
+Perivascular staining
+Evidence of retinal ischemia
+
+
+MRI Findings:
+
+
+Multiple white matter lesions
+Corpus callosum lesions
+Contrast enhancement of lesions
+Perivascular enhancement
+Leptomeningeal enhancement
+No mass effect
+Diffusion restriction patterns
+
+
+Laboratory Results:
+
+
+Positive ANA (1:640 with speckled pattern)
+Elevated CSF protein (77 mg/dL)
+Normal inflammatory markers
+Normal coagulation studies
+
+Given these findings, the most likely diagnosis is Susac Syndrome, also known as retinocochleocerebral vasculopathy. This condition is characterized by the clinical triad of:
+
+Branch retinal artery occlusions
+Hearing loss
+Encephalopathy with characteristic corpus callosum lesions
+
+The diagnosis is supported by:
+
+Young female patient
+Characteristic MRI findings in corpus callosum
+Retinal arteriolar occlusions on fluorescein angiography
+Development of hearing loss
+Multiple small vessel involvement
+Age and gender typical for this condition
+
+This autoimmune microangiopathy typically affects young women and involves small vessel vasculopathy of the brain, retina, and inner ear, perfectly matching this patient's presentation.
