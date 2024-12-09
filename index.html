@@ -366,27 +366,6 @@
             border-radius: 4px;
             width: 250px;
         }
-        table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-        font-size: 14px;
-        text-align: center; /* Default center alignment */
-        }
-        table th, table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        table th {
-            background-color: #f9f9f9;
-            font-weight: bold;
-        }
-        table td:first-child, table th:first-child {
-            text-align: left; /* Left-align the first column */
-        }
-        table tbody tr:nth-child(even) {
-            background-color: #f2f2f2; /* Alternating row colors */
-        }
     </style>
 </head>
 <body>
@@ -706,10 +685,10 @@
 
             case13: [
                 { id: 'presentation_of_case', label: 'Presentation of Case' },
-                { id: 'examination_of_the_urinary_sediment', label: 'Examination of the Urinary Sediment' },
-                { id: 'gram-negative_bacteremia_and_glomerulonephritis', label: 'Gram-Negative Bacteremia and Glomerulonephritis' },
-                { id: 'infection_and_kidney_disease', label: 'Infection and Kidney Disease' },
-                { id: 'rapidly_progressive_glomerulonephritis', label: 'Rapidly Progressive Glomerulonephritis' }
+                { id: 'urinary_sediment', label: 'Examination of the Urinary Sediment' },
+                { id: 'glomerulonephritis', label: 'Gram-Negative Bacteremia and Glomerulonephritis' },
+                { id: 'infection_and_kidney', label: 'Infection and Kidney Disease' },
+                { id: 'rapidly_progressive', label: 'Rapidly Progressive Glomerulonephritis' }
             ],
 
             case14: [], // No files listed for case 14
@@ -1366,6 +1345,7 @@
             });
 
             document.getElementById('contentTitle').textContent = section.charAt(0).toUpperCase() + section.slice(1);
+
             try {
                 document.getElementById('contentBody').innerHTML = '<div class="loading">Loading...</div>';
 
@@ -1373,82 +1353,53 @@
                 if (!response.ok) {
                     throw new Error('Failed to load content');
                 }
-
+                
                 const text = await response.text();
-
-                // Process the text for proper formatting
-                const processedText = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n')
-                .replace(/^##\s+(.*)$/gm, '<h2>$1</h2>')
-                .replace(/^###\s+(.*)$/gm, '<h3>$1</h3>');
-
-                // Process Markdown-style tables into proper HTML tables
-                const htmlWithTables = processedText.replace(
-                    /\n\|(.+?)\|\n\|([-| ]+)\|\n((.|\n)*?)(?=\n\n|\n$)/g, // Match each table block
-                    (match, headers, separator, rows) => {
-                        const headerCells = headers
-                            .trim()
-                            .split('|')
-                            .map(cell => `<th>${cell.trim()}</th>`)
-                            .join('');
-
-                        let mergedRows = [];
-                        let currentRow = [];
-
-                        rows
-                            .trim()
-                            .split('\n')
-                            .forEach(row => {
-                                if (row.trim().startsWith('|')) {
-                                    // If there's an existing row, push it to mergedRows
-                                    if (currentRow.length > 0) {
-                                        mergedRows.push(currentRow);
-                                    }
-                                    // Start a new row
-                                    currentRow = row
-                                        .trim()
-                                        .split('|')
-                                        .slice(1, -1) // Remove leading and trailing empty cells caused by pipes
-                                        .map(cell => cell.trim());
-                                } else {
-                                    // Continuation row: append to each corresponding cell in the current row
-                                    const continuationCells = row.trim().split('|').slice(1, -1).map(cell => cell.trim());
-                                    currentRow = currentRow.map((cell, index) => cell + (continuationCells[index] ? ' ' + continuationCells[index] : ''));
-                                }
-                            });
-
-                        // Add the last row
-                        if (currentRow.length > 0) {
-                            mergedRows.push(currentRow);
+                
+                // Process the text for proper markdown formatting
+                const processedText = text
+                    // First normalize line endings
+                    .replace(/\r\n/g, '\n')
+                    .replace(/\r/g, '\n')
+                    // Split into lines
+                    .split('\n')
+                    // Remove empty lines at start and end
+                    .map(line => line.trim())
+                    // Join with double newlines between non-empty lines
+                    .filter(line => line.length > 0)
+                    .join('\n\n')
+                    // Process references
+                    .replace(
+                        /(fig\.|figure|table)(\s?)(\d+)/gi,
+                        (match, type, space, number) => {
+                            let normalizedType = type.toLowerCase();
+                            if (normalizedType === 'fig.') {
+                                normalizedType = 'figure';
+                            }
+                            return `<span class="reference-link" onclick="handleReference('${normalizedType}${number}')">${match}</span>`;
                         }
+                    );
 
-                        const rowCells = mergedRows
-                            .map(row => {
-                                const cells = row
-                                    .map(cell => `<td>${cell.trim()}</td>`)
-                                    .join('');
-                                return `<tr>${cells}</tr>`;
-                            })
-                            .join('');
+                // Configure marked options
+                marked.setOptions({
+                    breaks: true,      // Enable line breaks
+                    gfm: true,        // Enable GitHub Flavored Markdown
+                    headerIds: false,  // Disable header IDs
+                    mangle: false     // Disable header mangling
+                });
 
-                        return `<table><thead><tr>${headerCells}</tr></thead><tbody>${rowCells}</tbody></table>`;
-                    }
-                )
+                document.getElementById('contentBody').innerHTML = marked.parse(processedText);
 
-                // Convert newlines into paragraphs for plain text
-                .replace(/\n\n+/g, '</p><p>') // Add <p> for each paragraph
-                .replace(/^(?!<h|<p|<table|<img|<a).+/gm, '<p>$&</p>'); // Wrap remaining plain text in <p> tags
 
-                // Replace the loading placeholder with the processed content
-                document.getElementById('contentBody').innerHTML = htmlWithTables;
             } catch (error) {
                 console.error('Error loading content:', error);
-                document.getElementById('contentBody').innerHTML = '<div class="error">Failed to load content. Please try again.</div>';
+                document.getElementById('contentBody').innerHTML = `
+                    <div class="error-message">
+                        Error loading content. Please check if the file exists at:<br>
+                        /content/${currentCase}/${section}.txt
+                    </div>
+                `;
             }
-
-
-
-
-
 
             initializeTaskAreas();
         }
