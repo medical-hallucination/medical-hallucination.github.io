@@ -1,36 +1,41 @@
 ### Chronology of Key Events and Temporal Relationships:
 
 1. **5 Months Before Presentation**:
-   - The patient experienced **fever, ear and facial pain**, and **neck stiffness** in Guatemala.
-   - Diagnosis: **Sinusitis and otitis media of the left ear**.
-   - Symptoms partially resolved (fevers and neck stiffness) without specific treatment, but ear and facial pain persisted.
+   - **Symptoms**: Fevers, throbbing pain in the left ear and face, neck stiffness, and tinnitus develop.
+   - **Evaluation**: CT scan in Guatemala suggests sinusitis and otitis media.
+   - **Outcome**: Fevers and neck stiffness resolve without specific treatment, but ear and facial pain persist.
 
-2. **2 Years Before Presentation**:
-   - Episodes of **epigastric pain**, burning in quality, radiated to the chest after meals, and associated with diarrhea.
-   - Diagnosis: **Helicobacter pylori infection** (not treated with antibiotics).
-   - Intervention: **Intermittent proton-pump inhibitor therapy** reduced epigastric pain.
+2. **6 Months Before Presentation**:
+   - **Symptoms**: The patient begins an intentional weight loss of 7 kg, attributed to dietary changes.
 
-3. **10 Months Before Presentation**:
-   - Visit to an emergency department in New England for recurrent **epigastric pain**.
-   - Intervention: Proton-pump inhibitors, but symptoms did not resolve.
+3. **2 Years Before Presentation**:
+   - **Symptoms**: Episodes of epigastric pain (burning quality, radiating to the chest, occurring after meals, associated with diarrhea) develop.
+   - **Evaluation**: Diagnosed with *Helicobacter pylori* infection in Guatemala.
+   - **Intervention**: Treated intermittently with proton-pump inhibitors (PPIs) but not antibiotics.
+   - **Outcome**: Epigastric pain diminishes.
 
-4. **Presentation to the Community Health Center**:
-   - Chronic left-sided **abdominal pain** and **weight loss** reported.
-   - Medications included acetaminophen and jaw exercises recommended for **facial pain**.
-   - Interferon-γ release assay for **Mycobacterium tuberculosis** returned positive.
+4. **10 Months Before Presentation**:
+   - **Symptoms**: Severe epigastric pain persists despite 3 days of PPI therapy.
+   - **Evaluation**: Presented to the emergency department in New England.
+     - **Findings**: Normal urinalysis, kidney function, glucose, electrolytes, and lipase levels; negative stool *H. pylori* antigen test.
+   - **Outcome**: Pain resolved without intervention, and the patient returned to Guatemala.
 
-5. **1 Month After Initial Visit**:
-   - New complaint of **intermittent abdominal pain** in the right quadrants.
-   - **CT imaging** revealed a mass in the ascending colon with surrounding inflammation.
-   - Colonoscopy performed: A **noncircumferential mass** with biopsy.
+5. **Presentation to Community Health Center**:
+   - **Symptoms**: Persistent ear and facial pain, tenderness in the left temporomandibular joint, and a history of waxing and waning abdominal pain.
+   - **Evaluation**: Physical examination reveals a systolic murmur and tenderness on the left side of the face; glycated hemoglobin and lipid panel are normal. Tests for hepatitis A, B, and C are negative. Positive interferon-γ release assay suggests latent tuberculosis infection.
+   - **Intervention**: Acetaminophen and jaw exercises for facial pain, referral for mammography and colonoscopy.
 
-6. **Pathological Diagnosis**:
-   - Findings of **eosinophilic vasculitis** with intravascular nematode consistent with **Angiostrongylus costaricensis**.
+6. **Two Days Later**:
+   - **Diagnostic Imaging**: Chest radiograph is normal with no evidence of active tuberculosis.
 
-7. **Surgical Intervention**:
-   - **Laparoscopic right colectomy** performed; patient discharged on postoperative day 2.
+7. **1 Month After Initial Visit**:
+   - **New Symptoms**: Reports a 2-month history of intermittent pain in the right upper and lower quadrants.
+   - **Evaluation**: CT of the abdomen and pelvis reveals:
+     - An irregular, circumferential mass in the ascending colon with transmural extension and mesenteric lymphadenopathy.
+     - Appendix wall thickening, likely secondary to adjacent colonic inflammation.
 
 ### Temporal Relationships:
-- **Symptoms of epigastric and chronic abdominal pain** preceded the detection of the colonic mass, and interventions (proton-pump inhibitors) temporarily relieved symptoms.
-- The development of **eosinophilia** and the colon mass correlated with parasitic exposure, dietary habits, and travel history.
-- The **positive tuberculosis test** prompted investigations, but the eventual diagnosis tied eosinophilia and the mass to a parasitic etiology.
+- Persistent ear and facial pain (5 months prior) preceded the discovery of latent tuberculosis (positive interferon-γ release assay).
+- Epigastric pain episodes (2 years prior) are unrelated to the ascending colon mass but suggest a history of gastrointestinal distress.
+- Abdominal pain in the right quadrants (2 months before re-presentation) aligns temporally with findings of a colon mass and inflammation. 
+- Weight loss coincided with the later stages of symptoms, possibly due to dietary changes or underlying malignancy.

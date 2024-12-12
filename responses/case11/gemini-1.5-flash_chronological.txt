@@ -1,38 +1,35 @@
-Chronological order of key events:
+**Chronological Order of Key Events:**
 
-1. **6 months prior to presentation:** The patient develops fevers, throbbing pain in the left ear and face, radiating to the jaw with neck stiffness and tinnitus. Evaluated by a physician in Guatemala, CT scan reported findings consistent with sinusitis and otitis media of the left ear. Fevers and neck stiffness resolve without treatment, but ear and facial pain persist.
-2. **2 years prior to presentation:** Episodes of epigastric pain develop, burning in quality, radiating to the chest, occurring after meals, with diarrhea. Evaluated by a physician in Guatemala, testing revealed Helicobacter pylori infection. Not treated with antibiotics, but epigastric pain diminished with intermittent proton-pump inhibitor therapy.
-3. **10 months prior to presentation:** Patient visits emergency department for epigastric pain while visiting New England. Pain did not improve after 3 days of proton-pump inhibitor therapy. Exam unremarkable, abdominal pain resolved, and patient returned to Guatemala.
-4. **On presentation to community health center:** 
-    * Reports intentional weight loss of 7 kg in the past 6 months.
-    * Has dull, waxing and waning pain in the left side of the abdomen for the past 30 years.
-    * Medications include alprazolam, aspirin, amiloride-hydrochlorothiazide, bisoprolol, and ciprofibrate.
-    * Lives in a rural town in Guatemala, eats boiled fish, shrimp, and crayfish from freshwater rivers.
-    * Exam reveals tenderness on palpation of the left temporomandibular joint, temporal region, and cheek. Left jaw clicks with opening. No cervical lymphadenopathy.
-5. **Laboratory tests:** Eosinophilia noted. Negative for H. pylori antigen.
-6. **Acetaminophen and jaw exercises with massage recommended for facial pain.**
-7. **Referred for mammography and colonoscopy for age-appropriate cancer screening.**
-8. **Two days later:** Positive interferon-γ release assay for Mycobacterium tuberculosis and chest radiograph obtained. Chest radiograph showed normal mediastinal contours without evidence of lymphadenopathy or cardiomegaly, clear pleural spaces without evidence of an effusion, and clear lungs without evidence of opacities, apical scarring, or calcified granulomas.
-9. **One month after initial visit:** Patient returned to discuss treatment options for latent tuberculosis infection. Reported 2-month history of intermittent pain in the right upper and lower quadrants. CT of the abdomen and pelvis performed.
-10. **CT scan revealed an irregular, circumferential mass in the ascending colon.**
-11. **Colonoscopy performed:** Sessile polyps detected in the sigmoid colon and descending colon, removed by cold snare polypectomy. Noncircumferential, nonobstructing mass with rolled borders and an ulcerated base in the ascending colon. Biopsy specimens obtained.
-12. **Histologic evaluation:**  
-    * Resected polyps showed tubular adenomas. 
-    * Biopsy specimens showed ulcerated mucosa with extensive granulation tissue, acute and chronic inflammation, reactive changes, and eosinophils. Presence of intravascular material with a cuticle-like surface and internal structure supported diagnosis of infection with an intravascular nematode. *A. costaricensis* a top consideration.
-13. **Diagnosis:** Colonic mass due to infection with an intravascular nematode, most likely *Angiostrongylus costaricensis*.
-14. **Management:**
-    * No treatment recommended as the worm had been resected.
-    * Empirical therapy with ivermectin for possible strongyloidiasis.
-    * Treatment for latent tuberculosis infection planned.
-    * Discussed strategies to avoid reinfection: avoiding undercooked freshwater crabs or crayfish, wearing gloves when handling slugs or snails, washing hands well, washing fruits and vegetables well or eating only cooked produce.
+1. **5 months prior to initial presentation:**
+   * Onset of fevers, throbbing left ear and facial pain, neck stiffness, and tinnitus.
+   * CT scan in Guatemala suggests sinusitis and otitis media.
+   * Fevers and neck stiffness resolve, but ear and facial pain persist.
 
-Temporal relationships between symptoms and interventions:
+2. **6 months prior to initial presentation:**
+   * Intentional weight loss of 7 kg due to dietary changes.
 
-* Fevers, throbbing pain in the left ear and face, radiating to the jaw with neck stiffness and tinnitus (6 months prior) - Evaluated by physician in Guatemala, CT scan (6 months prior).
-* Episodes of epigastric pain (2 years prior) - Evaluated by physician in Guatemala, testing revealed H. pylori infection (2 years prior).
-* Epigastric pain (10 months prior) - Visit to emergency department, abdominal pain resolved (10 months prior).
-* Facial pain - Acetaminophen and jaw exercises recommended (on presentation).
-* Positive interferon-γ release assay for Mycobacterium tuberculosis (after initial visit).
-* Intermittent pain in the right upper and lower quadrants - CT scan of the abdomen and pelvis performed (one month after initial visit).
-* Colonic mass identified on CT scan - Colonoscopy performed (after CT scan).
-* Diagnosis of *Angiostrongylus costaricensis* infection - No treatment recommended for the resected worm, empirical therapy with ivermectin, treatment
+3. **2 years prior to initial presentation:**
+   * Onset of epigastric pain, burning in quality, radiating to the chest, and associated with diarrhea.
+   * H. pylori infection diagnosed in Guatemala but not treated with antibiotics.
+   * Epigastric pain improves with intermittent proton-pump inhibitor therapy.
+
+4. **10 months prior to initial presentation:**
+   * Epigastric pain in New England, unresponsive to 3 days of proton-pump inhibitor therapy.
+   * Negative stool culture and H. pylori antigen test.
+   * Referred to primary care but pain resolves.
+
+5. **Initial presentation to community health center:**
+   * Persistent left ear and facial pain.
+   * Intermittent right upper and lower quadrant pain (onset 2 months prior).
+   * Positive interferon-gamma release assay for M. tuberculosis.
+   * Chest X-ray normal.
+
+6. **One month after initial presentation:**
+   * CT scan of abdomen reveals irregular, circumferential mass in the ascending colon with pericolonic stranding and enlarged mesenteric lymph nodes.
+
+**Temporal Relationships:**
+
+* The initial ear and facial pain preceded the abdominal symptoms.
+* The abdominal pain, particularly the epigastric pain, seems to have a recurrent nature, with periods of remission and exacerbation.
+* The recent onset of right upper and lower quadrant pain is a new development.
+* The positive tuberculosis test raises concerns about potential immune compromise and its impact on other infections.

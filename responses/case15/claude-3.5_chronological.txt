@@ -1,50 +1,51 @@
-Let me create a chronological timeline of the key events in this case:
+Let me create a chronological timeline of key events:
 
-Initial State (Baseline)
-- Patient was in usual health
-- Could walk long distances without issues
-- Had undergone Roux-en-Y gastric bypass 6 years prior
+6 Years Before Admission:
+- Underwent Roux-en-Y gastric bypass surgery
 
-8 months before admission:
-- Fatigue on exertion and subjective leg weakness developed
+8 Months Before Admission:
+- Initial symptoms develop:
+  * Fatigue on exertion
+  * Subjective leg weakness
+- Progressive decrease in walking distance over next 3 months
 
-5 months before admission:
-- Intermittent hypoesthesias and paresthesias developed in feet
+5 Months Before Admission:
+- New neurological symptoms:
+  * Intermittent hypoesthesias
+  * Paresthesias in feet
 
-4 months before admission:
-- Two lower teeth became loose and fell out without trauma
-- First fall occurred in garage (attributed to tripping)
-- Evaluation revealed:
-  - Increased alcohol consumption (6-7 glasses wine nightly)
-  - Voluntary food restriction
-  - Weight loss from 140.6 kg to 128.4 kg
-  - Declined alcohol cessation program referral
+4 Months Before Admission:
+- Dental issues: two lower teeth became loose and fell out
+- First fall (in garage)
+- Increased alcohol consumption (6-7 glasses wine/night)
+- Restricted food intake
+- Physical exam showed:
+  * Weight 128.4 kg (down from 140.6 kg)
+  * Ecchymoses on knees
+  * Gingival bleeding
+  * Missing lower front teeth
+- Declined alcohol cessation program
 
-Next 4 months leading to admission:
-- Progressive fatigue and leg weakness
-- Needed arms to rise from seated position
-- Three additional falls from legs "giving out"
-- Two days before admission: fell while carrying groceries
+2 Days Before Admission:
+- Fall while carrying groceries
+- Struck left side of face
 
-At admission:
-- Orthostatic hypotension discovered
-- Multiple vitamin deficiencies identified
-- Started on high-dose thiamine, folate supplement, and multivitamin
+At Admission:
+- Weight further decreased to 124.3 kg
+- Physical findings:
+  * Purple ecchymoses on face and left flank
+  * Brown ecchymosis around right eye
+  * Reduced leg strength
+  * Diminished sensation in legs/feet
+  * Decreased proprioception in big toes
+  * Hair loss on legs, thinning on arms
 
-Post-admission course:
-- Within 1 hour: Severe hypotension developed
-- Antihypertensive medications discontinued
-- By 2 days later: Could rise from seated position with minimal arm use
-- At 3 months: Made excellent recovery
-  - Walking without cane
-  - Returned to work full-time
-  - Orthostatic hypotension resolved
-  - Anemia resolved
-  - Hair regrowth on arms
+Hospital Course:
+- Received thiamine, folate, and multivitamin
+- Antihypertensives stopped
+- IV fluids started
+- Blood pressure improved over 48 hours
+- Improved ability to stand
+- New bruising from catheter
 
-6 months after admission:
-- Relapsed with alcohol use
-- Fell while intoxicated
-- Died from cerebral hemorrhage
-
-This timeline shows a progressive deterioration over 8 months until intervention, followed by rapid improvement with vitamin supplementation, and ultimately a tragic outcome after relapse.
+Key Pattern: The illness shows a progressive course of neurological symptoms (weakness, sensory changes) combined with signs of nutritional deficiency/easy bruising, possibly related to alcohol use and restricted diet following gastric bypass surgery.

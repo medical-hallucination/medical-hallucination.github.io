@@ -1,43 +1,37 @@
-Date	Event
-3 days before admission	Emesis
-Evening before admission	Fussy
-Third day of illness	Decreased language output, Loose bowel movement
-Evening, third day of illness	Atypical behavior (wanting to sleep), Seizure (stiffness, unresponsiveness, staring, shaking), Vomiting, Confusion
-10 minutes after seizure	Emergency medical services called
-On examination 10 minutes later	Somnolent, arousable, spontaneous movements
-On examination	Alert, active, no distress, Normal vital signs, Normal physical exam
-One week after discharge	Well-being for 2 days, Decreased language output (5 days prior to presentation)
-Past 5 days	Increased sleep, Decreased oral intake, Constipation, Mood lability (2 days prior to presentation), Babbling, unusual phrases, Loss of interest in play, Unsteady gait, Writhing movements after eating/drinking, Decreased urine output
-On examination	Quiet, flat affect, subdued behavior, Normal vital signs, Dry oral mucous membranes, Soft, flat abdomen, Followed some commands
-Emergency department	Somnolent, arousable to voice, Limited eye contact, Unintelligible speech, Agitation and screaming
-Following day	Normal magnetic resonance angiography of the head
-MRI of the head and spine	Scattered white matter hyperintensities, Mild paranasal sinus mucosal thickening
-Lumbar puncture	CSF analysis performed (results shown below)
-Acylcarnitine profile analysis	Plasma sample sent for testing
-Nasopharyngeal swab tests	Negative for adenovirus, parainfluenza virus, and metapneumovirus antigens
-Third and fourth hospital days	Irritability, Thrashing, Screaming, Stereotyped arm movements, Athetoid hand movements, Orofacial dyskinesias
-Video EEG	Generalized polymorphic slowing, No EEG correlate with abnormal movements
-Fifth hospital day, morning	Apnea, Tachycardia, Hypertension, Opisthotonic posturing, Jaw clenching, Difficulty with bag-valve-mask ventilation
-Interventions	Midazolam, fentanyl, rocuronium administered intravenously, Intubation and mechanical ventilation initiated, Transfer to pediatric ICU
+## Chronological Order of Key Events and Temporal Relationships
 
-Export to Sheets
-Temporal Relationships Between Symptoms and Interventions
-The emergency medical services called (10 minutes after seizure) might be related to many other events that happened before or after the seizure event, including:
+### Initial Illness and First Seizure
+1. **3 days before admission:** Patient experiences emesis.
+2. **2 days before admission:** Patient becomes fussy.
+3. **Day of admission:**
+   * Patient experiences decreased language output, loose bowel movement, and atypical sleepiness.
+   * **First seizure:** Patient has a tonic-clonic seizure with focal features, followed by vomiting and confusion. 
+   * **Emergency medical services (EMS) called:** Patient is somnolent but arousable.
+   * **Hospital arrival:** Patient is alert and active. 
 
-Emesis (3 days before admission)
-Fussy (Evening before admission)
-Symptoms on the third day of illness (decreased language output, loose bowel movement)
-Seizure (stiffness, unresponsiveness, staring, shaking) (Evening, third day of illness)
-Vomiting (Evening, third day of illness)
-Confusion (Evening, third day of illness)
-Apnea (Fifth hospital day, morning)
-Tachycardia (Fifth hospital day, morning)
-Hypertension (Fifth hospital day, morning)
-Opisthotonic posturing (Fifth hospital day, morning)
-Jaw clenching (Fifth hospital day, morning)
-Difficulty with bag-valve-mask ventilation (Fifth hospital day, morning)
-Other findings during examinations (abnormal vital signs, abnormal physical exam findings)
-Laboratory test results (CSF analysis, blood tests, etc.)
-Imaging results (MRI, etc.)
-EEG results
-Note: These are just possible relationships based on the chronology of events. It is not possible to determine for certain which symptoms led to the call for emergency services.
+### Post-Seizure Evaluation and Treatment
+4. **Initial hospital evaluation:** 
+   * Physical exam and labs are mostly normal.
+   * MRI shows no acute abnormalities.
+   * EEG shows focal slowing and sharp wave discharges.
+5. **Discharge:** Patient is discharged home after a seizure-free night.
+
+### Recurrence of Symptoms and Second Hospitalization
+6. **1 week post-discharge:**
+   * Patient experiences progressive neurologic decline, including decreased language, increased sleep, decreased oral intake, constipation, mood lability, and altered behavior.
+   * **Second hospital admission:** Patient is somnolent, has decreased eye contact, and unintelligible speech.
+   * **Diagnostic tests:** 
+     * MRI shows nonspecific white matter changes and sinusitis.
+     * Lumbar puncture shows mild pleocytosis and elevated protein.
+     * Acylcarnitine profile and toxicology screen are negative.
+7. **Hospital course:**
+   * Patient experiences episodes of irritability, thrashing, screaming, and abnormal movements.
+   * **Apneic episode:** Patient requires intubation and mechanical ventilation.
+
+### Temporal Relationships
+* **Acute illness and seizure:** The initial seizure occurred shortly after the onset of nonspecific symptoms, suggesting a potential link between the two.
+* **Neurologic decline:** The progressive neurologic decline after the initial seizure suggests a worsening underlying condition.
+* **Diagnostic tests and findings:** The abnormal EEG, MRI findings, and CSF pleocytosis point towards a possible inflammatory or infectious process affecting the brain.
+* **Therapeutic interventions:** The administration of antipyretics, intravenous fluids, and antiviral medication reflects the clinical suspicion of a potential infectious etiology. 
+
+By understanding the chronological order of events and the temporal relationships between symptoms, diagnostic tests, and interventions, clinicians can better appreciate the clinical course of the patient's illness and formulate appropriate diagnostic and therapeutic strategies.

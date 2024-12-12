@@ -1,44 +1,65 @@
-Chronological Key Events:
-25 Years Ago:
+### Key Events Ordered Chronologically with Temporal Relationships
 
-Patient diagnosed with pulmonary tuberculosis in China.
-Completed a 14-month course of treatment.
-12 Years Ago:
+1. **25 Years Before Admission**  
+   - Diagnosis of **pulmonary tuberculosis** in China.  
+   - Completion of a **14-month four-drug regimen**.  
+   - Chronic cough producing scant white sputum persists.
 
-Hepatitis B Virus (HBV) infection diagnosed; nucleic acid amplification test for HBV DNA was negative.
-Annual surveillance for cancer began.
-3 Years Ago:
+2. **23 Years Before Admission**  
+   - Immigrates to the United States.  
+   - Induced sputum for **Mycobacterium tuberculosis** is negative.
 
-Chronic cough evaluated; chest CT showed a calcified granuloma and bronchiectasis.
-Annual surveillance with CT initiated.
-14 Days Before Current Admission:
+3. **12 Years Before Admission**  
+   - Positive test for **HBV surface antigen**; **HBV DNA test negative**.  
+   - Regular surveillance for hepatocellular carcinoma begins.  
+   - Liver imaging reveals **simple cysts** and **heterogeneous echotexture** without concerning findings.
 
-Developed fatigue, anorexia, pain in the back and calves.
-8 Days Before Admission:
+4. **3 Years Before Admission**  
+   - Evaluation of chronic cough reveals **right lung apex nodular opacity**.  
+   - Follow-up CT confirms **calcified granuloma** and **bronchiectasis**.  
+   - Annual surveillance planned.
 
-Seen by the primary care physician (PCP); lumbar tenderness noted. Ibuprofen prescribed.
-Fever (38.9°C), chills, sweats, rigors, and severe myalgias developed later that day.
-5 Days Before Admission:
+5. **14 Days Before Admission**  
+   - Symptoms begin: **anorexia**, **fatigue**, **low back and calf pain**.  
+   - Seen by PCP: Temperature 37.0°C, lumbar paraspinal muscle tenderness.  
+   - Lumbar spine x-ray: **Degenerative disc disease** at L4-L5.
 
-Left testicular pain and swelling appeared.
-PCP prescribed levofloxacin for suspected infection.
-On Admission:
+6. **13 Days Before Admission**  
+   - Temperature rises to 38.9°C.  
+   - Symptoms worsen: **fever, chills, myalgias** impairing walking.  
+   - Visits a traditional Chinese doctor for **moxibustion** and a **cathartic agent**.
 
-Fever persisted despite levofloxacin.
-Blood tests revealed leukocytosis, elevated inflammatory markers, and transaminases.
-Chest X-ray and scrotal ultrasound performed; epididymo-orchitis suspected.
-Admitted to the hospital, levofloxacin discontinued, doxycycline administered.
-Hospital Course:
+7. **9 Days Before Admission**  
+   - Develops **left testicular pain and swelling**.  
+   - Returns to PCP: Temperature 37.8°C after ibuprofen.  
+   - Tests negative for **Lyme disease**, **Babesia**, **Ehrlichia**, and **Anaplasma DNA**.  
+   - Scrotal ultrasound: Normal testes, **epididymal cysts**.
 
-Persistent fever (up to 39.6°C) over six days.
-MRI and thoracentesis ruled out other sources of infection.
-Testicular ultrasound confirmed epididymo-orchitis.
-Histologic examination of biopsy confirmed polyarteritis nodosa.
-Temporal Relationships:
-Symptom Onset and Interventions:
-Early symptoms (fever, myalgias, testicular pain) were initially treated with NSAIDs and antibiotics without resolution.
-Systemic symptoms (weight loss, recurrent fever) correlated with inflammatory marker elevations and led to further diagnostic testing.
-Key Diagnostic Interventions:
-Imaging (ultrasound, CT) and biopsy pinpointed testicular vasculitis as part of systemic polyarteritis nodosa.
-Therapeutic Response:
-Fever resolved with glucocorticoids and rituximab. Prednisone and prophylactic entecavir were continued to prevent HBV reactivation.
+8. **8 Days Before Admission**  
+   - Begins **7-day course of levofloxacin**.  
+
+9. **3 Days Before Admission**  
+   - Fever persists (temperature up to 39.0°C).  
+   - **Myalgias and arthralgias** worsen during fever spikes.  
+   - **Abdominal pain, diarrhea (non-bloody)**, and **1 kg weight loss** occur.
+
+10. **Day of Admission**  
+   - Seen in the ED:  
+     - Symptoms: Fever (38.3°C), chronic cough with sputum, blurry vision (left eye), pruritus, and tinea cruris.  
+     - Examination: **Bilateral lung base rales**, **no lymphadenopathy**, **testicular tenderness**.  
+
+11. **Hospital Course (Day 1-6)**  
+   - **Levofloxacin discontinued**; single dose of **doxycycline**.  
+   - Persistent fever (38.1–39.6°C).  
+   - Imaging:  
+     - CT abdomen: **Gallbladder wall enhancement, pleural effusions**.  
+     - CT chest: Persistent **lung base opacities**, right apex granuloma.  
+   - **Hepatobiliary scan**: No cholecystitis.  
+   - **Ophthalmology**: Mild cataracts, no infection.  
+
+12. **Day 7 of Admission**  
+   - Temperature spikes to **40.1°C**.  
+   - **Left scrotal swelling and pain recur**.  
+   - Ultrasound: Testicular **vascular engorgement**, **heterogeneous echotexture**, suggestive of **epididymo-orchitis**.  
+
+By establishing this timeline, clear relationships emerge between symptom onset, evaluations, and interventions, highlighting the progression of systemic and localized symptoms despite therapy.

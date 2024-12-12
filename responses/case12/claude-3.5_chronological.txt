@@ -1,41 +1,41 @@
 Let me create a chronological timeline of the key events in this case:
 
-Initial Phase (7 weeks before final presentation):
-- Patient develops malaise and anorexia
+7 weeks before presentation:
+- Initial symptoms begin: malaise and anorexia
 
-3 weeks later (4 weeks before final presentation):
-- Develops nonproductive cough
+3 weeks later (4 weeks before presentation):
+- Nonproductive cough develops
 - Fevers up to 37.6°C
 - First hospital admission
-- Chest x-ray shows left lower lobe opacity
-- CT shows left lower lobe consolidation 
+- Imaging shows left lower lobe opacity
 - Treatment: IV cefdinir and azithromycin, switched to oral levofloxacin
 - Discharged after 6 days of levofloxacin
 
 1 day after first discharge:
-- Readmitted due to persistent fever and cough
-- New treatment: IV piperacillin-tazobactam and vancomycin for 2 days
-- Switched to amoxicillin-clavulanic acid
+- Fever and cough persist
+- Second hospital admission
+- Sputum culture obtained
+- Treatment changed to IV piperacillin-tazobactam and vancomycin
+- After 2 days, switched to amoxicillin-clavulanic acid
 - Discharged with 10-day antibiotic course
 
-Over next ~2 weeks:
-- Continued fatigue, cough, malaise
+10 days after second discharge (2 days before final presentation):
+- Continued symptoms: fatigue, cough, malaise
 - Daily night sweats and fevers up to 37.8°C
-- Worsening anorexia
-- Progressive weakness requiring assistance to walk
-
-2 days before final presentation:
-- Wife notes patient is incoherent, disoriented, angry
-- Found urinating inappropriately around home
+- Worsening anorexia and weakness
+- New neurological symptoms: incoherence, disorientation, anger, inappropriate behavior
 
 Final presentation:
 - Found showering while clothed
-- Taken to hospital
-- Confused, tachypneic, with elevated troponin
-- Required intubation
-- Transferred to Massachusetts General Hospital
-- Found to have multiple systemic emboli
-- Eventually diagnosed with pulmonary adenocarcinoma and nonbacterial thrombotic endocarditis
-- Patient deteriorated and died after palliative extubation
+- Third hospital admission with confusion, fever (38.3°C)
+- Elevated troponin, lactate, and white blood cell count
+- Intubated due to tachypnea and somnolence
+- Transferred to current hospital
+- Develops 23-second episode of ventricular tachycardia
+- Imaging reveals multiple complications including possible stroke, pulmonary emboli, and splenic/renal lesions
 
-This timeline shows a progressive illness that began with constitutional symptoms, developed respiratory symptoms unresponsive to multiple antibiotics, and culminated in neurologic deterioration and multisystem organ failure due to widespread embolization from nonbacterial thrombotic endocarditis associated with underlying lung cancer.
+Notable patterns:
+1. Progressive worsening despite multiple courses of antibiotics
+2. Escalating neurological symptoms in final days
+3. Development of multi-system involvement (cardiac, neurologic, pulmonary, renal, splenic) by the time of final presentation
+4. Initial respiratory focus with subsequent systemic spread

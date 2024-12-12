@@ -1,40 +1,39 @@
-Here is a chronological timeline of the key events in this case:
+Let me organize the key events chronologically:
 
-30 years ago:
-- Patient developed chronic left-sided abdominal pain after birth of youngest child
-- This pain remained stable and unchanged for 30 years
+30 Years Ago:
+- Development of chronic left-sided abdominal pain after childbirth
+- Pain remained constant and unchanged for 30 years
 
-2 years before presentation:
-- Developed episodes of epigastric pain radiating to chest, worse after meals
-- Evaluated in Guatemala and found to have H. pylori infection
-- Pain improved with proton pump inhibitor therapy but wasn't treated with antibiotics
+2 Years Before Presentation:
+- Development of epigastric pain
+- Evaluation in Guatemala revealed H. pylori infection
+- Symptoms improved with PPI therapy (no antibiotics given)
 
-10 months before presentation:
-- Had episode of epigastric pain while visiting New England
-- Evaluated at hospital emergency department
-- Pain persisted despite 3 days of proton pump inhibitor therapy
-- Labs and tests were done (results in Table 1)
+10 Months Before Presentation:
+- Visited New England
+- Emergency department visit for epigastric pain
+- Pain didn't improve after 3 days of PPI
+- Tests showed negative H. pylori antigen
+- Patient returned to Guatemala after symptoms resolved
 
-5 months before presentation:
-- Developed fevers and throbbing left ear/facial pain radiating to jaw
-- Had neck stiffness and tinnitus
-- Evaluated in Guatemala - CT showed sinusitis and otitis media
-- Fevers and neck stiffness resolved without treatment
+5-6 Months Before Presentation:
+- Began intentional weight loss (7 kg over 6 months)
+- Development of fevers and left ear/facial pain
+- CT in Guatemala showed sinusitis and otitis media
+- Fevers resolved without treatment
 - Ear and facial pain persisted despite acetaminophen
 
-Initial presentation:
-- Came to community health center to establish primary care
-- Reported 7kg intentional weight loss over prior 6 months
-- Still had persistent left ear/facial pain
-- Tested positive for latent TB
-- Normal chest x-ray
+2 Months Before Latest Visit:
+- Development of right upper and lower quadrant pain
 
-1 month after initial presentation:
-- Returned to discuss TB treatment options
-- Reported new 2-month history of right upper/lower quadrant pain
-- CT showed colonic mass
-- Underwent colonoscopy showing mass
-- Had laparoscopic right colectomy
-- Pathology revealed Angiostrongylus costaricensis infection
+Initial Presentation at Community Health Center:
+- Evaluation for primary care
+- Positive interferon-γ release assay for TB
+- Normal chest radiograph
 
-The temporal progression shows an initially stable chronic abdominal condition that was joined by new upper GI symptoms, followed by ear/facial symptoms, and finally the discovery of the parasitic colonic mass. The interventions became progressively more intensive as new symptoms developed, culminating in surgery.
+1 Month After Initial Presentation:
+- Follow-up visit to discuss TB treatment
+- First mention of right-sided abdominal pain
+- CT revealed ascending colon mass with lymphadenopathy
+
+This timeline shows a progression from chronic stable symptoms (left-sided abdominal pain) to new symptoms developing over the past 2 years, with the most concerning findings (right-sided pain and colon mass) appearing in the most recent months.
