@@ -1,23 +1,33 @@
-Chronological order of key events:
+Here's a chronological timeline of the key events and their temporal relationships:
 
-Patient has routine prenatal visit at 7 months pregnant - uneventful
-Patient has abnormal glucose tolerance test at 27 weeks pregnant
-One week before current evaluation (32 weeks pregnant), patient experiences severe abdominal pain for 3 days
-Patient is admitted to another hospital due to pain
-Patient is transferred to Massachusetts General Hospital at 33 weeks pregnant
-Renal and abdominal ultrasounds are performed - kidneys and bladder normal, liver diffusely heterogeneous and nodular
-Fetal heart tones are noted on Doppler ultrasound and measurements are appropriate for gestational age
-Colonoscopy and esophagogastroduodenoscopy are performed - reveal fungating mass in sigmoid colon
-Biopsy of the mass is performed
-Patient delivers baby via cesarean section at 35 weeks pregnant
-Patient dies 5 days later
-Temporal relationships between symptoms and interventions:
+**Initial Prenatal Care:**
 
-Abnormal glucose tolerance test at 27 weeks - not directly related to later symptoms or interventions
-Severe abdominal pain starts at 32 weeks and leads to hospitalization at another hospital
-Patient is transferred to Massachusetts General Hospital at 33 weeks likely due to concerning results at previous hospital
-Ultrasounds are performed at 33 weeks to investigate cause of pain
-Colonoscopy and esophagogastroduodenoscopy are likely performed at 33 weeks to determine origin of cancer after ultrasounds show abnormalities
-Biopsy is likely performed at time of colonoscopy/esophagogastroduodenoscopy
-Cesarean section is performed at 35 weeks due to fetal compromise and declining maternal health
-Patient dies 5 days later likely due to complications from cancer progression
+* **7 months prior:** Routine prenatal visit with normal transvaginal ultrasound.
+* **27 weeks:** Abnormal 1-hour glucose tolerance test.
+
+**Onset of Symptoms:**
+
+* **32 weeks:**
+    * 3 days of severe, non-radiating lower back pain (10/10).
+    * Pain migration to right upper quadrant and epigastric region.
+    * Severe nausea and vomiting.
+    * Night sweats and sleep disturbance.
+
+**Hospital Admission:**
+
+* **32 weeks + 4 days:** Admission to another hospital due to persistent symptoms.
+
+**Current Evaluation:**
+
+* **33 weeks:** Evaluation at the current hospital.
+    * Physical exam findings: tenderness in the right upper quadrant, soft gravid uterus.
+    * Laboratory tests: abnormal liver function tests (Table 1).
+    * Ultrasound: normal fetal heart tones, appropriate fetal measurements, normal biophysical profile, incidentally noted heterogeneous and nodular liver.
+
+**Temporal Relationships:**
+
+* The patient's severe symptoms, including back pain, nausea, vomiting, and night sweats, developed abruptly and rapidly worsened over 3 days.
+* The abnormal liver function tests were likely a result of the underlying liver pathology, which may have contributed to the patient's symptoms.
+* The incidental finding of a heterogeneous and nodular liver on ultrasound raised concerns for a potential liver malignancy. 
+
+Please let me know if you have any other questions. 

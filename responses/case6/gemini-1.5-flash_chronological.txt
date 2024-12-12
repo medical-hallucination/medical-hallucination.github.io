@@ -1,35 +1,43 @@
-Here's the chronological order of key events and temporal relationships:
+## Chronological Order of Key Events
 
-Initial Symptoms
+**Onset of Symptoms:**
 
-6 days before admission: Right frontal headache and right retro-orbital pain.
-5 days before admission:
-Alteration in vision: "gray dot" in the inferonasal field of the right eye.
-Intermittent diminished vision in the right eye, described as "white appearing."
-3 days before admission: Intermittent episodes of vertigo.
-1-2 days before admission: Intermittent nonpositional bifrontal headaches, particularly with eye strain.
-Medical Evaluation and Interventions
+1. **6 days before admission:**
+   * Right frontal headache and right retro-orbital pain.
 
-Day of admission:
+2. **5 days before admission:**
+   * Altered vision: "gray dot" in the inferonasal field of the right eye.
+   * Intermittent diminished vision in the right eye.
 
-Ophthalmologic examination: Visual field defect, macular whitening in the right eye.
-Laboratory tests: Normal results for blood tests, coagulation studies, and autoimmune markers except for positive antinuclear antibody (ANA) test.
-Lumbar puncture: Normal cerebrospinal fluid.
-Low-dose aspirin started.
-Day after admission: Hearing loss and tinnitus in the right ear.
+3. **3 days before admission:**
+   * Episodes of vertigo.
+   * Intermittent nonpositional bifrontal headaches.
 
-4 days after admission:
+**Medical Evaluation and Treatment:**
 
-Fundus photography: Retinal whitening in both eyes.
-Fluorescein angiography: Delayed filling and blocked arterioles in both eyes, segmental perivascular staining.
-Temporal Relationships
+4. **2 days before admission:**
+   * Ophthalmological evaluation:
+     * Dense depression in the inferonasal field of vision of the right eye.
+     * Mild macular whitening superotemporal to the fovea in the right eye.
+   * Transfer to current hospital.
 
-The visual symptoms (gray dot, diminished vision) preceded the vertigo and headaches.
-The headaches and vertigo worsened over time.
-The hearing loss and tinnitus developed after the initial presentation.
-The retinal changes were identified through later imaging studies.
-Key Points:
+5. **1 day after admission:**
+   * Hearing loss and tinnitus in the right ear.
 
-The patient's initial presentation was atypical for migraines, suggesting a more serious underlying condition.
-The progressive nature of the symptoms and the development of new neurological deficits raised concerns for a potentially serious vascular event.
-The positive ANA test and retinal findings suggested a possible autoimmune or inflammatory process.
+6. **4 days after admission:**
+   * Fundus photography and fluorescein angiography:
+     * Retinal whitening in both eyes.
+     * Delayed filling and blocked arterioles in the right eye.
+     * Blocked arterioles and perivascular staining in the left eye.
+
+**Temporal Relationships:**
+
+* **Visual symptoms** preceded **vertigo** and **headaches**.
+* **Hearing loss and tinnitus** developed **after** the patient was admitted to the hospital.
+* **Fundus changes** were observed **later** in the course of the illness.
+
+**Interventions:**
+
+* **Low-dose aspirin** was administered upon admission to the hospital.
+
+Please let me know if you have any other questions. 

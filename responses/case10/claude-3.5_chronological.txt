@@ -1,63 +1,33 @@
-Let me create a chronological timeline of the key events in this case:
-Initial Presentation and Discovery (6 weeks before main evaluation):
+Let me break down the key events chronologically:
 
-Patient found painless lump above left testicle during self-examination
-Visited primary care physician at another hospital
-Initial examination confirmed soft, nontender "boggy" mass above left testicle
-Initial tests and imaging performed:
+6 weeks before current evaluation:
+- Patient discovers painless lump above left testicle during self-examination
 
-Laboratory tests (all normal)
-Scrotal ultrasound revealed:
+2 weeks before current evaluation (at other hospital):
+- Evaluated at primary care physician
+- Physical exam confirms soft, nontender "boggy" mass above left testicle
+- Initial lab tests performed
+- Scrotal ultrasound reveals:
+  - Normal testes
+  - Left varicocele
+  - Right epididymal head cyst (0.6 cm)
+  - Incidental finding: Large right kidney mass (11.8 x 10.8 x 9.4 cm)
+- Abdominal/pelvic CT confirms:
+  - 11 cm mixed solid/cystic mass in right kidney lower pole
+  - Mass displacing inferior vena cava to left
 
-Normal testes
-Left varicocele
-Right epididymal cyst (0.6 cm)
-Incidental finding: Large right kidney mass (11.8 x 10.8 x 9.4 cm)
+Current evaluation (at this hospital):
+- Patient referred to urology clinic
+- New symptoms reported: mild right flank discomfort and bulge
+- Physical exam reveals:
+  - Palpable nontender right abdominal mass
+  - Grade 2 left varicocele
+- Additional testing:
+  - Repeat lab work
+  - Chest CT shows intrapulmonary lymph node but no metastatic disease
 
-
-
-
-
-Follow-up Imaging:
-
-CT abdomen/pelvis with contrast showed:
-
-Confirmed 11 cm mixed solid/cystic mass in right kidney
-Thin mural calcification
-Mass displaced inferior vena cava
-No evidence of metastasis or spread
-
-
-
-Specialist Evaluation at MGH:
-
-Referred to urology clinic
-Reported mild right flank/upper quadrant discomfort
-Physical exam showed:
-
-Palpable nontender right abdominal mass
-Grade 2 left varicocele
-Otherwise normal exam
-
-
-Additional testing:
-
-Chest CT showed intrapulmonary lymph node but no metastases
-Laboratory tests remained normal
-
-
-
-Treatment:
-
-Open right radical nephrectomy performed
-Pathology confirmed t(6;11) TFEB translocation renal cell carcinoma
-Post-operative surveillance plan initiated
-
-Follow-up (2 years later):
-
-No evidence of recurrent disease or metastasis
-Patient returned to work
-Wife delivered their second child
-Continued surveillance with regular imaging and examinations
-
-This timeline shows that the incidental discovery of the renal mass during evaluation of a testicular concern led to prompt specialist referral and definitive surgical treatment, with good outcomes at 2-year follow-up.
+Key temporal relationships:
+1. The testicular concern led to imaging that incidentally discovered the more serious renal mass
+2. The patient developed right-sided symptoms (flank pain, bulge) sometime between the initial discovery and the current evaluation
+3. All lab values remained relatively stable between the two hospital visits
+4. No acute changes or rapid progression of findings were noted in the 2-week interval between hospital evaluations

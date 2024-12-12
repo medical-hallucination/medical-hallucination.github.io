@@ -1,59 +1,35 @@
-Let me create a chronological timeline of the key events in this case:
-Age 10:
+Let me help organize the key events chronologically:
 
-Patient fractured arm
-Underwent tonsillectomy
+Early Life & Development:
+1. Age 10: Arm fracture and tonsillectomy
+2. Age ~12: Normal onset of adrenarche, thelarche, and growth spurt
+3. Age 16: Evaluated for primary amenorrhea
+   - Diagnosed with congenital absence of uterus and ovaries
+   - Never experienced menstrual symptoms, headaches, vision problems, galactorrhea, or reduced exercise tolerance
 
-Age 12:
+Recent Events (at age 31):
+1. 4 months before current evaluation: Moved from northern Europe to New England
+2. Initial fertility center visit:
+   - Physical examination performed
+   - Ultrasound confirmed absent uterus/cervix and revealed ovarian cysts
+   - Initial blood tests conducted (infectious disease screening, complete blood count)
+   - Blood collected for antimüllerian hormone and chromosomal analysis
 
-Experienced adrenarche and thelarche
-Had linear growth spurt
+3. 5 days after initial visit:
+   - Additional diagnostic tests performed
 
-Age 16:
+4. Further evaluation:
+   - DEXA scan showing borderline low bone mass in spine
+   - Normal bone mass in vertebral bodies and femoral neck
 
-Evaluated for primary amenorrhea
-Diagnosed with congenital absence of uterus and ovaries
+5. 4 days after DEXA scan:
+   - Receipt of diagnostic test result (specific test not identified)
+   - Management decisions made
 
-Age 31 (Current Presentation):
+Key Temporal Relationships:
+- Normal pubertal development (adrenarche/thelarche) at age 12, but no subsequent menstruation
+- 4-year gap between puberty and diagnosis of reproductive tract anomalies
+- Current evaluation occurs approximately 15 years after initial diagnosis
+- Recent diagnostic workup occurred over a ~9-day period from initial visit to management decisions
 
-Initial Visit:
-
-
-Referred to fertility center by surrogate parenting agency
-Physical exam revealed:
-
-Normal female external genitalia
-Normal vaginal length
-Absent cervix and uterus
-Mild fullness in left adnexal region
-
-
-Initial tests performed including hormone levels
-Blood collected for antimüllerian hormone and chromosomal analysis
-
-
-Five days later:
-
-
-Additional hormone tests performed
-Bone density scan showed borderline low bone mass
-
-
-Four days after that:
-
-
-Diagnostic test results received (revealed 46,XY karyotype)
-High antimüllerian hormone level (579 ng/mL)
-Additional tests showed elevated testosterone and other hormones
-
-
-Subsequent Management:
-
-
-MRI performed showing intra-abdominal testes
-Underwent bilateral laparoscopic orchiectomy
-Started estrogen-containing hormone replacement therapy
-Conceived using oocyte donor and gestational carrier
-Ongoing singleton pregnancy at time of case report
-
-The key temporal relationship is that while the patient had early normal female development (thelarche and adrenarche at age 12), she never developed menstruation, leading to the initial workup at age 16. However, the complete diagnosis of Complete Androgen Insensitivity Syndrome wasn't made until age 31 when she presented for fertility treatment, leading to comprehensive testing and appropriate management.
+Would you like me to analyze any particular aspect of this timeline in more detail?

@@ -1,22 +1,25 @@
-Here's a chronological ordering of the key events and identification of temporal relationships between symptoms and interventions:
+## Chronological Order of Key Events
 
-Key Events:
+**1. Early Adolescence (Around 12 years old):**
+   * Adrenarche and thelarche occurred.
+   * Linear growth spurt began.
 
-Age 10: Fractured arm and tonsillectomy.
-Age 12: Adrenarche and thelarche with linear growth spurt.
-Age 16: Evaluation for primary amenorrhea and diagnosis of congenital absence of uterus and ovaries.
-Current Age (31): Referred to fertility center for family building with oocyte donor and gestational carrier.
-Recent (4 months): Moved to New England from northern Europe.
-Recent (4 months): Began smoking 3-5 cigarettes per day.
-Recent (4 months): Fertility evaluation and diagnostic tests.
-Temporal Relationships:
+**2. Late Adolescence (Around 16 years old):**
+   * Primary amenorrhea diagnosed.
+   * Congenital absence of uterus and ovaries confirmed.
 
-Symptoms and Interventions:
-Primary amenorrhea: Diagnosed at age 16, likely due to congenital absence of uterus and ovaries.
-Infertility: Current presentation, related to absence of uterus and ovaries.
-Adrenarche and thelarche with linear growth spurt: Occurred at age 12, suggesting normal hormonal function.
-Fractured arm and tonsillectomy: Occurred at age 10, unrelated to reproductive health.
-Recent move and smoking: May be potential lifestyle factors, but no direct link to reproductive issues is established.
-Note: The temporal relationship between the adnexal cysts and the patient's reproductive history is unclear. It's possible they are unrelated, or they may be a consequence of the patient's hormonal status or previous surgical procedures.
+**3. Current Evaluation (31 years old):**
+   * Referred to fertility center for family building options.
+   * Physical examination, including pelvic exam.
+   * Ultrasound of pelvis.
+   * Laboratory tests (blood work, viral panel, etc.).
+   * Bone mineral density assessment.
+   * Additional diagnostic tests (e.g., antimüllerian hormone, karyotype).
 
-Please let me know if you have any other questions.
+**Temporal Relationships:**
+
+* **Early hormonal changes** (adrenarche, thelarche) preceded the **diagnosis of congenital uterine and ovarian absence**.
+* **Diagnostic tests and evaluations** were initiated **after the referral** to the fertility center.
+* **Bone mineral density assessment** was performed **after the initial blood work**.
+
+**Note:** The specific timing of the additional diagnostic tests (e.g., antimüllerian hormone, karyotype) relative to the initial blood work and bone mineral density assessment is not explicitly stated in the case. However, they were likely ordered and performed within a relatively short timeframe after the initial evaluation.

@@ -1,55 +1,41 @@
-Let me create a chronological timeline of the key events in this case:
-Initial Timeline (Before First Hospital Visit):
+Let me create a chronological timeline of the key events:
 
-Patient starts new OTC pain medication (~5 weeks before admission)
-Initial symptoms begin (~3 weeks before admission):
+Approximately 15 weeks before admission:
+- Patient begins intentional weight loss (loses 11 kg over this period)
 
-Fevers, chills, headache, diffuse myalgias
+5 weeks before admission:
+- Starts new over-the-counter pain medication (name unknown)
 
+3 weeks before admission:
+- Initial symptoms appear: fevers, chills, headache, and diffuse myalgias
+- Patient assumes it's influenza
 
-5 days later:
+2.5 weeks before admission:
+- Erythematous rash develops on trunk, legs, feet, and hands
+- Following day: Develops abdominal discomfort, anorexia, and nonbloody diarrhea
+- Over next 5 days: Experiences positional dizziness with syncope
 
-Erythematous rash develops (trunk, legs, feet, hands)
+14 days before admission:
+- Seeks care at first hospital
+- Findings: fatigue, rash, mild fever (37.7°C), elevated eosinophils, abnormal liver tests
+- CT shows lymph node enlargement
+- Multiple tests negative (influenza, strep, babesia, ehrlichia, hepatitis, HIV, Lyme)
+- Treated with unknown antibiotic
+- Discharged after 5 days with cetirizine and hydroxyzine
 
+1 day before admission:
+- New symptoms develop: facial and hand swelling, palm blisters
+- Seen by primary care physician next day
+- Given one dose of oral prednisone
+- Referred to emergency department
 
-1 day after rash:
+During admission:
+- Day 1: Initial evaluation shows rash progression, lymphadenopathy, hepatosplenomegaly
+- Day 2: CT shows emphysema, pulmonary nodules, enlarged lymph nodes, splenomegaly
+- Day 3: Fever spikes to 38.4°C with tachycardia
 
-Abdominal discomfort
-Anorexia
-Nonbloody diarrhea
-
-
-Next 5 days:
-
-Positional dizziness with syncope develops
-
-
-
-First Hospital Visit (14 days before current admission):
-
-Findings: fatigue, diffuse rash, eosinophilia, elevated liver enzymes
-Treatment: Unknown antibiotic for 5 days
-Discharged with cetirizine and hydroxyzine
-Scheduled for PCP follow-up
-
-Day Before Current Admission:
-
-New symptoms: facial and hand swelling, blisters on palms
-Sees PCP
-Given one dose oral prednisone
-Referred to emergency department
-
-Current Hospital Admission:
-
-Day 1: Initial evaluation and admission
-Day 2: CT imaging shows lymphadenopathy and splenomegaly
-Day 3: Temperature rises to 38.4°C
-Day 6: PET-CT shows FDG-avid lymph nodes
-Day 7: Lymph node biopsy performed
-
-Follow-up:
-
-1 week post-discharge: Persistent periorbital edema, diminishing lymphadenopathy
-6 weeks post-discharge: Resolution of most symptoms except dry skin
-
-The temporal sequence shows a pattern typical of DRESS syndrome, with symptoms developing 2-5 weeks after starting a new medication, followed by progressive multi-system involvement and a prolonged course even after discontinuation of the triggering medication.
+Key temporal patterns:
+1. Symptoms began about 2 weeks after starting new pain medication
+2. Initial flu-like symptoms preceded rash by 5 days
+3. GI symptoms and dizziness followed rash development
+4. Despite initial hospital treatment, symptoms progressed with new manifestations (blisters, swelling) emerging just before current admission

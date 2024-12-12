@@ -1,36 +1,39 @@
-Let me create a chronological timeline of the key events and interventions in this case:
-Initial Symptoms and Presentation:
+Let me create a chronological timeline of the key events:
 
-Day -6: Development of right frontal headache and right retro-orbital pain (atypical for patient's previous migraines)
-Day -5: Woke up with "gray dot" in inferonasal field of right eye vision; later developed intermittent "white appearing" vision loss lasting 45-60 seconds
-Day -3: Onset of vertigo episodes lasting ~30 seconds each; experienced intermittent nonpositional bifrontal headaches
-Day -1: Went to affiliated ophthalmology hospital
-Day 0: Transfer to main hospital
+Day -16 years:
+- Patient's history of migraines without aura begins (occurring every 1-3 months)
 
-Hospital Course and New Symptoms:
-6. Day +1: Development of right ear hearing loss and tinnitus
-7. Day +4: Fluorescein angiography performed showing vascular abnormalities
-Follow-up and Treatment:
-8. Initial treatment included:
+Day -6 (6 days before admission):
+- Right frontal headache and retro-orbital pain develops (atypical from usual migraines)
 
-IV methylprednisolone
-1-month course of high-dose oral prednisone followed by slow taper
-Four weekly doses of rituximab
+Day -5:
+- Morning: Awakens with "gray dot" in inferonasal field of right eye
+- Later that day: Intermittent diminished vision in right eye ("white appearing", lasting 45-60 seconds)
 
-Long-term Monitoring:
-9. Surveillance included:
+Day -3:
+- Multiple episodes of vertigo develop (room spinning, ~30 seconds each)
+- Intermittent nonpositional bifrontal headaches begin (1-2 times daily)
 
-Fluorescein angiography at 1 week, 7 months, 17 months, and 23 months
-MRI at 3, 15, and 20 months
-Audiometry at diagnosis and 7 months later
+Day -1:
+- Evening: Visits affiliated ophthalmology hospital
+- Initial examination reveals visual field defect and mild macular whitening
+- Started on low-dose aspirin
 
-Treatment Adjustments:
-10. Maintenance therapy changes:
+Day 0 (Admission):
+- Morning: Transfer to main hospital
+- Diagnostic workup including blood tests and lumbar puncture
+- Admitted to neurology service
 
-Started on rituximab + mycophenolate
-Mycophenolate discontinued due to myalgias
-Switched to azathioprine
-Azathioprine discontinued after 1 year due to elevated liver enzymes
-Continued on rituximab monotherapy for 15+ months without relapse
+Day +1:
+- Develops right ear hearing loss and tinnitus
+- Audiometry shows bilateral sensorineural hearing loss (worse in right ear)
 
-The disease progression followed a rapid course over approximately one week from initial headache to development of the full triad of symptoms (visual, auditory, and vestibular) characteristic of Susac's syndrome. The treatment response was described as rapid, and the patient maintained stability on rituximab monotherapy, though with some mild progression of hearing loss noted at 7 months despite being clinically asymptomatic.
+Day +4:
+- Fundus photographs and fluorescein angiography performed
+- Imaging reveals:
+  - Retinal whitening in both eyes
+  - Delayed arteriolar filling in right eye
+  - Blocked arterioles in left eye
+  - Segmental perivascular staining bilaterally
+
+This progression shows a pattern of symptoms that began with headache and visual disturbances, progressed to include vertigo, and finally developed into hearing problems, suggesting a progressive process affecting multiple sensory systems over approximately a 10-day period.
