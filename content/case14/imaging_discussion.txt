@@ -1,0 +1,9 @@
+# Imaging Discussion
+
+Dr. Lillian Xiong: After the insulinoma was visualized on endoscopic ultrasonography, the patient's previous imaging studies were reviewed again. On review of the CT scan according to a pancreatic protocol, a hypodense lesion in the pancreatic head was seen on arterial phase imaging and no lesion was seen on portal venous phase imaging (Fig. 2).
+
+![6_image_0.png](6_image_0.png)
+
+Figure 2. CT Scan and MRI of the Abdomen and Pelvis. On a contrast-enhanced CT scan, there is a hypodense lesion in the pancreatic head on arterial phase imaging (Panels A and B, arrows) that is not seen on portal venous phase imaging (Panel C). On an MRI obtained before the administration of contrast material, there is a lesion that is hypointense on T1-weighted imaging (Panel D, arrow), hyperintense on T2-weighted imaging (Panel E, arrow), and hyperintense on diffusion-weighted imaging (Panel F, arrow). No lesion is seen in the same location on arterial phase imaging obtained after the administration of contrast material (Panel G).
+
+On review of the MRI of the abdomen, obtained before and after the administration of contrast material, there was a lesion in the pancreatic head that was hypointense on T1-weighted imaging and hyperintense on T2-weighted imaging and showed restricted diffusion on diffusion-weighted imaging. No lesion was seen on images obtained after the administration of contrast material (Fig. 2). There are two reasons why this lesion was particularly difficult to identify on initial review of the MRI. First, the majority of neuroendocrine tumors show arterial enhancement, but this tumor did not. Second, the lesion was close to and blended in with the duodenum, which is also hypointense on T1-weighted imaging and hyperintense on T2-weighted imaging and has a bright signal on diffusion-weighted imaging.
