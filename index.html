@@ -1479,17 +1479,17 @@
 
         // Hallucination types definition
         const hallucinationTypes = {
-            condition: "Condition Unsupported",
-            procedure: "Procedure Unsupported", 
-            medication: "Medication Unsupported",
-            time: "Time Unsupported",
-            location: "Location Unsupported",
-            number: "Number Unsupported",
-            name: "Name Unsupported",
-            word: "Word Unsupported",
-            other: "Other Unsupported",
-            contradicted: "Contradicted Fact",
-            incorrect: "Incorrect Fact"
+            condition: "Condition Unsupported (mentions of conditions not found in the context, e.g., diagnosing a condition without evidence in the medical notes)",
+            procedure: "Procedure Unsupported (references to procedures that are not documented in the context, such as surgeries or tests)",
+            medication: "Medication Unsupported (mention of drugs or dosages not corroborated by the context)",
+            time: "Time Unsupported (misrepresentation or fabrication of temporal details, such as dates or durations)",
+            location: "Location Unsupported (fabricated or incorrect locations, such as where a treatment occurred)",
+            number: "Number Unsupported (numerical values or ranges, like dosages or statistics, that don't match the context)",
+            name: "Name Unsupported (inaccurate or fabricated names of people, institutions, or drugs)",
+            word: "Word Unsupported (generic terms or filler words not aligned with the context)",
+            other: "Other Unsupported (miscellaneous errors not captured by the specific categories)",
+            contradicted: "Contradicted Fact (statements that directly contradict information in the context)",
+            incorrect: "Incorrect Fact (factual errors not specifically categorized as contradictions)"
         };
 
         // Risk level definitions with descriptions
