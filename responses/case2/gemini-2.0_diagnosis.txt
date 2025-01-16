@@ -1,0 +1,66 @@
+Based on the provided information, the most likely diagnosis is **Metastatic Colorectal Adenocarcinoma**.
+
+Here's a breakdown of why:
+
+**Presentation of Case:**
+
+*   **36-year-old pregnant woman** at 33 weeks gestation.
+*   **Acute onset of severe pain**, initially epigastric, migrating to the right upper quadrant and lower back. This is concerning for a possible intra-abdominal pathology.
+*   **Severe nausea and vomiting** along with inability to eat or drink.
+*   **Night sweats and difficulty sleeping** due to back pain. These are systemic symptoms that should raise alarm of a serious condition.
+*   **Normal fetal parameters** are less suggestive of a primary obstetric issue.
+*   **Initial normal prenatal visits** with later detection of abnormal liver findings suggests a developing condition.
+
+**Lab Data:**
+
+*   **Elevated liver enzymes (AST and ALT):**  Indicates liver injury or dysfunction. Levels are increasing.
+*   **Elevated Alkaline Phosphatase:** Points towards a possible liver or bone condition. Levels are increasing.
+*   **Elevated Lactate Dehydrogenase (LDH):** Another indicator of cellular damage. Levels are increasing.
+*   **Elevated Carcinoembryonic Antigen (CEA):** Is a tumor marker associated with cancers of the digestive tract, particularly colorectal cancer.  Markedly elevated at 60.2 ng/ml on the first testing and still abnormal at 35.5 ng/ml on the second testing, this is significant for a possible malignancy.
+*   **Elevated CA 19-9:**  A tumor marker which can be elevated with GI and pancreatic cancers.
+*   **Elevated Alpha-fetoprotein (AFP):**  A tumor marker, can be elevated in pregnancy but much more likely due to malignancy, given the history and other test results.
+*   **Elevated CA-125:** A tumor marker which can be elevated in cancer and pregnancy but is more likely with ovarian cancer.
+
+*   **Elevated Platelet Count:** Can indicate a cancerous condition.
+
+**Imaging:**
+
+*   **Renal Ultrasound:** Kidneys and bladder were normal, but the liver showed **diffuse heterogeneity and nodularity**, which suggests metastasis to the liver.
+*   **Abdominal MRI:** Multiple hyperintense lesions in both lobes of the liver are consistent with liver metastases.
+*   **Abdominal CT:** Shows enlarged periaortic lymph nodes, which is suggestive of lymph node metastases. It also shows thickening of the sigmoid colon with adjacent lymphadenopathy, indicating a primary tumor site in the colon.
+
+**Pathology:**
+
+*   **Liver biopsy:** Shows malignant gland-forming proliferation, which is indicative of adenocarcinoma. The histological description as "moderately differentiated metastatic adenocarcinoma" suggests spread.
+*   **Colon biopsy:**  Shows colonic mucosa replaced by a malignant proliferation with areas suggestive of gland formation, which is consistent with poorly differentiated adenocarcinoma.
+*   **Placental specimen:** Reveals foci of malignant cells, morphologically similar to adenocarcinoma of the colon and are strongly positive for CK20. This further supports the colon as a primary site as CK20 is usually positive for colonic carcinoma. The placental involvement is indicative of metastatic disease.
+
+**Putting it all together:**
+
+The combination of a pregnant woman with:
+
+*   A history of a normal initial pregnancy,
+*   Acute onset of symptoms
+*   Abnormal liver function tests with rising enzymes.
+*   Multiple liver lesions on imaging.
+*   Enlarged lymph nodes.
+*   Colon thickening with adjacent lymphadenopathy.
+*   Elevated tumor markers like CEA, CA 19-9, AFP and CA-125
+*   Histological findings consistent with adenocarcinoma in both liver and colon biopsies and placental involvement.
+
+All these point towards **metastatic colorectal adenocarcinoma** as the most likely diagnosis.  The primary tumor is likely in the sigmoid colon and has metastasized to the liver, periaortic lymph nodes, and placenta.
+
+**Differential Diagnoses**
+
+While metastatic colorectal cancer is most likely, a few other less probable possibilities could be considered:
+
+*   Primary liver cancer: Rare in this age group and unlikely with the colon findings.
+*   Other GI cancers: Pancreatic or gastric cancer are possible but less likely with the confirmed colon findings.
+*   Metastatic tumors from other primary cancers: Could be considered but would not explain the colonic thickening.
+*   Other causes of liver dysfunction: Pre-eclampsia/HELLP syndrome can cause liver dysfunction, but the liver lesions and tumor markers are not consistent. The patient is 33 weeks and if pre-eclampsia/HELLP occurs then its usually diagnosed before this time.
+
+**Final diagnosis**
+
+Based on the provided data, the final diagnosis would be **Metastatic Colorectal Adenocarcinoma with likely primary in sigmoid colon**.
+
+**Disclaimer:** This is an interpretation based on the information provided, a real case may warrant more tests, and clinical discussion with relevant specialists.
