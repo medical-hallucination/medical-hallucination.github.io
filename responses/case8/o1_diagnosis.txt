@@ -1,0 +1,11 @@
+Putting together the clinical presentation (tall stature, normal‐appearing external female genitalia, minimal body hair, absent uterus and cervix, “gonadal” structures in the pelvis), the disproportionate elevation of LH relative to FSH, and the normal female‐range estradiol levels (despite no functional ovaries on imaging) leads to the most likely diagnosis of complete androgen insensitivity syndrome (CAIS).
+
+In CAIS:
+
+* The patient has a 46,XY karyotype with testes that secrete normal (or high‐normal) amounts of testosterone.
+* Because of a nonfunctional androgen receptor, the body cannot respond to androgens, so there is minimal or absent pubic and axillary hair.
+* Testosterone is aromatized to estrogen, which produces normal (or even above‐normal) breast development.
+* The testes secrete anti‐Müllerian hormone, preventing development of a uterus and cervix.
+* The lack of androgenic feedback on the pituitary causes LH to be elevated; however, FSH can be low or normal because inhibin (from testicular Sertoli cells) helps suppress FSH.
+
+This explains why a person with no uterus, normal‐appearing (but “blind‐ending”) vagina, little body hair, normal breasts, and these distinct hormone levels is most consistent with complete androgen insensitivity syndrome rather than Müllerian agenesis or ovarian failure.
