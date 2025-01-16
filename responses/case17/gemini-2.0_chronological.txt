@@ -1,0 +1,83 @@
+Okay, here's a chronological ordering of the key events, along with the temporal relationships between symptoms and interventions.
+
+**Timeline of Events & Relationships**
+
+**Pre-Admission:**
+
+*   **3 Days Before Admission:** Single episode of emesis.
+*   **2 Days Before Admission:** Became fussy.
+*   **1 Day Before Admission (Day of Seizure):**
+    *   Decreased language output.
+    *   One loose bowel movement.
+    *   Atypical behavior - wanted to sleep.
+    *   **Seizure Event:**  Sudden stiffening, unresponsiveness, left-sided head turn, "staring off into space", bilateral arm flexion, left-sided shaking, vomiting after seizure.
+    *   Somnolence but arousable, spontaneous limb movements after seizure.
+    *   Second episode of vomiting.
+*  **10 minutes after seizure:** Initial examination by emergency medical services, patient somnolent but arousable.
+*   **25 minutes after seizure:** Arrived at another hospital's emergency department.
+    *   **Initial Examination at other hospital:** Patient alert and active with normal vital signs, normal blood glucose (105 mg/dL).
+
+**First Hospital Admission:**
+
+*   **Day of Admission (to initial hospital):** Sleeping, arousable, with mild temperature elevation (37.4°C). Normal vital signs.
+*   **12 Hours After Seizure:** EEG shows focal polymorphic delta slowing and sharp wave discharges over right frontal region.
+*   **Later that Day:** Temperature of 38.2°C; acetaminophen administered.
+*   **Next Morning:** No further seizure activity; discharged home.
+
+**Post-Discharge (Before Second Hospital Admission):**
+
+*   **2 Days After Discharge:** Well.
+*   **5 Days Before Second Admission:** 
+    *   Progressively decreased language output.
+    *   Increased sleep, only awake for short periods.
+    *   Decreased oral intake.
+    *   Constipation, not relieved by polyethylene glycol.
+*   **2 Days Before Second Admission:** 
+    *   Mood lability, including aggression and hysterical laughter.
+    *   Babbling and repeating unusual phrases.
+    *   Loss of interest in games.
+    *   Unsteady gait and frequent tripping.
+*  **Day of Second Admission:**
+    *   Writhing movements after eating and drinking.
+    *   Decreased urine output.
+
+**Second Hospital Admission (This Hospital):**
+
+*   **Admission Day:**
+    *   Quiet, flat affect, subdued behavior, dry oral mucous membranes.
+    *   Normal vital signs, normal abdomen, followed some commands but fell asleep during examination.
+    *   Blood glucose 76 mg/dL.
+    *   IV normal saline administered.
+    *   Abdominal radiograph: feces in colon, no obstruction.
+    *   1 hour later: Normal labs, negative toxicology screen, increased bowel gas on US, but no intussusception
+    *   Transferred to this hospital.
+*  **Emergency Department:**
+    *   Somnolent but arousable, limited eye contact, unintelligible speech, one episode of agitation.
+    *   Normal vital signs, normal examination except unsteady/ataxic gait.
+    *   Sodium phosphate enema administered, large bowel movement.
+    *  Admitted to the hospital.
+*  **Day After Admission (First Hospital Day of Second Admission):**
+    *   Normal magnetic resonance angiography of the head.
+    *   MRI of head/spine shows scattered hyperintense foci in white matter, mild mucosal thickening in paranasal sinuses.
+    *  Lumbar puncture performed: elevated white cell count in CSF (38 in tube 1 and 33 in tube 4), primarily lymphocytes, and elevated red blood cells (46 in tube 1 and 9 in tube 4). Normal CSF protein and glucose levels.
+    *  Negative testing for common respiratory viruses, positive ketone bodies in urinalysis.
+    *   Intravenous fluids, acyclovir, and oral acetaminophen/ibuprofen administered.
+
+*   **Second and Third Hospital Days:** Episodes of irritability, thrashing, screaming, stereotyped arm movements, athetoid hand movements, orofacial dyskinesias.
+*   **Video EEG:** Generalized polymorphic slowing of the resting background. No EEG correlate of abnormal movements.
+*   **Fifth Hospital Day:**
+    *   Apnea, tachycardia, hypertension, opisthotonic posturing, jaw clenching.
+    *  **Intervention:** Intubation and mechanical ventilation, Midazolam, fentanyl, and rocuronium administered intravenously.
+    *  Transferred to pediatric intensive care unit.
+
+**Temporal Relationships Between Symptoms and Interventions**
+
+*   **Initial Emesis** occurred 3 days prior to first seizure event.
+*   **Initial Seizure:**  Emergency services called and patient transported to hospital, resulting in initial examination and normal blood glucose levels.
+*   **Fever & Acetaminophen:**  Fever occurred later on the first day of the initial admission and was treated with acetaminophen.
+*   **Recurrent Symptoms after Initial Discharge:** A constellation of neurological symptoms (decreased language, increased sleep, mood lability, unsteady gait) developed over 5 days.
+*   **IV Fluids and Enema:** During the second admission, the initial interventions were aimed at addressing dehydration and constipation.
+*   **Lumbar Puncture and Antiviral Treatment:** Lumbar puncture was performed on the first day of second hospital admission with results leading to the start of acyclovir.
+*   **Respiratory Failure and Intubation:** The culmination of progressive neurological issues resulted in an acute respiratory failure with the subsequent administration of paralytics and sedatives, intubation, and mechanical ventilation, and admission to the PICU.
+
+Let me know if you would like any part of this elaborated further.

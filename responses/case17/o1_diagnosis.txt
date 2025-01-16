@@ -1,0 +1,22 @@
+Based on the child’s subacute onset of behavioral and speech changes, seizures, movement disorder (writhing movements, ataxia), and autonomic instability—together with the predominantly lymphocytic pleocytosis in the CSF (with normal glucose and protein), EEG findings (focal slowing and occasional sharp waves), and MRI changes (scattered or symmetric T2/FLAIR hyperintensities)—the overall picture is most consistent with an autoimmune encephalitis, in particular anti–NMDA receptor encephalitis.
+
+** Key Supporting Points ** 
+1. Clinical Symptoms
+* Rapid progression (<3 months) of behavioral changes (aggression, unprovoked laughter), speech dysfunction (decreased language output), seizures, and movement abnormalities (choreoathetoid or writhing movements).
+* Fluctuating level of consciousness and possible autonomic involvement (e.g., tachycardia, hypertension).
+
+2. CSF Findings
+* Mild to moderate mononuclear pleocytosis (lymphocytes, reactive lymphocytes, monocytes).
+* Normal glucose and protein, which points away from bacterial meningitis.
+* No organisms on Gram’s stain or culture.
+
+3. Serologic and Other Lab Results
+* Negative Borrelia burgdorferi screen and no other clear infectious agent.
+* Mild leukocytosis in the blood that later resolved, without a sustained “left shift” or bandemia typical of acute bacterial infection.
+* No major metabolic derangements to suggest a purely metabolic or toxic cause.
+
+4. Neuroimaging
+* MRI shows areas of symmetric restricted diffusion and T2/FLAIR hyperintensities in the cortex, subcortical white matter, and basal ganglia in a pattern often seen in autoimmune or inflammatory encephalopathies.
+* Changes are subtle or patchy rather than the large, edematous lesions typical of acute disseminated encephalomyelitis (ADEM).
+
+Putting it all together, the presentation aligns well with anti–NMDA receptor encephalitis (a subtype of autoimmune encephalitis) rather than a bacterial, viral, or purely metabolic process.
