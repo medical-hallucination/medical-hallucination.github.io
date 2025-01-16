@@ -995,20 +995,19 @@
                 btn.classList.remove('active');
             });
             event.target.classList.add('active');
-
+        
             // Update the title
             document.getElementById('contentTitle').textContent = 'Images & Tables';
-
+        
             // Dynamically generate image paths based on currentCase
-            const imageKeys = ['table1', 'table2', 'table3', 'figure1', 'figure2', 'figure3'];
+            const imageKeys = ['table1', 'table1_main', 'table2', 'table2_main', 'figure1', 'figure2', 'figure3'];
             let imagesHTML = '<div class="image-container">';
-
+        
             for (const key of imageKeys) {
                 const imagePath = `./images/${currentCase}/${key}.png`;
-
-                // Optionally, check if the image exists before adding it
+        
                 try {
-                    const response = await fetch(imagePath);
+                    const response = await fetch(imagePath, { method: 'HEAD' });
                     if (response.ok) {
                         imagesHTML += `
                             <img src="${imagePath}" alt="${key}" onclick="openModal('${imagePath}')">
@@ -1020,9 +1019,9 @@
                     console.error(`Error fetching image ${key}:`, error);
                 }
             }
-
+        
             imagesHTML += '</div>';
-
+        
             // Update the content body with the generated HTML
             document.getElementById('contentBody').innerHTML = imagesHTML;
         }
