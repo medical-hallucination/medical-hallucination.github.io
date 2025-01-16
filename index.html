@@ -1271,32 +1271,35 @@
                     btn.classList.remove('active');
                 }
             });
-
-            document.getElementById('contentTitle').textContent = section.charAt(0).toUpperCase() + section.slice(1);
-
+        
+            // Retrieve the current case's sections
+            const sections = caseSections[currentCase];
+        
+            // Find the matching label for the given section
+            const sectionObject = sections.find(s => s.id === section);
+            const sectionLabel = sectionObject ? sectionObject.label : section;
+        
+            // Update the title with the label
+            document.getElementById('contentTitle').textContent = sectionLabel;
+        
             try {
                 document.getElementById('contentBody').innerHTML = '<div class="loading">Loading...</div>';
-
+        
                 const response = await fetch(`content/${currentCase}/${section}.txt`);
                 if (!response.ok) {
                     throw new Error('Failed to load content');
                 }
                 
                 const text = await response.text();
-                
+        
                 // Process the text for proper markdown formatting
                 const processedText = text
-                    // First normalize line endings
                     .replace(/\r\n/g, '\n')
                     .replace(/\r/g, '\n')
-                    // Split into lines
                     .split('\n')
-                    // Remove empty lines at start and end
                     .map(line => line.trim())
-                    // Join with double newlines between non-empty lines
                     .filter(line => line.length > 0)
                     .join('\n\n')
-                    // Process references
                     .replace(
                         /(fig\.|figure|table)(\s?)(\d+)/gi,
                         (match, type, space, number) => {
@@ -1307,18 +1310,16 @@
                             return `<span class="reference-link" onclick="handleReference('${normalizedType}${number}')">${match}</span>`;
                         }
                     );
-
-                // Configure marked options
+        
                 marked.setOptions({
-                    breaks: true,      // Enable line breaks
-                    gfm: true,        // Enable GitHub Flavored Markdown
-                    headerIds: false,  // Disable header IDs
-                    mangle: false     // Disable header mangling
+                    breaks: true,
+                    gfm: true,
+                    headerIds: false,
+                    mangle: false
                 });
-
+        
                 document.getElementById('contentBody').innerHTML = marked.parse(processedText);
-
-
+        
             } catch (error) {
                 console.error('Error loading content:', error);
                 document.getElementById('contentBody').innerHTML = `
@@ -1328,7 +1329,7 @@
                     </div>
                 `;
             }
-
+        
             initializeTaskAreas();
         }
 
