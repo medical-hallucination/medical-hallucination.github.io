@@ -1,0 +1,13 @@
+A key clue here comes from the immunohistochemical profile shown in Figure 3: the tumor cells are negative for the epithelial marker (EMA) yet positive for the melanocytic marker (Melan‑A). Classic renal‑cell carcinomas (RCCs) are typically EMA‑positive, whereas tumors derived from perivascular epithelioid cells (the so‑called PEComas, which include angiomyolipomas) characteristically stain with melanocytic markers (e.g., HMB‑45, Melan‑A) and usually lack epithelial markers.
+
+Putting the pathology together with the patient’s presentation—an otherwise healthy 29‑year‑old with a large, mixed solid‑cystic renal mass having minimal vascularity on imaging—the most likely diagnosis is an epithelioid angiomyolipoma (a PEComa) rather than a conventional RCC. Although most “classic” angiomyolipomas are benign, epithelioid variants can be locally aggressive or even malignant; thus, surgical resection is often indicated.
+
+** Why it is not typical RCC: **
+* Conventional RCC (clear cell or papillary subtypes) would ordinarily show strong epithelial markers (e.g., EMA, cytokeratins).
+* The strong Melan‑A positivity and the absence of EMA more strongly favor a PEComa.
+
+** Why PEComa (epithelioid angiomyolipoma) fits: **
+* PEComas arise from perivascular epithelioid cells that characteristically coexpress smooth muscle and melanocytic markers (e.g., HMB‑45, Melan‑A).
+* Renal angiomyolipomas are the most common PEComas; the epithelioid subtype can present with large, heterogeneous masses that may contain cystic or hemorrhagic components and (as in this case) calcifications.
+
+Hence, based on (1) the imaging features (large, heterogeneous renal mass), (2) the essentially normal labs aside from the mass effect, (3) the negative epithelial but positive melanocytic immunostaining, and (4) the histologic appearance of nests of large cells with abundant clear‑to‑eosinophilic cytoplasm, the most likely diagnosis is an epithelioid angiomyolipoma (PEComa) of the kidney.

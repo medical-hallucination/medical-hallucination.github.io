@@ -1,0 +1,54 @@
+Okay, here's a chronological ordering of the key events, along with temporal relationships between symptoms and interventions:
+
+**Timeline of Events:**
+
+1.  **Approximately 6 Weeks Before Presentation:**
+    *   **Symptom:** Patient identifies a painless lump above his left testicle during self-examination.
+    
+2. **Shortly After Symptom Discovery:**
+    *   **Intervention:** Patient sees his primary care physician at another hospital.
+    *   **Examination:**  A soft, nontender, "boggy" mass is found superior to the left testicle, without erythema.
+    *   **Intervention:** Laboratory tests and imaging of the testes and scrotum are performed.
+        *   **Imaging Result:**
+            *   Normal testes
+            *   Left varicocele
+            *   Right epididymal head cyst (0.6 cm)
+            *   Incidental mixed solid and cystic mass (11.8 cm x 10.8 cm x 9.4 cm) on the lower right kidney
+            *   Normal left kidney
+        *   **Intervention:** CT of abdomen/pelvis is performed with contrast.
+        *    **Imaging Result:** Confirms a right lower pole kidney mass (11 cm in diameter) with thin mural calcification. There is no hydronephrosis, venous invasion, enlarged lymph nodes, liver or pancreatic lesions, or adrenal nodules. The mass is displacing the inferior vena cava to the left.
+
+3.  **Referral to This Hospital's Urology Clinic:**
+    *   **Intervention:** Patient is referred to the urology clinic at this hospital due to the kidney mass.
+    
+4.  **Evaluation at This Hospital (Presentation):**
+    *   **Symptoms:**
+        *   Mild discomfort in the right flank and right upper quadrant.
+        *  Small bulge in the right flank
+        *   Left scrotal mass (previously identified)
+        *   Seasonal allergies.
+        *   No fever, night sweats, weight loss, anorexia, fatigue, lymphadenopathy, pruritus, hematuria, dysuria, or pelvic/back pain
+    *   **Examination Findings:**
+        *   Palpable nontender mass in the right abdomen (inferior to the liver)
+        *   Grade 2/3 left varicocele
+        *   Otherwise normal genitourinary exam
+    *   **Intervention:** Laboratory tests performed (results summarized in Table 1)
+        *   **Lab Result:** Hemoglobin 14.3g/dl, Hematocrit 43.1%, Platelets 220,000, Prothrombin Time 14.2, and a Prothrombin-time international normalized ratio of 1.2. Glycated hemoglobin is 5.9% which is elevated. The remainder of results were within normal limits.
+    *   **Intervention:** CT of chest performed.
+    *   **Imaging Result:** intrapulmonary lymph node noted with no other concerning findings.
+
+5. **Diagnostic and Management Decisions:**
+   *   No interventions noted but at this point decisions will be made based on all prior data.
+
+**Temporal Relationships:**
+
+*   **Symptom Onset to Initial Evaluation:** The patient noticed the left testicular lump about 6 weeks prior to being seen at this hospital, and this is what prompted initial evaluation at another hospital.
+*   **Initial Evaluation and Imaging to Referral:**  The incidental finding of the kidney mass during imaging at another hospital led to referral to this hospital's urology clinic.
+*   **Referral and Presentation at This Hospital:**  The patient's presenting symptoms at this hospital are similar to what was noted previously with the addition of right flank and upper quadrant discomfort, as well as a palpable mass and bulge.
+
+**Summary of Relationships:**
+
+*   The initial symptom (testicular mass) was the catalyst for medical evaluation, but it was the *incidental finding* of the kidney mass that led to the major focus of the case.
+*   The progression appears to be that from detection of a lump by the patient, followed by initial evaluation which found more things that prompted additional investigations.
+
+This structured timeline should help to clarify the patient's journey through the healthcare system and the sequence of events related to his symptoms, interventions, and findings. Let me know if you have any other questions!

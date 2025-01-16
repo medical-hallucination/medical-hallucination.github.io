@@ -1,0 +1,41 @@
+Below is a chronological outline of the key events, showing when symptoms were noted and when evaluations and interventions occurred. The approximate timing is based on information provided in the case description.
+
+1) Six Weeks before Hospital Evaluation
+   • The patient notices a painless lump above his left testicle during a monthly self-examination.
+
+2) Primary Care Evaluation (Shortly Thereafter, at Another Hospital)
+   • Physical examination confirms a soft, nontender “boggy” mass superior to the left testicle, with no erythema.  
+   • Laboratory tests are performed (results shown in the “2 Wk before Presentation” column in Table 1).  
+   • Scrotal and testicular ultrasonography reveals:
+     – Left-sided varicocele.  
+     – Small epididymal cyst on the right.  
+     – Incidental discovery of an 11.8 cm × 10.8 cm × 9.4 cm mixed solid and cystic mass on the lower pole of the right kidney.
+
+3) Computed Tomography (CT) of the Abdomen and Pelvis (Shortly After Ultrasound)
+   • Confirms an approximately 11 cm mixed solid and cystic mass in the right kidney’s lower pole, with thin mural calcification.  
+   • Shows no signs of hydronephrosis, lymphadenopathy, or metastatic lesions and no venous invasion.
+
+4) Referral to the Urology Clinic (at This Hospital)
+   • The patient reports mild discomfort in his right flank and right upper quadrant and notices a palpable bulge in that area.  
+   • He has no systemic or constitutional symptoms (e.g., fever, weight loss).  
+   • Physical examination at this hospital confirms:  
+     – Palpable, nontender mass in the right abdomen below the liver.  
+     – Grade 2 varicocele on the left side (palpable without Valsalva).  
+     – Otherwise normal genitourinary exam.
+
+5) Laboratory Testing at This Hospital (On Presentation)
+   • Blood and urine tests (Table 1 “On Presentation” column) show values within normal limits, including normal kidney function.
+
+6) Chest CT Imaging (Immediately after Urology Consultation)
+   • Reveals only an intrapulmonary lymph node and no signs of metastatic disease.
+
+7) Diagnostic and Management Decisions
+   • After reviewing imaging and laboratory data, further decisions regarding surgical intervention (e.g., partial or radical nephrectomy) and follow-up are made.
+
+▌Temporal Relationships Between Symptoms and Interventions
+• Symptom onset (left scrotal lump) preceded imaging by roughly one to two weeks; the ultrasound was done in direct response to the new physical finding.  
+• The kidney mass was discovered incidentally through imaging for the scrotal symptoms—thus the renal mass diagnosis followed quickly after the scrotal ultrasound.  
+• Additional CT imaging of the abdomen and pelvis came soon after the ultrasound, confirming the renal lesion and shaping referral to a specialized urology service.  
+• Further testing (labs and chest imaging) was done to rule out metastatic disease and evaluate surgical options for the kidney mass, all within a few weeks of the initial finding.
+
+In short, the first (and only) symptom the patient noticed was the painless scrotal bulge, which led to imaging studies that revealed the renal mass. Subsequent workup and referral for surgical management stemmed from that incidental discovery.
