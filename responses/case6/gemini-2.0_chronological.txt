@@ -1,0 +1,50 @@
+Okay, here's a chronological ordering of the key events, along with identification of temporal relationships between symptoms and interventions:
+
+**Timeline of Events:**
+
+*   **6 Days Before Admission:**
+    *   Onset of right frontal headache and right retro-orbital pain (atypical for her usual migraines).
+*   **5 Days Before Admission:**
+    *   Patient wakes up with a "gray dot" in the inferonasal field of vision of her right eye.
+    *   Later that day, intermittent diminished vision ("white appearing") in the right eye, lasting 45-60 seconds.
+*   **3 Days Before Admission:**
+    *   Episodes of vertigo ("room spinning") lasting about 30 seconds. Not provoked by head movement.
+    *   Intermittent nonpositional bifrontal headaches, especially with eye strain (looking at phone/computer).
+*   **1 Day Before Admission:**
+    *   Patient presents to an affiliated ophthalmology hospital.
+    *   Ophthalmologic exam finds:
+        *   Visual acuity 20/20 both eyes
+        *   Color vision deficits in right eye.
+        *   Normal pupils and no RAPD.
+        *   Dense depression in the inferonasal field of vision of right eye.
+        *   Normal findings on slit-lamp exam except area of mild macular whitening superotemporal to the fovea in the right eye.
+        *   Optic nerves are normal
+        *   Normal extraocular movements and no nystagmus
+*   **Day of Admission:**
+    *   Patient is transferred to the neurology emergency department of this hospital.
+    *   Reports stable visual-field deficits and ongoing intermittent headaches.
+    *   Repeat ophthalmologic exam is unchanged from affiliated hospital.
+    *   General and neurologic examinations are normal.
+    *   Blood work is normal.
+    *   Lumbar puncture is performed with mild elevation in CSF protein.
+    *   Low-dose aspirin administered.
+    *   Patient is admitted to the neurology service.
+*   **1 Day After Admission:**
+    *   Onset of right ear hearing loss and tinnitus.
+    *   Audiometry shows bilateral sensorineural hearing loss (worse in right ear).
+*   **4 Days After Admission:**
+    *   Fundus photography and fluorescein angiography are performed.
+    *   Fundus photography showed retinal whitening superotemporal to the fovea in the right eye and a subtle area of retinal whitening along the inferotemporal arcade of the left eye.
+    *   Fluorescein angiography showed delayed filling of some arterioles in the right eye with blocked arterioles as well as segmental perivascular staining in both eyes.
+
+**Temporal Relationships Between Symptoms and Interventions:**
+
+*   **Headache and Vision Changes Precede Vertigo:** The atypical headache and the right eye vision changes (gray dot and intermittent white vision) occurred before the onset of vertigo.
+*   **Ophthalmology Evaluation Prior to Neurology Evaluation:** The patient was initially seen at an ophthalmology-focused hospital before being transferred for further diagnostic evaluation by a neurologist.
+*   **Aspirin After Extensive Workup:** Low-dose aspirin was given only after extensive blood work, a lumbar puncture, and other tests were completed which occurred on the day of admission.
+*   **Hearing Loss and Tinnitus After Admission:** The hearing loss and tinnitus developed after admission, and after initial lab workup.
+*   **Fundus Photography and Fluorescein Angiography After Hearing Loss:** Retinal imaging was performed after the onset of hearing loss and tinnitus.
+
+**Summary of Key Temporal Relationships:**
+
+The timeline reveals that the patient experienced a progression of symptoms. It began with atypical headaches, moved to visual disturbances, followed by vertigo, then hearing loss and tinnitus. The diagnostic process unfolded with ophthalmologic evaluation first, leading to a neurology consultation and further testing, and the administration of aspirin, after a thorough evaluation.  The patient's hearing changes occurred later in the time course, several days after initial presentation, and prompted imaging studies of the retinal vasculature.
