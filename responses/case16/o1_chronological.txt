@@ -1,0 +1,73 @@
+Below is a consolidated timeline of the patient’s course, highlighting when each new symptom or finding arose and how treatments were modified in relation to those developments.
+
+1) 18 Months before Current Admission  
+   • Hypertension (BP 140/90 mm Hg) first noted.  
+   • Oral contraceptive pills were discontinued; blood pressure remained elevated despite this change.  
+   • Workup (renal duplex, catecholamines, metanephrines, aldosterone, and thyrotropin levels) was unrevealing.  
+   • Echocardiogram: normal ventricular function, no valvular disease or left ventricular hypertrophy (septal thickness 11 mm).  
+   • Lisinopril was started; BP subsequently improved to 120/80 mm Hg.  
+
+2) Four Weeks before Current Admission  
+   • New symptoms: swelling of legs, abdominal distention, intermittent dyspnea on exertion, fatigue, 4.5-kg weight gain, and occasional confusion.  
+   • Two short episodes of exertional chest pain relieved by rest.  
+   • Emergency department evaluation showed:  
+       – BP 180/110 mm Hg, mild jugular venous distention, trace leg edema.  
+       – Mild systolic murmur.  
+       – Labs notable for mild abnormalities (see Table 1 in the case).  
+       – Chest radiograph: small bilateral pleural effusions, no definite pulmonary edema.  
+   • Intervention and response:  
+       – Admitted for management.  
+       – IV furosemide → improvement in dyspnea and edema → switched to low-dose oral furosemide.  
+       – Repeat echocardiogram: hyperdynamic left ventricular function (EF 76%), new findings of biventricular hypertrophy (IV septal thickness 14 mm), systolic anterior motion of the mitral valve, and mild mitral regurgitation.  
+       – Because of persistently elevated BP, lisinopril was increased; metoprolol and nifedipine were added.  
+       – Discharged on hospital day 3 with these medications.  
+
+3) Three Weeks before Current Admission  
+   • Recurrent dyspnea on exertion and fatigue, plus a new 3-day history of malaise and night sweats.  
+   • ED evaluation showed: BP 148/96 mm Hg, no leg edema, and no visible jugular venous pulsation.  
+   • Cultures (blood and urine) were sterile; HIV testing and interferon-γ release assay were negative.  
+   • Chest radiograph: pleural effusions resolved, no new opacities.  
+   • Cardiac MRI:  
+       – Asymmetric septal hypertrophy (max thickness 21 mm).  
+       – Mild LV enlargement, EF 71%.  
+       – Small areas of late gadolinium enhancement (consistent with fibrosis in hypertrophic cardiomyopathy).  
+   • Intervention and response:  
+       – Continued oral furosemide, but orthostatic hypotension ensued → required IV fluids → furosemide discontinued.  
+       – Patient afebrile in-hospital; white-cell count decreased but did not normalize.  
+       – Discharged on hospital day 6.  
+
+4) Approximately Two Weeks after That Discharge (the “Current Admission”)  
+   • Recurrence of fatigue, fevers, and palpitations; husband noted confusion, irritability, and anxiety.  
+   • Patient reported polyuria, polydipsia, and generalized weakness.  
+   • Exam findings:  
+       – Mild proximal muscle weakness (4/5).  
+       – Cognitive impairment (could not state the year, responded with confabulation).  
+       – Increased facial hair and decreased scalp hair, but no striae or hyperpigmentation.  
+       – New systolic murmur (3/6).  
+   • Laboratory testing showed persistent hypokalemia despite a normal diet.  
+   • Chest CT angiography: segmental and subsegmental pulmonary emboli in the right lower lobe; bilateral adrenal gland thickening.  
+   • Intervention:  
+       – Admitted for further evaluation.  
+       – Started on an IV heparin infusion for pulmonary emboli.  
+       – Continued antihypertensives.  
+       – Required “aggressive” potassium supplementation for persistent hypokalemia.  
+   • A diagnostic test (presumably to evaluate for an endocrine etiology) was performed.  
+
+Temporal Relationships Between Symptoms and Interventions
+
+• Hypertension and Lisinopril (18 Months to 4 Weeks Before Admission):  
+  – Hypertension was persistent initially, which prompted workup and eventual use of lisinopril; BP improved, and the patient remained clinically stable until 4 weeks before admission.
+
+• Edema, Dyspnea, and Confusion Lead to Diuretic Use (4 Weeks Before Admission):  
+  – When leg swelling and dyspnea surfaced, IV then oral furosemide brought symptomatic relief. However, the patient’s echocardiogram revealed newly recognized hypertrophy and outflow obstruction, prompting an increase in antihypertensive therapy (lisinopril) and addition of metoprolol and nifedipine.
+
+• Recurrent Fatigue and Possible Infection or Inflammatory Process (3 Weeks Before Admission):  
+  – Fatigue, malaise, and night sweats triggered a second admission, with workup negative for infection or HIV.  
+  – Cardiac MRI findings of marked septal hypertrophy confirmed a suspicion of hypertrophic cardiomyopathy.  
+  – Ongoing use of diuretics led to orthostatic hypotension, resulting in furosemide discontinuation.
+
+• Final Presentation with Confusion, Weakness, Persistent Hypokalemia, Bilateral Adrenal Thickening, and Pulmonary Emboli (Current Admission):  
+  – Suggestive of a possible endocrine or paraneoplastic process (e.g., hypercortisolism) contributing to new features (thin scalp hair, hirsutism, hypokalemia) and thrombotic events (pulmonary emboli).  
+  – Heparin infusion initiated for pulmonary emboli; continued need for high-dose potassium replacement.  
+
+Thus, each wave of symptoms (edema, fatigue, confusion, new cardiopulmonary issues) appeared soon after changes in medications or persistently elevated blood pressure, prompting diagnostic reevaluations and targeted interventions (e.g., diuretics for fluid overload, beta-blockers for hypertrophic cardiomyopathy, anticoagulation for pulmonary emboli). The final cluster of features points toward an underlying endocrine disorder, for which diagnostic testing was ultimately pursued.

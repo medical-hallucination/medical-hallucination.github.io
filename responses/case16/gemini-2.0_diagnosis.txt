@@ -1,0 +1,21 @@
+Based on the provided case presentation, lab data, and images, the most likely diagnosis is Ectopic ACTH syndrome due to a neuroendocrine tumor, specifically a thymic neuroendocrine tumor.
+
+**Here's why:**
+
+*   **Clinical Presentation:** The patient presented with hypertension, fatigue, dyspnea, confusion, hypokalemia, proximal muscle weakness, weight loss, hirsutism and altered mental status. These signs and symptoms, especially the constellation of hypertension, hypokalemia, and muscle weakness, are highly suggestive of Cushing's syndrome. The presence of a high level of glucose is also consistant with Cushing's.
+*   **Lab Data:** The lab data shows marked hypokalemia, increased D-dimer, high N-terminal pro-B-type natriuretic peptide, and elevated glucose.  The white-cell count was decreased at the admission, which may be due to stress or the underlying pathology. The hematocrit, hemoglobin, and red cell count are decreased at admission as well, which is not usual for ectopic ACTH syndrome.
+*  **Imaging:** The CT and MRI scans showed asymmetric left ventricular septal hypertrophy,  pulmonary emboli in the right lower lobe, and diffuse thickening of both adrenal glands. Additionally, the PET scan shows a partially calcified enhancing nodule. These are very suggestive of a non-pituitary tumour. Furthermore, the resection specimen shows a neuroendocrine tumour positive for corticotropin.
+
+**Key Elements that Support the Diagnosis:**
+* **Hypertension and Hypokalemia:** These are common findings in hypercortisolism, especially in ectopic ACTH syndrome, where the degree of cortisol excess is often higher than in pituitary Cushing's.
+* **Bilateral Adrenal Hyperplasia:**  The imaging finding of diffuse adrenal thickening is characteristic of adrenal stimulation by ACTH, whether from the pituitary or an ectopic source.
+* **Neuroendocrine Tumor:** The microscopic images showing a neoplasm that is positive for neuroendocrine markers and specifically positive for corticotropin in tumor cells highly suggests ectopic ACTH secretion.
+* **Pulmonary Emboli:** Patients with Cushing's syndrome are at increased risk of thromboembolic events such as pulmonary embolism.
+* **Absence of Pituitary Mass:** The provided case and images did not show any pituitary pathology.
+
+**Differential Diagnoses Considerations**
+
+*   **Pituitary Cushing's Disease:** This was less likely given the absence of a pituitary mass and the clinical presentation, which suggested a very high level of cortisol.
+* **Primary Hyperaldosteronism:** The hypokalemia could suggest primary hyperaldosteronism, but the lack of normal aldostorone levels and the other findings make it less likely.
+
+**In conclusion**, the findings point to ectopic ACTH secretion from a neuroendocrine tumor, likely a thymic tumor due to its location and other supporting data from the images.

@@ -1,0 +1,78 @@
+Okay, here's a chronological ordering of the key events in the patient's case, along with an analysis of the temporal relationships between symptoms and interventions:
+
+**Timeline of Key Events and Relationships:**
+
+1.  **18 Months Prior to First Admission:**
+    *   **Event:** Blood pressure noted to be 140/90 mmHg during a routine checkup.
+    *   **Intervention:** Oral contraceptive pills discontinued.
+    *   **Outcome:** Persistent elevated blood pressure, despite the intervention.
+
+2.  **Shortly After Initial BP Elevation:**
+    *   **Event:** Elevated blood pressure persists, and further investigations were performed.
+        *   Duplex ultrasound of renal arteries: Normal.
+        *   Thyrotropin, catecholamines, metanephrines, aldosterone: Normal.
+        *   Transthoracic echo: Normal LV function, no valvular disease or LVH (IVS 11mm - within normal).
+    *   **Intervention:** Lisinopril started.
+    *   **Outcome:** Blood pressure decreases to 120/80 mmHg.
+    *   **Relationship:** Initial intervention appears to successfully treat the high blood pressure.
+
+3.  **4 Weeks Before First Admission:**
+    *   **Event:** Swelling of the legs, abdominal distention, intermittent dyspnea on exertion, fatigue, 4.5 kg weight gain over the last month, occasional confusion, and two episodes of burning chest pain during exercise that were relieved with rest.
+    *   **Relationship:** These symptoms suggest fluid retention and possibly cardiac issues, or side effects of other medications.
+    *   **Intervention (First ED Visit):**  The patient presented to the ED.
+    *   **Outcome of First ED Visit**: Examination showed BP 180/110, weight 66.9kg, grade 2/6 systolic murmur, jugular venous pressure of 10 cm of water, trace leg edema. ECG showed normal sinus rhythm and LAD. CXR showed small bilateral pleural effusions.
+    *   **Intervention (First Admission):** Patient is admitted.
+
+4.  **First Hospitalization:**
+    *   **Intervention:** IV Furosemide administered
+    *   **Outcome:** Reported decrease in dyspnea and swelling. Daily oral furosemide was initiated.
+    *   **Intervention**: Echocardiogram showed hyperdynamic LVS function, EF 76%, biventricular hypertrophy, IVS 14mm, mild mitral regurgitation, systolic anterior motion of the mitral valve leaflets, and accelerated flow in the LVOT.
+    *   **Intervention:** Lisinopril dose increased and metoprolol and nifedipine were started.
+    *   **Outcome:** Discharged on day 3.
+    *   **Relationship:** Diuretics provided symptomatic relief but the need for additional BP medications suggests underlying causes not being addressed.
+
+5.  **3 Weeks Before Second Admission:**
+    *   **Event:** Recurrence of dyspnea on exertion, fatigue, 3-day history of malaise and night sweats.
+    *   **Relationship:** Indicates a possible worsening of the underlying condition.
+    *   **Intervention (Second ED Visit):** Patient evaluated in the ED.
+    *   **Outcome of Second ED Visit**: Examination revealed BP 148/96, weight 65.3 kg. No jugular venous pulsation or leg edema noted. Pleural effusions had resolved based on CXR.
+    *  **Intervention (Second Admission):** Admitted again.
+
+6.  **Second Hospitalization:**
+    *   **Intervention:** MRI of the chest with contrast performed.
+    *   **Outcome:** Findings consistent with asymmetric left ventricular septal hypertrophy and mild left ventricular enlargement (max IVS 21mm)
+    *   **Intervention:** Oral Furosemide dose was administered and orthostatic hypotension developed. IV fluids administered, and furosemide discontinued.
+    *   **Outcome:** Discharged home on day 6
+    *    **Relationship:** Diuretics result in side effects, highlighting the difficulty in fluid management in this case
+
+7.  **2 Weeks After Second Discharge**
+    *   **Event:** Recurrent fatigue, fevers, palpitations, and development of confusion, irritability, and anxiety and global weakness with increased respiratory effort on exertion.
+    *  **Event:** Reported frequent urination and increased thirst.
+    *    **Relationship:** Symptoms are worsening again, and now also suggest neurological impairment.
+    *   **Intervention (Third ED Visit):** Evaluated in the ED again.
+    *    **Outcome of Third ED Visit:** Examination revealed BP 135/80, HR 98, weight 60.0 kg, awake, alert, but unable to state the year, could not count backwards from 100 by 7s. Occasional inappropriate response with confabulation. Grade 3/6 systolic murmur. No jugular venous pulsation, no leg edema. Decreased scalp hair, increased hair growth on lip/chin.
+    *   **Intervention (Third Admission):** Admitted for further evaluation.
+
+8. **Third Hospitalization:**
+     *   **Intervention**: CT angiogram of the chest with contrast.
+      *  **Outcome**:  Segmental and subsegmental pulmonary emboli in the right lower lobe were identified, and diffuse thickening of both adrenal glands.
+     *   **Intervention**: IV Heparin was started, and prescribed medications were continued.
+      *  **Outcome:** Persistent hypokalemia despite potassium supplementation.
+      *  **Relationship:** Diagnoses of PE and adrenal abnormalities provide a direction towards a specific diagnosis
+
+**Summary of Temporal Relationships:**
+
+*   **Initial Hypertension:** The initial elevated blood pressure was effectively treated with lisinopril but led to the discovery of an underlying condition.
+*   **Fluid Retention Symptoms:** The development of edema, dyspnea, and abdominal distention indicated a worsening condition that required diuretic therapy.
+*   **Cyclical Symptoms:** The patient experienced recurring cycles of improvement with treatment followed by symptom relapse.  Each cycle was accompanied by new and different symptoms suggesting an evolving underlying condition.
+*  **Intervention Side Effects:** Diuretic use led to orthostatic hypotension, highlighting the challenges in managing her symptoms without fully understanding the root cause.
+* **Pulmonary Emboli:** Diagnosed after multiple admissions for cardiovascular issues.  Pulmonary embolism suggests a hypercoagulable state possibly related to other comorbidities.
+* **Adrenal Thickening:** Identified in conjunction with the pulmonary emboli, suggesting a possible source of the multiple symptoms.
+* **Persistent Hypokalemia:** Requires aggressive potassium supplementation and suggest an underlying endocrine condition, potentially of adrenal origin.
+
+**Additional Observations**
+* **Weight Fluctuations** The patient experiences cycles of weight gain and loss likely related to fluid retention as well as the natural disease progression.
+* **Physical Changes:** Hair loss and increased hair growth on the face are suggestive of an hormonal imbalance.
+*   **Cognitive Impairment** The worsening cognition suggests either an evolving disease process or an impact from medications/electrolyte imbalance.
+
+**Overall:** The case demonstrates a complex clinical picture with multiple recurring symptoms and a progressive course. The temporal relationships suggest a primary underlying process with multiple presentations and complications.
