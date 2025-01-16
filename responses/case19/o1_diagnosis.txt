@@ -1,0 +1,11 @@
+A useful way to arrive at the most likely unifying diagnosis is to note the “classic triad” of symptoms in an elderly patient on lifelong therapy for rheumatic mitral disease and atrial fibrillation:
+
+1. Gastrointestinal Symptoms. The patient’s prominent nausea, vomiting, and diarrhea, beginning a few days before admission, are hallmark early features of digoxin toxicity.
+
+2. Neurologic Changes. Confusion (especially in an elderly patient) is another common manifestation of elevated digoxin levels.
+
+3. Hyperkalemia. Even mild hyperkalemia (5.1 mmol/L here) in the context of atrial fibrillation and conduction‐system disease raises concern for digoxin toxicity, since acute elevations in potassium often accompany toxicity.
+
+Additional features fit this picture as well. Decreased renal perfusion (evidenced by a BUN of 44 mg/dL and creatinine of 1.6 mg/dL) likely resulted from volume depletion (vomiting and diarrhea), thereby reducing digoxin clearance and pushing drug levels into the toxic range. The mild interstitial edema on chest radiography and high NT‐proBNP suggest some degree of underlying heart failure, but do not rule out superimposed toxicity.
+
+Hence, the most likely single unifying diagnosis is digoxin toxicity, precipitated by dehydration and acute kidney injury in a patient with long‐standing mitral‐valve disease, atrial fibrillation, and a permanent pacemaker.
