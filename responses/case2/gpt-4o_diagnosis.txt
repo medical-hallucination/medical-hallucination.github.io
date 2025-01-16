@@ -1,21 +1,11 @@
-Based on the presentation, laboratory data, and imaging, the possible diagnosis is metastatic adenocarcinoma, likely originating from the colon, as supported by:
+Based on the clinical presentation, laboratory data, imaging studies, and pathological findings, the most likely diagnosis is metastatic colorectal adenocarcinoma. 
 
-Clinical Presentation:
+Key points supporting this diagnosis:
 
-Severe back pain radiating to the epigastric region and right upper quadrant.
-Nausea, vomiting, night sweats, and inability to eat.
-Nodular liver appearance on imaging, consistent with metastatic disease.
-Laboratory Findings:
+1. **Imaging**: MRI and CT scans reveal multiple liver lesions and thickening of the sigmoid colon with lymphadenopathy, indicating potential metastasis from a primary colorectal cancer.
 
-Elevated alkaline phosphatase (229 U/L), lactate dehydrogenase (943 U/L), and CA-125 (361 U/ml), indicative of malignancy.
-Hypoalbuminemia (2.7 g/dl), suggesting chronic disease.
-Mild anemia (Hemoglobin: 10.2 g/dl), which can occur in cancer.
-Imaging Findings:
+2. **Pathology**: Biopsy specimens show moderately to poorly differentiated adenocarcinoma in the liver and colon. The immunohistochemical staining of the placenta is positive for CK20, a marker often associated with colorectal cancer.
 
-Liver nodules seen on MRI, likely metastatic lesions.
-Enlarged periaortic lymph nodes and thickened sigmoid colon on CT, consistent with colonic malignancy and lymphatic spread.
-Pathological Findings (Figures 2 and 3):
+3. **Laboratory Data**: Elevated levels of carcinoembryonic antigen (CEA) and CA 19-9 are common in colorectal cancer.
 
-Liver and colon biopsy showing adenocarcinoma morphology.
-Immunohistochemical positivity for CK20, consistent with colonic origin.
-This case suggests poorly differentiated metastatic adenocarcinoma of colonic origin, complicating pregnancy.
+These findings are consistent with metastatic colorectal adenocarcinoma, and the presentation during pregnancy suggests it could be advanced and more challenging to diagnose early.
