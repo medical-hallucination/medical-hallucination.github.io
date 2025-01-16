@@ -1,0 +1,94 @@
+Okay, here's a chronological ordering of the key events, along with identification of temporal relationships between symptoms and interventions:
+
+**Timeline of Events & Temporal Relationships**
+
+*   **25 Years Before Admission:**
+    *   **Event:** Diagnosis of pulmonary tuberculosis in China.
+    *   **Intervention:** 14-month course of four-drug regimen.
+    *   **Outcome:** Treatment completed, but chronic cough with scant white sputum persisted.
+
+*   **2 Years After TB Treatment:**
+    *   **Event:** Immigration to the United States.
+    *   **Intervention:** Induced sputum test for *Mycobacterium tuberculosis*
+    *   **Outcome:** Reportedly negative test result.
+
+*   **12 Years Before Admission:**
+    *   **Event:** Positive test for hepatitis B virus (HBV) surface antigen.
+    *   **Intervention:** Nucleic acid amplification test for HBV DNA
+    *   **Outcome:** Negative test result and annual surveillance for cancer begins.
+
+*   **3 Years Before Admission:**
+    *   **Event:** Evaluation for chronic cough.
+    *   **Findings:** Chest X-ray shows nodular opacity at the right lung apex; CT scan reveals calcified granuloma and bronchiectasis.
+    *   **Intervention:** Annual surveillance with CT.
+
+*   **14 Days Before Admission:**
+    *   **Event:** Onset of anorexia, fatigue, back, and calf pain/tightness.
+    *   **No specific intervention**
+
+*   **8 Days Before Admission (6 days after symptom onset):**
+    *   **Event:** Patient seen by primary care physician. Lumbar paraspinal tenderness present. Temperature of 37°C.
+    *   **Intervention:** Radiography of lumbar spine, prescription of Ibuprofen
+    *   **Relationship:** Symptom of back pain leads to spinal imaging and ibuprofen prescription.
+    *   **Outcome:** Radiographs show degenerative disc disease.
+
+*   **Later on the 8th day before admission:**
+    *   **Event:**  Temperature of 38.9°C. Onset of Fever, chills, sweats, rigors, severe back/calf myalgias.
+    *   **Intervention:** Ibuprofen given but only temporary relief provided.
+    *   **Relationship:** Elevated temperature, chills, and pain followed a few hours after first doctor visit.
+
+*   **5 Days Before Admission:**
+    *   **Event:** Left testicular pain and swelling develops. Patient returns to PCP. Temperature of 37.8°C (after ibuprofen).
+    *   **Findings:** Moxibustion marks present, swollen, tender area on the left testicle
+    *   **Intervention:** Tests for Lyme, Babesia, Ehrlichia, Anaplasma. Blood and urine cultures, imaging studies.
+    *   **Relationship:** Development of testicular pain prompts another doctor visit, further testing and imaging.
+    *   **Outcome:** Negative tests for lyme and other tick borne diseases.
+
+*   **Unknown Time before Admission:**
+      *   **Intervention:** Patient visits a traditional Chinese doctor who performs moxibustion and administers a cathartic agent.
+      *  **Outcome:** No effect.
+
+*   **Time Unknown before Admission**
+    *   **Intervention:** Ultrasonography of scrotum
+    *   **Outcome:** Normal testes echotexture, subcentimeter epididymal cysts, chest X-ray reveals unchanged opacity at lung apex and ill-defined opacities at lung bases.
+
+*   **Time Unknown before Admission:**
+   *   **Intervention:** A 7-day course of Levofloxacin was prescribed
+    * **Outcome:** Patient remains febrile, symptoms persist (chills, anorexia, myalgias, arthralgias), patient experiences abdominal pain, diarrhea and weight loss.
+
+*   **3 Days Before Presentation:**
+    *   **Event:** Lab values at this point. Notable for elevated WBC.
+    *   **No specific interventions related to these lab tests**
+
+*   **Day of Presentation (Admission):**
+    *  **Event:** Patient referred to the ED. Patient also reports blurry vision in the left eye, chest pain, chronic cough, tinea cruris, and pruritus. Patient also reports use of Levofloxacin, aspirin, nystatin powder and triamcinolone cream and tamsulosin causing nasal discharge.
+    *   **Findings:** Temperature 37.8°C - 38.3°C, fatigue, faint rales, rhonchi, wheezes.
+    *   **Interventions:** Levofloxacin discontinued, acetaminophen and doxycycline given. Chest x-ray, CT of abdomen and pelvis. Ultrasound of right upper quadrant. Lab tests.
+    *   **Relationship:** Symptoms prompt ED visit, discontinuation of current treatment, and new medications.
+    *   **Outcome:** Gallbladder wall thickening, pleural effusions. Lab tests show elevated WBC count, elevated liver enzymes, and elevated ESR.
+
+*   **Hospital Day 1-6:**
+    *   **Event:** Patient remains febrile (38.1-39.6°C).
+    *  **Interventions:** Hepatobiliary radionuclide scan, ophthalmologic eval, contrast enhanced CT of the chest, gadolinium-enhanced MRI of spine and liver, thoracentesis.
+    *   **Relationship:** Persistent fever prompts further investigation and imaging.
+    *  **Outcome:** Hepatobiliary scan reveals no acute cholecystitis, ophthalmologic exam reveals cataracts and dry eyes, MRI of spine and liver reveals no diskitis or osteomyelitis, pleural fluid is consistent with transudative effusion, cultures were performed.
+
+*   **Hospital Day 7:**
+    *   **Event:** Recurrence of left scrotal swelling, pain, tenderness; Temperature reaches 40.1°C. Urinalysis reveals blood and red cells.
+    *   **No intervention at this point**
+    *  **Relationship:** Recurrent scrotal symptoms and fever.
+
+*  **Hospital Day 10 (3 days after day 7)**
+    *   **Intervention:** Follow-up Ultrasound of the scrotum
+     *  **Outcome:** Revealed new engorgement of testicular vessels. Findings are suggestive of epididymo-orchitis.
+
+**Summary of Temporal Relationships:**
+
+*   **Initial Symptoms:**  Anorexia, fatigue, back/calf pain preceded fever and other systemic symptoms.
+*   **Initial Interventions:** Ibuprofen initially provided some relief from initial symptoms (back pain), but it was not effective in resolving the fever and myalgias, and the symptoms worsened over time.
+*   **Progression of Symptoms:** The initial symptoms were followed by fever, chills, myalgias, arthralgias, testicular pain and swelling. This was followed by abdominal pain, diarrhea, blurry vision, and chest pain.
+*   **Intervention:** Antibiotics given, (levofloxacin) but it failed to resolve symptoms. This indicated something beyond a simple infection. The patient had worsening symptoms and was referred to the emergency department where a more in depth work up began.
+*   **Recurrent symptoms:** Scrotal swelling and pain resolved after initial presentation and reappeared after lab tests and imaging was performed.
+*   **Delayed Interventions:** Some interventions were delayed (e.g., thorough ophthalmologic examination and scrotal ultrasound). This suggests a step-wise approach to diagnosis.
+
+This timeline provides a good understanding of how the patient's symptoms developed, how those symptoms were related to interventions, and the patient's responses to treatments. It highlights the complexity of the case and the need for a careful and thorough diagnostic approach. Let me know if you have other questions.

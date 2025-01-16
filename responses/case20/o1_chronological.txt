@@ -1,0 +1,95 @@
+Below is a summary of the major clinical milestones and interventions, placed in chronological order and with attention to how symptoms evolved in relation to each intervention.
+
+────────────────────────────────────────────────────────
+LONG-TERM HISTORY (YEARS TO DECADES BEFORE ADMISSION)
+────────────────────────────────────────────────────────
+• 25 Years Before Admission (while in China):  
+  – Diagnosis of pulmonary tuberculosis → completed a 14‑month four‑drug regimen (specific medications unknown).  
+  – Persistent chronic cough with scant sputum afterward.  
+  – 2 years later (23 years before admission): Negative induced sputum for Mycobacterium tuberculosis.
+
+• 12 Years Before Admission:  
+  – Positive test for hepatitis B virus (HBV) surface antigen; HBV DNA testing was negative.  
+  – Began annual surveillance with abdominal ultrasonography and alpha-fetoprotein testing (never elevated).
+
+• 3 Years Before Admission:  
+  – Evaluation of chronic cough → chest CT revealed a calcified granuloma at the right lung apex and bronchiectasis.  
+  – Recommended annual CT follow‑up.
+
+────────────────────────────────────────────────────────
+TWO WEEKS BEFORE ADMISSION: ONSET OF CURRENT ILLNESS
+────────────────────────────────────────────────────────
+• Day −14 (14 Days Before Admission):  
+  – New onset of anorexia, fatigue, and musculoskeletal discomfort (pain and tightness in the back and calves).
+
+• Day −8 (6 Days after symptom onset, 8 Days Before Admission):  
+  – Seen by primary care physician.  
+  – Temperature: 37.0°C (no fever at that moment).  
+  – Tender bilateral lumbar paraspinal muscles; neurologic exam normal.  
+  – Lumbar spine radiograph: multilevel degenerative disk disease (no acute findings).  
+  – Intervention: Ibuprofen prescribed.
+
+• Later on Day −8 (After the PCP Visit):  
+  – Temperature rose to 38.9°C with fever, chills, sweats, rigors, and severe myalgias (back and calves).  
+  – Ibuprofen afforded only temporary symptom relief.  
+  – Visited a traditional Chinese medicine practitioner: received moxibustion and a cathartic agent → no improvement.
+
+• Day −3 (5 Days after the previous PCP visit, 3 Days Before Admission):  
+  – New left testicular pain and swelling; fever 37.8°C after ibuprofen.  
+  – No urinary symptoms.  
+  – Moxibustion marks noted on the upper back.  
+  – Swollen, tender left testicle on exam.  
+  – Laboratory workup notable for marked leukocytosis (see Table 1).  
+  – Negative screening for Lyme; negative nucleic acid amplification tests for Babesia, Ehrlichia, and Anaplasma.  
+  – Scrotal ultrasound: normal testicular echotexture and flow; bilateral epididymal cysts.  
+  – Chest radiograph: unchanged right apical opacity (old granulomatous disease), new ill‑defined opacities at lung bases (possible multifocal pneumonia).  
+  – Intervention: A 7‑day course of levofloxacin was started.
+
+• Day −3 to Day 0 (Admission):  
+  – Persistent fevers (up to 39°C) with chills, rigors, myalgias, arthralgias, abdominal twinges, and 1‑kg weight loss.  
+  – Worsening myalgias and arthralgias at peak temperatures.  
+  – Presented to the emergency department (ED) and was admitted.
+
+────────────────────────────────────────────────────────
+HOSPITAL COURSE
+────────────────────────────────────────────────────────
+• Day 0 (Admission):  
+  – Levofloxacin was discontinued.  
+  – Single dose of doxycycline plus acetaminophen given for symptomatic relief.  
+
+• Hospital Days 1–6:  
+  – Persistent fever (38.1–39.6°C).  
+  – Additional imaging (MRI of spine, liver; chest CT) and tests (pleural fluid analysis) pursued.  
+  – Thoracentesis revealed transudative pleural effusion, negative for infection or malignancy.  
+  – No valvular vegetations on echo.  
+  – No ocular infection or retinopathy on ophthalmologic exam.  
+
+• Hospital Day 7:  
+  – Recurrent left scrotal swelling, pain, and tenderness.  
+  – Temperature up to 40.1°C.  
+  – Urinalysis: persistent microscopic hematuria (2+ blood, 10–20 RBCs/hpf).  
+
+• About Hospital Day 10 from the First Ultrasound (i.e., 10 days after the original scrotal imaging):  
+  – Repeat scrotal ultrasound: new findings of testicular vascular engorgement (greater on the left), heterogeneous echotexture in both testes → suggesting epididymo‑orchitis.
+
+────────────────────────────────────────────────────────
+RELATIONSHIPS BETWEEN SYMPTOMS AND INTERVENTIONS
+────────────────────────────────────────────────────────
+• Ibuprofen (Day −8 onward):  
+  – Brief fever and myalgia control but only partial, temporary relief; fever recurred hours later.
+
+• Moxibustion and Cathartic Agent (Day −8):  
+  – Traditional therapy offered no apparent improvement in fever, chills, or myalgias.
+
+• Levofloxacin (Days −3 to 0):  
+  – Initiated to treat possible epididymo‑orchitis or atypical pneumonia.  
+  – Despite treatment, fevers and systemic symptoms persisted and led to hospital admission.
+
+• Hospital Admission (Day 0):  
+  – Levofloxacin stopped; short trial of doxycycline (single dose) and ongoing acetaminophen for fever control.  
+  – Fevers remained high and fairly resistant to these interventions.
+
+• New recurrence of left testicular swelling (Hospital Day 7):  
+  – Signaled that the underlying inflammatory or infectious process was ongoing despite antibiotic coverage and supportive measures.  
+
+In summary, symptoms began 14 days before admission with fever, muscle aches, and later testicular tenderness. Initial outpatient treatments (ibuprofen, moxibustion, cathartics) and then levofloxacin did not control symptoms. On admission, doxycycline and acetaminophen were tried, but fever and acute scrotal findings persisted, culminating in imaging evidence of epididymo‑orchitis by the second scrotal ultrasound.

@@ -1,0 +1,19 @@
+From the combination of (1) systemic symptoms (fever, arthralgias, abdominal and testicular pain), (2) marked inflammatory markers with negative infectious workups, (3) evidence of medium‐vessel vasculitis on histopathology, and (4) past hepatitis B infection, the leading unifying diagnosis is polyarteritis nodosa (PAN) — most likely HBV‐associated PAN.
+
+** Key Supporting Points **
+* Clinical Features
+- Persistent high fever and weight loss despite broad infectious testing.
+- Testicular involvement (pain, swelling, ultrasound showing heterogeneous echotexture with increased vascularity).
+- Abdominal pain and myalgias in the context of systemic inflammation.
+- Microscopic hematuria without glomerular (RBC cast) involvement.
+
+* Laboratory Findings
+- Marked inflammatory markers (high CRP, elevated ESR).
+- HBV serologies: Positive core antibody (indicating past infection), with negative surface antigen and undetectable HBV DNA—an important clue to HBV‐associated PAN.
+- Negative ANCA, favoring classic (medium‐vessel) PAN over small‐vessel, ANCA‐associated vasculitides.
+
+* Pathology
+- Biopsy findings on the epididymis and testis: Transmural inflammatory infiltrates in medium‐sized muscular arteries, with fibrinoid necrosis and luminal obliteration—classic for polyarteritis nodosa.
+- Immunohistochemical staining showing T lymphocytes (CD3) and macrophages (CD163) in the adventitia and intima, consistent with an active necrotizing vasculitis.
+
+Putting it all together, HBV‐associated polyarteritis nodosa best explains the constellation of systemic symptoms, lab abnormalities, and pathologic findings.

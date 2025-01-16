@@ -1,0 +1,12 @@
+Based on the information provided and the images, a possible diagnosis is Granulomatosis with Polyangiitis (GPA). 
+
+This is suggested by a constellation of findings across the case presentation and images, including:
+
+*   **Clinical Presentation:** The patient presented with fever, chills, arthralgias, abdominal pain, testicular pain, and leukocytosis. He also had a history of chronic cough, lung nodules and bronchiectasis, and, in the course of illness, developed blurry vision.
+*   **Lab Data:** Elevated white cell count, elevated acute phase reactants (CRP, ESR, and haptoglobin), proteinuria, microscopic hematuria, elevated hepatic transaminases and prolonged prothrombin time, elevated fibrinogen, low albumin and increased free kappa light chain.
+*   **Imaging:** The Ultrasound images of the scrotum show heterogeneous echotexture and increased vascularity (Figure 1).
+*   **Histology:**
+    *   Temporal Artery Biopsy (Figure 2) shows evidence of inflammation with mononuclear cells in the adventitia, media and intima.
+    *   Epididymal and Testicular Biopsy (Figure 3): Shows inflammation in the epididymal tissue and in the testicular parenchyma. Specifically a trans mural inflammatory infiltrate is seen in small muscular arteries with evidence of fibrinoid necrosis and vascular obliteration.
+
+While other conditions could be considered, the combination of systemic inflammatory symptoms, particularly the presence of granulomatous inflammation seen in the biopsy specimens points strongly towards GPA.
