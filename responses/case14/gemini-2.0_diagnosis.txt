@@ -1,0 +1,42 @@
+Based on the provided information, the most likely diagnosis is **Insulinoma**.
+
+Here's a breakdown of why:
+
+**Presentation of Case:**
+
+*   **Episodic Altered Mental Status:** The patient experiences recurrent episodes of confusion, nonsensical speech, and non-purposeful movements, which are characteristic of neuroglycopenic symptoms (brain dysfunction due to low blood sugar).
+*   **Hypoglycemia:** The symptoms are relieved by eating or dextrose administration, indicating a relationship with low blood glucose.
+*   **Temporal Relationship to Alcohol:** The patient notes that episodes often occur after alcohol consumption, suggesting a possible link with alcohol-induced hypoglycemia. While alcohol can cause low blood sugar, in this context, it is more likely a trigger for an underlying predisposition towards low blood sugar.
+*   **Symptoms While Fasting:** His symptoms on the day of admission occurred in the morning, when he had not eaten since the previous dinner, indicating that fasting is also a trigger.
+*   **No Other Neurological Symptoms:** The patient does not have headaches, numbness, tingling, paralysis, or other neurological signs typically associated with stroke, seizure, etc., which points more toward a metabolic cause for the symptoms.
+
+**Lab Data (Table 1):**
+
+*   **Low Glucose Level:**  The patient's glucose levels were extremely low (29 mg/dl and as low as 20 mg/dl by fingerstick).
+*   **Elevated Insulin Level:**  His insulin level is significantly elevated (14.6 μIU/ml).
+*   **Elevated C-Peptide Level:** His C-peptide level is also elevated (3.2 ng/ml), which confirms the endogenous production of insulin rather than an exogenous administration of insulin.
+*   **Low Beta-Hydroxybutyrate:** His Beta-Hydroxybutyrate is low. This finding points to an insulin-induced hypoglycemic state rather than a fasted state with ketoacidosis.
+*   **Negative Screen for Sulfonylureas and Glinides:** This test rules out the possibility of iatrogenic hypoglycemia (i.e., secondary to medications that cause insulin release)
+*   **Summary of Labs**: These findings are highly suggestive of an insulinoma, a tumor that secretes insulin and causes hypoglycemia. This tumor leads to excess insulin production. In a normal fasting state, insulin should be suppressed as glucose levels drop, but that does not happen in insulinoma.
+
+**Radiology (Figure 2):**
+
+*   **Hypodense Lesion in Pancreatic Head:** CT scans show a hypodense lesion in the pancreatic head during the arterial phase, which is consistent with a pancreatic tumor.
+*   **Enhancement on MRI:** The lesion enhances on MRI with specific patterns of T1, T2, and diffusion-weighted imaging, confirming the possibility of a neuroendocrine tumor.
+*  **No Lesion on Arterial Phase Post Contrast MRI:** This rules out the possibility of hemangioma, and solidifies the possibility of a well vascularized pancreatic neuroendocrine tumor.
+
+**Pathology (Figure 1):**
+
+*   **Neuroendocrine Tumor:** Biopsy results show cells with plasmacytoid appearance with fine nuclear stippling. This, along with a nested architecture, is characteristic of neuroendocrine tumors.
+*   **Low Ki-67 Index:** A low Ki-67 index (2%) indicates a low grade, which is consistent with insulinomas.
+
+**Surgical Findings (Figure 3):**
+
+*   **Tumor in Pancreatic Head:** The surgical diagram and images confirm the presence of a mass within the pancreatic head, where the tumor was located as shown in CT and MRI images.
+*   **Surgical Resection:** The mass was enucleated as described in the provided diagram.
+
+**Differential Diagnosis:**
+
+While other conditions can cause hypoglycemia, like alcohol-induced, exogenous insulin, or oral hypoglycemic drug use, the lab values, clinical findings, imaging, and the results of the biopsy all point strongly toward an insulinoma.
+
+**In Conclusion:** The patient's clinical presentation (hypoglycemic episodes with neuroglycopenic symptoms), lab results (low glucose, high insulin, high C-peptide, low beta-hydroxybutyrate), imaging (hypodense lesion in pancreatic head on CT), and pathological findings (neuroendocrine tumor with low Ki-67 index) all strongly indicate a diagnosis of an insulinoma. This tumor was resected as shown in the surgical diagram.
