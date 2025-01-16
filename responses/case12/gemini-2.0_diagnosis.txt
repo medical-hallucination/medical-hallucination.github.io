@@ -1,0 +1,5 @@
+Based on the provided images, the possible diagnosis includes: 
+- Primary lung adenocarcinoma
+- Pulmonary Embolism
+- Infarcts in the brain, kidneys, and spleen.
+- Nonbacterial thrombotic endocarditis.

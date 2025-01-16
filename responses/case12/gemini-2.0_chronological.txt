@@ -1,0 +1,64 @@
+Okay, here's a chronological breakdown of the key events, focusing on symptom onset and the temporal relationships with interventions:
+
+**Timeline of Events:**
+
+**Approximately 7 Weeks Before Hospital Presentation (to this hospital):**
+
+*   **Symptoms:** Malaise and anorexia develop.
+
+**Approximately 3 Weeks Before Hospital Presentation:**
+
+*   **Symptoms:** Nonproductive cough develops, along with fevers to a maximum of 37.6°C.
+*  **Intervention:** Patient seeks medical attention at another hospital. Chest radiograph shows opacity in the left lower lobe. CT confirms consolidation in the left lower lobe.
+*   **Intervention:** Hospital admission to other hospital, initial IV cefdinir and azithromycin, switched to oral levofloxacin.
+
+**Approximately 1 Week Before Hospital Presentation:**
+
+*  **Intervention:** After 6 days of levofloxacin, patient is discharged home.
+* **1 Day After Discharge**
+    *   **Symptoms:** Fever and cough persist.
+    *  **Intervention:** Patient readmitted to other hospital. Sputum culture obtained. Levofloxacin stopped. IV piperacillin-tazobactam and vancomycin started.
+* **2 Days After Re-Admission:**
+    * **Symptoms:**  Patient has some symptom relief.
+    * **Intervention:** piperacillin-tazobactam and vancomycin discontinued. Amoxicillin-clavulanic acid administered.
+ * **Intervention:** Patient discharged with a plan for 10-day amoxicillin-clavulanic acid course.
+
+**10 Days After Second Discharge (2 Days Before This Hospital Presentation):**
+
+*   **Symptoms:** Fatigue, cough, and malaise continue. Night sweats and daily fevers up to 37.8°C. Anorexia worsens and weakness develops. Patient is unable to walk without assistance. Confusion, disorientation, anger and belligerence are noted, along with inappropriate urination.
+*   **Intervention:** None yet.
+
+**Evening of Presentation to Other Hospital (Day of Presentation to This Hospital):**
+
+*   **Symptoms:** Patient found showering while clothed.
+*   **Intervention:** Emergency services called; patient taken to the other hospital.
+*   **Symptoms (Upon arrival at other hospital):**  Temperature 38.3°C, heart rate 111 bpm, respiratory rate 24 bpm, oxygen saturation 94% on room air. Confusion, unable to answer questions. Elevated troponin, lactate, white cell count.  Reported sinus tachycardia, premature atrial beats and sub-millimeter inferior ST elevations. Tachypnea and increased somnolence.
+*    **Intervention:**  Tracheal intubation and mechanical ventilation. IV vancomycin, piperacillin-tazobactam, ciprofloxacin, lorazepam, and propofol.
+*   **Intervention:** Helicopter transfer to this hospital.
+
+**Arrival at This Hospital:**
+
+*   **Symptoms (Upon arrival at this hospital):** Temperature 37.2°C, heart rate 100 bpm, oxygen saturation 100% with ventilation. Pupils sluggish. Opens eyes, grimaces, but does not follow commands or blink to threats. Corneal reflexes present. Toes downgoing. No rash.
+*   **Intervention:** Limited history obtained. Blood, urine, and sputum cultures, urine toxicology screening, and nasopharyngeal swab obtained.
+
+**During Emergency Department Stay at this Hospital:**
+
+*   **Symptoms:** 23-second episode of ventricular tachycardia.
+*  **Intervention:** Aspirin rectally, IV magnesium and cefepime, IV propofol, normal saline, and amiodarone infusions. Cardiac catheterization considered, but deferred.
+*   **Intervention:** Admission to the intensive care unit.
+
+**Post-Admission to ICU at This Hospital:**
+
+*  **Intervention:** Additional imaging studies obtained
+*  **Findings:** Chest radiograph shows persistent patchy opacity. CT of head suggests an acute-to-subacute infarct. CT of chest, abdomen, and pelvis show progression of consolidation, with segmental pulmonary emboli, infarct, and splenic/renal lesions.
+
+**Temporal Relationships Between Symptoms and Interventions**
+
+*   **Early Symptoms (Malaise, Anorexia) to Initial Treatment:** These symptoms predated the development of the cough and fever. Medical intervention began shortly after cough and fever onset.
+*   **Treatment Failure and Symptom Persistence:** The initial courses of antibiotics at the other hospital (cefdinir/azithromycin and then levofloxacin) failed to resolve the symptoms of cough and fever. These symptoms persisted and were followed by worsening symptoms such as night sweats, fevers, anorexia, and then weakness. The symptoms did not improve and indeed the patient got much worse during two courses of antibiotics and following discharge on both occasions, suggesting the patient's issue was not bacterial or was due to an antibiotic resistant organism.
+* **Neuropsychiatric Symptoms:** The development of neurological symptoms (confusion, disorientation, etc) was a late development of symptoms, 2 days before presentation to the current hospital, which suggested worsening of the primary issue, whatever it was.
+*   **Urgent Care:** The development of these neuropsychiatric symptoms led to the need for urgent care.
+*   **Cardiac Issues and Intervention:**  The ventricular tachycardia at this hospital was a critical development, showing how severely ill the patient had become and required immediate treatment in the emergency department and subsequent intensive care.
+*   **Imaging:** The imaging studies which were obtained after admission to the ICU clarified the complex medical issues.
+
+In summary, the timeline highlights a pattern of progressive symptoms despite multiple courses of antibiotics, leading to a critical presentation with neurological and cardiac involvement. It showcases the importance of a thorough differential diagnosis when patients don't respond as expected to standard therapies.
