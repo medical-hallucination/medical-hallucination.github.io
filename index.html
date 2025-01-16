@@ -827,7 +827,7 @@
                 imagesButton.onmouseout = () => {
                     imagesButton.style.backgroundColor = '#bbdefb';
                 };
-                imagesButton.textContent = 'Clinical Images';
+                imagesButton.textContent = 'Images & Tables';
                 imagesButton.onclick = showImages;
                 buttonContainer.appendChild(imagesButton);
             }
@@ -1073,7 +1073,7 @@
             event.target.classList.add('active');
 
             // Update the title
-            document.getElementById('contentTitle').textContent = 'Clinical Images';
+            document.getElementById('contentTitle').textContent = 'Images & Tables';
 
             // Dynamically generate image paths based on currentCase
             const imageKeys = ['table1', 'table2', 'table3', 'figure1', 'figure2', 'figure3'];
