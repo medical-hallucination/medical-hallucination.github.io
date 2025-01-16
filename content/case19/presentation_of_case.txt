@@ -1,33 +1,8 @@
-## Presentation Of Case
-
 Dr. Andrew S. Hoekzema (Medicine): An 83-year-old woman was admitted to this hospital in the winter because of nausea, vomiting, diarrhea, and confusion.
 
 One week before admission, rhinorrhea, sore throat, and nonproductive cough developed. The patient felt feverish but did not measure her temperature at home. No family members or recent contacts had been ill. Two days before admission, nausea, vomiting, and diarrhea developed. One day before admission, the patient asked her daughter repetitive questions and appeared to not recognize family members. On the day of admission, the patient reported global weakness and was brought by her daughter to the emergency department of this hospital for evaluation.
 
 In the emergency department, the patient reported no headache, changes in vision, chest pain, shortness of breath, or abdominal pain. She had a history of rheumatic heart disease, with mitral-valve stenosis and regurgitation, atrial fibrillation, and heart failure with a preserved ejection fraction of 60%. Other medical history included osteoporosis, compression fracture of thoracic vertebrae, and chronic kidney disease with a creatinine level of 1.2 mg per deciliter (106 μmol per liter; reference range, 0.6 to 1.5 mg per deciliter [53 to 133 μmol per liter]) and an estimated glomerular filtration rate (GFR) of 50 ml per minute per 1.73 m2 of body-surface area (reference range, >60) according to the Modification of Diet in Renal Disease (MDRD) formula. Fifteen years earlier, she had undergone open mitral-valve commissurotomy and ring annuloplasty, procedures that were complicated by the development of recurrent severe mitral-valve regurgitation, which led to pulmonary hypertension, right ventricular dilatation and hypokinesis, and severe tricuspid-valve regurgitation. Nine years earlier, she had undergone bioprosthetic mitral-valve replacement and tricuspid-valve reconstruction with annuloplasty, with placement of a permanent pacemaker for persistent atrial fibrillation with bradycardia. Eight years earlier, transthoracic echocardiography had revealed a well-seated prosthetic mitral valve, an annular ring in the tricuspid position, mild tricuspid-valve regurgitation, and normal right ventricular size and function.
-
-From the Departments of Medicine (M.L.P.M., L.H.S.), Radiology (V.V.M.), Cardiology (C.N.-C.), and Pathology (R.K.C.), Massachusetts General Hospital, and the Departments of Medicine (M.L.P.M., L.H.S.), Radiology (V.V.M.), Cardiology (C.N.-C.), and Pathology (R.K.C.), Harvard Medical School - both in Boston. N Engl J Med 2018;378:1931-8. DOI: 10.1056/NEJMcpc1800339 Copyright © 2018 Massachusetts Medical Society.
-
-| Table 1. Laboratory Data.*                  |                |              |
-|---------------------------------------------|----------------|--------------|
-|                                             | Reference      | On           |
-| Variable                                    | Range, Adults† | Presentation |
-| Sodium (mmol/liter)                         | 135–145        | 132          |
-| Potassium (mmol/liter)                      | 3.4–5.0        | 5.1          |
-| Chloride (mmol/liter)                       | 98–108         | 87           |
-| Carbon dioxide (mmol/liter)                 | 23–32          | 28           |
-| Glucose (mg/dl)                             | 70–110         | 101          |
-| Urea nitrogen (mg/dl)                       | 8–25           | 44           |
-| Creatinine (mg/dl)                          | 0.6–1.5        | 1.6          |
-| N-terminal pro–B-type natriuretic peptide   | 0–1800         | 4999         |
-| (pg/ml)                                     |                |              |
-| Troponin T (ng/ml)                          | <0.3           | 0.01         |
-
-* To convert the values for glucose to millimoles per liter, multiply by 0.05551.
-
-To convert the values for urea nitrogen to millimoles per liter, multiply by 0.357. To convert the values for creatinine to micromoles per liter, multiply by 88.4.
-
-† Reference values are affected by many variables, including the patient population and the laboratory methods used. The ranges used at Massachusetts General Hospital are for adults who are not pregnant and do not have medical conditions that could affect the results. They may therefore not be appropriate for all patients.
 
 In addition, 10 years earlier, a cholecystectomy had been performed.
 
