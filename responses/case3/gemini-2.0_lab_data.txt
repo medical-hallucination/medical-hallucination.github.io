@@ -1,0 +1,3 @@
+The image presents a table outlining diagnostic criteria for opioid use disorder, alongside a column describing how each criterion applies to a specific patient. The table is divided into sections: Impaired control, Social impairment, Risky use, and Pharmacologic dependence. Each criterion is listed on the left, with the corresponding patient characteristic on the right.
+
+The table states that the diagnostic criteria are adapted from the Diagnostic and Statistical Manual of Mental Disorders, fifth edition (DSM-5). The presence of two or three criteria indicates a mild disorder, four or five criteria a moderate disorder, and six or more criteria a severe disorder.
