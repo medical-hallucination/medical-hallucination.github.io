@@ -1,0 +1,20 @@
+A unifying explanation for this patient’s presentation — syncope in the setting of prior CABG, along with the multimodality imaging findings showing large lobulated masses abutting and compressing the right atrium — is a saphenous‐vein–graft aneurysm (or aneurysms). In particular:
+
+1. History and Clinical Setting
+* He had coronary‐artery bypass grafting (CABG) 13 years ago. Saphenous‐vein grafts can develop aneurysms or pseudoaneurysms years after surgery.
+* He presented with syncope and borderline hypotension, raising the possibility that an intracardiac (or extracardiac) mass could be impinging on cardiac filling or triggering arrhythmias.
+
+2. Imaging Findings
+* The echocardiographic and cardiac MRI images show large “mass‐like” structures (labeled with an asterisk [*] and plus sign [+]) in the region of a previous bypass graft.
+* These aneurysmal segments compress the right atrium (and likely the tricuspid annulus), impeding venous inflow from the SVC/IVC into the right ventricle.
+* On MRI, the aneurysms have heterogeneous internal signal intensity, consistent with thrombus, blood products of varying ages, or plaque. Some images also suggest patent channels within the aneurysmal segments.
+
+3. Mechanism of Syncope
+* Venous return to the right heart may be intermittently obstructed by these aneurysmal dilations, compromising cardiac output — especially under conditions of low preload (e.g., standing, dehydration).
+* Arrhythmias may be triggered by mechanical distortion of the right atrium or conduction system.
+
+4. Laboratory Correlates
+* Mild troponin and CK elevations could stem from small areas of ischemia or muscle injury (including from the fall).
+* Chronic heavy alcohol use contributes additional factors such as electrolyte disturbances and possible cardiomyopathy, but the imaging findings point strongly to mechanical compression from the aneurysm as the immediate cause of syncope.
+
+Hence, the most likely diagnosis is one (or more) large saphenous‐vein–graft aneurysm(s) compressing the right atrium and impairing venous return, leading to the syncopal episodes.
