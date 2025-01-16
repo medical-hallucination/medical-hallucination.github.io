@@ -1,0 +1,13 @@
+Based on the provided case presentation, lab data, and images, the most likely diagnosis is a parasitic infection causing a colonic mass, specifically **Anisakiasis**. This is based on the following findings:
+
+*   **Case Presentation**: The patient's history includes eating raw or undercooked fish (boiled fish, shrimp and crayfish), and she has a recent onset of intermittent abdominal pain in the right upper and lower quadrants.
+
+*   **Laboratory Data:** On presentation there is an elevated white blood cell count of 13,500 and a very elevated eosinophil count of 19.5%.
+
+*   **CT Scan:** The CT scan reveals a circumferential mass in the ascending colon with transmural extension and adjacent enlarged lymph nodes. The appendix also shows signs of inflammation related to this process.
+
+*   **Colonoscopy:** Colonoscopy showed a mass with rolled borders and ulceration in the ascending colon, and sessile polyps in other areas of the colon, which could be related to an inflammatory process and could be parasitic granuloma.
+
+*   **Histopathology**: The coloctemy specimens show multiple findings pointing toward parasitic infections, specifically the presence of granulomatous inflammation, vasculitis, and the appearance of a nematode within the blood vessel in the submucosa. These findings are suggestive of anisakiasis, a parasitic infection from a type of roundworm.
+
+Given these findings, while other possibilities might exist, the patient's history of eating freshwater fish, coupled with the symptoms, lab findings of eosinophilia, and the imaging and histopathological evidence are most consistent with Anisakiasis.

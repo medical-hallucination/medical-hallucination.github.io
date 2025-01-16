@@ -1,0 +1,58 @@
+Okay, here's a chronological ordering of the key events, along with an analysis of temporal relationships between symptoms and interventions:
+
+**Timeline of Key Events and Relationships:**
+
+*   **~5 Months Before Initial Presentation (to Community Health Center):**
+    *   **Symptoms:** Onset of fevers, throbbing pain in the left ear and face (radiating to the jaw), neck stiffness, and tinnitus while living in Guatemala.
+    *   **Intervention:** CT of the head in Guatemala, reportedly revealing sinusitis and otitis media.
+    *   **Outcome:** Fevers and neck stiffness resolved *without* specific treatment, but ear and facial pain persisted despite acetaminophen.
+
+*   **~6 Months Before Initial Presentation:**
+     *   **Symptom:** Intentional weight loss of 7 kg over the past 6 months, attributed to diet changes.
+
+*   **~2 Years Before Initial Presentation:**
+    *   **Symptoms:** Development of epigastric pain (burning quality, radiating to chest, post-meal occurrence, associated with diarrhea).
+    *   **Intervention:** Evaluation in Guatemala, reportedly revealed *H. pylori* infection.
+    *   **Outcome:** Epigastric pain diminished with intermittent proton-pump inhibitor therapy, *but no antibiotic therapy for H. pylori*.
+
+*   **~10 Months Before Initial Presentation:**
+    *  **Symptoms:** Epigastric pain similar to previous episodes, *unrelieved by 3 days of proton-pump inhibitor therapy*.
+     *  **Intervention:**  Emergency department visit in New England. Workup (urinalysis, kidney function tests, blood glucose, electrolytes, lipase levels and stool culture were all normal). *H. pylori* antigen stool test was negative.
+    *   **Outcome:** Epigastric pain resolved, patient returned to Guatemala.
+
+*   **Initial Presentation (at Community Health Center):**
+    *   **Symptoms:** Persistent facial and left temporomandibular joint tenderness. Left jaw clicking. Patient also reports history of chronic left-sided abdominal pain since birth of youngest child and a weight loss of 7kg over 6 months.
+    *   **Medications:** Alprazolam, aspirin, amiloride–hydrochlorothiazide, bisoprolol, and ciprofibrate.
+    *   **Examination Findings:** Tenderness on palpation of left temporomandibular joint, temporal region, and cheek. Left jaw click. Systolic murmur. Weight is 65.8 kg. BMI is 29. 
+     *   **Intervention:**
+         *   Recommendation of acetaminophen and jaw exercises with massage for facial pain.
+        * Referral for mammography and colonoscopy.
+        * Lab work - showed normal hemoglobin level, normal platelet count, slightly elevated white blood count (10.4 x 10^9/L),  negative hepatitis testing, and normal glycated hemoglobin.
+     *   **Outcome:**  Referral for mammography and colonoscopy set.
+
+*   **Two Days After Initial Presentation:**
+    *   **Intervention:** Positive interferon-γ release assay for *Mycobacterium tuberculosis* and chest radiograph was performed.
+   *    **Outcome:** Chest radiograph showed no signs of TB.
+
+*   **One Month After Initial Visit:**
+    *   **Symptom:** Reports a 2-month history of intermittent pain in the right upper and lower abdominal quadrants.
+    *   **Physical Exam:** Unchanged from initial exam
+    *    **Intervention:** CT of the abdomen and pelvis was ordered.
+     * **Outcome:**  CT reveals a mass in the ascending colon.
+
+**Analysis of Temporal Relationships:**
+
+*   **Early Symptoms (5 months prior):** The initial episode of fevers, ear pain, and neck stiffness in Guatemala was investigated with a CT scan which was consistent with sinusitis and otitis media. This diagnosis, and the resolution of fevers and neck stiffness with no treatment, may have caused the patient and physicians to believe that these symptoms were the result of an infection. The patient experienced continued pain in the left ear and face despite acetaminophen use, indicating the symptoms likely had an alternative etiology.
+*   **Delayed Diagnosis of *H. pylori***:  The patient had the original *H. pylori* diagnosis about two years prior to her initial presentation to the community health center but did not receive antibiotics. When she had another episode 10 months before this, *H. pylori* was ruled out. These findings strongly suggest her gastrointestinal issues were not caused by *H. pylori*
+*   **Weight Loss:** The 6 months of intentional weight loss was occurring at approximately the same time as the left sided facial pain and tinnitus was present, along with the two month history of intermittent right upper and lower quadrant pain. These findings, while not explicitly linked to the colon mass, all occur at approximately the same time suggesting a common underlying etiology.
+*   **Right Quadrant Abdominal Pain:** The new 2-month history of intermittent right upper and lower quadrant pain, reported a month after her initial visit, eventually led to the diagnosis of colon cancer.
+*   **Colon Cancer Diagnosis:**  The discovery of the colon mass occurred after a month of evaluations following the patient's initial visit to the community health center. It is important to note that all of the prior symptoms were not explicitly linked to an etiology.
+
+**Key Takeaways:**
+
+*   **Multiple Presentations of Pain:** The patient presented with multiple pain complaints occurring at different time points: ear and face pain, epigastric pain, and right quadrant abdominal pain. The initial symptoms were initially attributed to otitis and sinusitis, and *H. pylori*
+*   **The Initial Focus on the Wrong Diagnosis:** The initial focus on otitis, sinusitis, and *H. pylori* delayed discovery of a more serious etiology.
+*   **Importance of Comprehensive History:** The timeline of symptoms and interventions shows the importance of a detailed history-taking process. In this case, the subtle and non-specific symptoms needed to be correlated to reveal the larger clinical picture.
+*   **Delayed Presentation:** Some symptoms, like the intermittent right quadrant pain, were not reported until later, showing the need for consistent questioning and careful follow-up.
+
+This detailed chronological order and analysis of temporal relationships will be very helpful in considering differential diagnoses and understanding the patient's complex presentation.
