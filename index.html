@@ -109,7 +109,6 @@
             border: none;
             border-radius: 4px;
             background-color: #fff8e7;
-/*             background-color: #42a5f5; */
             color: black;
             cursor: pointer;
             font-size: 14px;
@@ -723,16 +722,16 @@
                     const button = document.createElement('button');
                     button.className = 'tab-button';
                     // Add custom styling for section buttons
-                    button.style.backgroundColor = '#bbdefb';  // Yellow/gold color
+                    button.style.backgroundColor = '#fff8e7';  // Yellow/gold color
                     button.style.color = '#000000';  // Black text for better contrast
                     button.style.padding = '4px 8px';  // Smaller padding
                     button.style.fontSize = '12px';    // Smaller font size
                     // Add hover effect
                     button.onmouseover = () => {
-                        button.style.backgroundColor = '#90caf9';  // Darker yellow on hover
+                        button.style.backgroundColor = '#f5efe7';  // Darker yellow on hover
                     };
                     button.onmouseout = () => {
-                        button.style.backgroundColor = '#bbdefb';  // Back to original yellow
+                        button.style.backgroundColor = '#fff8e7';  // Back to original yellow
                     };
                     button.textContent = section.label;
                     button.onclick = () => loadContent(section.id);
@@ -742,7 +741,7 @@
                 // Add images button with the same styling
                 const imagesButton = document.createElement('button');
                 imagesButton.className = 'tab-button';
-                imagesButton.style.backgroundColor = '#bbdefb';
+                imagesButton.style.backgroundColor = '#fff8e7';
                 imagesButton.style.color = '#000000';
                 imagesButton.style.padding = '4px 8px';
                 imagesButton.style.fontSize = '12px';
@@ -750,7 +749,7 @@
                     imagesButton.style.backgroundColor = '#90caf9';
                 };
                 imagesButton.onmouseout = () => {
-                    imagesButton.style.backgroundColor = '#bbdefb';
+                    imagesButton.style.backgroundColor = '#fff8e7';
                 };
                 imagesButton.textContent = 'Images & Tables';
                 imagesButton.onclick = showImages;
