@@ -1,0 +1,41 @@
+Below is a concise chronological ordering of the key events, showing when the patient’s symptoms arose in relation to her evaluation and treatment; approximate times (e.g., “1 year before,” “5 days before”) are taken from the case description.
+
+1. One year before presentation:  
+   • Intermittent tightness in the left chest and shoulder prompts referral to outpatient physical therapy.  
+   • No specific cardiac workup or intervention is mentioned at that time.
+
+2. Five days before presentation:  
+   • Acute substernal chest pain develops while the patient is packing for a trip.  
+   • Pain radiates to the jaw and shoulders, is accompanied by dyspnea and a feeling of needing to belch, and lasts about one hour.  
+   • Symptoms resolve spontaneously; the patient attributes them to fatigue and does not seek medical attention or initiate new therapy.
+
+3. The day before presentation:  
+   • Substernal chest pain recurs after walking, again radiating to the jaw and shoulders.  
+   • The pain gradually resolves over a few hours.  
+   • No new interventions are started.
+
+4. Evening of the day of presentation:  
+   • Chest pain recurs before dinner and is associated with lightheadedness and dyspnea.  
+   • Pain persists through dinner; the patient then seeks emergency care.  
+   • On ED arrival, she is diaphoretic but hemodynamically stable.
+
+5. Initial investigations in the emergency department:  
+   • Physical exam shows no murmurs, rubs, or gallops. Good oxygen saturation on ambient air. Hyperextensible digits noted.  
+   • Laboratory tests (Table 1) are obtained.  
+   • Electrocardiograms reveal submillimeter ST depressions in leads V3–V5, which diminish over the next few hours and then resolve completely by 8 hours after presentation.  
+   • Transthoracic echocardiogram shows normal overall systolic function with a focal area of left ventricular inferolateral hypokinesis. No significant valvular disease or pericardial effusion.  
+   • Chest radiographs are unremarkable.
+
+6. Advanced imaging:  
+   • CT angiography of the chest (with aortic-dissection protocol) shows no aortic dissection or proximal pulmonary embolus and no significant abnormalities in the aorta or coronary arteries.
+
+7. Therapeutic interventions begun after imaging:  
+   • Aspirin and atorvastatin are started.  
+   • Intravenous heparin is administered.
+
+8. Further diagnostic tests performed; a final diagnosis is determined.
+
+Temporal relationships:  
+• The patient had intermittent but progressively alarming chest pains over the course of a year, with a marked increase in both frequency and intensity in the preceding days.  
+• No formal cardiac interventions occurred until she presented to the emergency department, at which time imaging and cardiology studies were undertaken.  
+• After these diagnostics (normal aortic imaging, focal left ventricular-wall hypokinesis on echocardiography, transient EKG changes), medical therapy with aspirin, a statin, and IV heparin was initiated.

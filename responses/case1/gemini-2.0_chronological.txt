@@ -1,0 +1,52 @@
+Okay, here's a chronological breakdown of the key events, including temporal relationships between symptoms and interventions:
+
+**Chronological Order of Events:**
+
+1.  **Approximately 1 Year Before Presentation:**
+    *   **Symptom:** Transient tightness in the chest and left shoulder.
+    *   **Intervention:** Referral to outpatient physical therapy.
+
+2.  **5 Days Before Presentation:**
+    *   **Symptom:** Acute substernal chest pain radiating to the jaw and shoulders, accompanied by dyspnea and a feeling of needing to belch. The symptoms lasted 1 hour and resolved spontaneously.
+    *   **Patient Interpretation:**  Attributed symptoms to fatigue.
+
+3.  **Day Before Presentation:**
+    *   **Symptom:** Recurrence of substernal chest pain radiating to the jaw and shoulders after walking. The pain gradually resolved after a few hours.
+
+4.  **Evening of Presentation (Before Dinner):**
+    *   **Symptom:** Recurrence of substernal chest pain with associated lightheadedness.
+
+5.  **Evening of Presentation (During Dinner):**
+    *   **Symptom:** Persistent chest pain and dyspnea.
+
+6. **Evening of Presentation (Emergency Department):**
+   *   **Symptom:** Diaphoresis, chest pain, dyspnea
+   *   **Physical Exam:** Temperature 36.6°C, HR 68 bpm, BP 143/87 mm Hg, RR 18 breaths per minute, O2 sat 100%. No carotid bruits, jugular venous distention, cardiac murmur, rub, or gallop. Hyperextensible digits. 
+   *   **Intervention:** Electrocardiography performed.
+    * **Intervention:** Transthoracic Echocardiogram performed.
+
+7.  **Later on the day of Presentation (after initial ED eval):**
+    *  **Intervention:** Posteroanterior and lateral chest radiography and CT angiography performed.
+    *  **Intervention:** Aspirin, atorvastatin, and intravenous heparin were administered.
+
+8.  **3 Hours after Presentation:**
+    *   **Findings:** Follow-up electrocardiography showed that the ST-segment depressions had decreased in magnitude.
+
+9.  **8 Hours After Presentation:**
+    *   **Findings:** Electrocardiography showed complete resolution of ST-segment depressions.
+
+**Temporal Relationships Between Symptoms and Interventions:**
+
+*   **Physical Therapy & Initial Chest Tightness:** Physical therapy was given *after* the initial report of chest tightness one year prior to presentation.
+*   **Self-Treatment & Acute Chest Pain:** The patient initially self-treated chest pain that occurred 5 days prior to presentation by resting.
+*   **Hospital Presentation & Interventions:** Upon presentation to the ED, a rapid sequence of diagnostic tests (ECG, Echo, CT Angiography) and therapeutic interventions (aspirin, atorvastatin, heparin) was initiated.
+*   **Follow-up ECGs and Resolution of ST-Segment Depression:** Follow-up ECGs tracked the resolution of the ST-segment depression over a period of hours after the patient presented to the ED.
+
+**Key Observations:**
+
+*   The patient experienced a clear progression of symptoms, starting with mild chest tightness a year before presentation, to discrete episodes in the days leading up to the presentation, culminating in severe chest pain and dyspnea that prompted her to seek emergency care.
+*   The interventions were a combination of diagnostic tests to determine the cause of the chest pain, and therapies to stabilize the patient while further workup is completed.
+*   The timeline highlights the relatively rapid sequence of events leading to presentation, and the quick action taken upon presentation.
+* The patient had a family history relevant to her symptoms, particularly Ehlers-Danlos syndrome, which was diagnosed in her mother, brother, and sister.
+
+This detailed timeline and analysis should help in understanding the patient's clinical course.
