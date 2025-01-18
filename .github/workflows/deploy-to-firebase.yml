@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy to Firebase Hosting
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Inject Secrets
+      - name: Replace Placeholders with Secrets
         env:
           FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
           FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
