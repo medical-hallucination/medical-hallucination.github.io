@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medical Hallucination</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
     <link rel="icon" href="robot_icon.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
     <style>
@@ -511,7 +514,69 @@
         </div>
     </div>
 
-    <script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js"></script>
+    
+    <!-- <script> -->
+    <script type="module">
+        
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "{{FIREBASE_API_KEY}}",
+            authDomain: "{{FIREBASE_AUTH_DOMAIN}}",
+            databaseURL: "{{FIREBASE_DATABASE_URL}}",
+            projectId: "{{FIREBASE_PROJECT_ID}}",
+            storageBucket: "{{FIREBASE_STORAGE_BUCKET}}",
+            messagingSenderId: "{{FIREBASE_MESSAGING_SENDER_ID}}",
+            appId: "{{FIREBASE_APP_ID}}",
+            measurementId: "{{FIREBASE_MEASUREMENT_ID}}"
+        };
+        res.json(firebaseConfig);
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+
+
+        // Function to save annotations to Firebase
+        async function saveAnnotationToFirebase(annotatorId, caseNumber, modelName, taskId, highlight) {
+            try {
+                // Ensure Firebase is initialized
+                const annotationRef = ref(
+                    database,
+                    `annotators/${annotatorId}/${caseNumber}/${taskId}/${modelName}/highlights/${highlight.id}`
+                );
+
+                // Save the full highlight object
+                await set(annotationRef, {
+                    id: highlight.id,
+                    text: highlight.text,
+                    type: highlight.type,
+                    risk: highlight.risk,
+                    sectionId: highlight.sectionId,
+                    highlightedText: highlight.highlightedText,
+                    hallucinationType: hallucinationTypes[highlight.type] || 'Unknown',
+                    riskLevel: {
+                        level: parseInt(highlight.risk),
+                        label: riskLevels[highlight.risk].label,
+                        description: riskLevels[highlight.risk].description
+                    },
+                    location: {
+                        sectionId: highlight.sectionId,
+                        taskType: getTaskType(highlight.sectionId)
+                    },
+                    timestamp: highlight.timestamp || new Date().toISOString()
+                });
+
+                console.log(`Highlight successfully saved for annotator ${annotatorId}, case ${caseNumber}, model ${modelName}, task ${taskId}.`);
+            } catch (error) {
+                console.error('Error saving highlight to Firebase:', error);
+                alert('Error saving highlight. Please try again.');
+            }
+        }
+
         // Define available sections for each case
         const caseSections = {
             case1: [
@@ -706,6 +771,100 @@
             ]
         };
 
+        async function generateAnalysis() {
+            try {
+                const selectedModel = document.getElementById('modelSelect').value;
+                const currentSections = caseSections[currentCase];
+
+                if (!currentSections) {
+                    throw new Error(`No sections defined for case: ${currentCase}`);
+                }
+
+                // Define file paths for each task response
+                const responseFiles = {
+                    chronologicalResponse: `responses/${currentCase}/${selectedModel}_chronological.txt`,
+                    labDataResponse: `responses/${currentCase}/${selectedModel}_lab_data.txt`,
+                    diagnosisPredictionResponse: `responses/${currentCase}/${selectedModel}_diagnosis.txt`
+                };
+
+                // Process each response file
+                for (const [responseId, filePath] of Object.entries(responseFiles)) {
+                    try {
+                        const response = await fetch(filePath);
+                        if (!response.ok) {
+                            throw new Error(`File not found: ${filePath}`);
+                        }
+
+                        const responseContent = await response.text();
+
+                        // Convert symbols (e.g., Markdown syntax) into styled HTML
+                        const formattedContent = marked.parse(responseContent.trim());
+
+                        // Update the corresponding response box
+                        const responseElement = document.getElementById(responseId);
+                        if (responseElement) {
+                            responseElement.innerHTML = formattedContent;
+                        } else {
+                            console.error(`Response element with ID ${responseId} not found.`);
+                        }
+                    } catch (error) {
+                        console.error(`Error loading ${responseId}:`, error);
+
+                        const responseElement = document.getElementById(responseId);
+                        if (responseElement) {
+                            responseElement.innerHTML = `<div class="error-message">Error loading response: ${error.message}</div>`;
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Error in generateAnalysis:', error);
+                alert('Error generating analysis: ' + error.message);
+            }
+        }
+        window.generateAnalysis = generateAnalysis;
+
+        function confirmClassification() {
+            if (!currentSelection) return;
+
+            const type = document.getElementById('hallucinationType').value;
+            const risk = document.getElementById('riskLevel').value;
+
+            try {
+                const container = document.getElementById(currentSelection.sectionId);
+                if (!container) {
+                    throw new Error('Container not found for section: ' + currentSelection.sectionId);
+                }
+
+                const newRange = currentSelection.range;
+
+                // Validate the range
+                if (rangePartiallySelectsNonTextNode(newRange)) {
+                    throw new Error('Selection partially includes an element. Please adjust your selection.');
+                }
+
+                // Apply the highlight
+                const span = createHighlightSpan(currentSelection.text, type, risk);
+                newRange.surroundContents(span);
+
+                highlights.push({
+                    id: span.dataset.id,
+                    text: currentSelection.text,
+                    type: type,
+                    risk: risk,
+                    sectionId: currentSelection.sectionId
+                });
+
+                saveHighlights(currentSelection.sectionId);
+            } catch (error) {
+                console.error('Error applying highlight:', error);
+                alert(error.message); // Provide more descriptive error message
+            }
+
+            cancelClassification();
+        }
+
+        window.confirmClassification = confirmClassification;
+
         function switchCase(caseId) {
             currentCase = caseId;
             startTime = Date.now();
@@ -721,17 +880,15 @@
                 sections.forEach(section => {
                     const button = document.createElement('button');
                     button.className = 'tab-button';
-                    // Add custom styling for section buttons
-                    button.style.backgroundColor = '#fff8e7';  // Yellow/gold color
-                    button.style.color = '#000000';  // Black text for better contrast
-                    button.style.padding = '4px 8px';  // Smaller padding
-                    button.style.fontSize = '12px';    // Smaller font size
-                    // Add hover effect
+                    button.style.backgroundColor = '#fff8e7';
+                    button.style.color = '#000000';
+                    button.style.padding = '4px 8px';
+                    button.style.fontSize = '12px';
                     button.onmouseover = () => {
-                        button.style.backgroundColor = '#f5efe7';  // Darker yellow on hover
+                        button.style.backgroundColor = '#f5efe7';
                     };
                     button.onmouseout = () => {
-                        button.style.backgroundColor = '#fff8e7';  // Back to original yellow
+                        button.style.backgroundColor = '#fff8e7';
                     };
                     button.textContent = section.label;
                     button.onclick = () => loadContent(section.id);
@@ -756,8 +913,9 @@
                 buttonContainer.appendChild(imagesButton);
             }
             
-            // Load initial content
+            // Load initial content and highlights for the first section
             loadContent('presentation_of_case');
+            loadHighlights('presentation_of_case'); // Load highlights for the initial section
         }
 
         // Modified initialization code
@@ -778,7 +936,7 @@
             // Initialize other components
             initializeTaskAreas();
             loadCommentDrafts();
-            addStorageManagementButtons();
+            // addStorageManagementButtons();
             
             // Set initial response messages
             ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
@@ -826,55 +984,6 @@
             }
         }
 
-        // Modified saveHighlights function
-        function saveHighlights(sectionId) {
-            try {
-                const sectionHighlights = highlights.filter(h => h.sectionId === sectionId);
-                localStorage.setItem(`${currentCase}-${sectionId}-highlights`, JSON.stringify(sectionHighlights));
-            } catch (error) {
-                console.error('Error saving highlights:', error);
-            }
-        }
-
-        // Modified loadHighlights function
-        function loadHighlights(sectionId) {
-            try {
-                const saved = localStorage.getItem(`${currentCase}-${sectionId}-highlights`);
-                if (saved) {
-                    const savedHighlights = JSON.parse(saved);
-                    
-                    // Clear existing highlights for this section
-                    highlights = highlights.filter(h => h.sectionId !== sectionId);
-                    
-                    // Add saved highlights
-                    savedHighlights.forEach(highlight => {
-                        try {
-                            const content = document.getElementById(sectionId);
-                            if (!content) return;
-                            
-                            // Create new highlight span
-                            const highlightHTML = `<span class="highlight-span risk-${highlight.risk}" data-type="${highlight.type}" data-risk="${highlight.risk}" data-id="${highlight.id}">${highlight.text}</span>`;
-                            
-                            // Replace the text with highlighted version
-                            const regex = new RegExp(escapeRegExp(highlight.text), 'g');
-                            const originalHTML = content.innerHTML;
-                            
-                            // Only replace if not already highlighted
-                            if (!originalHTML.includes(`data-id="${highlight.id}"`)) {
-                                content.innerHTML = originalHTML.replace(regex, highlightHTML);
-                            }
-                            
-                            highlights.push(highlight);
-                        } catch (error) {
-                            console.error('Error restoring highlight:', error);
-                        }
-                    });
-                }
-            } catch (error) {
-                console.error('Error loading highlights:', error);
-            }
-        }
-
         // Utility function to escape special characters in regex
         function escapeRegExp(string) {
             return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -896,62 +1005,6 @@
         }
 
         let analysisGenerated = false;
-        
-        // Add new generateAnalysis function
-        async function generateAnalysis() {
-            try {
-                const selectedModel = document.getElementById('modelSelect').value;
-                
-                // Get the sections for the current case
-                const currentSections = caseSections[currentCase];
-                if (!currentSections) {
-                    throw new Error(`No sections defined for case: ${currentCase}`);
-                }
-
-                // Fetch and combine content from all sections for the current case
-                let combinedContent = '';
-                let fetchedAny = false;
-
-                for (const section of currentSections) {
-                    try {
-                        const response = await fetch(`content/${currentCase}/${section.id}.txt`);
-                        if (response.ok) {
-                            const text = await response.text();
-                            if (text.trim()) {
-                                combinedContent += `=== ${section.label.toUpperCase()} ===\n${text.trim()}\n\n`;
-                                fetchedAny = true;
-                            }
-                        } else {
-                            console.warn(`Could not fetch content for ${section.id} in ${currentCase}`);
-                        }
-                    } catch (error) {
-                        console.warn(`Error fetching content for ${section.id}:`, error);
-                    }
-                }
-
-                if (!fetchedAny) {
-                    throw new Error(`No content could be fetched for case ${currentCase}`);
-                }
-
-                // Truncate if too long (maintain under token limits)
-                const maxLength = 4000;
-                if (combinedContent.length > maxLength) {
-                    combinedContent = combinedContent.substring(0, maxLength) + '... [content truncated]';
-                }
-
-                // Update LLM analysis with combined content
-                await updateLLMAnalysis('manual', combinedContent, selectedModel);
-
-            } catch (error) {
-                console.error('Error generating analysis:', error);
-                ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
-                    const element = document.getElementById(id);
-                    if (element) {
-                        element.innerHTML = `<div class="error-message">Error generating analysis: ${error.message}</div>`;
-                    }
-                });
-            }
-        }
         
         // Add new handleReference function
         function handleReference(reference) {
@@ -1060,18 +1113,18 @@
         // Modified handleModelChange function with improved key checking
         function handleModelChange() {
             const modelSelect = document.getElementById('modelSelect');
-            const apiKeyContainer = document.getElementById('apiKeyContainer');
+            // const apiKeyContainer = document.getElementById('apiKeyContainer');
             const selectedModel = modelSelect.value;
             
             // Check if API key exists in localStorage
-            const savedKey = localStorage.getItem(`${selectedModel}-api-key`);
-            if (!savedKey) {
-                apiKeyContainer.style.display = 'flex';
-                console.log(`No API key found for ${selectedModel}`);
-            } else {
-                apiKeyContainer.style.display = 'none';
-                console.log(`API key found for ${selectedModel}`);
-            }
+            // const savedKey = localStorage.getItem(`${selectedModel}-api-key`);
+            // if (!savedKey) {
+            //     apiKeyContainer.style.display = 'flex';
+            //     console.log(`No API key found for ${selectedModel}`);
+            // } else {
+            //     apiKeyContainer.style.display = 'none';
+            //     console.log(`API key found for ${selectedModel}`);
+            // }
         }
 
         // Modified getApiKey function to use localStorage
@@ -1210,24 +1263,9 @@
             }
         };
 
-        
-
-
-
+    
         function setHighlightColor(color) {
             currentHighlightColor = color;
-        }
-
-        function saveHighlights(sectionId) {
-            const content = document.getElementById(sectionId).innerHTML;
-            localStorage.setItem(`${currentCase}-${sectionId}-highlights`, content);
-        }
-
-        function loadHighlights(sectionId) {
-            const saved = localStorage.getItem(`${currentCase}-${sectionId}-highlights`);
-            if (saved) {
-                document.getElementById(sectionId).innerHTML = saved;
-            }
         }
 
         function addComment(section) {
@@ -1271,27 +1309,27 @@
                     btn.classList.remove('active');
                 }
             });
-        
+
             // Retrieve the current case's sections
             const sections = caseSections[currentCase];
-        
+
             // Find the matching label for the given section
             const sectionObject = sections.find(s => s.id === section);
             const sectionLabel = sectionObject ? sectionObject.label : section;
-        
+
             // Update the title with the label
             document.getElementById('contentTitle').textContent = sectionLabel;
-        
+
             try {
                 document.getElementById('contentBody').innerHTML = '<div class="loading">Loading...</div>';
-        
+
                 const response = await fetch(`content/${currentCase}/${section}.txt`);
                 if (!response.ok) {
                     throw new Error('Failed to load content');
                 }
                 
                 const text = await response.text();
-        
+
                 // Process the text for proper markdown formatting
                 const processedText = text
                     .replace(/\r\n/g, '\n')
@@ -1310,16 +1348,19 @@
                             return `<span class="reference-link" onclick="handleReference('${normalizedType}${number}')">${match}</span>`;
                         }
                     );
-        
+
                 marked.setOptions({
                     breaks: true,
                     gfm: true,
                     headerIds: false,
                     mangle: false
                 });
-        
+
                 document.getElementById('contentBody').innerHTML = marked.parse(processedText);
-        
+
+                // Load highlights for the current section
+                loadHighlights(section);
+
             } catch (error) {
                 console.error('Error loading content:', error);
                 document.getElementById('contentBody').innerHTML = `
@@ -1329,7 +1370,7 @@
                     </div>
                 `;
             }
-        
+
             initializeTaskAreas();
         }
 
@@ -1446,37 +1487,37 @@
         };
 
         // Modified highlight span creation
-        function createHighlightSpan(text, type, risk) {
-            const span = document.createElement('span');
-            span.className = `highlight-span risk-${risk}`;
-            span.dataset.type = type;
-            span.dataset.risk = risk;
-            span.dataset.id = Date.now().toString();
-            span.textContent = text;
+        // function createHighlightSpan(text, type, risk) {
+        //     const span = document.createElement('span');
+        //     span.className = `highlight-span risk-${risk}`;
+        //     span.dataset.type = type;
+        //     span.dataset.risk = risk;
+        //     span.dataset.id = Date.now().toString();
+        //     span.textContent = text;
             
-            // Add click handler for reclassification
-            span.addEventListener('click', (e) => {
-                e.stopPropagation();
-                showReclassificationModal(span);
-            });
+        //     // Add click handler for reclassification
+        //     span.addEventListener('click', (e) => {
+        //         e.stopPropagation();
+        //         showReclassificationModal(span);
+        //     });
             
-            return span;
-        }
+        //     return span;
+        // }
 
         // Add reclassification modal
-        function showReclassificationModal(span) {
-            const modal = document.getElementById('classificationModal');
-            modal.querySelector('.selected-text-display').textContent = span.textContent;
+        // function showReclassificationModal(span) {
+        //     const modal = document.getElementById('classificationModal');
+        //     modal.querySelector('.selected-text-display').textContent = span.textContent;
             
-            // Set current values
-            document.getElementById('hallucinationType').value = span.dataset.type;
-            document.getElementById('riskLevel').value = span.dataset.risk;
+        //     // Set current values
+        //     document.getElementById('hallucinationType').value = span.dataset.type;
+        //     document.getElementById('riskLevel').value = span.dataset.risk;
             
-            // Store reference to span being edited
-            modal.dataset.editingId = span.dataset.id;
+        //     // Store reference to span being edited
+        //     modal.dataset.editingId = span.dataset.id;
             
-            modal.style.display = 'block';
-        }
+        //     modal.style.display = 'block';
+        // }
 
         // Add tooltip HTML
         const tooltipHTML = `
@@ -1599,17 +1640,6 @@
             return comments;
         }
 
-        // Helper function to get task type from section ID
-        function getTaskType(sectionId) {
-            const taskTypes = {
-                'chronologicalResponse': 'Chronological Ordering',
-                'labDataResponse': 'Lab Data Understanding',
-                'diagnosisPredictionResponse': 'diagnosisPredictionResponse'
-                // Add other task types as needed
-            };
-            return taskTypes[sectionId] || 'Unknown';
-        }
-
         // Add annotator ID input to your HTML
         function addAnnotatorInput() {
             const modelSection = document.querySelector('.model-section');
@@ -1675,35 +1705,7 @@
             }
         }
 
-        // Modified handleSelection function
-        function handleSelection(sectionId) {
-            const selection = window.getSelection();
-            if (selection.toString().length > 0) {
-                currentSelection = {
-                    text: selection.toString(),
-                    range: selection.getRangeAt(0).cloneRange(),
-                    sectionId: sectionId
-                };
-                
-                const modal = document.getElementById('classificationModal');
-                const removeButton = document.getElementById('removeHighlightBtn');
-                modal.querySelector('.selected-text-display').textContent = selection.toString();
-                
-                // Reset classification form
-                document.getElementById('hallucinationType').value = 'condition';
-                document.getElementById('riskLevel').value = '0';
-                
-                // Hide the remove button for new highlights
-                if (removeButton) {
-                    removeButton.style.display = 'none';
-                }
-                
-                // Clear any previous editing ID
-                modal.dataset.editingId = '';
-                
-                modal.style.display = 'block';
-            }
-        }
+        
 
         // Modified createHighlightSpan function to ensure click handler works
         function createHighlightSpan(text, type, risk) {
@@ -1713,14 +1715,13 @@
             span.dataset.risk = risk;
             span.dataset.id = Date.now().toString();
             span.textContent = text;
-            
-            // Add click handler for reclassification
+
             span.addEventListener('click', (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 showReclassificationModal(span);
             });
-            
+
             return span;
         }
 
@@ -1748,6 +1749,16 @@
             style.textContent = buttonStyles;
             document.head.appendChild(style);
         });
+
+        function mapSectionToTask(sectionId) {
+            const taskMapping = {
+                chronologicalResponse: 'chronological',
+                labDataResponse: 'lab_data',
+                diagnosisPredictionResponse: 'diagnosis_prediction',
+            };
+
+            return taskMapping[sectionId] || null; // Return null if the section doesn't map to a known task
+        }
 
         // Modified removeHighlight function with proper implementation and logging
         function removeHighlight() {
@@ -1951,184 +1962,188 @@
             modelSection.appendChild(buttonContainer);
         }
 
-        // Modified loadHighlights function with error handling
         function loadHighlights(sectionId) {
             try {
+                console.log('Loading highlights for section:', sectionId);
+
+                // Retrieve saved highlights from localStorage
                 const saved = localStorage.getItem(`${currentCase}-${sectionId}-highlights`);
-                if (saved) {
-                    const savedHighlights = JSON.parse(saved);
-                    
-                    // Clear existing highlights for this section
-                    highlights = highlights.filter(h => h.sectionId !== sectionId);
-                    
-                    // Add saved highlights
-                    savedHighlights.forEach(highlight => {
-                        try {
-                            const content = document.getElementById(sectionId);
-                            if (!content) return;
-                            
-                            // Create new highlight span
-                            const span = createHighlightSpan(highlight.text, highlight.type, highlight.risk);
-                            span.dataset.id = highlight.id;
-                            
-                            // Find the text to replace
-                            const text = highlight.text;
-                            const regex = new RegExp(escapeRegExp(text), 'g');
-                            
-                            // Only replace if not already highlighted
-                            if (!content.innerHTML.includes(`data-id="${highlight.id}"`)) {
-                                content.innerHTML = content.innerHTML.replace(regex, span.outerHTML);
-                            }
-                            
-                            highlights.push(highlight);
-                        } catch (error) {
-                            console.error('Error restoring highlight:', error);
-                        }
-                    });
+                if (!saved) {
+                    console.log('No saved highlights found for this section.');
+                    return;
                 }
+
+                const savedHighlights = JSON.parse(saved);
+                console.log('Saved highlights:', savedHighlights);
+
+                const contentElement = document.getElementById(sectionId);
+                if (!contentElement) {
+                    throw new Error(`Content element for section ${sectionId} not found.`);
+                }
+
+                // Clear existing highlights for this section from the global array
+                highlights = highlights.filter(h => h.sectionId !== sectionId);
+                console.log('Cleared existing highlights for this section.');
+
+                // Process each saved highlight
+                savedHighlights.forEach(highlight => {
+                    try {
+                        console.log('Processing highlight:', highlight);
+
+                        // Create a new highlight span
+                        const span = createHighlightSpan(highlight.text, highlight.type, highlight.risk);
+                        span.dataset.id = highlight.id;
+
+                        // Find the text node containing the highlight
+                        const textNodes = getTextNodes(contentElement);
+                        const textNode = textNodes.find(node => node.textContent.includes(highlight.text));
+
+                        if (textNode) {
+                            console.log('Found text node for highlight:', textNode);
+
+                            // Split the text node at the highlight boundaries
+                            const startIndex = textNode.textContent.indexOf(highlight.text);
+                            const endIndex = startIndex + highlight.text.length;
+
+                            const beforeText = textNode.textContent.slice(0, startIndex);
+                            const afterText = textNode.textContent.slice(endIndex);
+
+                            // Replace the text node with the highlighted content
+                            const parent = textNode.parentNode;
+                            parent.insertBefore(document.createTextNode(beforeText), textNode);
+                            parent.insertBefore(span, textNode);
+                            parent.insertBefore(document.createTextNode(afterText), textNode);
+                            parent.removeChild(textNode);
+
+                            console.log('Highlight applied successfully.');
+                        } else {
+                            console.warn('Text node not found for highlight:', highlight);
+                        }
+
+                        // Add the highlight to the global array
+                        highlights.push(highlight);
+                        console.log('Highlight added to global array:', highlight);
+                    } catch (error) {
+                        console.error(`Error restoring highlight: ${highlight.id}`, error);
+                    }
+                });
+
+                console.log('Finished loading highlights for section:', sectionId);
             } catch (error) {
-                console.error('Error loading highlights:', error);
+                console.error(`Error loading highlights for section ${sectionId}:`, error);
             }
+        }
+
+        // Helper function to get all text nodes within an element
+        function getTextNodes(element) {
+            const textNodes = [];
+            const walker = document.createTreeWalker(
+                element,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            let node;
+            while ((node = walker.nextNode())) {
+                textNodes.push(node);
+            }
+
+            return textNodes;
+        }
+
+        function adjustRangeToIncludeEntireElements(range) {
+            const startContainer = range.startContainer;
+            const endContainer = range.endContainer;
+
+            // If the start container is not a text node, expand the range to include the entire element
+            if (startContainer.nodeType !== Node.TEXT_NODE) {
+                range.setStartBefore(startContainer);
+            }
+
+            // If the end container is not a text node, expand the range to include the entire element
+            if (endContainer.nodeType !== Node.TEXT_NODE) {
+                range.setEndAfter(endContainer);
+            }
+
+            return range;
         }
 
         function handleSelection(sectionId) {
             const selection = window.getSelection();
             if (selection.toString().length > 0) {
-                // Check if the selection is within the correct section
-                const range = selection.getRangeAt(0);
+                const range = selection.getRangeAt(0).cloneRange();
                 const container = document.getElementById(sectionId);
-                
+
                 if (!container.contains(range.commonAncestorContainer)) {
                     console.log('Selection is outside the target section');
                     return;
                 }
 
-                try {
-                    // Create a new range that's confined to this section
-                    const sectionRange = document.createRange();
-                    sectionRange.setStart(range.startContainer, range.startOffset);
-                    sectionRange.setEnd(range.endContainer, range.endOffset);
+                // Adjust the range to include entire elements
+                const adjustedRange = adjustRangeToIncludeEntireElements(range);
 
-                    currentSelection = {
-                        text: selection.toString(),
-                        range: sectionRange,
-                        sectionId: sectionId
-                    };
-                    
-                    const modal = document.getElementById('classificationModal');
-                    modal.querySelector('.selected-text-display').textContent = selection.toString();
-                    
-                    // Reset classification form
-                    document.getElementById('hallucinationType').value = 'condition';
-                    document.getElementById('riskLevel').value = '0';
-                    
-                    // Hide the remove button for new highlights
-                    document.getElementById('removeHighlightBtn').style.display = 'none';
-                    
-                    // Clear any previous editing ID
-                    modal.dataset.editingId = '';
-                    
-                    modal.style.display = 'block';
-                    
-                    console.log('Selection processed for section:', sectionId);
-                } catch (error) {
-                    console.error('Error processing selection:', error);
-                    alert('Error processing selection. Please try selecting the text again.');
+                // Check if the selection was adjusted
+                if (range.toString() !== adjustedRange.toString()) {
+                    // Visually indicate the adjusted selection
+                    const tempHighlight = document.createElement('span');
+                    tempHighlight.style.backgroundColor = 'yellow';
+                    tempHighlight.style.opacity = '0.5';
+                    adjustedRange.surroundContents(tempHighlight);
+
+                    // Remove the temporary highlight after a short delay
+                    setTimeout(() => {
+                        tempHighlight.outerHTML = tempHighlight.innerHTML;
+                    }, 1000);
                 }
+
+                currentSelection = {
+                    text: selection.toString(),
+                    range: adjustedRange,
+                    sectionId: sectionId
+                };
+
+                const modal = document.getElementById('classificationModal');
+                modal.querySelector('.selected-text-display').textContent = selection.toString();
+                document.getElementById('hallucinationType').value = 'condition';
+                document.getElementById('riskLevel').value = '0';
+                document.getElementById('removeHighlightBtn').style.display = 'none';
+                modal.dataset.editingId = '';
+                modal.style.display = 'block';
             }
         }
 
-        // Modified confirmClassification function to handle separate task areas
-        function confirmClassification() {
-            if (!currentSelection) return;
-            
-            const type = document.getElementById('hallucinationType').value;
-            const risk = document.getElementById('riskLevel').value;
-            
-            try {
-                // Get the container for this section
-                const container = document.getElementById(currentSelection.sectionId);
-                if (!container) {
-                    throw new Error('Container not found for section: ' + currentSelection.sectionId);
-                }
+        
 
-                // Check for overlapping highlights
-                const existingHighlights = container.getElementsByClassName('highlight-span');
-                const newRange = currentSelection.range;
-                
-                for (let highlight of existingHighlights) {
-                    const highlightRange = document.createRange();
-                    highlightRange.selectNode(highlight);
-                    
-                    if (rangesOverlap(newRange, highlightRange)) {
-                        throw new Error('Selection overlaps with existing highlight');
-                    }
-                }
+        function rangePartiallySelectsNonTextNode(range) {
+            const startContainer = range.startContainer;
+            const endContainer = range.endContainer;
 
-                // Create and apply the new highlight
-                const span = document.createElement('span');
-                span.className = `highlight-span risk-${risk}`;
-                span.dataset.type = type;
-                span.dataset.risk = risk;
-                span.dataset.id = Date.now().toString();
-                
-                newRange.surroundContents(span);
-                
-                // Add click handler for editing
-                span.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    showReclassificationModal(span);
-                });
-                
-                // Store the highlight
-                highlights.push({
-                    id: span.dataset.id,
-                    text: currentSelection.text,
-                    type: type,
-                    risk: risk,
-                    sectionId: currentSelection.sectionId
-                });
-                
-                // Save highlights to localStorage
-                saveHighlights(currentSelection.sectionId);
-                
-            } catch (error) {
-                console.error('Error applying highlight:', error);
-                alert('Could not apply highlight. The selection might overlap with an existing highlight.');
+            // Check if the start or end container is not a text node
+            if (startContainer.nodeType !== Node.TEXT_NODE || endContainer.nodeType !== Node.TEXT_NODE) {
+                return true;
             }
-            
-            // Close modal and clear selection
-            cancelClassification();
+
+            // Check if the range spans across multiple nodes
+            if (startContainer !== endContainer) {
+                return true;
+            }
+
+            return false;
         }
 
         // Helper function to check if two ranges overlap
         function rangesOverlap(range1, range2) {
-            return !(range1.compareBoundaryPoints(Range.END_TO_START, range2) >= 0 ||
-                range1.compareBoundaryPoints(Range.START_TO_END, range2) <= 0);
-        }
+            const overlap = !(
+                range1.compareBoundaryPoints(Range.END_TO_START, range2) > 0 ||
+                range1.compareBoundaryPoints(Range.START_TO_END, range2) < 0
+            );
 
-        // Initialize separate event listeners for each task area
-        function initializeTaskAreas() {
-            const taskAreas = [
-                'chronologicalResponse',
-                'labDataResponse',
-                'diagnosisPredictionResponse'
-                // Add other task areas as needed
-            ];
-            
-            taskAreas.forEach(areaId => {
-                const element = document.getElementById(areaId);
-                if (element) {
-                    // Clear any existing listeners
-                    element.replaceWith(element.cloneNode(true));
-                    
-                    // Add new listener
-                    document.getElementById(areaId).addEventListener('mouseup', (e) => {
-                        handleSelection(areaId);
-                    });
-                }
-            });
+            console.log('Range 1:', range1.toString());
+            console.log('Range 2:', range2.toString());
+            console.log('Overlap Detected:', overlap);
+
+            return overlap;
         }
 
         // Call on page load
@@ -2231,80 +2246,56 @@
             });
         }
 
-
         // Enhanced exportAnnotations function
         async function exportAnnotations() {
-            // Get current timestamp for filename
-            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-            
             try {
-                // Gather all data
+                console.log('Exporting annotations...');
+                console.log('Highlights:', highlights);
+
                 const annotationData = {
-                    metadata: {
-                        timestamp: new Date().toISOString(),
-                        caseStudy: {
-                            id: currentCase,
-                            name: document.getElementById('caseSelect').selectedOptions[0].text
+                    highlights: highlights.map(highlight => ({
+                        id: highlight.id,
+                        text: highlight.text,
+                        type: highlight.type,
+                        risk: highlight.risk,
+                        sectionId: highlight.sectionId,
+                        highlightedText: highlight.text,
+                        hallucinationType: hallucinationTypes[highlight.type] || 'Unknown',
+                        riskLevel: {
+                            level: parseInt(highlight.risk),
+                            label: riskLevels[highlight.risk].label,
+                            description: riskLevels[highlight.risk].description
                         },
-                        model: document.getElementById('modelSelect').value,
-                        annotator: localStorage.getItem('annotatorId') || 'anonymous',
-                        timing: {
-                            totalTimeSpent: formatTime(Date.now() - startTime),
-                            totalSeconds: Math.floor((Date.now() - startTime) / 1000),
-                            startTimestamp: new Date(startTime).toISOString(),
-                            endTimestamp: new Date().toISOString()
-                        }
-                    },
-                    
-                    content: {
-                        // Original case content
-                        originalCase: await fetchCaseContent(),
-                        
-                        // LLM responses
-                        llmResponses: {
-                            chronological: getCleanContent('chronologicalResponse'),
-                            labData: getCleanContent('labDataResponse'),
-                            diagnosisPrediction: getCleanContent('diagnosisPredictionResponse')
-                        }
-                    },
-                    
-                    annotations: {
-                        highlights: highlights.map(highlight => ({
-                            ...highlight,
-                            highlightedText: highlight.text,
-                            hallucinationType: hallucinationTypes[highlight.type],
-                            riskLevel: {
-                                level: parseInt(highlight.risk),
-                                label: riskLevels[highlight.risk].label,
-                                description: riskLevels[highlight.risk].description
-                            },
-                            location: {
-                                sectionId: highlight.sectionId,
-                                taskType: getTaskType(highlight.sectionId)
-                            },
-                            timestamp: new Date().toISOString()
-                        })),
-                        
-                        comments: gatherAllComments(),
-                        statistics: calculateAnnotationStats()
-                    }
+                        location: {
+                            sectionId: highlight.sectionId,
+                            taskType: getTaskType(highlight.sectionId) // Use highlight.sectionId here
+                        },
+                        timestamp: new Date().toISOString()
+                    })),
+                    comments: gatherAllComments(),
+                    stats: calculateAnnotationStats(),
+                    timestamp: Date.now(),
+                    annotatorId: localStorage.getItem('annotatorId') || 'unknown',
                 };
 
-                // Create and download JSON file
-                const blob = new Blob([JSON.stringify(annotationData, null, 2)], { type: 'application/json' });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = `medical-hallucination-annotations-${currentCase}-${timestamp}.json`;
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-                URL.revokeObjectURL(url);
-                
-                console.log('Successfully exported annotations');
+                console.log('Annotation data:', annotationData);
+
+                const annotatorId = localStorage.getItem('annotatorId'); // Ensure the annotator ID is set
+                const caseNumber = currentCase; 
+                const modelName = document.getElementById('modelSelect').value; // Fetch selected model
+
+                // Save annotations for each task
+                annotationData.highlights.forEach(highlight => {
+                    const taskId = getTaskType(highlight.sectionId); // Dynamically determine taskId based on sectionId
+                    console.log(`Saving highlight for task: ${taskId}`);
+                    saveAnnotationToFirebase(annotatorId, caseNumber, modelName, taskId, highlight);
+                });
+
+                console.log('Annotations exported successfully.');
+                alert('Annotations saved successfully!');
             } catch (error) {
-                console.error('Error exporting annotations:', error);
-                alert('Error exporting annotations: ' + error.message);
+                console.error("Error exporting annotations:", error);
+                alert("Failed to save annotations. Check console for details.");
             }
         }
 
@@ -2420,12 +2411,10 @@
             const modelSection = document.querySelector('.model-section');
             const exportButton = document.createElement('button');
             exportButton.className = 'tab-button';
-            // Add vertical alignment and adjust margins
             exportButton.style.marginLeft = '10px';
             exportButton.style.marginTop = '0px';
             exportButton.style.verticalAlign = 'top';
             exportButton.style.backgroundColor = '#4CAF50';  // Green color
-            // Optional: add hover effect
             exportButton.onmouseover = () => {
                 exportButton.style.backgroundColor = '#45a049';  // Darker green on hover
             };
@@ -2443,6 +2432,41 @@
                 modelSection.appendChild(exportButton);
             }
         }
+
+        // Initialize Firebase and add the export button
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Firebase
+            // firebase.initializeApp(firebaseConfig);
+
+            // Add the export button
+            // addExportButton();
+
+            // Load the initial case and sections
+            const caseSelect = document.getElementById('caseSelect');
+            if (caseSelect) {
+                const initialCase = caseSelect.value || 'case1';
+                currentCase = initialCase;
+                switchCase(initialCase);
+                
+                // Add change event listener
+                caseSelect.addEventListener('change', (event) => {
+                    switchCase(event.target.value);
+                });
+            }
+            
+            // Initialize other components
+            initializeTaskAreas();
+            loadCommentDrafts();
+            addStorageManagementButtons();
+            
+            // Set initial response messages
+            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.innerHTML = 'Press Generate Response button to get LLM outputs...';
+                }
+            });
+        });
     </script>
 
     
