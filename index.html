@@ -526,30 +526,40 @@
         const firebaseConfig = {
             apiKey: "{{FIREBASE_API_KEY}}",
             authDomain: "{{FIREBASE_AUTH_DOMAIN}}",
-            databaseURL: "https://medical-hallucination-default-rtdb.firebaseio.com",
+            databaseURL: "{{FIREBASE_DATABASE_URL}}",
             projectId: "{{FIREBASE_PROJECT_ID}}",
             storageBucket: "{{FIREBASE_STORAGE_BUCKET}}",
             messagingSenderId: "{{FIREBASE_MESSAGING_SENDER_ID}}",
             appId: "{{FIREBASE_APP_ID}}",
             measurementId: "{{FIREBASE_MEASUREMENT_ID}}"
         };
-        // res.json(firebaseConfig);
 
-        // Initialize Firebase
+        try {
+            const app = initializeApp(firebaseConfig);
+            const database = getDatabase(app);
+            console.log('Firebase initialized successfully.');
+        } catch (error) {
+            console.error('Firebase initialization failed:', error);
+            alert('Failed to initialize Firebase. Check configuration.');
+        }
+
         const app = initializeApp(firebaseConfig);
         const database = getDatabase(app);
-
 
         // Function to save annotations to Firebase
         async function saveAnnotationToFirebase(annotatorId, caseNumber, modelName, taskId, highlight) {
             try {
-                // Ensure Firebase is initialized
+                console.log("Preparing to save annotation to Firebase...");
+                console.log({ annotatorId, caseNumber, modelName, taskId, highlight });
+
+                // Gather comments using the existing function
+                const comments = gatherAllComments() || []; // Use the gatherAllComments function already present in your script
+
                 const annotationRef = ref(
                     database,
                     `annotators/${annotatorId}/${caseNumber}/${taskId}/${modelName}/highlights/${highlight.id}`
                 );
 
-                // Save the full highlight object
                 await set(annotationRef, {
                     id: highlight.id,
                     text: highlight.text,
@@ -560,22 +570,25 @@
                     hallucinationType: hallucinationTypes[highlight.type] || 'Unknown',
                     riskLevel: {
                         level: parseInt(highlight.risk),
-                        label: riskLevels[highlight.risk].label,
-                        description: riskLevels[highlight.risk].description
+                        label: riskLevels[highlight.risk]?.label || "Unknown",
+                        description: riskLevels[highlight.risk]?.description || "No description available"
                     },
                     location: {
                         sectionId: highlight.sectionId,
                         taskType: getTaskType(highlight.sectionId)
                     },
-                    timestamp: highlight.timestamp || new Date().toISOString()
+                    timestamp: highlight.timestamp || new Date().toISOString(),
+                    comments: comments // Include the comments from gatherAllComments
                 });
 
-                console.log(`Highlight successfully saved for annotator ${annotatorId}, case ${caseNumber}, model ${modelName}, task ${taskId}.`);
+                console.log("Annotation saved successfully to Firebase.");
             } catch (error) {
-                console.error('Error saving highlight to Firebase:', error);
-                alert('Error saving highlight. Please try again.');
+                console.error("Error saving annotation to Firebase:", error);
+                alert(`Failed to save annotation: ${error.message}`);
             }
         }
+
+
 
         // Define available sections for each case
         const caseSections = {
@@ -917,6 +930,8 @@
             loadContent('presentation_of_case');
             loadHighlights('presentation_of_case'); // Load highlights for the initial section
         }
+
+        window.switchCase = switchCase;
 
         // Modified initialization code
         document.addEventListener('DOMContentLoaded', () => {
@@ -1271,20 +1286,41 @@
         function addComment(section) {
             const commentInput = document.getElementById(`${section}Comment`);
             const commentList = document.getElementById(`${section}Comments`);
-            
+
             if (commentInput.value.trim()) {
+                const commentText = commentInput.value.trim();
+
+                // Add the comment to the UI
                 const commentDiv = document.createElement('div');
                 commentDiv.className = 'comment-item';
-                commentDiv.textContent = commentInput.value;
+                commentDiv.textContent = commentText;
                 commentList.appendChild(commentDiv);
-                
-                const comments = Array.from(commentList.children)
-                    .map(c => c.textContent);
+
+                // Retrieve all comments
+                const comments = Array.from(commentList.children).map(c => c.textContent);
+
+                // Save the comments locally and send to Firebase
                 localStorage.setItem(`${currentCase}-${section}-comments`, JSON.stringify(comments));
-                
+
+                // Call Firebase saving function
+                highlights.forEach(highlight => {
+                    if (highlight.sectionId === section) {
+                        saveAnnotationToFirebase(
+                            localStorage.getItem('annotatorId') || 'unknown',
+                            currentCase,
+                            document.getElementById('modelSelect').value,
+                            getTaskType(section),
+                            highlight,
+                            comments // Pass the comments
+                        );
+                    }
+                });
+
+                // Clear the input field
                 commentInput.value = '';
             }
         }
+        window.addComment = addComment;
 
         function loadComments(section) {
             const saved = localStorage.getItem(`${currentCase}-${section}-comments`);
@@ -1316,6 +1352,8 @@
             // Find the matching label for the given section
             const sectionObject = sections.find(s => s.id === section);
             const sectionLabel = sectionObject ? sectionObject.label : section;
+
+            loadComments(section);
 
             // Update the title with the label
             document.getElementById('contentTitle').textContent = sectionLabel;
