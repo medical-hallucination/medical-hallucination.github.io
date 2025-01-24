@@ -1,73 +1,65 @@
-Here is a chronological order of the key events and the temporal relationships between symptoms and interventions for the case of the 45-year-old woman:
+** 18 Months Before Admission **
+1. Initial Presentation of Hypertension:
+* Blood pressure noted at 140/90 mmHg during routine visit.
+* Intervention: Discontinued oral contraceptive pills.
+* Persistent hypertension despite this change.
+* Tests Performed: Duplex ultrasonography of renal arteries, thyrotropin levels, plasma catecholamines, plasma metanephrines, and aldosterone levels were all normal. 
+* Echocardiography showed normal ventricular function.
+* Treatment Initiated: Lisinopril prescribed, successfully lowered blood pressure to 120/80 mmHg.
 
----
+** 4 Weeks Before Current Admission ** 
+2. Development of New Symptoms:
+* Swelling of the legs, abdominal distention, intermittent dyspnea on exertion, fatigue, confusion, and occasional chest pain (exercise-induced, 2-minute duration, relieved with rest).
+* Physical Exam Findings:
+* Blood pressure: 180/110 mmHg.
+- Weight: 66.9 kg; trace non-pitting edema; systolic murmur (grade 2/6).
+- Jugular venous pressure: 10 cm of water.
+* Diagnostics:
+- ECG: Normal sinus rhythm, left-axis deviation.
+- Chest radiograph: Small bilateral pleural effusions, no pulmonary edema.
+* Intervention:
+- IV furosemide alleviated dyspnea and swelling.
+- Discharged on low-dose oral furosemide.
+* Follow-Up Imaging: Echocardiogram showed hyperdynamic systolic function (EF: 76%), biventricular hypertrophy, interventricular septal wall thickness of 14 mm, mild mitral regurgitation, and left ventricular outflow tract obstruction.
 
-### **Chronological Timeline of Key Events**:
+** 3 Weeks Before Current Admission **
+3. Recurrence of Symptoms:
+* Dyspnea on exertion and fatigue returned; new symptoms included 3 days of malaise and night sweats.
+* Physical Exam Findings:
+- Blood pressure: 148/96 mmHg; no jugular venous pulsation or leg edema.
+* Diagnostics:
+- Chest radiograph: Resolution of pleural effusions; no opacities or pulmonary edema.
+- Blood/urine cultures: Sterile.
+- HIV and tuberculosis testing: Negative.
+* Intervention: Patient was admitted for further cardiac imaging.
+* Cardiac MRI Findings: Asymmetric left ventricular septal hypertrophy (max wall thickness: 21 mm), mild LV enlargement, hyperdynamic systolic function (EF: 71%), and small midwall areas of late gadolinium enhancement (fibrosis).
 
-#### **18 Months Before Admission**
-1. **Routine Appointment**:
-   - Blood pressure noted at 140/90 mm Hg.
-   - Therapy with oral contraceptive pills was discontinued.
-   - Persistent hypertension despite discontinuation of oral contraceptives.
+** 2 Weeks Before Current Admission **
+4. Post-Hospitalization Events:
+* Patient was discharged after MRI findings; fatigue improved initially.
+* Recurrence of Symptoms: Recurrent fatigue, fevers, palpitations, global weakness, irritability, and confusion developed.
 
-2. **Investigations and Initial Management**:
-   - Duplex ultrasonography of renal arteries: **Normal**.
-   - Thyrotropin, plasma free catecholamines, plasma metanephrines, aldosterone levels: **Normal**.
-   - Transthoracic echocardiography: **Normal ventricular function**; no valvular disease or left ventricular hypertrophy.
-   - Diagnosis: Essential hypertension suspected.
-   - Initiation of treatment with **lisinopril**: Blood pressure reduced to 120/80 mm Hg.
+** Current Admission ** 
+5. Presenting Symptoms and Signs:
+* Husband reported increased confusion, irritability, and weakness.
+* Frequent urination and increased thirst noted.
+* Physical Exam Findings:
+- Temperature: 36.2°C; BP: 135/80 mmHg; HR: 98 bpm.
+- Weight: 60.0 kg.
+- Cognitive deficits: Inability to state the year or count backward by 7.
+- Muscle weakness: 4/5 strength proximally in arms and legs.
+- Systolic murmur (grade 3/6); diffuse hair thinning; increased upper lip and chin hair growth.
+* Diagnostics:
+- CT Angiography: Segmental/subsegmental pulmonary emboli (RLL); bilateral adrenal gland thickening.
+- MRI Head: Normal.
+* Interventions:
+- IV heparin infusion started.
+- Persistent hypokalemia treated with aggressive potassium supplementation.
 
----
+** Temporal Relationships **
+* Hypertension and Cardiac Hypertrophy: Hypertension identified 18 months prior to admission likely contributed to the development of left ventricular hypertrophy.
+* Fatigue and Dyspnea Progression: Symptoms escalated over weeks and correlated with worsening cardiac dysfunction and eventual identification of pulmonary emboli.
+* Cognitive Symptoms and Hyperdynamic Circulation: Recurrent confusion, fatigue, and palpitations were likely influenced by systemic effects of hypertrophic cardiomyopathy, persistent hypokalemia, and adrenal gland dysfunction.
+* Thrombotic Events and Adrenal Abnormality: Pulmonary emboli and adrenal thickening suggest a possible underlying hypercoagulable state or adrenal pathology, contributing to the complex presentation.
 
-#### **4 Weeks Before Admission**
-1. **Symptom Onset**:
-   - Swelling of legs, abdominal distention, intermittent dyspnea on exertion, and fatigue developed.
-   - Weight gain: Reported 4.5 kg over the past month.
-
-2. **Episodes of Confusion and Chest Pain**:
-   - Occasional confusion.
-   - Two episodes of burning chest pain during exercise (each lasting 2 minutes, relieved by rest).
-
-3. **Emergency Department Visit**:
-   - **Physical Examination**:
-     - Temperature: 36.8°C.
-     - Blood pressure: 180/110 mm Hg (elevated).
-     - Heart rate: 73 beats per minute.
-     - Respiratory rate: 18 breaths per minute.
-     - Oxygen saturation: 98% (ambient air).
-     - BMI: 22.
-     - **Signs**:
-       - Systolic murmur (grade 2/6) at left sternal border.
-       - Jugular venous pressure: Elevated to 10 cm of water.
-       - Slightly distended abdomen, trace nonpitting edema in legs.
-
----
-
-#### **Admission (Current Case Presentation)**
-1. **Symptoms at Admission**:
-   - Persistent **dyspnea on exertion**, fatigue, and confusion.
-
----
-
-### **Temporal Relationships**:
-
-1. **Hypertension and Discontinuation of Oral Contraceptives**:
-   - Discontinuation of contraceptives did not resolve hypertension, indicating a likely essential or secondary cause unrelated to contraceptive use.
-
-2. **Response to Lisinopril**:
-   - Effective control of blood pressure initially, but no indication of adherence or efficacy in the later course (e.g., BP elevated at ED visit).
-
-3. **Onset of Dyspnea, Edema, and Fatigue**:
-   - Likely represents progressive **cardiovascular** or **renal** dysfunction occurring months after controlled BP was achieved.
-   - Elevated jugular venous pressure and leg edema suggest a component of **right-sided heart failure** or **fluid overload**.
-
-4. **Episodes of Chest Pain**:
-   - Brief, exertional, and relieved by rest: Suspicious for **angina** or underlying coronary artery disease.
-   - Likely represents worsening myocardial oxygen demand due to uncontrolled hypertension or new ischemia.
-
-5. **Confusion**:
-   - Could represent multifactorial etiologies: **Hypertensive encephalopathy**, impaired cardiac output, or metabolic derangements.
-
----
-
-This structured timeline can guide further diagnostic work-up and management for the patient's complex presentation.
+This sequence provides a framework for linking the patient’s symptoms, diagnostic findings, and treatments over time.
