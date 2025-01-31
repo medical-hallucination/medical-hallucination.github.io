@@ -542,17 +542,6 @@
             measurementId: "{{FIREBASE_MEASUREMENT_ID}}"
         };
 
-        // const firebaseConfig = {
-        //     apiKey: "AIzaSyAazj4oi9sEkuxKY_MipxywtoxflInW-Q0",
-        //     authDomain: "medical-hallucination.firebaseapp.com",
-        //     databaseURL: "https://medical-hallucination-default-rtdb.firebaseio.com",
-        //     projectId: "medical-hallucination",
-        //     storageBucket: "medical-hallucination.firebasestorage.app",
-        //     messagingSenderId: "663699961417",
-        //     appId: "1:663699961417:web:3da7ed24e1c29a257f3198",
-        //     measurementId: "G-X67TRL3QLQ"
-        // };
-
         async function fetchAnnotationsFromFirebase() {
             try {
                 const annotatorId = localStorage.getItem('annotatorId') || 'unknown';
