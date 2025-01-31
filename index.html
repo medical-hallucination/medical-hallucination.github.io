@@ -632,12 +632,21 @@
                 console.log("Preparing to save annotation to Firebase...");
                 console.log({ annotatorId, caseNumber, modelName, taskId, highlight });
 
-                // Gather comments using the existing function
-                const comments = gatherAllComments() || []; // Use the gatherAllComments function already present in your script
+                // Sanitize path segments to remove invalid Firebase characters
+                function sanitizePath(path) {
+                    return path.replace(/[.#$[\] ]/g, "_"); // Replaces invalid characters & spaces with underscores
+                }
 
+                const sanitizedTaskId = sanitizePath(taskId);
+                const sanitizedModelName = sanitizePath(modelName);
+
+                // Gather comments using the existing function
+                const comments = gatherAllComments() || []; 
+
+                // Construct a valid Firebase path
                 const annotationRef = ref(
                     database,
-                    `annotators/${annotatorId}/${caseNumber}/${taskId}/${modelName}/highlights/${highlight.id}`
+                    `annotators/${annotatorId}/${caseNumber}/${sanitizedTaskId}/${sanitizedModelName}/highlights/${highlight.id}`
                 );
 
                 await set(annotationRef, {
@@ -658,7 +667,7 @@
                         taskType: getTaskType(highlight.sectionId)
                     },
                     timestamp: highlight.timestamp || new Date().toISOString(),
-                    comments: comments // Include the comments from gatherAllComments
+                    comments: comments // Include the comments
                 });
 
                 console.log("Annotation saved successfully to Firebase.");
@@ -667,6 +676,7 @@
                 alert(`Failed to save annotation: ${error.message}`);
             }
         }
+
 
 
 
@@ -916,6 +926,20 @@
         }
         window.generateAnalysis = generateAnalysis;
 
+        function normalizeSelection(range) {
+            if (!range.startContainer || !range.endContainer) return;
+
+            // Adjust startContainer if it's an element node
+            while (range.startContainer.nodeType === Node.ELEMENT_NODE && range.startContainer.firstChild) {
+                range.setStart(range.startContainer.firstChild, 0);
+            }
+
+            // Adjust endContainer if it's an element node
+            while (range.endContainer.nodeType === Node.ELEMENT_NODE && range.endContainer.lastChild) {
+                range.setEnd(range.endContainer.lastChild, range.endContainer.lastChild.textContent.length);
+            }
+        }
+
         function confirmClassification() {
             if (!currentSelection) return;
 
@@ -928,20 +952,24 @@
                     throw new Error('Container not found for section: ' + currentSelection.sectionId);
                 }
 
-                const newRange = currentSelection.range;
+                let newRange = currentSelection.range.cloneRange();
 
-                // Validate the range
-                if (rangePartiallySelectsNonTextNode(newRange)) {
-                    throw new Error('Selection partially includes an element. Please adjust your selection.');
-                }
+                // Normalize range before applying highlights
+                normalizeSelection(newRange);
 
-                // Apply the highlight
-                const span = createHighlightSpan(currentSelection.text, type, risk);
-                newRange.surroundContents(span);
+                // Extract the selected content
+                let extractedContent = newRange.extractContents();
+
+                // Create a highlight span and insert extracted text inside it
+                const span = createHighlightSpan(newRange.toString(), type, risk);
+                span.appendChild(extractedContent);
+
+                // Insert the highlighted content back into the document
+                newRange.insertNode(span);
 
                 highlights.push({
                     id: span.dataset.id,
-                    text: currentSelection.text,
+                    text: newRange.toString(),
                     type: type,
                     risk: risk,
                     sectionId: currentSelection.sectionId
@@ -950,11 +978,13 @@
                 saveHighlights(currentSelection.sectionId);
             } catch (error) {
                 console.error('Error applying highlight:', error);
-                alert(error.message); // Provide more descriptive error message
+                alert(error.message);
             }
 
             cancelClassification();
         }
+
+
 
         window.confirmClassification = confirmClassification;
 
@@ -1940,15 +1970,26 @@
             `;
         }
 
-        // Modified saveHighlights function with error handling
+        function sanitizePath(path) {
+            return path.replace(/[.#$[\] ]/g, "_"); // Replace invalid characters and spaces
+        }
+
         function saveHighlights(sectionId) {
+            const rawPath = `annotators/yubin/case1/Chronological Ordering/gemini-2.0/highlights/${Date.now()}`;
+            const annotationPath = sanitizePath(rawPath);
+
+            if (!annotationPath) {
+                console.error("Invalid annotation path after sanitization:", rawPath);
+                return;
+            }
+
             try {
-                console.log('Saving highlights for section:', sectionId); // Debug logging
+                console.log("Saving highlights for section:", sectionId);
                 const sectionHighlights = highlights.filter(h => h.sectionId === sectionId);
                 localStorage.setItem(`${currentCase}-${sectionId}-highlights`, JSON.stringify(sectionHighlights));
-                console.log('Successfully saved highlights:', sectionHighlights); // Debug logging
+                console.log("Successfully saved highlights:", sectionHighlights);
             } catch (error) {
-                console.error('Error saving highlights:', error);
+                console.error("Error saving highlights:", error);
             }
         }
 
@@ -2231,21 +2272,49 @@
 
         
 
+        // function rangePartiallySelectsNonTextNode(range) {
+        //     const startContainer = range.startContainer;
+        //     const endContainer = range.endContainer;
+
+        //     // Check if the start or end container is not a text node
+        //     if (startContainer.nodeType !== Node.TEXT_NODE || endContainer.nodeType !== Node.TEXT_NODE) {
+        //         return true;
+        //     }
+
+        //     // Check if the range spans across multiple nodes
+        //     if (startContainer !== endContainer) {
+        //         return true;
+        //     }
+
+        //     return false;
+        // }
+
         function rangePartiallySelectsNonTextNode(range) {
-            const startContainer = range.startContainer;
-            const endContainer = range.endContainer;
+            const commonAncestor = range.commonAncestorContainer;
 
-            // Check if the start or end container is not a text node
-            if (startContainer.nodeType !== Node.TEXT_NODE || endContainer.nodeType !== Node.TEXT_NODE) {
-                return true;
+            // If the selection is inside an inline tag like <b>, <i>, <u>, <em>, etc., allow it
+            if (commonAncestor.nodeType === Node.ELEMENT_NODE && isInlineElement(commonAncestor)) {
+                return false; // Allow highlighting inside formatted text
             }
 
-            // Check if the range spans across multiple nodes
-            if (startContainer !== endContainer) {
-                return true;
-            }
+            // If selection contains block elements (like <div>, <p>, <ul>, <li>), only then restrict it
+            const iterator = document.createNodeIterator(range.commonAncestorContainer, NodeFilter.SHOW_ELEMENT, {
+                acceptNode(node) {
+                    return isBlockElement(node) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+                }
+            });
 
-            return false;
+            return !!iterator.nextNode(); // Return true if a block element is found
+        }
+
+        function isInlineElement(node) {
+            const inlineTags = ['B', 'I', 'U', 'EM', 'STRONG', 'SPAN'];
+            return inlineTags.includes(node.nodeName);
+        }
+
+        function isBlockElement(node) {
+            const blockTags = ['DIV', 'P', 'UL', 'OL', 'LI', 'TABLE', 'TR', 'TD', 'TH'];
+            return blockTags.includes(node.nodeName);
         }
 
         // Helper function to check if two ranges overlap
