@@ -516,13 +516,21 @@
 
     <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js"></script>
+
+    <div id="annotationModal" class="modal">
+        <div style="position: relative; background-color: white; margin: 10% auto; padding: 20px; width: 80%; max-width: 700px; border-radius: 8px;">
+            <h3>My Annotations</h3>
+            <div id="annotationList" style="max-height: 400px; overflow-y: auto; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></div>
+            <button class="tab-button" onclick="closeAnnotationModal()">Close</button>
+        </div>
+    </div>
     
     <!-- <script> -->
     <script type="module">
         
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
-
+        import { getDatabase, ref, set, get } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+        
         const firebaseConfig = {
             apiKey: "{{FIREBASE_API_KEY}}",
             authDomain: "{{FIREBASE_AUTH_DOMAIN}}",
@@ -533,6 +541,89 @@
             appId: "{{FIREBASE_APP_ID}}",
             measurementId: "{{FIREBASE_MEASUREMENT_ID}}"
         };
+
+        // const firebaseConfig = {
+        //     apiKey: "AIzaSyAazj4oi9sEkuxKY_MipxywtoxflInW-Q0",
+        //     authDomain: "medical-hallucination.firebaseapp.com",
+        //     databaseURL: "https://medical-hallucination-default-rtdb.firebaseio.com",
+        //     projectId: "medical-hallucination",
+        //     storageBucket: "medical-hallucination.firebasestorage.app",
+        //     messagingSenderId: "663699961417",
+        //     appId: "1:663699961417:web:3da7ed24e1c29a257f3198",
+        //     measurementId: "G-X67TRL3QLQ"
+        // };
+
+        async function fetchAnnotationsFromFirebase() {
+            try {
+                const annotatorId = localStorage.getItem('annotatorId') || 'unknown';
+                if (annotatorId === 'unknown') {
+                    alert("Please enter your Annotator ID first!");
+                    return;
+                }
+
+                const db = getDatabase();
+                const annotationRef = ref(db, `annotators/${annotatorId}`);
+
+                const snapshot = await get(annotationRef);
+                if (!snapshot.exists()) {
+                    document.getElementById('annotationList').innerHTML = "<p>No annotations found.</p>";
+                    openAnnotationModal();
+                    return;
+                }
+
+                const data = snapshot.val();
+
+                // Convert JSON to a formatted string
+                const rawJsonDisplay = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+
+                // Display raw dictionary
+                document.getElementById('annotationList').innerHTML = rawJsonDisplay;
+
+                openAnnotationModal();
+            } catch (error) {
+                console.error("Error fetching annotations from Firebase:", error);
+                alert("Failed to fetch annotations.");
+            }
+        }
+
+
+        // Function to open annotation modal
+        function openAnnotationModal() {
+            document.getElementById('annotationModal').style.display = "block";
+        }
+
+        // Function to close annotation modal
+        function closeAnnotationModal() {
+            document.getElementById('annotationModal').style.display = "none";
+        }
+        window.closeAnnotationModal = closeAnnotationModal;
+
+        // Add "Check My Annotation" button next to "Save Annotations"
+        function addCheckAnnotationsButton() {
+            const modelSection = document.querySelector('.model-section');
+            const checkButton = document.createElement('button');
+            checkButton.className = 'tab-button';
+            checkButton.style.marginLeft = '10px';
+            checkButton.style.marginTop = '0px';
+            checkButton.style.backgroundColor = '#ff9800';
+            checkButton.onmouseover = () => { checkButton.style.backgroundColor = '#f57c00'; };
+            checkButton.onmouseout = () => { checkButton.style.backgroundColor = '#ff9800'; };
+            checkButton.textContent = 'Check My Annotation';
+            checkButton.onclick = fetchAnnotationsFromFirebase;
+
+            // Insert the button next to "Save Annotations"
+            const saveButton = modelSection.querySelector('button[onclick="exportAnnotations()"]');
+            if (saveButton) {
+                saveButton.parentNode.insertBefore(checkButton, saveButton.nextSibling);
+            } else {
+                modelSection.appendChild(checkButton);
+            }
+        }
+
+        // Initialize the new button on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            addCheckAnnotationsButton();
+        });
 
         try {
             const app = initializeApp(firebaseConfig);
@@ -1183,9 +1274,6 @@
             }
             return key;
         };
-        
-
-
         
         function getApiConfig(model, savedKey) {
             let apiUrl, headers, bodyTemplate;
