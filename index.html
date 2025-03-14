@@ -400,7 +400,7 @@
                     <option value="case18">Case 18: A 63-Year-Old Man with Syncope</option>
                     <option value="case19">Case 19: An 83-Year-Old Woman with Nausea, Vomiting, and Confusion</option>
                     <option value="case20">Case 20: A 64-Year-Old Man with Fever, Arthralgias, and Testicular Pain</option>
-                    <option value="case21">Clinical Problem Solving: A Breathtaking Discovery</option>
+                    <option value="case21">Case 21: Clinical Problem Solving - A Breathtaking Discovery</option>
                 </select>
                 <span class="timer" id="readingTimer">  Time: 00:00</span>
             </div>
@@ -412,74 +412,90 @@
                 <div id="contentBody"></div>
             </div>
         </div>
-
         <div class="panel right-panel">
             <div class="model-section">
                 <select id="modelSelect" class="model-select">
-                    <option value="gpt-4o">GPT-4o</option>
-                    <option value="o1">o1</option>
-                    <option value="o3-mini">o3-mini</option>
-                    <option value="claude-3.5">Claude-3.5</option>
-                    <option value="gemini-1.5-flash">Gemini-1.5-Flash</option>
-                    <option value="gemini-2.0">Gemini-2.0-Flash</option>
                 </select>
                 <button class="tab-button" onclick="generateAnalysis()">Generate Response</button>
             </div>
-            <div class="test-section">
-                <div class="test-header">
-                    <h2 style="font-size: 20px; margin: 0;">Task 1. Chronological Ordering Test</h2>
+        
+            <!-- Wrap regular tasks to hide when case21 -->
+            <div id="regularTasks">
+                <div class="test-section">
+                    <div class="test-header">
+                        <h2 style="font-size: 20px; margin: 0;">Task 1. Chronological Ordering Test</h2>
+                    </div>
+                    <div class="test-question">
+                        Q. Order the key events chronologically and identify temporal relationships between symptoms and interventions.
+                    </div>
+                    <div class="test-response" id="chronologicalResponse">
+                        Click a section to start analysis...
+                    </div>
+                    <div class="selected-text-info" id="chronologicalSelected"></div>
+                    <div class="comment-section">
+                        <textarea class="comment-input" placeholder="Add your comment..." id="chronologicalComment"></textarea>
+                        <button class="tab-button" onclick="addComment('chronological')">Add Comment</button>
+                        <div class="comment-list" id="chronologicalComments"></div>
+                    </div>
                 </div>
-                <div class="test-question">
-                    Q. Order the key events chronologically and identify temporal relationships between symptoms and interventions.
+        
+                <div class="test-section">
+                    <div class="test-header">
+                        <h2 style="font-size: 20px; margin: 0;">Task 2. Lab Data Understanding Test</h2>
+                    </div>
+                    <div class="test-question">
+                        Q. Analyze the laboratory findings and explain their clinical significance in relation to the patient's symptoms.
+                    </div>
+                    <div class="test-response" id="labDataResponse">
+                        Click a section to start analysis...
+                    </div>
+                    <div class="selected-text-info" id="labDataSelected"></div>
+                    <div class="comment-section">
+                        <textarea class="comment-input" placeholder="Add your comment..." id="labDataComment"></textarea>
+                        <button class="tab-button" onclick="addComment('labData')">Add Comment</button>
+                        <div class="comment-list" id="labDataComments"></div>
+                    </div>
                 </div>
-                <div class="test-response" id="chronologicalResponse">
-                    Click a section to start analysis...
-                </div>
-                <div class="selected-text-info" id="chronologicalSelected"></div>
-                <div class="comment-section">
-                    <textarea class="comment-input" placeholder="Add your comment..." id="chronologicalComment"></textarea>
-                    <button class="tab-button" onclick="addComment('chronological')">Add Comment</button>
-                    <div class="comment-list" id="chronologicalComments"></div>
+        
+                <div class="test-section">
+                    <div class="test-header">
+                        <h2 style="font-size: 20px; margin: 0;">Task 3. Diagnosis Prediction Test</h2>
+                    </div>
+                    <div class="test-question">
+                        Q. Based on the Presentation of Case, Lab Data, and Images, what would be the possible diagnosis?
+                    </div>
+                    <div class="test-response" id="diagnosisPredictionResponse">
+                        Click a section to start analysis...
+                    </div>
+                    <div class="selected-text-info" id="diagnosisSelected"></div>
+                    <div class="comment-section">
+                        <textarea class="comment-input" placeholder="Add your comment..." id="diagnosisComment"></textarea>
+                        <button class="tab-button" onclick="addComment('diagnosis')">Add Comment</button>
+                        <div class="comment-list" id="diagnosisComments"></div>
+                    </div>
                 </div>
             </div>
-
-            <div class="test-section">
-                <div class="test-header">
-                    <h2 style="font-size: 20px; margin: 0;">Task 2. Lab Data Understanding Test</h2>
-                </div>
-                <div class="test-question">
-                    Q. Analyze the laboratory findings and explain their clinical significance in relation to the patient's symptoms.
-                </div>
-                <div class="test-response" id="labDataResponse">
-                    Click a section to start analysis...
-                </div>
-                <div class="selected-text-info" id="labDataSelected"></div>
-                <div class="comment-section">
-                    <textarea class="comment-input" placeholder="Add your comment..." id="labDataComment"></textarea>
-                    <button class="tab-button" onclick="addComment('labData')">Add Comment</button>
-                    <div class="comment-list" id="labDataComments"></div>
-                </div>
-            </div>
-
-            <div class="test-section">
-                <div class="test-header">
-                    <h2 style="font-size: 20px; margin: 0;">Task 3. Diagnosis Prediction Test</h2>
-                </div>
-                <div class="test-question">
-                    Q. Based on the Presentation of Case, Lab Data and Images, what would be the possible diagnosis?
-                </div>
-                <div class="test-response" id="diagnosisPredictionResponse">
-                    Click a section to start analysis...
-                </div>
-                <div class="selected-text-info" id="diagnosisSelected"></div>
-                <div class="comment-section">
-                    <textarea class="comment-input" placeholder="Add your comment..." id="diagnosisComment"></textarea>
-                    <button class="tab-button" onclick="addComment('diagnosis')">Add Comment</button>
-                    <div class="comment-list" id="diagnosisComments"></div>
+        
+            <div id="summaryTask" style="display: none;">
+                <div class="test-section">
+                    <div class="test-header">
+                        <h2 style="font-size: 20px; margin: 0;">Task. Discharge note generation</h2>
+                    </div>
+                    <div class="test-question">
+                        Q. Based on the provided information, please provide a discharge note.
+                    </div>
+                    <div class="test-response" id="summaryResponse">
+                        Press Generate Response button to get LLM outputs...
+                    </div>
+                    <div class="selected-text-info" id="summarySelected"></div>
+                    <div class="comment-section">
+                        <textarea class="comment-input" placeholder="Add your comment..." id="summaryComment"></textarea>
+                        <button class="tab-button" onclick="addComment('summary')">Add Comment</button>
+                        <div class="comment-list" id="summaryComments"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <div id="classificationModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000;">
         <div style="position: relative; background-color: white; margin: 15% auto; padding: 20px; width: 70%; max-width: 600px; border-radius: 8px;">
@@ -676,8 +692,47 @@
         }
 
 
+        function updateModelOptions() {
+            const modelSelect = document.getElementById("modelSelect");
 
+            if (currentCase === "case21") {
+                // Only allow o3-mini for case21
+                modelSelect.innerHTML = `
+                    <option value="o1">o1</option>
+                    <option value="o3-mini">o3-mini</option>
+                    <option value="claude-3.7">Claude-3.7</option>
+                    <option value="gemini-2.0-flash-thinking">Gemini-2.0-Flash-Thinking</option>
+                    <option value="gemini-2.0-pro">Gemini-2.0-pro</option>
+                    `;
+            } else {
+                // Remove "o3-mini" and allow all other models
+                modelSelect.innerHTML = `
+                    <option value="gpt-4o">GPT-4o</option>
+                    <option value="o1">o1</option>
+                    <option value="claude-3.5">Claude-3.5</option>
+                    <option value="gemini-1.5-flash">Gemini-1.5-Flash</option>
+                    <option value="gemini-2.0">Gemini-2.0-Flash</option>
+                `;
+            }
+        }
 
+        document.addEventListener("DOMContentLoaded", function () {
+            updateModelOptions(); // Ensure the correct models are shown on load
+        });
+
+        function updateTaskVisibility() {
+            if (typeof currentCase !== "undefined" && currentCase === "case21") {
+                document.getElementById("regularTasks").style.display = "none";
+                document.getElementById("summaryTask").style.display = "block";
+            } else {
+                document.getElementById("regularTasks").style.display = "block";
+                document.getElementById("summaryTask").style.display = "none";
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            updateTaskVisibility();
+        });
         // Define available sections for each case
         const caseSections = {
             case1: [
@@ -871,7 +926,7 @@
                 { id: 'anatomical_diagnosis', label: 'Anatomical Diagnosis' },
             ],
             case21: [
-                { id: 'Clinical-Problem-Solving', label: 'Clinical Problem Solving' },
+                { id: 'presentation_of_case', label: 'Clinical Problem Solving' },
             ]
         };
 
@@ -890,6 +945,13 @@
                     labDataResponse: `responses/${currentCase}/${selectedModel}_lab_data.txt`,
                     diagnosisPredictionResponse: `responses/${currentCase}/${selectedModel}_diagnosis.txt`
                 };
+
+                // Additional condition for case21
+                if (currentCase === "case21") {
+                    responseFiles.summaryResponse = `responses/${currentCase}/${selectedModel}_summary.txt`;
+                }
+
+                console.log("Response files:", responseFiles);
 
                 // Process each response file
                 for (const [responseId, filePath] of Object.entries(responseFiles)) {
@@ -993,6 +1055,9 @@
             currentCase = caseId;
             startTime = Date.now();
             analysisGenerated = false;
+            updateTaskVisibility();
+            updateModelOptions();
+
             
             // Clear existing buttons
             const buttonContainer = document.querySelector('.tab-buttons');
@@ -1624,39 +1689,6 @@
             }
         };
 
-        // Modified highlight span creation
-        // function createHighlightSpan(text, type, risk) {
-        //     const span = document.createElement('span');
-        //     span.className = `highlight-span risk-${risk}`;
-        //     span.dataset.type = type;
-        //     span.dataset.risk = risk;
-        //     span.dataset.id = Date.now().toString();
-        //     span.textContent = text;
-            
-        //     // Add click handler for reclassification
-        //     span.addEventListener('click', (e) => {
-        //         e.stopPropagation();
-        //         showReclassificationModal(span);
-        //     });
-            
-        //     return span;
-        // }
-
-        // Add reclassification modal
-        // function showReclassificationModal(span) {
-        //     const modal = document.getElementById('classificationModal');
-        //     modal.querySelector('.selected-text-display').textContent = span.textContent;
-            
-        //     // Set current values
-        //     document.getElementById('hallucinationType').value = span.dataset.type;
-        //     document.getElementById('riskLevel').value = span.dataset.risk;
-            
-        //     // Store reference to span being edited
-        //     modal.dataset.editingId = span.dataset.id;
-            
-        //     modal.style.display = 'block';
-        // }
-
         // Add tooltip HTML
         const tooltipHTML = `
         <div class="highlight-tooltip" style="display: none; position: absolute; background: white; border: 1px solid #ccc; padding: 8px; border-radius: 4px; z-index: 1000;">
@@ -2264,23 +2296,6 @@
         }
 
         
-
-        // function rangePartiallySelectsNonTextNode(range) {
-        //     const startContainer = range.startContainer;
-        //     const endContainer = range.endContainer;
-
-        //     // Check if the start or end container is not a text node
-        //     if (startContainer.nodeType !== Node.TEXT_NODE || endContainer.nodeType !== Node.TEXT_NODE) {
-        //         return true;
-        //     }
-
-        //     // Check if the range spans across multiple nodes
-        //     if (startContainer !== endContainer) {
-        //         return true;
-        //     }
-
-        //     return false;
-        // }
 
         function rangePartiallySelectsNonTextNode(range) {
             const commonAncestor = range.commonAncestorContainer;
