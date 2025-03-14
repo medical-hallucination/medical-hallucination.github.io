@@ -1,0 +1,133 @@
+Physician Discharge Summary
+
+Admission Details
+Admit Date: N/A (Exact date not provided; patient presented in summer 2021)
+Discharge Date: N/A
+
+Patient Information
+The patient is a 76-year-old male with a past medical history significant for anal squamous-cell carcinoma (treated 12 years prior), hypertension, hyperlipidemia, obstructive sleep apnea (on CPAP), chronic daily alcohol use, and a remote history of recurrent genital cellulitis managed with daily amoxicillin prophylaxis.
+
+Historical Information
+• Past Medical History:
+– Anal squamous-cell carcinoma treated with fluorouracil, mitomycin C, radiation therapy, and abdominoperineal resection 12 years ago.
+– Three prior episodes of genital cellulitis, on chronic suppressive amoxicillin for the past 10 years.
+– Hypertension, hyperlipidemia, obstructive sleep apnea (compliant with CPAP).
+– Heavy chronic alcohol use (≥6 ounces liquor daily).
+
+• Medications Prior to Admission:
+– Amoxicillin (daily prophylaxis)
+– Aspirin
+– Fexofenadine
+– Gabapentin
+– Losartan
+– Simvastatin
+– Tamsulosin
+– Daily multivitamin
+
+Reason for Admission
+The patient was admitted for progressive exertional dyspnea and fatigue over the course of one month. He also reported new-onset morning headaches that improved with analgesics and caffeine. He denied fevers, chills, night sweats, cough, or weight gain.
+
+Problem List
+
+Principal Problem:
+• Babesiosis with hemolytic anemia
+
+Active Problems:
+• Normocytic anemia (Hemoglobin decreased to 9.0 g/dL)
+• Thrombocytopenia (Platelet count of 106,000/µL on admission)
+• Mildly elevated liver enzymes (ALT, AST in the 40–60 IU/L range)
+• Mild splenomegaly
+
+Resolved Problems:
+• Patient’s anemia and thrombocytopenia improved by discharge
+• Resolution of dyspnea and headaches
+
+Diagnosis at Discharge
+
+Principal Diagnosis:
+• Babesiosis (Babesia microti infection) with associated hemolytic anemia
+
+Additional Relevant Diagnoses:
+• History of anal squamous-cell carcinoma (treated, no active disease noted)
+• Cirrhosis or cirrhotic changes (implied by imaging – irregular, nodular liver contour, splenomegaly)
+• Hypertension, hyperlipidemia, obstructive sleep apnea
+
+Procedural Information
+
+Surgeries This Admission:
+• N/A (No surgical procedures performed during this admission)
+
+Procedures This Admission:
+• Peripheral blood smear evaluations demonstrating intraerythrocytic parasites (ring-form trophozoites)
+• Polymerase chain reaction (PCR) testing positive for Babesia microti
+• Imaging (CT of head, CT chest/abdomen/pelvis, echocardiogram)
+
+Post-Hospitalization Follow-Up
+
+Items for Post-Hospitalization Follow-Up:
+• Infectious Diseases follow-up to ensure clearance of parasitemia in case of recurrent symptoms, given patient’s cirrhosis (potential immunocompromise).
+• Monitor hemoglobin, platelet count, and liver function.
+• Continue addressing lifestyle modifications for alcohol use.
+
+Pending Results:
+• N/A (No pending results explicitly mentioned)
+
+Hospital Course Narrative
+On presentation, the patient had a one-month history of progressive dyspnea on exertion and fatigue, without classic signs of infection (no reported fevers or chills). Headaches were noted in the mornings, alleviated by aspirin, acetaminophen, and caffeine.
+
+Vital signs were largely within normal limits, but lab evaluation revealed a drop in hemoglobin (from previously normal to 10.9 g/dL on admission, and subsequently to 9.0 g/dL), thrombocytopenia (platelet count of 106,000/µL), elevated lactate dehydrogenase, undetectable haptoglobin, and mild liver enzyme elevations. Splenomegaly and signs of chronic liver disease (irregular/nodular liver contour) were noted on imaging; however, the patient had no overt evidence of acute decompensated cirrhosis.
+
+Further workup of the hemolysis (with negative direct antiglobulin test) included a peripheral blood smear that identified Babesia microti ring-form trophozoites at approximately 2.1% parasitemia. PCR testing confirmed Babesia microti; evaluations for Lyme disease, Anaplasma, and Ehrlichia were negative. The patient did not recall a tick bite, but he frequently golfed in a tick-endemic region.
+
+He was started on azithromycin and atovaquone for 10 days. Over the course of treatment, his symptoms gradually resolved. On repeat blood smear two weeks later, no parasites were visualized. By approximately 10 weeks following discharge, his hemoglobin and platelet counts had returned to normal, and his exertional dyspnea had resolved.
+
+Service-Specific Hospital Course
+• NEURO: Headaches improved with supportive measures; no focal neurologic deficits identified.
+• CV: Mild diastolic dysfunction but no obstructive coronary disease on testing. Troponin levels were mildly elevated but stable (not consistent with acute coronary syndrome).
+• PULM: Dyspnea resolved as the anemia and hemolytic process were treated.
+• GI: Notable for likely cirrhotic changes on imaging but no acute decompensation. Mild LFT elevations improved with resolution of Babesia infection.
+• HEME: Hemolytic anemia with low haptoglobin, elevated LDH. Thrombocytopenia likely secondary to both splenic sequestration and infection-related processes. Both improved after Babesia treatment.
+• ID: Diagnosis of babesiosis confirmed via blood smear and PCR. Managed successfully with azithromycin and atovaquone.
+
+Medications & Discharge Planning
+
+Prior to Admission Medications:
+• Amoxicillin, Aspirin, Fexofenadine, Gabapentin, Losartan, Simvastatin, Tamsulosin, Multivitamin
+
+Medication List During Admission:
+• Azithromycin
+• Atovaquone
+• Continuation of essential home medications as needed for comorbidities
+
+STOP Taking These Medications:
+• No specific discontinuations noted apart from any medications deemed nonessential.
+
+TAKE These Medications (at Discharge):
+• Continue home medications to manage comorbidities (hypertension, hyperlipidemia, etc.)
+• Ensure completion (or completion already achieved in-hospital) of a 10-day course of azithromycin and atovaquone
+
+Discharge Orders:
+• Activity: Gradual return to baseline as tolerated.
+• Dietary: Continue balanced diet; limit alcohol intake.
+• Wound Care: N/A (no new wounds or surgical incisions).
+
+Care Instructions:
+• Monitor for any recurrence of fatigue, dyspnea, or other Babesiosis-related symptoms.
+• Follow up with Infectious Disease for any concerns about persistent parasitemia given patient’s possible immune compromise.
+• Continue routine follow-up with primary care for hypertension, hyperlipidemia, and alcohol cessation counseling.
+
+Follow-Up Appointments:
+• Infectious Diseases follow-up in 1–2 weeks if concerns arise or per established protocols.
+• Primary care or GI/hepatology evaluation to monitor liver status.
+
+Discharge Exam:
+• Stable vitals, resolution of tachycardia.
+• Improved fatigue; no acute distress.
+• Normal cardiopulmonary exam.
+• No focal neurologic deficits.
+
+Lab Data at Discharge:
+• Hemoglobin improving from nadir (9.0 g/dL) toward normal.
+• Platelet count trending upward from 106,000/µL.
+• Liver enzymes near baseline.
+• Blood smear negative for parasites at two-week check.

@@ -1,0 +1,107 @@
+Physician Discharge Summary
+
+Admission Details
+Admit Date: Summer 2021
+Discharge Date: N/A (Exact date not provided)
+
+Patient Information
+76‐year‐old male, retired attorney residing in the greater Boston area with his wife. He is a non‐smoker, with a history of chronic heavy alcohol use (approximately 6 ounces of liquor daily), and no pet exposure.
+
+Historical Information
+
+Past Medical History:
+Anal squamous-cell carcinoma treated 12 years ago with fluorouracil, mitomycin C, radiation therapy, and abdominoperineal resection.
+Multiple episodes of genital cellulitis, maintained on long-term suppressive amoxicillin therapy for the past 10 years.
+Hypertension, hyperlipidemia, and obstructive sleep apnea (managed with continuous positive airway pressure).
+Risk Factors:
+Chronic heavy alcohol consumption.
+History of malignancy and ongoing antibiotic use, increasing susceptibility to infections.
+Reason for Admission
+Presented with a 1-month history of progressively worsening exertional dyspnea and fatigue. The patient also reported new onset of morning headaches, which worsened when supine and improved with aspirin, acetaminophen, and caffeine.
+
+Problem List
+
+Principal Problem:
+Babesiosis with associated nonimmune hemolytic anemia.
+Active Problems:
+Normocytic anemia with decreased hemoglobin (dropped from 10.9 to 9.0 g/dL on day 4).
+Thrombocytopenia (platelet count at 106,000/µL).
+Elevated lactate dehydrogenase and undetectable haptoglobin indicating hemolysis.
+Mild liver enzyme elevations and imaging findings consistent with cirrhosis (irregular liver contour, caudate hypertrophy) and splenomegaly.
+Chronic comorbid conditions (hypertension, hyperlipidemia, obstructive sleep apnea).
+Resolved Problems:
+Cardiopulmonary causes of dyspnea (ruled out by normal vital signs, unremarkable lung exam, and negative CT angiography for pulmonary embolism).
+Resolution of parasitemia after treatment.
+Diagnosis at Discharge
+
+Principal Diagnosis:
+Babesiosis (confirmed B. microti infection) with nonimmune hemolytic anemia.
+Additional Diagnoses:
+Underlying cirrhotic liver changes (without decompensated cirrhosis).
+Thrombocytopenia.
+Chronic conditions: hypertension, hyperlipidemia, and obstructive sleep apnea.
+Procedural Information
+
+Surgeries This Admission:
+N/A
+Procedures This Admission:
+Peripheral blood smear with Wright–Giemsa staining revealing 2.1% parasitemia.
+Polymerase-chain-reaction (PCR) testing positive for B. microti.
+CT imaging of the head, chest, abdomen, and pelvis.
+Transthoracic echocardiogram and myocardial perfusion imaging via SPECT.
+Post-Hospitalization Follow-Up
+
+Items for Follow-Up:
+Repeat laboratory evaluation (complete blood count, liver function tests) to ensure resolution of anemia and thrombocytopenia.
+Consider follow-up imaging or blood smears if symptoms recur.
+Continued monitoring of liver status and splenomegaly.
+Follow-up with cardiology for diastolic dysfunction management.
+Pending Results:
+N/A (All pertinent results were available at discharge.)
+Hospital Course Narrative
+The patient, a 76‐year‐old man with significant past medical history including treated anal cancer and chronic suppressive antibiotic use for recurrent cellulitis, was admitted after a month-long history of worsening dyspnea on exertion and fatigue, accompanied by morning headaches. On presentation, his vital signs were stable (temperature 37.1°C, BP 120/64 mm Hg, HR 72 bpm, RR 15, O₂ saturation 98% on room air) and physical exam was largely unremarkable apart from pursed-lip breathing.
+
+Initial laboratory studies revealed a normocytic anemia and thrombocytopenia, prompting further evaluation. Imaging studies—including CT scans of the abdomen and pelvis—demonstrated mild splenomegaly and liver contour abnormalities suggestive of cirrhotic changes without overt hepatic failure. An echocardiogram identified mild concentric left ventricular hypertrophy and diastolic dysfunction, consistent with his history of hypertension and alcohol use, though no acute cardiac pathology was found.
+
+On hospital day 4, a further drop in hemoglobin to 9.0 g/dL with rising liver enzymes raised concern. A thin blood smear, examined with Wright–Giemsa staining, revealed intraerythrocytic ring forms with 2.1% parasitemia. Subsequent PCR testing confirmed infection with B. microti, establishing the diagnosis of babesiosis. The patient was promptly treated with azithromycin and atovaquone for 10 days. A follow-up blood smear 2 weeks later showed no residual parasites, and by 10 weeks post-treatment, both hemoglobin and platelet counts had normalized, with a complete resolution of his dyspnea.
+
+Service-Specific Hospital Course
+
+NEURO:
+Evaluated for new morning headaches; head CT was normal, and there were no neurological deficits.
+CV:
+Echocardiogram showed mild left ventricular hypertrophy, diastolic dysfunction, and moderate left atrial enlargement; no evidence of acute ischemia.
+PULM:
+Lung examination was unremarkable with normal air entry; dyspnea was attributed to anemia rather than primary pulmonary pathology.
+GI:
+Abdominal CT revealed mild splenomegaly and liver contour irregularities consistent with cirrhosis, though without decompensation.
+HEME:
+Laboratory findings were consistent with nonimmune hemolytic anemia (elevated lactate dehydrogenase, undetectable haptoglobin) and thrombocytopenia; these improved following treatment for babesiosis.
+ID:
+Positive PCR for B. microti confirmed babesiosis; treated effectively with azithromycin and atovaquone.
+Medications & Discharge Planning
+
+Prior to Admission Medications:
+Amoxicillin (daily suppressive therapy for genital cellulitis)
+Aspirin, fexofenadine, gabapentin, losartan, simvastatin, tamsulosin, and a daily multivitamin.
+Medication List (During Admission):
+Azithromycin and atovaquone for babesiosis.
+Supportive care as needed.
+STOP Taking These Medications:
+No specific medications discontinued; continue pre-admission regimen for chronic conditions and cellulitis prophylaxis.
+TAKE These Medications:
+Complete the 10-day course of azithromycin and atovaquone.
+Continue home medications as previously prescribed.
+Discharge Orders:
+Maintain current medication regimen.
+Advise to avoid strenuous activity until full recovery.
+Instruct on tick bite prevention measures (protective clothing, insect repellents, regular skin checks).
+Care Instructions:
+Monitor for recurrence of symptoms (dyspnea, fatigue, fever).
+Seek medical attention if symptoms reappear or worsen.
+Follow-Up Appointments:
+Schedule follow-up with primary care, infectious diseases, and cardiology for ongoing monitoring of anemia, liver function, and cardiac status.
+Discharge Exam:
+Improved overall clinical status with stable vital signs; physical exam was unremarkable except for mild residual fatigue.
+Lab Data:
+At discharge, laboratory studies indicated improving hemoglobin and platelet counts, with liver enzymes trending towards normal levels.

@@ -1,0 +1,168 @@
+# Physician Discharge Summary
+
+## Admission Details
+
+**Admit Date:** Summer 2021 (specific date N/A)  
+**Discharge Date:** N/A (approximately 10 days after admission based on treatment duration)
+
+## Patient Information
+
+76-year-old male retired attorney from the greater Boston area.
+
+## Historical Information
+
+**Past Medical History:**
+- Anal squamous cell carcinoma (treated 12 years prior with fluorouracil, mitomycin C, radiation therapy, and abdominoperineal resection)
+- History of genital cellulitis (3 episodes)
+- Hypertension
+- Hyperlipidemia
+- Obstructive sleep apnea requiring CPAP
+- Chronic alcohol use (≥6 ounces of liquor daily for many years)
+- Cirrhosis (newly identified during this admission)
+
+**Medications Prior to Admission:**
+- Amoxicillin (daily suppressive therapy for 10 years)
+- Aspirin (daily)
+- Fexofenadine
+- Gabapentin
+- Losartan
+- Simvastatin
+- Tamsulosin
+- Daily multivitamin
+
+**Social History:**
+- Retired attorney
+- Lives with wife in greater Boston area
+- No smoking history
+- Heavy alcohol use (≥6 ounces daily for many years)
+- No pets
+- Frequents a golf course with scrub vegetation
+
+## Reason for Admission
+
+Patient presented with a 1-month history of progressively worsening exertional dyspnea and fatigue. Previously able to walk across a golf course without discomfort, he now required a golf cart and became breathless during light activities such as getting dressed. Also reported new onset of morning headaches that were worse when supine and improved with aspirin, acetaminophen, and caffeine.
+
+## Problem List
+
+**Principal Problem:**
+- Babesiosis with hemolytic anemia
+
+**Active Problems:**
+- Normocytic anemia (Hgb 10.9 g/dL on admission, decreased to 9.0 g/dL)
+- Thrombocytopenia (106,000/μL)
+- Mild hepatic abnormalities with elevated transaminases
+- Cirrhosis with mild splenomegaly
+- Elevated inflammatory markers (ESR, CRP, fibrinogen)
+- Elevated troponin T (25 ng/L) without acute coronary syndrome
+- Structural cardiac changes (mild concentric LV hypertrophy, mild LV diastolic dysfunction, moderate left atrial enlargement, mild right atrial enlargement, mild-to-moderate mitral regurgitation)
+
+**Resolved Problems:**
+- Dyspnea (resolved by 10-week follow-up)
+
+## Diagnosis at Discharge
+
+**Principal Diagnosis:**
+- Babesiosis with associated hemolytic anemia (2.1% parasitemia)
+
+**Secondary Diagnoses:**
+- Cirrhosis with mild splenomegaly
+- Chronic alcohol use
+- Structural heart disease (possibly related to hypertension and alcohol use)
+
+## Procedural Information
+
+**Surgeries This Admission:**
+- N/A
+
+**Procedures This Admission:**
+- Peripheral blood smear evaluation (revealed intraerythrocytic ring-form trophozoites)
+- PCR testing for B. microti (positive)
+- CT of head (normal)
+- CT of abdomen and pelvis (revealed cirrhosis and mild splenomegaly)
+- CT angiography of chest (no pulmonary embolism)
+- Transthoracic echocardiogram
+- Myocardial perfusion single-photon-emission CT scan
+- Multiple laboratory evaluations
+
+## Post-Hospitalization Follow-Up
+
+**Items for Post-Hospitalization Follow-Up:**
+- Repeat blood count testing to confirm resolution of anemia and thrombocytopenia
+- Monitoring of liver function tests
+- Evaluation and management of newly diagnosed cirrhosis
+- Alcohol cessation counseling
+- Consideration of gastroenterology referral for management of cirrhosis
+
+**Pending Results:**
+- N/A
+
+## Hospital Course Narrative
+
+This 76-year-old male with a history of treated anal squamous cell carcinoma, hypertension, hyperlipidemia, and obstructive sleep apnea presented with a 1-month history of progressively worsening exertional dyspnea and fatigue. Initial vital signs were stable with normal oxygen saturation. Physical examination was notable for pursed-lip breathing but otherwise unremarkable.
+
+Laboratory evaluation revealed normocytic anemia (Hgb 10.9 g/dL), thrombocytopenia (106,000/μL), and mildly elevated liver enzymes and bilirubin. Further workup demonstrated evidence of hemolysis with undetectable haptoglobin, elevated LDH (574 IU/L), and a reticulocyte production index of 1.8. Direct and indirect antiglobulin tests were negative, indicating a non-immune hemolytic process. Inflammatory markers including ESR (111 mm/hr), CRP (164 mg/L), and fibrinogen (854 mg/dL) were significantly elevated.
+
+Cardiac evaluation revealed mildly elevated troponin levels (25 ng/L) without evidence of acute coronary syndrome. Echocardiogram showed mild structural abnormalities including LV hypertrophy, diastolic dysfunction, and atrial enlargement. A myocardial perfusion scan showed no regional perfusion deficits.
+
+Imaging studies revealed evidence of cirrhosis with mild splenomegaly. By hospital day 4, the patient's hemoglobin had decreased to 9.0 g/dL and liver enzymes had further increased. Peripheral blood smear examination revealed intraerythrocytic ring-form trophozoites with 2.1% parasitemia, and PCR testing confirmed B. microti infection. The patient did not recall a recent tick bite but had exposure to scrub vegetation in his backyard and at his golf course.
+
+The patient was treated with azithromycin and atovaquone for 10 days. Repeat blood smear 2 weeks later showed no parasites. At 10-week follow-up, his hemoglobin and platelet counts had normalized, and his dyspnea had completely resolved.
+
+## Service-Specific Hospital Course
+
+**NEURO:** Patient presented with new morning headaches that were worse when supine and responded to aspirin, acetaminophen, and caffeine. CT of the head was normal. Headaches were likely related to anemia and resolved with treatment of the underlying babesiosis.
+
+**CV:** Mild elevation in troponin T (25 ng/L) consistent with Type 2 myocardial injury secondary to anemia. Echocardiogram showed structural abnormalities including mild concentric LV hypertrophy, diastolic dysfunction, and atrial enlargement, likely related to chronic hypertension and alcohol use. No evidence of acute coronary syndrome or heart failure.
+
+**PULM:** Patient presented with dyspnea but had normal oxygen saturation and clear lungs. CT angiography of chest showed no pulmonary embolism or parenchymal disease. Dyspnea was attributed to anemia.
+
+**GI:** Incidental finding of cirrhosis with hepatosplenomegaly on abdominal imaging, likely related to chronic alcohol use. Mild elevation in liver enzymes and bilirubin, which increased during hospitalization, presumably due to Babesia infection.
+
+**HEME:** Normocytic anemia with evidence of hemolysis (undetectable haptoglobin, elevated LDH) and thrombocytopenia, ultimately attributed to babesiosis. Blood smear revealed 2.1% parasitemia with intraerythrocytic ring-form trophozoites consistent with B. microti infection.
+
+**ID:** Diagnosis of babesiosis confirmed by blood smear and PCR. Patient was treated with azithromycin and atovaquone for 10 days with excellent response. Testing for potential co-infections (Lyme disease, anaplasmosis, ehrlichiosis) was negative.
+
+## Medications & Discharge Planning
+
+**Prior to Admission Medications:**
+- Amoxicillin (daily)
+- Aspirin (daily)
+- Fexofenadine
+- Gabapentin
+- Losartan
+- Simvastatin
+- Tamsulosin
+- Daily multivitamin
+
+**STOP Taking These Medications:**
+- N/A (no specific medications were discontinued)
+
+**TAKE These Medications:**
+- Azithromycin and atovaquone (complete 10-day course)
+- Continue prior medications as prescribed
+
+**Discharge Orders:**
+- Complete full 10-day course of azithromycin and atovaquone
+- Follow up with primary care physician in 2 weeks
+- Abstain from alcohol consumption
+- Resume normal activity as tolerated
+
+**Care Instructions:**
+- Monitor for recurrence of symptoms including fatigue, dyspnea, or fever
+- Implement tick-bite prevention strategies when outdoors
+- Seek immediate medical attention if symptoms worsen or new symptoms develop
+
+**Follow-Up Appointments:**
+- Primary care physician in 2 weeks
+- Consider gastroenterology referral for management of newly diagnosed cirrhosis
+
+**Discharge Exam:**
+- Vital signs stable
+- Resolution of pursed-lip breathing
+- Otherwise unchanged from admission
+
+**Lab Data:**
+- Hemoglobin: 9.0 g/dL at hospital day 4 (improved to normal range by 10-week follow-up)
+- Platelet count: 106,000/μL at admission (normalized by 10-week follow-up)
+- Liver enzymes: ALT 63 IU/L, AST 57 IU/L at hospital day 4
+- Blood smear: 2.1% parasitemia on hospital day 4, no parasites present at 2-week follow-up

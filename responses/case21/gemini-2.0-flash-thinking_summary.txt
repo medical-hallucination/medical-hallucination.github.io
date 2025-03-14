@@ -1,0 +1,83 @@
+Physician Discharge Summary
+
+Admission Details
+
+Admit Date: Summer of 2021 (Approximation based on case description)
+Discharge Date: N/A (Discharge date not explicitly mentioned, but implied after 10 days of treatment and resolution of dyspnea at 10 weeks follow-up)
+Patient Information
+
+76-year-old male
+Historical Information
+
+Past Medical History: Anal squamous-cell carcinoma (treated 12 years prior with fluorouracil, mitomycin C, radiation, and abdominoperineal resection), recurrent genital cellulitis (on suppressive amoxicillin for 10 years), hypertension, hyperlipidemia, obstructive sleep apnea (CPAP use).
+Risk Factors: Age > 50, history of cancer, chronic amoxicillin use, hypertension, hyperlipidemia, heavy alcohol consumption (6 ounces of liquor daily).
+Medications Prior to Admission: Amoxicillin, aspirin, fexofenadine, gabapentin, losartan, simvastatin, tamsulosin, multivitamin.
+Lifestyle: Retired attorney, lives in greater Boston area, no smoking, no pets, heavy alcohol consumption.
+Reason for Admission
+
+Progressively worsening exertional dyspnea and fatigue for 1 month. New onset of morning headaches worse in supine position, relieved by aspirin, acetaminophen, and caffeine.
+Problem List
+
+Principal Problem: Babesiosis with hemolytic anemia
+Active Problems: Anemia (resolved at follow-up), Thrombocytopenia (resolved at follow-up), Mildly elevated troponin (stable), Liver abnormalities (irregular nodular contour, widening of fissures, caudate hypertrophy), Splenomegaly, History of hypertension, hyperlipidemia, obstructive sleep apnea.
+Resolved Problems: Exertional dyspnea, fatigue, headaches, Babesiosis infection, Hemolytic anemia, Thrombocytopenia.
+Diagnosis at Discharge
+
+Principal Diagnosis: Babesiosis with associated hemolytic anemia
+Additional Diagnoses: History of anal squamous-cell carcinoma (treated), Hypertension, Hyperlipidemia, Obstructive Sleep Apnea, Liver abnormalities of unclear etiology (consistent with cirrhosis on CT).
+Procedural Information
+
+Surgeries This Admission: N/A
+Procedures This Admission:
+- Physical Examination
+- Electrocardiogram (ECG)
+- Blood tests including complete blood count, comprehensive metabolic panel, troponin, BNP, INR, PTT, D-dimer, ferritin, transferrin saturation, thyroid studies, cobalamin, venous blood gas, SARS-CoV-2 PCR.
+- CT scan of head, abdomen, and pelvis.
+- CT angiography of chest.
+- Transthoracic echocardiogram.
+- Myocardial perfusion single-photon-emission CT scan.
+- Peripheral blood smear examination for parasites.
+- PCR testing for Babesia microti.
+- Enzyme-linked immunosorbent assays for Borrelia burgdorferi IgM and IgG.
+- Combined PCR test for Anaplasma phagocytophilum and ehrlichia species.
+Post-Hospitalization Follow-Up
+
+Items for Post-Hospitalization Follow-Up:
+- Follow-up blood smear examination (completed and negative 2 weeks post-treatment).
+- Monitoring of hemoglobin and platelet levels to ensure normalization (normalized at 10 weeks follow-up).
+- General follow-up with primary care physician for ongoing health maintenance and monitoring of chronic conditions.
+Pending Results: N/A (All results available during hospitalization)
+Hospital Course Narrative
+
+The patient presented with a 1-month history of progressive exertional dyspnea and fatigue. Initial evaluation included ruling out cardiovascular and pulmonary causes of dyspnea. Physical exam was largely unremarkable except for pursed-lip breathing. Initial labs showed anemia and thrombocytopenia.  Troponin was mildly elevated. CT scans revealed liver abnormalities and splenomegaly, but no pulmonary embolism or masses. Echocardiogram showed mild structural heart changes. Myocardial perfusion scan was normal.  Further lab investigations revealed evidence of hemolytic anemia (elevated LDH, undetectable haptoglobin, elevated bilirubin, elevated ferritin, low transferrin saturation).  Initial blood smear was negative, but repeat smear on hospital day 4 revealed intraerythrocytic ring-form trophozoites. PCR for Babesia microti was positive, confirming the diagnosis of Babesiosis.  Treatment with azithromycin and atovaquone was initiated on hospital day 4 and continued for 10 days. Repeat blood smear 2 weeks post-treatment was negative. At 10 weeks follow-up, hemoglobin and platelet count had normalized, and dyspnea had resolved. The patient tolerated treatment well without reported complications during hospitalization.
+
+Service-Specific Hospital Course
+
+NEURO: Head CT was normal. Patient presented with new onset morning headaches, which resolved with analgesics and caffeine and did not recur during hospitalization after treatment initiation.
+CV: Mildly elevated, stable troponin level was noted. Echocardiogram showed mild concentric left ventricular hypertrophy, mild diastolic dysfunction, moderate left atrial enlargement, mild right atrial enlargement, and mild-to-moderate mitral regurgitation, but no regional wall motion abnormalities. Myocardial perfusion scan showed no ischemia.  Pulmonary artery systolic pressure was normal.
+PULM: Patient presented with exertional dyspnea. CT angiography ruled out pulmonary embolism. Pursed-lip breathing was noted on examination. Dyspnea resolved after treatment of Babesiosis.
+GI: CT abdomen and pelvis showed liver abnormalities (irregular nodular contour, widening of fissures, caudate hypertrophy) consistent with possible cirrhosis and splenomegaly. Liver function tests showed mild elevation of transaminases and bilirubin.
+HEME: Patient presented with anemia and thrombocytopenia.  Hemolytic anemia was diagnosed based on lab findings (elevated LDH, undetectable haptoglobin, elevated bilirubin, elevated ferritin, low transferrin saturation).  Anemia and thrombocytopenia resolved after treatment of Babesiosis.
+ID: Infectious disease was consulted due to suspicion of hemolytic anemia and potential infectious etiology. Babesiosis was diagnosed and treated with azithromycin and atovaquone. Patient responded well to treatment with resolution of parasitemia and symptoms.
+Medications & Discharge Planning
+
+Prior to Admission Medications: Amoxicillin, aspirin, fexofenadine, gabapentin, losartan, simvastatin, tamsulosin, multivitamin.
+Medication List: Azithromycin, Atovaquone, Aspirin, Fexofenadine, Gabapentin, Losartan, Simvastatin, Tamsulosin, Multivitamin.
+STOP Taking These Medications: No medications explicitly discontinued during hospitalization were mentioned. Amoxicillin for cellulitis suppression may be continued as per prior regimen.
+TAKE These Medications: Continue prior home medications: Aspirin, Fexofenadine, Gabapentin, Losartan, Simvastatin, Tamsulosin, Multivitamin, Amoxicillin (if previously prescribed for ongoing cellulitis suppression). Complete the full course of Babesiosis treatment (Azithromycin and Atovaquone for 10 days, if not fully completed during hospitalization).
+Discharge Orders:
+- Activity: As tolerated, gradual increase in activity as strength improves.
+- Diet: Regular diet.
+- Wound Care: N/A.
+- Other: Tick bite prevention measures recommended (protective clothing, insect repellent, regular skin checks).
+Care Instructions:
+- Monitor for any recurrence of dyspnea, fatigue, fever, or other symptoms.
+- Continue tick bite prevention measures, especially during outdoor activities in endemic areas.
+- Follow up with primary care physician for routine care and monitoring of chronic conditions.
+Follow-Up Appointments:
+- Follow-up blood work as directed by primary care physician to ensure continued normalization of hemoglobin and platelet counts and monitor liver function if deemed necessary.
+- General follow-up with PCP recommended.
+Discharge Exam:
+Patient’s dyspnea and fatigue have resolved.  Physical exam unremarkable. Vital signs stable.
+Lab Data:
+Hemoglobin and platelet count normalized at 10 weeks follow-up. (Specific discharge lab values not provided, but trend is towards normalization).

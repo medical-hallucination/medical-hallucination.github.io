@@ -1,0 +1,210 @@
+Physician Discharge Summary
+
+Admission Details
+
+Admit Date: N/A (The case states presentation in the "summer of 2021," but no specific date is given. We know he was hospitalized for at least 4 days, as diagnosis was made on day 4.)
+
+Discharge Date: N/A (Not explicitly stated, but we can infer at least 10 days after admission, given the treatment duration. A reasonable estimate would be 10-14 days post-admission.)
+
+Patient Information
+
+76-year-old male
+
+Retired attorney
+
+Lives in the greater Boston area with his wife.
+
+Historical Information
+
+Past Medical History:
+
+Anal squamous-cell carcinoma (treated 12 years prior with fluorouracil, mitomycin C, radiation, and abdominoperineal resection)
+
+Genital cellulitis (3 episodes, on suppressive amoxicillin for 10 years)
+
+Hypertension
+
+Hyperlipidemia
+
+Obstructive sleep apnea (uses CPAP)
+
+Risk Factors:
+* Chronic heavy alcohol use (at least 6 ounces of liquor daily for many years)
+* Lives in a Babesiosis-endemic area (greater Boston area)
+* Frequent exposure to tick habitat (golf course with extensive scrub vegetation)
+* Never smoked cigarettes.
+* No pets.
+
+Reason for Admission
+
+Progressively worsening exertional dyspnea (1-month history)
+
+Fatigue (1-month history)
+
+New onset of headaches on awakening, worse in the supine position, relieved by aspirin, acetaminophen, and caffeine.
+
+Problem List
+
+Principal Problem: Babesiosis with hemolytic anemia
+
+Active Problems:
+
+Anemia (normocytic, hemolytic)
+
+Thrombocytopenia
+
+Hepatic abnormalities (consistent with cirrhosis on imaging)
+
+Splenomegaly
+
+Elevated inflammatory markers (ESR, CRP, fibrinogen)
+
+Resolved Problems:
+
+Dyspnea (resolved after treatment)
+
+Diagnosis at Discharge
+
+Principal Diagnosis: Babesiosis with associated hemolytic anemia
+
+Additional Diagnoses:
+
+Cirrhosis (likely alcohol-related)
+
+Hypertension
+
+Hyperlipidemia
+
+Obstructive Sleep Apnea
+
+Procedural Information
+
+Surgeries This Admission: N/A
+
+Procedures This Admission:
+
+Blood smear evaluation (revealed intraerythrocytic ring-form trophozoites)
+
+PCR testing for B. microti (positive)
+
+CT head (normal)
+
+CT abdomen and pelvis (showed liver abnormalities consistent with cirrhosis and splenomegaly)
+
+CT angiography of the chest (ruled out pulmonary embolism)
+
+Transthoracic echocardiogram (showed mild concentric left ventricular hypertrophy, mild left ventricular diastolic dysfunction, and other mild abnormalities, but no heart failure)
+
+Myocardial perfusion single-photon-emission CT scan (no regional perfusion deficits)
+
+Serologic testing for Borrelia burgdorferi (negative)
+
+PCR test for Anaplasma phagocytophilum and ehrlichia species (negative)
+
+Post-Hospitalization Follow-Up
+
+Items for Post-Hospitalization Follow-Up:
+
+Repeat complete blood count (CBC) to confirm resolution of anemia and thrombocytopenia (achieved 10 weeks after treatment initiation in the case).
+
+Monitor for any recurrence of symptoms.
+
+Continued management of hypertension, hyperlipidemia, and obstructive sleep apnea.
+
+Counseling on alcohol cessation.
+
+Consider hepatology consultation for further evaluation and management of cirrhosis.
+
+Education on tick bite prevention.
+
+Pending Results: N/A
+
+Hospital Course Narrative
+
+The patient, a 76-year-old male, presented with a 1-month history of progressive exertional dyspnea, fatigue, and new-onset morning headaches. Initial evaluation ruled out acute cardiopulmonary causes, including myocardial infarction and pulmonary embolism. Laboratory findings revealed normocytic anemia (hemoglobin 10.9 g/dL, decreasing to 9.0 g/dL on day 4), thrombocytopenia (platelet count 106,000/µL), elevated liver enzymes (AST, ALT), and elevated inflammatory markers. Imaging revealed liver abnormalities consistent with cirrhosis and splenomegaly.
+
+The key diagnostic finding was the identification of intraerythrocytic ring-form trophozoites on a thin blood smear, confirmed by a positive PCR test for Babesia microti. This established the diagnosis of Babesiosis. The patient did not recall a tick bite, but frequented areas with high tick exposure.
+
+Treatment was initiated with azithromycin and atovaquone for a 10-day course. The patient's dyspnea resolved, and follow-up blood work 10 weeks later showed normalization of hemoglobin and platelet counts. The patient's hemolytic anemia was attributed to Babesiosis. The elevated inflammatory markers were also attributed to the infection.
+
+No complications were encountered during the hospitalization.
+
+Service-Specific Hospital Course
+
+NEURO: CT of the head was normal. No focal neurological deficits.
+
+CV: EKG showed normal sinus rhythm, incomplete right bundle-branch block, no ST-segment or T-wave abnormalities. Echocardiogram showed mild structural changes but no heart failure. Myocardial perfusion scan was negative.
+
+PULM: CT angiography ruled out pulmonary embolism. No infiltrates or masses. Pursed-lip breathing noted on exam, but no wheezes or rhonchi.
+
+GI: CT abdomen/pelvis showed liver findings consistent with cirrhosis and splenomegaly. No signs of hepatic decompensation.
+
+HEME: Normocytic anemia, thrombocytopenia, elevated LDH, undetectable haptoglobin, negative direct and indirect antiglobulin tests – consistent with nonimmune hemolytic anemia.
+
+ID: Diagnosis of Babesiosis confirmed. Treated with azithromycin and atovaquone. Negative testing for other tick-borne illnesses.
+
+Medications & Discharge Planning
+
+Prior to Admission Medications:
+
+Amoxicillin (daily, for suppressive therapy)
+
+Aspirin (daily)
+
+Fexofenadine
+
+Gabapentin
+
+Losartan
+
+Simvastatin
+
+Tamsulosin
+
+Multivitamin
+
+Medication List (During Admission):
+
+Azithromycin
+
+Atovaquone
+
+Continued home medications (likely, though not explicitly stated)
+
+STOP Taking These Medications: N/A (Based on the provided information, no medications were explicitly stopped. It's possible amoxicillin was held during treatment for Babesiosis, but this is not stated.)
+
+TAKE These Medications:
+
+Azithromycin and Atovaquone were completed during the hospital stay.
+
+Continue home medications (as above).
+
+Discharge Orders:
+
+Activity: As tolerated.
+
+Diet: Regular diet, with emphasis on alcohol cessation.
+
+Wound Care: N/A
+
+Care Instructions:
+
+Monitor for any recurrence of symptoms (dyspnea, fatigue, fever, chills).
+
+Practice tick bite prevention measures (protective clothing, insect repellent, regular skin checks).
+
+Follow-Up Appointments:
+
+Follow-up with primary care physician (timing not specified, but typically within 1-2 weeks).
+
+Repeat CBC (occurred 10 weeks later in the case).
+
+Consider hepatology consultation.
+
+Discharge Exam:
+
+Not explicitly detailed, but we can infer that the patient was stable, afebrile, and no longer experiencing dyspnea.
+
+Lab Data (at time of discharge):
+
+Not provided at exact time of discharge, but 10 weeks post treatment: Hemoglobin and platelet count normalized.
