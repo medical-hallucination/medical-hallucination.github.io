@@ -485,7 +485,7 @@
                         Q. Based on the provided information, please provide a discharge note.
                     </div>
                     <div class="test-response" id="summaryResponse">
-                        Press Generate Response button to get LLM outputs...
+                        Click a section to start analysis...
                     </div>
                     <div class="selected-text-info" id="summarySelected"></div>
                     <div class="comment-section">
@@ -943,13 +943,14 @@
                 const responseFiles = {
                     chronologicalResponse: `responses/${currentCase}/${selectedModel}_chronological.txt`,
                     labDataResponse: `responses/${currentCase}/${selectedModel}_lab_data.txt`,
-                    diagnosisPredictionResponse: `responses/${currentCase}/${selectedModel}_diagnosis.txt`
+                    diagnosisPredictionResponse: `responses/${currentCase}/${selectedModel}_diagnosis.txt`,
+                    summaryResponse: `responses/${currentCase}/${selectedModel}_summary.txt`
                 };
 
                 // Additional condition for case21
-                if (currentCase === "case21") {
-                    responseFiles.summaryResponse = `responses/${currentCase}/${selectedModel}_summary.txt`;
-                }
+                // if (currentCase === "case21") {
+                //     responseFiles.summaryResponse = `responses/${currentCase}/${selectedModel}_summary.txt`;
+                // }
 
                 console.log("Response files:", responseFiles);
 
@@ -978,7 +979,7 @@
 
                         const responseElement = document.getElementById(responseId);
                         if (responseElement) {
-                            responseElement.innerHTML = `<div class="error-message">Error loading response: ${error.message}</div>`;
+                            responseElement.innerHTML = `<div class="error-message">Please select LLM model and regenerate response! </div>`;
                         }
                     }
                 }
@@ -1130,7 +1131,7 @@
             // addStorageManagementButtons();
             
             // Set initial response messages
-            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse','summaryResponse'].forEach(id => {
                 const element = document.getElementById(id);
                 if (element) {
                     element.innerHTML = 'Press Generate Response button to get LLM outputs...';
@@ -1644,6 +1645,7 @@
             document.getElementById('chronologicalResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
             document.getElementById('labDataResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
             document.getElementById('diagnosisPredictionResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
+            document.getElementById('summaryResponse').innerHTML = 'Press Generate Response button to get LLM outputs...';
         });
 
         // Hallucination types definition
@@ -2035,7 +2037,7 @@
 
         // Clear all annotations for the current case
         function clearCurrentCaseAnnotations() {
-            const sectionsToCheck = ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'];
+            const sectionsToCheck = ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse','summaryResponse'];
             
             try {
                 // Clear highlights
@@ -2349,7 +2351,7 @@
             if (section === 'images') return;
 
             // Set loading state
-            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse','summaryResponse'].forEach(id => {
                 const element = document.getElementById(id);
                 if (element) {
                     element.innerHTML = '<div class="loading">Loading response...</div>';
@@ -2371,7 +2373,9 @@
                 const responseFiles = {
                     chronologicalResponse: `responses/${currentCase}/${modelPrefix}_chronological.txt`,
                     labDataResponse: `responses/${currentCase}/${modelPrefix}_lab_data.txt`,
-                    diagnosisPredictionResponse: `responses/${currentCase}/${modelPrefix}_diagnosis.txt`
+                    diagnosisPredictionResponse: `responses/${currentCase}/${modelPrefix}_diagnosis.txt`,
+                    summaryResponse: `responses/${currentCase}/${modelPrefix}_summary.txt`
+
                 };
 
                 // Process each response file
@@ -2410,7 +2414,7 @@
             } catch (error) {
                 console.error('Error loading responses:', error);
                 const errorMessage = `<div class="error-message">Error loading responses: ${error.message}</div>`;
-                ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+                ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse','summaryResponse'].forEach(id => {
                     const element = document.getElementById(id);
                     if (element) element.innerHTML = errorMessage;
                 });
@@ -2423,7 +2427,8 @@
             const taskAreas = [
                 'chronologicalResponse',
                 'labDataResponse',
-                'diagnosisPredictionResponse'
+                'diagnosisPredictionResponse',
+                'summaryResponse'
             ];
             
             taskAreas.forEach(areaId => {
@@ -2595,7 +2600,8 @@
             const taskTypes = {
                 'chronologicalResponse': 'Chronological Ordering',
                 'labDataResponse': 'Lab Data Understanding',
-                'diagnosisPredictionResponse': 'Diagnosis Prediction'
+                'diagnosisPredictionResponse': 'Diagnosis Prediction',
+                'summaryResponse': 'Discharge note generation'
             };
             return taskTypes[sectionId] || 'Unknown';
         }
@@ -2654,7 +2660,7 @@
             addStorageManagementButtons();
             
             // Set initial response messages
-            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse'].forEach(id => {
+            ['chronologicalResponse', 'labDataResponse', 'diagnosisPredictionResponse','summaryResponse'].forEach(id => {
                 const element = document.getElementById(id);
                 if (element) {
                     element.innerHTML = 'Press Generate Response button to get LLM outputs...';

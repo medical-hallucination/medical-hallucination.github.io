@@ -31,32 +31,19 @@ The clinical team initially focused on identifying common and life-threatening c
 The identification of the correct diagnosis required overcoming multiple cognitive biases.12 The incidental finding of radiologic evidence of liver fibrosis provided a plausible explanation for the findings of anemia and thrombocytopenia, on which the clinical team initially anchored. This is an example of "search satisficing" (i.e., ceasing to look for alternative explanations once the first plausible solution is found).13 In addition, consideration of an infectious cause of anemia required looking beyond the representativeness heuristic - the tendency to look for classic presentations of disease rather than atypical variations. Fever is present in 89% of documented cases of babesiosis,5 but it may be absent in infected hosts with immune dysfunc-tion, such as this patient with cirrhosis.14 These biases can be overcome with a "diagnostic timeout," a process during which a clinical team identifies consistencies and inconsistencies between known data and a working diagnosis, identifies alternative diagnoses and data gaps, and acknowledges and acts on diagnostic uncertainty.15 The combination of this patient's highly suggestive laboratory tests and the recognition of local tickborne diseases ultimately led to the identification of babesiosis as an uncommon cause of a common condition, dyspnea.
 
 ## References
-1. Centers for Disease Control and Prevention. National Notifiable Diseases Surveillance System (NNDSS): notifiable infectious disease data tables. 2021 (https:// www.cdc.gov/nndss/data-statistics/ infectious-tables/index.html). 
-<br>
-2. Gray EB, Herwaldt BL. Babesiosis surveillance - United States, 2011–2015. MMWR Surveill Summ 2019;68:1-11. 
-<br>
-3. Wilson CH, Gasmi S, Bourgeois A-C, et al. Surveillance for *Ixodes scapularis* and Ixodes pacificus ticks and their associated pathogens in Canada, 2019. Can Commun Dis Rep 2022;48:208-18. 
-<br>
-4. Diuk-Wasser MA, VanAcker MC, Fernandez MP. Impact of land use changes and habitat fragmentation on the ecoepidemiology of tick-borne diseases. J Med Entomol 2021;58:1546-64. 
-<br>
-5. Vannier EG, Diuk-Wasser MA, Ben Mamoun C, Krause PJ. Babesiosis. Infect Dis Clin North Am 2015;29:357-70. 
-<br>
-6. Krause PJ, Spielman A, Telford SR III, et al. Persistent parasitemia after acute babesiosis. N Engl J Med 1998;339:160-5. 
-<br>
-7. Krause PJ, Telford S III, Spielman A, et al. Comparison of PCR with blood smear and inoculation of small animals for diagnosis of Babesia microti parasitemia. J Clin Microbiol 1996;34:2791-4. 
-<br>
-8. Wang G, Villafuerte P, Zhuge J, Visintainer P, Wormser GP. Comparison of a quantitative PCR assay with peripheral blood smear examination for detection and quantitation of Babesia microti infection in humans. Diagn Microbiol Infect Dis 2015;82:109-13.
-<br>
-9. Diuk-Wasser MA, Vannier E, Krause PJ. Coinfection by ixodes tick-borne pathogens: ecological, epidemiological, and clinical consequences. Trends Parasitol 2016;32:30-42. 
-<br>
-10. Krause PJ, Auwaerter PG, Bannuru RR, et al. Clinical practice guidelines by the Infectious Diseases Society of America (IDSA): 2020 guideline on diagnosis and management of babesiosis. Clin Infect Dis 2021;72(2):e49-e64. 
-<br>
-11. Krause PJ, Lepore T, Sikand VK, et al. Atovaquone and azithromycin for the treatment of babesiosis. N Engl J Med 2000;343:1454-8. 
-<br>
-12. Croskerry P, Singhal G, Mamede S. Cognitive debiasing 1: origins of bias and theory of debiasing. BMJ Qual Saf 2013; 22:Suppl 2:ii58-ii64. 
-<br>
-13. Croskerry P. Achieving quality in clinical decision making: cognitive strategies and detection of bias. Acad Emerg Med 2002;9:1184-204. 
-<br>
+1. Centers for Disease Control and Prevention. National Notifiable Diseases Surveillance System (NNDSS): notifiable infectious disease data tables. 2021 (https:// www.cdc.gov/nndss/data-statistics/ infectious-tables/index.html). <br>
+2. Gray EB, Herwaldt BL. Babesiosis surveillance - United States, 2011–2015. MMWR Surveill Summ 2019;68:1-11. <br>
+3. Wilson CH, Gasmi S, Bourgeois A-C, et al. Surveillance for *Ixodes scapularis* and Ixodes pacificus ticks and their associated pathogens in Canada, 2019. Can Commun Dis Rep 2022;48:208-18. <br>
+4. Diuk-Wasser MA, VanAcker MC, Fernandez MP. Impact of land use changes and habitat fragmentation on the ecoepidemiology of tick-borne diseases. J Med Entomol 2021;58:1546-64. <br>
+5. Vannier EG, Diuk-Wasser MA, Ben Mamoun C, Krause PJ. Babesiosis. Infect Dis Clin North Am 2015;29:357-70. <br>
+6. Krause PJ, Spielman A, Telford SR III, et al. Persistent parasitemia after acute babesiosis. N Engl J Med 1998;339:160-5. <br>
+7. Krause PJ, Telford S III, Spielman A, et al. Comparison of PCR with blood smear and inoculation of small animals for diagnosis of Babesia microti parasitemia. J Clin Microbiol 1996;34:2791-4. <br>
+8. Wang G, Villafuerte P, Zhuge J, Visintainer P, Wormser GP. Comparison of a quantitative PCR assay with peripheral blood smear examination for detection and quantitation of Babesia microti infection in humans. Diagn Microbiol Infect Dis 2015;82:109-13.<br>
+9. Diuk-Wasser MA, Vannier E, Krause PJ. Coinfection by ixodes tick-borne pathogens: ecological, epidemiological, and clinical consequences. Trends Parasitol 2016;32:30-42. <br>
+10. Krause PJ, Auwaerter PG, Bannuru RR, et al. Clinical practice guidelines by the Infectious Diseases Society of America (IDSA): 2020 guideline on diagnosis and management of babesiosis. Clin Infect Dis 2021;72(2):e49-e64. <br>
+11. Krause PJ, Lepore T, Sikand VK, et al. Atovaquone and azithromycin for the treatment of babesiosis. N Engl J Med 2000;343:1454-8. <br>
+12. Croskerry P, Singhal G, Mamede S. Cognitive debiasing 1: origins of bias and theory of debiasing. BMJ Qual Saf 2013; 22:Suppl 2:ii58-ii64. <br>
+13. Croskerry P. Achieving quality in clinical decision making: cognitive strategies and detection of bias. Acad Emerg Med 2002;9:1184-204. <br>
 14. Haidar G, Singh N. The evolving challenge of infections in cirrhosis. N Engl J Med 2021;385:1150-1. 15. Patient Safety Learning Lab. Improving the safety of diagnosis and therapy in the inpatient setting. Boston: Brigham and Women's Hospital, 2019 (https://psll .bwh.harvard.edu/psll-2-0).
 
 Copyright © 2023 Massachusetts Medical Society.
