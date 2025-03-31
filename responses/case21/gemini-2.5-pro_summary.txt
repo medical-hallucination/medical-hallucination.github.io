@@ -1,0 +1,205 @@
+Physician Discharge Summary
+
+Admission Details
+
+Admit Date: Summer 2021 (Exact date N/A)
+
+Discharge Date: N/A (Patient received a 10-day course of antibiotics, suggesting discharge occurred around or after hospital day 10-14)
+
+Patient Information
+
+76-year-old male, retired attorney, residing in the greater Boston area.
+
+Historical Information
+
+Past Medical History: Anal squamous-cell carcinoma (treated 12 years prior with fluorouracil, mitomycin C, radiation therapy, and abdominoperineal resection); History of recurrent genital cellulitis managed with suppressive daily amoxicillin for the past 10 years; Hypertension; Hyperlipidemia; Obstructive sleep apnea (uses CPAP regularly).
+
+Social History: Significant chronic alcohol use (at least 6 ounces of liquor daily for many years); Never smoked cigarettes; No pets; Lives with wife. Potential exposure to ticks via backyard scrub vegetation and golf course.
+
+Risk Factors: Age, hypertension, hyperlipidemia (cardiovascular risk); Chronic heavy alcohol use (cirrhosis, cardiomyopathy, anemia risk); Long-term amoxicillin use. Resides in Babesia-endemic area (Northeastern US).
+
+Reason for Admission
+
+Presenting with a 1-month history of progressively worsening exertional dyspnea and fatigue, limiting activities (unable to walk golf course, breathless dressing).
+
+New onset of morning headaches, worse when supine, abated with aspirin/acetaminophen/caffeine.
+
+Problem List
+
+Principal Problem:
+
+Babesia microti infection (Babesiosis) with nonimmune hemolytic anemia and thrombocytopenia.
+
+Active Problems:
+
+Probable Liver Cirrhosis with mild splenomegaly (CT findings, likely secondary to alcohol use).
+
+Hypertension (chronic).
+
+Hyperlipidemia (chronic).
+
+Obstructive Sleep Apnea (managed with CPAP).
+
+Mild concentric left ventricular hypertrophy, mild diastolic dysfunction, moderate left atrial enlargement (Echocardiogram findings).
+
+History of Anal Squamous Cell Carcinoma s/p treatment.
+
+History of Recurrent Cellulitis on chronic amoxicillin suppression.
+
+Resolved Problems:
+
+Acute nonimmune hemolytic anemia (secondary to Babesiosis).
+
+Thrombocytopenia (secondary to Babesiosis).
+
+Elevated liver transaminases (likely multifactorial including Babesiosis).
+
+Exertional dyspnea and fatigue (presenting symptoms).
+
+Morning headaches (presenting symptom).
+
+Diagnosis at Discharge
+
+Principal Diagnosis:
+
+Babesia microti infection (Babesiosis), resolved post-treatment.
+
+Additional Diagnoses:
+
+Nonimmune hemolytic anemia (resolved).
+
+Thrombocytopenia (resolved).
+
+Probable Liver Cirrhosis (based on imaging).
+
+Mild Splenomegaly.
+
+Hypertension.
+
+Hyperlipidemia.
+
+Obstructive Sleep Apnea.
+
+History of Anal Squamous Cell Carcinoma.
+
+Procedural Information
+
+Surgeries This Admission: N/A.
+
+Procedures This Admission:
+
+Peripheral Blood Smear Examination: Revealed intraerythrocytic ring-form trophozoites (2.1% parasitemia).
+
+PCR Testing: Positive for Babesia microti DNA. Negative for Borrelia burgdorferi, Anaplasma phagocytophilum, and Ehrlichia species.
+
+Computed Tomography (CT) Head: Normal.
+
+Computed Tomography (CT) Abdomen/Pelvis: Showed mild splenomegaly and liver abnormalities consistent with cirrhosis (irregular nodular contour, widened fissures, caudate hypertrophy).
+
+Computed Tomography Angiography (CTA) Chest: No evidence of pulmonary embolism, infiltrates, or masses.
+
+Transthoracic Echocardiogram: Showed mild concentric LVH, mild LV diastolic dysfunction, moderate LA enlargement, mild RA enlargement, mild-to-moderate MR, normal PASP (28 mmHg), preserved LVEF (65%).
+
+Myocardial Perfusion SPECT Scan: No evidence of reversible ischemia post-regadenoson.
+
+Laboratory testing including CBC, CMP, coagulation panel, D-dimer, Troponin, NT-proBNP, hemolysis labs (LDH, Haptoglobin, DAT/IAT, Reticulocyte count), ESR, CRP, Fibrinogen, Ferritin, T. Sat, TSH, B12, SARS-CoV-2 PCR.
+
+Post-Hospitalization Follow-Up
+
+Items for Post-Hospitalization Follow-Up:
+
+Repeat Complete Blood Count (CBC) to confirm sustained normalization of hemoglobin and platelet count.
+
+Clinical monitoring for any recurrence of symptoms (fatigue, dyspnea, fever, chills, headache).
+
+Follow-up with Primary Care Physician (PCP).
+
+Consider referral to Gastroenterology/Hepatology for evaluation and management of probable liver cirrhosis.
+
+Counseling on tick bite prevention strategies.
+
+Re-evaluation of the necessity for continued suppressive amoxicillin.
+
+Pending Results: N/A.
+
+Hospital Course Narrative
+
+This 76-year-old male with a history of treated anal cancer, HTN, HLD, OSA, and heavy alcohol use presented with a 1-month history of progressive exertional dyspnea, fatigue, and new morning headaches. Initial vital signs were stable with normal oxygen saturation. Physical exam was notable for pursed-lip breathing but otherwise unremarkable cardiopulmonary findings and no signs of volume overload or acute neurological deficits.
+
+Initial laboratory workup revealed normocytic anemia (Hgb 10.9 g/dL) and thrombocytopenia (Plt 106,000/mcL), both noted to be new compared to 1 year prior. Mildly elevated LFTs, mildly elevated stable troponin T (25 ng/L), and significantly elevated D-dimer (1693 ng/mL) were also present. NT-proBNP was normal. Imaging (CT head, CTA chest) ruled out acute intracranial pathology and pulmonary embolism. CT abdomen/pelvis revealed findings consistent with liver cirrhosis and mild splenomegaly. Cardiac workup including ECG, echocardiogram, and SPECT scan showed chronic changes (LVH, LAE, diastolic dysfunction) but no evidence of acute ischemia, significant valvulopathy, or heart failure explaining the profound dyspnea.
+
+Given the persistent symptoms and unexplained anemia/thrombocytopenia, further investigation into hemolysis was pursued. Labs revealed elevated LDH (574 IU/L), undetectable haptoglobin, and negative direct/indirect antiglobulin tests, consistent with nonimmune hemolytic anemia. ESR and CRP were markedly elevated. On hospital day 4, hemoglobin decreased further to 9.0 g/dL. A peripheral blood smear examination was performed, revealing intraerythrocytic ring-form trophozoites with 2.1% parasitemia. PCR testing subsequently confirmed Babesia microti infection. Tests for common co-infections (Lyme, Anaplasma, Ehrlichia) were negative.
+
+The patient was diagnosed with Babesiosis causing nonimmune hemolytic anemia and thrombocytopenia, leading to his presenting symptoms of dyspnea, fatigue, and likely contributing to headaches and mild myocardial injury (demand ischemia). He was treated with a 10-day course of azithromycin and atovaquone. His clinical symptoms resolved. Follow-up testing showed clearance of parasitemia on blood smear at 2 weeks post-treatment initiation, and normalization of hemoglobin and platelet count by 10 weeks post-presentation.
+
+Service-Specific Hospital Course
+
+NEURO: Presented with headaches, worse supine. CT Head negative. Headaches resolved with Babesiosis treatment. No focal deficits.
+
+CV: Ruled out acute atherothrombotic MI and heart failure as primary cause of dyspnea. Mild stable troponin elevation attributed to Type 2 MI from anemia/demand. Chronic hypertensive changes noted on echo.
+
+PULM: Presented with dyspnea. CTA chest negative for PE. Dyspnea resolved with treatment of anemia secondary to Babesiosis. OSA managed with home CPAP.
+
+GI: CT findings strongly suggestive of underlying liver cirrhosis, likely secondary to chronic heavy alcohol use. Mild splenomegaly noted. LFTs mildly elevated, improved with treatment. Needs outpatient evaluation/management of cirrhosis.
+
+HEME: Diagnosed with nonimmune hemolytic anemia and thrombocytopenia secondary to Babesiosis. Hgb nadir 9.0 g/dL. Platelets 106,000/mcL initially. Both normalized post-treatment.
+
+ID: Diagnosed with Babesia microti infection via blood smear and PCR. Treated successfully with 10-day course of azithromycin and atovaquone. Testing for relevant co-infections negative. Tick exposure history elicited (likely environmental).
+
+Medications & Discharge Planning
+
+Prior to Admission Medications: Amoxicillin (daily suppressive), Aspirin (daily), Fexofenadine, Gabapentin, Losartan, Simvastatin, Tamsulosin, Multivitamin (daily).
+
+Medication List (During Admission): Azithromycin, Atovaquone. Likely continued: Aspirin, Fexofenadine, Gabapentin, Losartan, Simvastatin, Tamsulosin, Multivitamin. (Status of Amoxicillin during admission not specified, likely held/reviewed).
+
+STOP Taking These Medications: N/A explicitly stated. Decision regarding restarting suppressive amoxicillin to be made outpatient.
+
+TAKE These Medications:
+
+Azithromycin [Dose N/A] - complete full 10-day course.
+
+Atovaquone [Dose N/A] - complete full 10-day course.
+
+Aspirin [Dose N/A] daily.
+
+Fexofenadine [Dose N/A] daily.
+
+Gabapentin [Dose N/A] as prescribed.
+
+Losartan [Dose N/A] daily.
+
+Simvastatin [Dose N/A] daily.
+
+Tamsulosin [Dose N/A] daily.
+
+Multivitamin daily.
+
+Discharge Orders:
+
+Activity: As tolerated, advance gradually.
+
+Diet: Regular diet. Continue alcohol abstinence.
+
+Continue regular use of CPAP for OSA.
+
+Tick Bite Prevention: Counsel patient on use of insect repellent (DEET), wearing protective clothing in wooded/grassy areas, performing regular tick checks after outdoor activity, and landscape management if applicable.
+
+Care Instructions:
+
+Monitor for return of symptoms such as fever, chills, sweats, severe fatigue, shortness of breath, or headache, and seek medical attention if these occur.
+
+Keep follow-up appointments.
+
+Follow-Up Appointments:
+
+Follow up with Primary Care Physician (PCP) in 1-2 weeks for clinical assessment and repeat CBC.
+
+Referral to Gastroenterology/Hepatology for cirrhosis evaluation.
+
+Discharge Exam
+
+[Exam findings not detailed at discharge point in text]. Presumed: Vitals stable, afebrile. In no acute distress. Cardiopulmonary exam stable/unremarkable. Abdomen benign. No edema. Patient reports resolution of dyspnea and fatigue.
+
+Lab Data
+
+[Lab data at exact time of discharge not provided]. Expectation: Hemoglobin and platelets trending up towards normalization (documented normal at 10 weeks). Parasitemia cleared (documented clear at 2 weeks). LFTs improving/normalizing.
